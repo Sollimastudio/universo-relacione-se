@@ -62,3 +62,11 @@ Nenhum teste simulado comprova autenticação externa, compra real, integração
 | C8 | Homologação completa, dispositivos, acessibilidade, recuperação e preparação de publicação/reversão autorizadas. |
 
 Expansões opcionais preservadas no inventário; não bloqueiam automaticamente o núcleo. Próxima ação: executar **PROXIMO-PROMPT.md**. Se houver trabalho posterior, conferir o estado atual e continuar dele, sem reset ou repetição de C1.
+
+## Revalidação após reenvio do comando C1 — 21/09/2026
+
+O protocolo C1 foi reenviado. Foram conferidos novamente o protocolo, as referências da planta/prompt mestre/relatório, a matriz, as dependências, o próximo prompt e as versões Sites. A recuperação autenticada da fonte confirmou o HEAD remoto `b69c1116c1aa91938fa6da002640b3662f8b8603`, igual ao checkout limpo e à revisão 4 salva. Não foram encontradas alterações posteriores nesses registros nem uma nova revisão do app.
+
+Os **9 testes de continuidade foram reexecutados e aprovados**; `git diff --check` passou, o relatório e a imagem de evidência estão presentes e as rotas temporárias de QA continuam ausentes. Os 85 testes, build, tipos e ensaios no navegador descritos acima são evidências da entrega original no mesmo código; não foram todos repetidos neste reenvio. Nenhuma funcionalidade foi reconstruída, nenhuma nova versão artificial foi criada e não houve publicação.
+
+A C1 permanece concluída no escopo registrado. O próximo comando integral continua salvo em `PROXIMO-PROMPT.md` para C2. Esta conferência não executou C2 nem transformou dependências externas em funcionalidades prontas.
