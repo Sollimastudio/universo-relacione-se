@@ -202,3 +202,10 @@ Cenários adicionais obrigatórios: vídeo somente com legenda; fonte sem áudio
 ## 13. Estado desta entrega
 
 Este documento define o comportamento solicitado e os critérios de construção. Não comprova ingestão YouTube, bot Telegram, atualização automática do corpus, análise contínua da audiência, acesso a clientes ou geração de receita em operação. A auditoria e os pontos concretos de integração ficam nos repositórios especializados. Salvar documentação é um avanço de especificação; ativação exige implementar e provar cada etapa.
+
+## 14. Registros de implementação e verificação documental
+
+- [Jarvis: protocolo, auditoria e pontos de integração](https://github.com/Sollimastudio/SOL-IA/blob/1355a9bc5c7d420b7c15139c609a2d051a50258f/docs/PROTOCOLO_REFERENCIAS_CONTEUDO_LUCIDA.md), incorporado à branch de desenvolvimento do [PR #8](https://github.com/Sollimastudio/SOL-IA/pull/8). Não está na main/produção.
+- [LÚCIDA: contrato de episódios, respostas e continuidade](https://github.com/Sollimastudio/Magnetus3/blob/7bff435d8f451db7053c9850eb2099b4b9b76498/docs/03-ia/LUCIDA-MINUTOS-MAGNETUS-CONTINUIDADE-v1.md), em [PR documental #1](https://github.com/Sollimastudio/Magnetus3/pull/1). Ainda não integrado à main nem ao corpus.
+- Verificação: 12 arquivos Markdown lidos de volta após gravação; conteúdo anterior preservado integralmente; novas referências relativas conferidas; comparação com os SHAs de origem mostrou somente adições documentais, sem exclusões ou mudanças de código.
+- Este índice complementar permite retomar a implementação sem recuperar o pedido a partir de conversas soltas. Os links por commit preservam a versão auditável; conferir branch/PR atual antes de implementar.
