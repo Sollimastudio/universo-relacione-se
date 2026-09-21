@@ -1,5 +1,64 @@
 # Estado da obra — Relacione-se
 
+Atualizado em 21/09/2026 após C2-A. **C1 preservada. C2 parcial, sem aceite integral.** Conta, continuidade, biblioteca e suporte receberam mudanças concretas; login externo, vínculo legado e administração real dependem de D01/D02/D11.
+
+## Revisão atual recuperável
+
+| Referência | Valor confirmado |
+|---|---|
+| Projeto Sites | `appgprj_6ab11d2e84188191a90910ec6b06c64d` |
+| Fonte | `https://git.chatgpt-team.site/56efd1eb-ab0f-4d8a-a764-f07b91b55c32/appgprj_6ab11d2e84188191a90910ec6b06c64d.git` |
+| Commit enviado e salvo | `5fb0375ba3170985bca3d7a768dbb9d6e81c714a` |
+| Revisão salva | **5** |
+| ID | `appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_4ac37f2041fc8191a444949b896aa8dd` |
+| Pacote | `sha256:971d9525de5873fdf210d3f4a67ecc56aa99d82ec1a3d859d61ec51ab72eb2f8`, 276 arquivos |
+| Publicação | Não publicada; deployment_id null. Produção permanece v1. |
+| Base preservada | C1 `b69c1116c1aa91938fa6da002640b3662f8b8603`, revisão 4 |
+| Checkout | `/workspace/sites/relacione-se-universo`, branch `completion/c2-2026-09-21` |
+| Relatório | `docs/REVISAO-C2-2026-09-21.md` no código |
+| Contrato legado | `integrations/magnetus/README.md` |
+| Evidência visual | `docs/evidencias/relacione-se-c2-ajuda-20260921.jpg` |
+
+Push não forçado, HEAD relido após push, pacote validado e versão salva sem deploy. Nenhuma migração remota, mudança de audiência/allowlist, gasto ou mensagem externa. A URL antiga continua sendo v1, não é preview desta revisão.
+
+## C2-A entregue
+
+- Entrada intermediária com retorno interno validado e confirmação de saída; cancelar/Voltar preservam rascunho da aba. O passo SIWC real continua sob o dispatcher.
+- Aviso de mudança de sessão em outra aba; servidor rejeita escrita com titular esperado divergente. Esse cabeçalho não autentica ninguém. Rascunhos não são transferidos entre contas nem persistem garantidamente ao fechar.
+- Biblioteca mantém união dos direitos, favoritos e retomada; histórico mostra cada origem/expiração; componente fora do catálogo aparece em conferência.
+- Preferências da conta persistem na API existente; Caderno/registros mantêm titularidade e proteção de enunciados pagos após expiração.
+- Ajuda: protocolo idempotente, histórico, estado e orientação; administração restrita com revisão e auditoria. Resolver suporte não concede conteúdo. Limite de 100 recentes indicado; busca/paginação total pendente.
+- Contrato Better Auth localizado. Receptor assinado/desafios/unicidade e helper emissor preparados. Emissor HTTP, consentimento entre domínios e chaves ainda não conectados; nenhum cliente migrado.
+- Migração 0004 aditiva gerada por Drizzle. Conteúdo D0–D3, gate, comércio e permissões preservados.
+
+## Verificação e limites
+
+**107 testes aprovados**: 57 ecossistema, 15 dados, 9 continuidade, 4 Jarvis e 22 conta/suporte/vínculo. TypeScript e build final aprovados. Ensaios de servidor usam módulos reais, SQLite isolado e identidade sintética; RSA com chaves efêmeras. UI suporte/preferências testada com fixture identificada, removida antes do build.
+
+Navegador: cancelamento/Voltar com rascunho, intenção da atividade direta, foco H1/teclado e negação administrativa. Ajuda em 320/390/768 com fonte 200% sem transbordamento. Medição ampliada de Perfil teve timeout, não contada como aprovada. Não certifica WCAG, aparelho real ou sessão externa.
+
+D01: callback/logout/expiração reais e duas contas reais não homologados. D02: ambiente sem variáveis; ID autenticado Site de Sol não obtido, não inferido do GitHub. D11: dispositivos, leitor de tela, recuperação e persistência real entre sessões pendentes. **C2 permanece parcial.**
+
+## Ordem restante
+
+| Camada | Situação |
+|---|---|
+| C1 | Concluída no escopo registrado, regressões passaram. |
+| C2 | C2-A salva; próxima C2-B: ligação/homologação real e consulta completa de protocolos. |
+| C3 | Contratação/Kiwify e eventos reais. |
+| C4 | Magnetus homens/mulheres, ebook/workbook, Antídoto; trilogia/avulsos; MINDSETmagro/bônus; áudios, Script e ferramentas. |
+| C5 | Lúcida dos clientes; corpus/direitos/memória consentida e MM01–MM17 pertinentes. |
+| C6 | Jarvis interno de Sol; SOL-IA PR #8 e Magnetus3 PR #1 preservados. |
+| C7 | Distribuição, SEO, analytics, Telegram/brindes e atribuição real. |
+| C8 | Homologação final, acessibilidade, dispositivos, recuperação e publicação autorizada. |
+
+Inventário mantém 9 áreas, 51 grupos e 260 itens, mais MM01–MM17. Próximo comando integral em PROXIMO-PROMPT.md.
+
+---
+
+## Histórico anterior preservado — C1 (não é o estado atual de C2)
+
+
 Atualizado em 21/09/2026. **C1 concluída no escopo de estrutura e continuidade da revisão.** O ecossistema inteiro permanece em conclusão por C2–C8. As 260 ramificações da planta foram mapeadas; isso não significa 260 funcionalidades prontas.
 
 ## Referências recuperáveis

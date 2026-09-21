@@ -1,6 +1,8 @@
-# Matriz integral da planta — C1
+# Matriz integral da planta — C1 preservada / C2-A parcial
 
 Referência: `09-app/PLANTA-ECOSSISTEMA-RELACIONE-SE-REFERENCIA.html`, blob `44e19d5cbbf88bd4b94f186a086a8b198d75f9a7`. Inventário: **9 áreas e 260 itens**, incluindo pais e folhas. IDs seguem a ordem congelada da planta, não devem ser renumerados; acrescentar novos IDs ao expandir. Mapeamento completo não significa implementação completa.
+
+C2-A: revisão 5, commit `5fb0375ba3170985bca3d7a768dbb9d6e81c714a`; relatório `docs/REVISAO-C2-2026-09-21.md`. Verificações abaixo locais/sintéticas; D01/D02/D11 abertas. Demais linhas mantêm o estado previamente inventariado.
 
 Cada item separa implementação, conteúdo, configuração, verificação e publicação. As notas da planta são históricas. `Verificado` refere-se somente ao ambiente e escopo do relatório C1; nenhuma linha certifica produção. Dependências D01–D12 estão em DEPENDENCIAS.md. Arquivos referem-se ao código do Site, não a este repositório documental.
 
@@ -71,10 +73,10 @@ Vínculo técnico: `app/chatgpt-auth.ts; components/site/library.tsx; components
 
 | ID / ramificação | Camada | Implementação | Conteúdo | Configuração | Verificação | Publicação |
 |---|---|---|---|---|---|---|
-| biblioteca.1 · Conta única | C2 | parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D02 | handlers testados; login real pendente | C1 não publicada; live permanece v1 |
-| biblioteca.1.1 · Entrada e sessão | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D02 | handlers testados; login real pendente | C1 não publicada; live permanece v1 |
-| biblioteca.1.2 · Unificação dos clientes antigos | C2 | pendente | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D02 | handlers testados; login real pendente | C1 não publicada; live permanece v1 |
-| biblioteca.1.3 · Recuperação de conta e compra | C2 | parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D02 | handlers testados; login real pendente | C1 não publicada; live permanece v1 |
+| biblioteca.1 · Conta única | C2 | parcial | UI/estrutura; sem conteúdo novo inventado | D01/D02: sessão externa, emissor legado e admin real pendentes | C2: fluxo local/retorno e provas sintéticas; login real pendente | revisão 5 salva, não publicada; live v1 |
+| biblioteca.1.1 · Entrada e sessão | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | D01/D02: sessão externa, emissor legado e admin real pendentes | C2: fluxo local/retorno e provas sintéticas; login real pendente | revisão 5 salva, não publicada; live v1 |
+| biblioteca.1.2 · Unificação dos clientes antigos | C2 | parcial: receptor preparado, emissor não conectado | UI/estrutura; sem conteúdo novo inventado | D01/D02: sessão externa, emissor legado e admin real pendentes | C2: fluxo local/retorno e provas sintéticas; login real pendente | revisão 5 salva, não publicada; live v1 |
+| biblioteca.1.3 · Recuperação de conta e compra | C2 | parcial | UI/estrutura; sem conteúdo novo inventado | D01/D02: sessão externa, emissor legado e admin real pendentes | C2: fluxo local/retorno e provas sintéticas; login real pendente | revisão 5 salva, não publicada; live v1 |
 
 ### biblioteca.2 · Minha biblioteca
 
@@ -82,12 +84,12 @@ Vínculo técnico: `components/site/library.tsx; app/api/biblioteca/route.ts`. R
 
 | ID / ramificação | Camada | Implementação | Conteúdo | Configuração | Verificação | Publicação |
 |---|---|---|---|---|---|---|
-| biblioteca.2 · Minha biblioteca | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | testes de biblioteca, expiração e sobreposição | C1 não publicada; live permanece v1 |
-| biblioteca.2.1 · Continuar de onde parei | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | testes de biblioteca, expiração e sobreposição | C1 não publicada; live permanece v1 |
-| biblioteca.2.2 · Meus conteúdos e componentes | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | testes de biblioteca, expiração e sobreposição | C1 não publicada; live permanece v1 |
-| biblioteca.2.3 · Salvos para depois | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | testes de biblioteca, expiração e sobreposição | C1 não publicada; live permanece v1 |
-| biblioteca.2.4 · Prazos e histórico de acesso | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | testes de biblioteca, expiração e sobreposição | C1 não publicada; live permanece v1 |
-| biblioteca.2.5 · Conteúdo comprado por mais de uma oferta | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | testes de biblioteca, expiração e sobreposição | C1 não publicada; live permanece v1 |
+| biblioteca.2 · Minha biblioteca | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | C2: união, expiração, sobreposição e recurso fora do catálogo testados | revisão 5 salva, não publicada; live v1 |
+| biblioteca.2.1 · Continuar de onde parei | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | C2: união, expiração, sobreposição e recurso fora do catálogo testados | revisão 5 salva, não publicada; live v1 |
+| biblioteca.2.2 · Meus conteúdos e componentes | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | C2: união, expiração, sobreposição e recurso fora do catálogo testados | revisão 5 salva, não publicada; live v1 |
+| biblioteca.2.3 · Salvos para depois | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | C2: união, expiração, sobreposição e recurso fora do catálogo testados | revisão 5 salva, não publicada; live v1 |
+| biblioteca.2.4 · Prazos e histórico de acesso | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | C2: união, expiração, sobreposição e recurso fora do catálogo testados | revisão 5 salva, não publicada; live v1 |
+| biblioteca.2.5 · Conteúdo comprado por mais de uma oferta | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D03 | C2: união, expiração, sobreposição e recurso fora do catálogo testados | revisão 5 salva, não publicada; live v1 |
 
 ### biblioteca.3 · Meu Caderno Vivo
 
@@ -95,11 +97,11 @@ Vínculo técnico: `components/site/notebook.tsx; components/site/workbook-notes
 
 | ID / ramificação | Camada | Implementação | Conteúdo | Configuração | Verificação | Publicação |
 |---|---|---|---|---|---|---|
-| biblioteca.3 · Meu Caderno Vivo | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | 15 handlers; workbook/expiração; rascunho UI sintético | C1 não publicada; live permanece v1 |
-| biblioteca.3.1 · Respostas do workbook e do Antídoto | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | 15 handlers; workbook/expiração; rascunho UI sintético | C1 não publicada; live permanece v1 |
-| biblioteca.3.2 · Anotações e consulta aos próprios registros | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | 15 handlers; workbook/expiração; rascunho UI sintético | C1 não publicada; live permanece v1 |
-| biblioteca.3.3 · Depois da expiração | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | 15 handlers; workbook/expiração; rascunho UI sintético | C1 não publicada; live permanece v1 |
-| biblioteca.3.4 · Continuidade entre dispositivos | C1/C2 | parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | 15 handlers; workbook/expiração; rascunho UI sintético | C1 não publicada; live permanece v1 |
+| biblioteca.3 · Meu Caderno Vivo | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | C2: titularidade/expiração e rejeição de escrita de aba com outra conta; dispositivos pendentes | revisão 5 salva, não publicada; live v1 |
+| biblioteca.3.1 · Respostas do workbook e do Antídoto | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | C2: titularidade/expiração e rejeição de escrita de aba com outra conta; dispositivos pendentes | revisão 5 salva, não publicada; live v1 |
+| biblioteca.3.2 · Anotações e consulta aos próprios registros | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | C2: titularidade/expiração e rejeição de escrita de aba com outra conta; dispositivos pendentes | revisão 5 salva, não publicada; live v1 |
+| biblioteca.3.3 · Depois da expiração | C1/C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | C2: titularidade/expiração e rejeição de escrita de aba com outra conta; dispositivos pendentes | revisão 5 salva, não publicada; live v1 |
+| biblioteca.3.4 · Continuidade entre dispositivos | C1/C2 | parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D11 | C2: titularidade/expiração e rejeição de escrita de aba com outra conta; dispositivos pendentes | revisão 5 salva, não publicada; live v1 |
 
 ### biblioteca.4 · Preferências pessoais
 
@@ -107,7 +109,7 @@ Vínculo técnico: `app/api/preferencias/route.ts; components/site/preferences.t
 
 | ID / ramificação | Camada | Implementação | Conteúdo | Configuração | Verificação | Publicação |
 |---|---|---|---|---|---|---|
-| biblioteca.4 · Preferências pessoais | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01 | inspeção; produção não homologada | C1 não publicada; live permanece v1 |
+| biblioteca.4 · Preferências pessoais | C2 | implementado em revisão | UI/estrutura; sem conteúdo novo inventado | ver dependências D01 | C2: UI/persistência própria testadas; sessão externa pendente | revisão 5 salva, não publicada; live v1 |
 
 ### biblioteca.5 · Memória e consentimentos da LÚCIDA
 
@@ -123,7 +125,7 @@ Vínculo técnico: `components/site/help.tsx; app/api/ajuda/route.ts`. Rota/serv
 
 | ID / ramificação | Camada | Implementação | Conteúdo | Configuração | Verificação | Publicação |
 |---|---|---|---|---|---|---|
-| biblioteca.6 · Ajuda | C2 | parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D02 | protocolo interno; resolução externa pendente | C1 não publicada; live permanece v1 |
+| biblioteca.6 · Ajuda | C2 | implementado em revisão; operação parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D02 | C2: protocolo, histórico, estados, rollback/auditoria testados; admin real pendente | revisão 5 salva, não publicada; live v1 |
 
 ## 03 · Produtos e expansão
 
@@ -612,11 +614,11 @@ Vínculo técnico: `docs/SOURCE-LOCK-REVISAO.json; docs/DECISAO-INTEGRACAO-2026-
 
 | ID / ramificação | Camada | Implementação | Conteúdo | Configuração | Verificação | Publicação |
 |---|---|---|---|---|---|---|
-| fundacao.4 · Ponte com o Magnetus3 canônico | C2/C4 | parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | hashes preservados; legado não migrado | C1 não publicada; live permanece v1 |
-| fundacao.4.1 · Regras e conteúdo D0–D3 reaproveitados | C2/C4 | implementado em revisão | D0–D3 importados, hashes preservados | ver dependências D01,D04 | hashes preservados; legado não migrado | C1 não publicada; live permanece v1 |
-| fundacao.4.2 · Runtime Better Auth + PostgreSQL | C2/C4 | pendente | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | hashes preservados; legado não migrado | C1 não publicada; live permanece v1 |
-| fundacao.4.3 · Migração e vínculo de contas | C2/C4 | pendente | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | hashes preservados; legado não migrado | C1 não publicada; live permanece v1 |
-| fundacao.4.4 · Preservação de contratos e progresso antigo | C2/C4 | pendente | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | hashes preservados; legado não migrado | C1 não publicada; live permanece v1 |
+| fundacao.4 · Ponte com o Magnetus3 canônico | C2/C4 | parcial | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | hashes preservados; legado não migrado | revisão 5 salva, não publicada; live v1 |
+| fundacao.4.1 · Regras e conteúdo D0–D3 reaproveitados | C2/C4 | implementado em revisão | D0–D3 importados, hashes preservados | ver dependências D01,D04 | hashes preservados; legado não migrado | revisão 5 salva, não publicada; live v1 |
+| fundacao.4.2 · Runtime Better Auth + PostgreSQL | C2/C4 | pendente | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | contrato Better Auth/PostgreSQL localizado; runtime não conectado | revisão 5 salva, não publicada; live v1 |
+| fundacao.4.3 · Migração e vínculo de contas | C2/C4 | parcial: receptor de prova; sem migração | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | assinatura/idempotência/conflito sintéticos; vínculo real pendente | revisão 5 salva, não publicada; live v1 |
+| fundacao.4.4 · Preservação de contratos e progresso antigo | C2/C4 | pendente | UI/estrutura; sem conteúdo novo inventado | ver dependências D01,D04 | hashes preservados; legado não migrado | revisão 5 salva, não publicada; live v1 |
 
 ### fundacao.5 · Cofres separados
 
@@ -663,3 +665,13 @@ Vínculo técnico: `docs/planta-relacione-se.html`. Rota/serviço: `não ativado
 - A atualização documental aponta **Sollimastudio/SOL-IA, PR #8**, e **Magnetus3, PR #1**, como fontes adicionais a verificar em C5/C6. Não afirmar que JARVIS-SOL seja o runtime definitivo. app.Sol.ia não deve ser confundido com o Jarvis por semelhança de nome.
 - Telas/funções do handoff Manus não detalhadas na planta (onboarding, mapas, experimentos, mentoria e notificações) ficam rastreadas na fonte de 09-app e nas camadas C2/C4/C5/C8; não foram declaradas prontas por existir uma rota genérica.
 - Estados editoriais das obras devem ser conferidos nas fontes atuais antes de integração. Manuscritos e corpus existem; falta selecionar e homologar a versão publicável para cada destino, não pedir que Sol reconstrua material já disponível.
+
+## Referências C2-A
+
+- biblioteca.1/fundacao.4: app/entrar, app/sair-da-conta, app/api/sessao, lib/account-session.ts, lib/platform/identity-link.ts, app/api/conta/vinculo, integrations/magnetus/README.md.
+- biblioteca.2: app/api/biblioteca/route.ts; components/site/library.tsx; históricos por origem e componentes em conferência.
+- biblioteca.3: app/api/caderno/route.ts; lib/platform/http.ts; proteção de titular esperado; C1 preservada.
+- biblioteca.4: components/site/account-preferences.tsx e API existente.
+- biblioteca.6: lib/platform/support.ts; components/site/help.tsx; components/site/support-admin.tsx; app/admin/suporte; app/api/admin/suporte.
+
+107 testes locais + TypeScript/build aprovados; ensaios/limites no relatório. Nenhum preço, manuscrito ou direito inventado. IDs e ramificações C3–C8/MM01–MM17 preservados.
