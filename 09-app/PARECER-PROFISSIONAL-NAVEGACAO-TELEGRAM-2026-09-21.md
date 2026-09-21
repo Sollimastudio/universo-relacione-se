@@ -191,3 +191,15 @@ Preços, conteúdo final das ofertas, endereço oficial do canal, promessa de fr
 - S11: [NN/g — progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/).
 
 As fontes sustentam capacidades e princípios de UX. A distribuição comercial proposta é análise profissional específica deste projeto, não resultado de um experimento já realizado.
+
+
+## 14. Atualização após envio dos links por Sol — 21/09/2026
+Sol solicitou salvar novamente as recomendações e forneceu os links dos produtos, cronômetro e canal. O registro detalhado está em [Links e papéis Jarvis/LÚCIDA](LINKS-E-PAPEIS-JARVIS-LUCIDA-2026-09-21.md).
+- Os dois checkouts Kiwify responderam com títulos compatíveis com pack de áudios e Script do Silêncio.
+- A página Canva respondeu com título “Untitled App”; o cronômetro não foi testado.
+- O atalho canva.link retornou 404 em duas verificações.
+- A prévia do convite Telegram foi confirmada pelo alias oficial telegram.me com o mesmo código, mostrando o canal “Minutos Magnetus.”. Não houve adesão nem inspeção do acervo.
+- A pendência anterior de localizar o endereço foi resolvida pelo envio de Sol. A classificação do canal como gratuito ou entrega do pack pago permanece pendente: sua descrição menciona o mesmo pack apresentado no checkout.
+- A recomendação de canal gratuito é condicional a essa definição. Não divulgar automaticamente como brinde um convite que possa liberar conteúdo comercializado.
+- Sol quer usar Jarvis como comando interno e prefere LÚCIDA no direcionamento/acompanhamento individual dos clientes. O cadastro mestre do ecossistema deve ser comum, com permissões e privacidade preservadas.
+As recomendações estão preservadas para planejamento. Não houve autorização de execução nesta etapa.
