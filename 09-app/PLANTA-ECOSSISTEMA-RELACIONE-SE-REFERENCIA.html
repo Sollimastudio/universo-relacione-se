@@ -1,0 +1,207 @@
+<div id="relacione-planta">
+  <h2>Relacione-se · planta do ecossistema</h2>
+  <div class="viz-row text-small"><span>Planta-alvo + estado atual</span><span aria-hidden="true">·</span><span>Revisão salva em 22/09/2026</span><span aria-hidden="true">·</span><span>Sem publicação</span></div>
+  <div class="rp-legend text-small" aria-label="Legenda dos estados">
+    <span><i class="rp-dot rp-r" aria-hidden="true"></i>Revisão: implementado, sem produção</span>
+    <span><i class="rp-dot rp-p" aria-hidden="true"></i>Parcial: falta completar ou conectar</span>
+    <span><i class="rp-dot rp-f" aria-hidden="true"></i>Projeto: ainda não integrado</span>
+    <span><i class="rp-dot rp-d" aria-hidden="true"></i>Definir: depende de decisão</span>
+  </div>
+  <div class="rp-plan"><svg class="rp-floor" role="group" aria-label="Planta conceitual com nove espaços. Cada botão abre as ramificações do espaço." xmlns="http://www.w3.org/2000/svg"></svg></div>
+  <div class="viz-row text-small"><span>Circulação comum: conta · biblioteca · retorno ao ponto salvo</span></div>
+  <hr>
+  <div class="rp-selection" aria-live="polite"><h3 id="rp-title">03 · Produtos e expansão</h3><span id="rp-scope" class="text-small">Famílias de produtos, componentes e novas alas.</span></div>
+  <div id="rp-tree" aria-label="Ramificações do espaço selecionado"></div>
+  <div class="rp-links"><span class="text-small">Portas para outros espaços</span><div id="rp-doors" class="viz-row"></div></div>
+  <hr>
+  <div class="rp-rule text-small">Regra da casa: conhecer é público; consumir conteúdo protegido exige o direito contratado.</div>
+  <div class="rp-rule text-small">Expansão contínua: novo conteúdo → produto → oferta → acesso → mesma biblioteca.</div>
+  <div class="rp-rule text-small">Base: prompt mestre + relatório de revisão. Ramificações conhecidas e planejadas; inventário dos demais repositórios ainda não concluído.</div>
+</div>
+<style>
+#relacione-planta{color:var(--foreground);width:100%;overflow-wrap:anywhere}
+#relacione-planta .rp-legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin:14px 0}
+#relacione-planta .rp-legend>span{display:inline-flex;gap:7px;align-items:center}
+#relacione-planta .rp-dot{display:inline-block;flex:0 0 9px;width:9px;height:9px;border-radius:50%;background:var(--viz-series-1)}
+#relacione-planta .rp-p{background:var(--viz-series-2)}
+#relacione-planta .rp-f{background:var(--viz-series-3)}
+#relacione-planta .rp-d{background:var(--viz-series-4)}
+#relacione-planta .rp-plan{width:100%;margin:8px 0 12px}
+#relacione-planta .rp-floor{display:block;width:100%;overflow:visible}
+#relacione-planta .rp-floor text{fill:var(--foreground);font-size:12px;font-weight:400}
+#relacione-planta .rp-floor .rp-wall{stroke:var(--border);stroke-width:1.5;fill:none}
+#relacione-planta .rp-floor .rp-door{stroke:var(--border);stroke-width:1;fill:none}
+#relacione-planta .rp-floor .rp-room{fill:var(--muted);fill-opacity:.45}
+#relacione-planta .rp-floor .rp-room.rp-picked{fill:var(--viz-series-1);fill-opacity:.12}
+#relacione-planta .rp-tree{list-style:none;margin:8px 0;padding:0}
+#relacione-planta .rp-tree .rp-tree{margin:2px 0 8px 9px;padding-left:14px;border-left:1px solid var(--border)}
+#relacione-planta .rp-item{padding:5px 0}
+#relacione-planta .rp-node{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;min-width:0}
+#relacione-planta .rp-node-name{font-weight:500}
+#relacione-planta .rp-state{display:inline-flex;align-items:center;gap:5px;font-weight:400;white-space:nowrap}
+#relacione-planta .rp-note{display:block;margin:4px 0 4px 0;color:var(--muted-foreground)}
+#relacione-planta summary{padding:9px 0}
+#relacione-planta summary .rp-node{display:inline}
+#relacione-planta summary .rp-state{margin-left:8px}
+#relacione-planta .rp-selection{margin:6px 0 14px}
+#relacione-planta .rp-links{margin:18px 0 10px;display:grid;gap:8px}
+#relacione-planta .rp-rule{margin:8px 0}
+@media(pointer:coarse){#relacione-planta summary{padding:14px 0}}
+</style>
+<script>
+(()=>{
+ const root=document.getElementById('relacione-planta');
+ const n=(name,state,note='',children=[])=>({name,state,note,children});
+ const labels={r:'Revisão',p:'Parcial',f:'Projeto',d:'Definir'};
+ const rooms=[
+ {id:'entrada',short:'01 · Entrada',hint:'público e canais',title:'01 · Entrada pública e descoberta',scope:'A calçada, a recepção e os caminhos de volta ao app.',doors:['produtos','biblioteca','chaves','operacao'],nodes:[
+  n('Recepção do Relacione-se','r','Vitrine existente, apresentação de Sol e navegação enxuta.'),
+  n('Explorar o universo','r','Catálogo pesquisável, filtros e prévias contextuais.',[
+   n('Busca por nome, tema e formato','r'),n('Conhecer um produto sem perder o atual','r','Painel com fechamento e retorno do foco.'),n('Salvar para depois','r','Favoritos associados à conta.'),n('Gratuito, adquirido, incluído e em preparação','p','Estados básicos; ofertas reais ainda dependem de configuração.')]),
+  n('Comece por aqui','p','Entrada editorial existente; seleção completa ainda a curar.',[
+   n('Experiências gratuitas autorizadas','d','Escolher quais testes, amostras e práticas liberar.'),n('Quem já sabe o que quer → produto','r','Compra não deve depender de quiz.')]),
+  n('Canais de descoberta','f','Distribuição planejada; não são integrações ativas.',[
+   n('Instagram, TikTok e YouTube','f','Conteúdo → página específica → produto ou prática.'),n('WhatsApp','f','Atendimento e retorno conforme autorização.'),n('Telegram · Minutos Magnetus','d','Definir comunidade gratuita, entrega paga ou separação de canais.'),n('Links de retorno por conteúdo','f','Destino relevante; sem exigir adesão a redes sociais.')]),
+  n('Saída e retorno','p','Checkouts identificados; fluxo comercial ainda sem homologação.',[
+   n('Destino externo explicado','r'),n('Salvar a atividade antes de seguir links','r'),n('Voltar após checkout, login e troca de aplicativo','p','Requer teste autenticado completo, incluindo botão Voltar.')])
+ ]},
+ {id:'biblioteca',short:'02 · Biblioteca',hint:'conta e continuidade',title:'02 · Biblioteca e espaço do cliente',scope:'Uma conta; vários produtos; uma história de uso.',doors:['produtos','experiencias','lucida','chaves','fundacao'],nodes:[
+  n('Conta única','p','Identidade atual do Site preservada; vínculo com contas legadas pendente.',[
+   n('Entrada e sessão','r','Autenticação existente do Site.'),n('Unificação dos clientes antigos','f','Vínculo com prova de titularidade; sem mesclar só por e-mail.'),n('Recuperação de conta e compra','p','Ajuda registrada; resolução comercial ainda a conectar.')]),
+  n('Minha biblioteca','r','Estrutura implementada na revisão.',[
+   n('Continuar de onde parei','r','Posição salva no servidor.'),n('Meus conteúdos e componentes','r','Direitos válidos somados sem repetir o produto.'),n('Salvos para depois','r'),n('Prazos e histórico de acesso','r'),n('Conteúdo comprado por mais de uma oferta','r','Uma expiração não remove outra contratação válida.')]),
+  n('Meu Caderno Vivo','r','Registros particulares separados de dados de marketing.',[
+   n('Respostas do workbook e do Antídoto','r','Mesma fonte de dados; sem cópia divergente.'),n('Anotações e consulta aos próprios registros','r'),n('Depois da expiração','r','Respostas próprias preservadas; enunciados pagos protegidos.'),n('Continuidade entre dispositivos','p','Persistência e conflitos testados; falta teste real entre aparelhos.')]),
+  n('Preferências pessoais','r','Fonte e tema persistidos.'),
+  n('Memória e consentimentos da LÚCIDA','f','Separados de favoritos, progresso e Caderno.'),
+  n('Ajuda','p','Solicitação com protocolo; sem envio externo nesta revisão.')
+ ]},
+ {id:'produtos',short:'03 · Produtos',hint:'famílias e expansão',title:'03 · Produtos e expansão',scope:'Alas independentes, conectadas pela mesma biblioteca.',doors:['experiencias','chaves','lucida','operacao','entrada'],nodes:[
+  n('Magnetus III','p','Combo e componentes avulsos previstos na mesma estrutura.',[
+   n('Magnetus III · Mulher','p','Piloto D0–D3 integrado; jornada completa pendente.',[
+    n('Dia 0 · Reset Magnétus','r','Conteúdo canônico importado; piloto da revisão.'),n('Dias 1–3','r','Leitura, campos e regras de conclusão importados.'),n('Dias 4–7 · Magnetus Interior','f','Conteúdo aprovado a integrar.'),n('Dia 8 · Perdão e autoperdão','f','Conteúdo aprovado a integrar.'),n('Dias 9–15 · Magnetus Físico','f','Conteúdo aprovado a integrar.'),n('Tarefas de campo e experimentos do M1','p','Adaptação ainda incompleta.')]),
+   n('Magnetus III · Homem','f','Apresentado na vitrine; jornada ainda não integrada.'),
+   n('Ebook interativo + workbook','p','D0–D3 disponíveis no piloto; versão integral pendente.'),
+   n('Antídoto do Antivalor','r','Prática com salvamento e permissão independente; venda real pendente.'),
+   n('Acesso à LÚCIDA','p','Contexto e permissões preparados; IA não conectada.'),
+   n('PDF, cartilhas e cards compartilháveis','f','Integrar arquivos autorizados e regras próprias de distribuição.')]),
+  n('Trilogia Sol Lima','p','Coleção e livros no catálogo; manuscritos não publicados no leitor.',[
+   n('Morte em Vida','f','Obra a integrar a partir da versão editorial autorizada.'),n('Reposicione-se','f','Obra a integrar a partir da versão editorial autorizada.'),n('Fuga Identitária','f','Obra a integrar a partir da versão editorial autorizada.'),n('Coleção completa ou cada livro separado','p','Modelo de ofertas preparado; conteúdo e venda pendentes.'),n('Exercícios e ferramentas vinculados aos livros','f','Relações editoriais e direitos precisam ser aprovados.')]),
+  n('MINDSETmagro','f','Vitrine preparada; produto ainda não integrado.',[
+   n('Protocolo principal','f','Sem etapas ou promessas inventadas.'),n('Bônus próprios','d','Definir composição e arquivos autorizados.'),n('Bônus também como produto avulso','p','Estrutura comercial prevista; dependências devem ficar explícitas.'),n('Acompanhamento pela LÚCIDA','f','Contexto autorizado do protocolo.')]),
+  n('Minuto Magnetus · pack de áudios','p','Checkout informado preservado; entrega ainda não conectada.',[
+   n('Acervo, transcrições e player','f','Componente preparado; mídia ainda não integrada.'),n('Acesso ao canal ou dentro do app','d','Confirmar como será a entrega contratada.'),n('Conteúdo gratuito de descoberta','d','Não confundir amostra com pack pago.')]),
+  n('Script do Silêncio','p','Página e checkout existentes; experiência ainda não integrada.',[
+   n('Conteúdo do produto','f','Integrar versão autorizada.'),n('Cronômetro Canva','f','Funcionamento, permissões e retorno não homologados.'),n('Prática e retomada','f','Conectar à mesma conta e biblioteca.')]),
+  n('Testes, ferramentas e outros apps conhecidos','p','Inventário preliminar; não são produtos homologados.',[
+   n('Testes de presença feminino e masculino','f','Verificar perguntas, resultados e persistência.'),n('Teste da Árvore','f','Classificar como experiência, componente ou produto.'),n('Mapa da Suspeita','f','Revisar divergências e integração comercial.'),n('Dor de Cotovelo','f','Projeto em especificação.'),n('Matemática do Perdão 490','f','Candidato autoral à expansão; integração não verificada.'),n('Oráculo Magnético','f','Ferramenta interna; não expor como produto de cliente.'),n('Outros repositórios e páginas antigas','f','Inventariar, comparar versões e classificar como legado ou reutilizável.')]),
+  n('Novas alas do ecossistema','f','Expansão por cadastro e versões, sem reconstruir a casa.',[
+   n('Novo livro, protocolo, áudio ou ferramenta','f'),n('Mesmo conteúdo em diferentes ofertas','p','Uma origem editorial; direitos próprios por contratação.'),n('Relações: complemento, pré-requisito e próximo passo','d','Relação real e explícita; compra individual deve cumprir a promessa.'),n('Novos produtos ainda sem nome','f','Espaço de expansão; nenhum produto fictício cadastrado.')])
+ ]},
+ {id:'chaves',short:'04 · Chaves',hint:'compras e acessos',title:'04 · Compras, ofertas e chaves de acesso',scope:'Cada contratação abre somente as portas que inclui.',doors:['produtos','biblioteca','operacao','fundacao'],nodes:[
+  n('Quatro peças diferentes','p','Separação prevista no modelo.',[
+   n('Conteúdo','r','Obra, aula, áudio, capítulo ou exercício com versão.'),n('Produto','r','Identidade comercial e apresentação no catálogo.'),n('Oferta','r','Composição, bônus e termos versionados; sem preços inventados.'),n('Direito de acesso','r','Titular, recurso, origem, início e fim da vigência.')]),
+  n('Modalidades de contratação','p','Estrutura preparada; regras comerciais reais a configurar.',[
+   n('Gratuito e avulso','p'),n('Combo e bônus','p','Bônus é condição da oferta; pode existir avulso.'),n('Dias ou meses','p','Núcleo recebe datas; cálculo contratual ainda depende do adaptador.'),n('Assinatura com catálogo definido','p','Renovação testada internamente; cobrança não conectada.'),n('Pré-requisitos e atualizações','d','Definir explicitamente para cada oferta.')]),
+  n('Caminho de uma compra','p','Fluxo alvo; ainda não opera de ponta a ponta.',[
+   n('Oferta clara → checkout Kiwify','p'),n('Confirmação verificada no servidor','f','Webhook público bloqueado até homologação.'),n('Vincular compra ao titular','f','Sem confiar em URL de obrigado ou e-mail isolado.'),n('Gerar direitos dos componentes contratados','r','Processador interno testado com eventos verificados sintéticos.'),n('Retornar à biblioteca → abrir o produto','p','Aguardando compra e conta reais integradas.')]),
+  n('Contratos e proteção do acesso','r','Regras internas testadas em isolamento.',[
+   n('Somar direitos válidos','r','Assinatura vencida não apaga compra independente.'),n('Eventos repetidos ou fora de ordem','r','Deduplicação e revisão da origem.'),n('Renovação e cancelamento','r','Respeito ao período pago informado.'),n('Reembolso e chargeback','r','Revogação da origem correspondente.'),n('Reembolso parcial e reconciliação externa','f','Normalização comercial e integração ainda pendentes.'),n('Versão editorial antes do primeiro uso','p','Leitura iniciada é preservada; vínculo inicial à compra falta.')]),
+  n('Duas fechaduras independentes','r','Validade comercial e ritmo pedagógico.',[
+   n('Posso acessar?','r','Direito válido para o recurso.'),n('Posso abrir o próximo Dia?','r','Conclusão + 24 horas desde a abertura significativa anterior.')])
+ ]},
+ {id:'lucida',short:'05 · LÚCIDA',hint:'assistência ao cliente',title:'05 · LÚCIDA, assistente dos clientes',scope:'Atendimento transversal com contexto e limites de acesso.',doors:['biblioteca','produtos','experiencias','chaves','fundacao'],nodes:[
+  n('Onde a cliente está','p','Contexto preparado; atendimento com IA não ativado.',[
+   n('Produto e capítulo ou Dia atual','r','Contexto mínimo autorizado no servidor.'),n('Objetivo da prática e próximo passo','f'),n('Biblioteca e recursos já adquiridos','p','Base de direitos pronta; orientação ainda não conectada.')]),
+  n('Conhecimento autoral','p','Filtro de fontes preparado; corpus completo não conectado.',[
+   n('Trilogia autorizada','f'),n('Bíblia Magnetus e conteúdo dos produtos','p','Material canônico consultado; integração de recuperação pendente.'),n('Universo Relacione-se e orientações oficiais','f'),n('Proveniência, aprovação e versão da fonte','p'),n('Não revelar obra paga sem direito','p','Filtro testado; falta avaliar respostas do modelo real.')]),
+  n('Acompanhamento pessoal','f','Memória consentida, revisável e removível.',[
+   n('Consentir uso do contexto pessoal','f'),n('Escolher o que pode atravessar produtos','f'),n('Consultar, corrigir e apagar memória','f'),n('Caderno não vira memória automaticamente','f','Política de separação; implementação de memória pendente.')]),
+  n('Orientação dentro do universo','f','Recomendação útil, opcional e explicável.',[
+   n('Priorizar gratuito ou já adquirido','f'),n('Voltar à atividade atual','f'),n('Sugerir complemento quando pertinente','f'),n('Respeitar recusa e vulnerabilidade','f'),n('Encaminhar para suporte quando necessário','f')]),
+  n('Operação da IA','f','Escolher provedor e limites antes de ativar.',[
+   n('Orçamento e uso conforme contratação','d'),n('Avaliar respostas, segurança e custo','f'),n('Indisponibilidade explícita','r','A revisão informa que a IA não está conectada.'),n('Reflexão editorial existente','r','Perguntas fixas; não apresentadas como conversa com IA.')])
+ ]},
+ {id:'experiencias',short:'06 · Uso',hint:'leitura e prática',title:'06 · Salas de leitura, prática e áudio',scope:'Experiências compartilhadas pelos produtos do ecossistema.',doors:['biblioteca','produtos','lucida','chaves'],nodes:[
+  n('Leitor de livros','r','Estrutura implementada; obras completas aguardam integração.',[
+   n('Capítulos e índice','r'),n('Marcadores e posição por capítulo','r'),n('Tema confortável e tamanho da fonte','r'),n('Retomar no parágrafo exato','f'),n('Versão da leitura iniciada','r','Nova edição não sobrescreve silenciosamente a anterior.')]),
+  n('Ebook interativo e workbook','p','Piloto Magnetus Mulher D0–D3.',[
+   n('Conteúdo + exercício progressivo','r'),n('Salvamento automático e manual','r'),n('Uma fonte de respostas para o Caderno','r'),n('Conflito entre dispositivos sinalizado','r'),n('Gate por conclusão e tempo','r'),n('Experimentos, tarefas externas e cards','p','Portabilidade incompleta; conclusão não exige postagem pública.')]),
+  n('Antídoto e ferramentas de prática','p','Antídoto integrado; outras ferramentas aguardam avaliação.',[
+   n('Semáforo e prática P.A.R.A.','r'),n('Reflexões privadas','r'),n('Acesso independente do workbook','r'),n('Cronômetros e testes aproveitáveis','f')]),
+  n('Sala de áudio','p','Componente preparado, ainda não conectado ao acervo.',[
+   n('Reprodução e velocidade','p'),n('Transcrição acessível','p','Depende de transcrições autorizadas.'),n('Favorito e posição na conta','f'),n('Separar acervo gratuito e pago','f')]),
+  n('Materiais para compartilhar','f','Cards públicos precisam de regra diferente da obra paga.',[
+   n('Cards autorizados, identidade e marca d’água','f'),n('Download ou compartilhamento intencional','f'),n('Conteúdo privado protegido por acesso','r','Sem promessa de bloqueio absoluto de captura de tela.')]),
+  n('Continuidade da experiência','p','Retorno e salvamento implementados em parte.',[
+   n('Referência curta em painel contextual','r'),n('Ir a outro produto sem perder a atividade','p'),n('Rede lenta, offline e troca de aplicativo','f','Validar comportamento e recuperação; offline não implementado.')])
+ ]},
+ {id:'jarvis',short:'07 · Jarvis',hint:'central interna de Sol',title:'07 · Jarvis, central de comando de Sol',scope:'Bastidores privados: coordenação do ecossistema existente.',doors:['operacao','entrada','produtos','fundacao'],nodes:[
+  n('Conexão com o app','p','Exportação administrativa pronta; Jarvis ainda não conectado.',[
+   n('Catálogo, versões e estados','r'),n('Links e dependências operacionais','r'),n('Autenticação e escopo mínimo','f'),n('Eventos de conteúdo, oferta e acesso','p','Contrato descrito; sem fila ativa.')]),
+  n('Inteligência operacional','f','Funções alvo da central interna.',[
+   n('Verificar links e detectar inconsistências','f'),n('Conferir produtos, ofertas e conteúdos','f'),n('Identificar lacunas e priorizar trabalho','f'),n('Coordenar tarefas autorizadas','f'),n('Preparar distribuição por canal','f')]),
+  n('Estúdio e distribuição','f','Ramificações planejadas do Jarvis existente.',[
+   n('Conteúdo editorial e campanhas','f'),n('Redes sociais e WhatsApp','f'),n('Telegram com retorno ao app','f'),n('Jarvis Live · apoio à Sol','f','Módulo interno futuro; não é outro assistente do cliente.'),n('Voz e contexto de Sol','f','Recursos desejados; não integrados nesta revisão.')]),
+  n('Acompanhamento comercial','f','Depende de eventos e custos reais.',[
+   n('Conversão, renovação e reembolso','f'),n('Custo de mídia, IA, taxas e suporte','f'),n('Margem por produto e canal','f'),n('Avaliar retorno do Telegram','f','Clique e entrada no canal não equivalem a compra.')]),
+  n('Limites do comando','p','Regras a preservar em todas as conexões.',[
+   n('Somente Sol e administradores autorizados','r','Exportação protegida por allowlist.'),n('Sem respostas íntimas na exportação','r'),n('Mensagens, gastos e publicação autorizados','f','Automação externa ainda não implementada.'),n('Revisão humana e registro de ações','f')])
+ ]},
+ {id:'operacao',short:'08 · Operação',hint:'conteúdo e gestão',title:'08 · Administração editorial e operação',scope:'A área de serviço que mantém o universo organizado.',doors:['produtos','chaves','jarvis','entrada','fundacao'],nodes:[
+  n('Mesa editorial','r','Fluxo implementado; acesso administrativo ainda a configurar.',[
+   n('Rascunho → revisão → publicado → arquivado','r'),n('Conteúdo, capítulos e histórico','r'),n('Nova versão sem apagar a anterior','r'),n('Proveniência e autoria','r','Arquivos canônicos importados com hashes conferidos.'),n('Arquivos finais e mídia protegida','f','Armazenamento de áudio ainda não conectado.')]),
+  n('Mesa comercial','p','Cadastro preparado; operação financeira pendente.',[
+   n('Produtos, ofertas e componentes','r'),n('Combos, bônus e prazos informados','r'),n('Mapeamento de ofertas Kiwify','f'),n('Suporte a compra e conciliação','f')]),
+  n('Mapa de links oficiais','p','Links fornecidos registrados; verificações ainda incompletas.',[
+   n('Destino e estado esperado','p'),n('Última checagem e falhas','p'),n('Monitoramento recorrente pelo Jarvis','f'),n('Canva e Telegram','d','Validar timer e classificar canal antes de promover.')]),
+  n('Analytics','p','Contagens básicas existentes; sem funil comercial real.',[
+   n('Descoberta e ações agregadas','r','Opt-in; respeito a Global Privacy Control.'),n('Conclusão de Dia sem respostas pessoais','r'),n('Consumo, retomada e primeira atividade','p'),n('Venda confirmada e atribuição','f'),n('Renovação, reembolso e custo','f'),n('Sem Caderno, conversas ou termos íntimos','r')]),
+  n('Suporte e qualidade','p','Solicitações internas registradas.',[
+   n('Ajuda consistente e protocolo','r'),n('Tratamento de falhas e recuperação','f'),n('Acessibilidade e testes de uso','p','Sem certificação integral.'),n('Backup, restauração e reversão','p','Plano documentado; ensaio com dados reais pendente.')])
+ ]},
+ {id:'fundacao',short:'09 · Fundação',hint:'dados e proteção',title:'09 · Fundações e engenharia',scope:'A estrutura que sustenta todas as alas sem duplicar clientes e conteúdo.',doors:['biblioteca','chaves','lucida','jarvis','operacao'],nodes:[
+  n('Camada de apresentação','r','Site responsivo: páginas públicas e espaços protegidos.',[
+   n('Início, Explorar e páginas de produto','r'),n('Biblioteca, Caderno, Jornada e leitor','r'),n('LÚCIDA e administração','p','Telas e controles; serviços externos ainda pendentes.')]),
+  n('Camada de serviços','p','Autorização e validações no servidor.',[
+   n('Identidade e permissões por titular','r'),n('Catálogo editorial e versões','r'),n('Direitos comerciais e ritmo pedagógico','r'),n('Progresso e registros pessoais','r'),n('Conectores de Kiwify, LÚCIDA e Jarvis','p','Contratos e pontos de integração; sem conexão operacional completa.')]),
+  n('Camada de dados','r','Banco D1 do Site nesta revisão.',[
+   n('Caderno e analytics existentes','r','Preservados.'),n('Versões editoriais e histórico','r'),n('Origens de contratação e direitos','r'),n('Progresso, favoritos e preferências','r'),n('Pedidos de ajuda','r'),n('Mídia autorizada e armazenamento privado','f')]),
+  n('Ponte com o Magnetus3 canônico','p','Fonte especializada preservada, não substituída.',[
+   n('Regras e conteúdo D0–D3 reaproveitados','r'),n('Runtime Better Auth + PostgreSQL','f','Não conectado ao Site nesta revisão.'),n('Migração e vínculo de contas','f','Backup, prova de titularidade e reversão.'),n('Preservação de contratos e progresso antigo','f','Requer inventário e reconciliação; sem inventar histórico.')]),
+  n('Cofres separados','p','Mesmo universo não significa dados pessoais abertos.',[
+   n('Catálogo público','r'),n('Conteúdo pago autorizado','r'),n('Caderno particular por conta','r'),n('Memória pessoal da LÚCIDA','f','Consentimentos próprios; separada da operação comercial.'),n('Indicadores operacionais do Jarvis','p','Exportação sem intimidade; integração futura.')]),
+  n('Qualidade antes de abrir a casa','p','51 verificações automatizadas; não é homologação completa.',[
+   n('Isolamento, conflitos e regras comerciais','r','Testes em ambiente isolado.'),n('Responsividade e teclado','p','Algumas telas e fluxos conferidos.'),n('WCAG 2.2 AA e leitor de tela','f','Meta; avaliação completa pendente.'),n('Safari/iPhone, Android e rede instável','f'),n('Desempenho e Core Web Vitals','f','Sem medição real de campo.'),n('Compra → acesso → uso → retorno','f','Falta teste com conta e pagamento reais.')]),
+  n('Expansões de plataforma','d','Avaliar depois da base funcionar.',[
+   n('Instalação na tela inicial','d'),n('Notificações opcionais','d'),n('Automações editoriais','d'),n('Telegram Mini App','d','Não é dependência inicial.')])
+ ]}
+ ];
+ let selected='produtos';
+ const svg=root.querySelector('.rp-floor');
+ const NS='http://www.w3.org/2000/svg';
+ const make=(tag,attrs={})=>{const e=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,String(v)));return e;};
+ const status=s=>{const el=document.createElement('span');el.className='rp-state text-small';const dot=document.createElement('i');dot.className='rp-dot rp-'+s;dot.setAttribute('aria-hidden','true');el.append(dot,document.createTextNode(labels[s]));return el;};
+ const nodeList=(items,depth=0)=>{const ul=document.createElement('ul');ul.className='rp-tree';items.forEach(item=>{
+  const li=document.createElement('li');li.className='rp-item';const label=document.createElement('span');label.className='rp-node';const name=document.createElement('span');name.className='rp-node-name';name.textContent=item.name;label.append(name,status(item.state));
+  let target=li;if(item.children.length){const details=document.createElement('details');details.open=depth===0&&selected!=='produtos';if(selected==='produtos'&&item.name==='Magnetus III')details.open=true;const summary=document.createElement('summary');summary.className='cursor-interaction';summary.append(label);details.append(summary);li.append(details);target=details;}else li.append(label);
+  if(item.note){const note=document.createElement('span');note.className='rp-note text-small';note.textContent=item.note;target.append(note);}
+  if(item.children.length)target.append(nodeList(item.children,depth+1));ul.append(li);
+ });return ul;};
+ function select(id){selected=id;const room=rooms.find(r=>r.id===id);root.querySelector('#rp-title').textContent=room.title;root.querySelector('#rp-scope').textContent=room.scope;root.querySelector('#rp-tree').replaceChildren(nodeList(room.nodes));const doors=root.querySelector('#rp-doors');doors.replaceChildren();room.doors.forEach(id=>{const other=rooms.find(r=>r.id===id),b=document.createElement('button');b.type='button';b.className='btn';b.textContent=other.short;b.addEventListener('click',()=>select(id));doors.append(b);});draw();}
+ function draw(){
+  const focusedRoom=svg.contains(document.activeElement)?document.activeElement.getAttribute('data-room'):null;
+  const width=Math.max(280,Math.round(root.querySelector('.rp-plan').getBoundingClientRect().width));const cols=width>=620?3:2,gap=24,pad=12,rh=92,cw=(width-pad*2-gap*(cols-1))/cols,rows=Math.ceil(rooms.length/cols),height=rows*(rh+gap)+20;
+  svg.setAttribute('viewBox',`0 0 ${width} ${height}`);svg.setAttribute('height',height);svg.replaceChildren();const title=make('title');title.textContent='Planta conceitual do Relacione-se, sem escala';svg.append(title);
+  rooms.forEach((r,i)=>{const col=i%cols,row=Math.floor(i/cols),x=pad+col*(cw+gap),y=10+row*(rh+gap),mid=x+cw/2;
+   svg.append(make('rect',{x,y,width:cw,height:rh,class:'rp-room'+(r.id===selected?' rp-picked':'')}));
+   svg.append(make('path',{d:`M ${mid-12} ${y+rh} H ${x} V ${y} H ${x+cw} V ${y+rh} H ${mid+12}`,class:'rp-wall'}));
+   svg.append(make('path',{d:`M ${mid-12} ${y+rh} v -24 M ${mid-12} ${y+rh-24} Q ${mid+12} ${y+rh-24} ${mid+12} ${y+rh}`,class:'rp-door'}));
+   const foreign=make('foreignObject',{x:x+6,y:y+9,width:cw-12,height:49});const box=document.createElementNS('http://www.w3.org/1999/xhtml','div');const b=document.createElementNS('http://www.w3.org/1999/xhtml','button');b.type='button';b.className='btn btn-ghost btn-block';b.textContent=r.short;b.setAttribute('data-room',r.id);b.setAttribute('aria-pressed',String(r.id===selected));b.setAttribute('aria-controls','rp-tree');b.addEventListener('click',()=>select(r.id));box.append(b);foreign.append(box);svg.append(foreign);const hint=make('text',{x:mid,y:y+61,'text-anchor':'middle'});hint.textContent=r.hint;svg.append(hint);
+  });
+  const t=make('text',{x:width/2,y:height-3,'text-anchor':'middle'});t.textContent='Planta conceitual · sem escala';svg.append(t);
+  if(focusedRoom)svg.querySelector('[data-room="'+focusedRoom+'"]').focus();
+ }
+ select(selected);new ResizeObserver(draw).observe(root.querySelector('.rp-plan'));
+})();
+</script>
