@@ -71,3 +71,11 @@
 
 **Fonte e regras completas:** [Diretrizes aprovadas em 21/09/2026](../09-app/DIRETRIZES-APROVADAS-ACESSOS-E-NAVEGACAO-2026-09-21.md).
 **Limite da autorização atual:** salvar decisões e pesquisar/apresentar parecer profissional. Sem alterações no app, cobrança ou comunicação externa nesta etapa.
+
+### D019 — Sol comanda pelo Jarvis; LÚCIDA acompanha cada cliente
+**Direção solicitada por Sol:** Jarvis apoia a operação interna, verificações, associações do catálogo, distribuição por canais e análise de resultados. LÚCIDA concentra orientação, continuidade e acompanhamento individual no ecossistema. Ambos usam referências coerentes de conteúdo/oferta/acesso; memória privada conserva consentimento e permissões.
+**Estado:** requisito documentado, não integração ativa.
+
+### D020 — Links recebidos devem declarar verificação e função comercial
+**Registro:** [Links fornecidos e verificados, recomendações e papéis](../09-app/LINKS-E-PAPEIS-JARVIS-LUCIDA-2026-09-21.md).
+**Ponto pendente:** prévia do canal “Minutos Magnetus.” menciona o pack comercializado; confirmar se o convite é de relacionamento gratuito ou entrega paga antes de divulgação como brinde. Atalho Canva retornou 404. Nenhum recurso foi reclassificado, publicado ou ativado nesta etapa.
