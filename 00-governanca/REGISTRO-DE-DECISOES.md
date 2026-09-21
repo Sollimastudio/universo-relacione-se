@@ -53,3 +53,21 @@
 
 ### D014 — Universo Relacione-se como mapa de continuidade
 **Decisão:** toda nova peça relevante deve ser registrada aqui com fonte, função, status e relação com o restante do ecossistema.
+
+## 2026-09-21 — Confirmação de Sol: app, ofertas e continuidade
+
+### D015 — Catálogo aberto e acesso conforme contratação
+**Decisão:** Relacione-se reúne o ecossistema em catálogo público; leitura/uso completos obedecem aos direitos de acesso. Ofertas avulsas, combos, assinaturas e prazos em dias/meses são suportados como requisitos. A publicação atual continua privada até execução aprovada.
+
+### D016 — Combo Magnetus preservado e componentes avulsos permitidos
+**Decisão:** ebook interativo com workbook + Antídoto do Antivalor + LÚCIDA continuam compondo o Magnetus3. Os componentes também podem ter ofertas próprias. Trilogia e livros individuais, MINDSETmagro e bônus seguem o mesmo modelo de conteúdo único e múltiplas ofertas.
+**Precedência:** amplia a decisão histórica de produto integrado; substitui a exclusividade comercial de “sem cobrança separada”, sem desmontar o combo nem alterar o método.
+
+### D017 — Acesso e progresso não se confundem
+**Decisão:** separar prazo comercial de gate pedagógico; considerar todos os direitos válidos; não remover acesso avulso por expiração de outra oferta. LÚCIDA contextual respeita acessos e consentimento.
+
+### D018 — Navegação com continuidade
+**Decisão:** catálogo, biblioteca pessoal e ambiente focado de leitura/prática; salvar posição/respostas e permitir retorno ao ponto de origem. Interligações e recomendações não devem interromper a atividade.
+
+**Fonte e regras completas:** [Diretrizes aprovadas em 21/09/2026](../09-app/DIRETRIZES-APROVADAS-ACESSOS-E-NAVEGACAO-2026-09-21.md).
+**Limite da autorização atual:** salvar decisões e pesquisar/apresentar parecer profissional. Sem alterações no app, cobrança ou comunicação externa nesta etapa.
