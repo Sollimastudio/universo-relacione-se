@@ -79,3 +79,13 @@
 ### D020 — Links recebidos devem declarar verificação e função comercial
 **Registro:** [Links fornecidos e verificados, recomendações e papéis](../09-app/LINKS-E-PAPEIS-JARVIS-LUCIDA-2026-09-21.md).
 **Ponto pendente:** prévia do canal “Minutos Magnetus.” menciona o pack comercializado; confirmar se o convite é de relacionamento gratuito ou entrega paga antes de divulgação como brinde. Atalho Canva retornou 404. Nenhum recurso foi reclassificado, publicado ou ativado nesta etapa.
+
+### D021 — Referências viram séries, oportunidades e continuidade
+**Pedido explícito de Sol em 21/09/2026:** incorporar às funções de Jarvis/Visionário/LÚCIDA a leitura automática de referências por link, análise de vídeo/canal/música, criação autoral de séries e copy, conexão com produtos/mentoria/assinatura e expansão por aprendizado.
+**Contrato:** [MM01–MM17](../09-app/JARVIS-LUCIDA-MINUTOS-MAGNETUS-2026-09-21.md).
+**Estado:** especificação registrada; integração de ingestão, Telegram, corpus e operação ainda precisa de implementação/prova. Não afirmar acesso universal a links nem treinamento já ativo.
+
+### D022 — Aprendizado individual, agregado e editorial são distintos
+**Direção:** cada interação relevante pode melhorar a continuidade individual autorizada, revelar demandas agregadas e propor melhorias editoriais revisadas. Preservar regras atuais de confirmação da memória e compartilhamento pré-mentoria.
+**Mapa:** reutilizar o Mapa LÚCIDA existente. Base autoral da Sol, memória íntima da Sol e dados de cada cliente permanecem separados.
+**Escopo desta execução:** inspeção remota e alterações documentais nos repositórios. Não autoriza publicação no Telegram, acesso a conversas reais, alteração de preços, inscrição em serviços, treino de pesos, migração ou produção.

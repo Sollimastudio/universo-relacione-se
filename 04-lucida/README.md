@@ -158,3 +158,10 @@ A especificação completa vive no `Magnetus3`, incluindo:
 - `docs/04-tecnica/LUCIDA-SYSTEM-DESIGN-v1.md`.
 
 Este repositório mantém a função da LÚCIDA dentro do universo inteiro e aponta para a implementação especializada.
+
+## 11. Episódios, audiência e continuidade — 21/09/2026
+
+Diretriz solicitada por Sol: [Jarvis + LÚCIDA + Minutos Magnetus](../09-app/JARVIS-LUCIDA-MINUTOS-MAGNETUS-2026-09-21.md).
+LÚCIDA deve colaborar na criação, conhecer os áudios publicados, interpretar respostas identificadas por episódio/pergunta, preservar mapa individual consentido, gerar aprendizado agregado para Sol e preparar o Mapa Pré-Mentoria já especificado.
+Conhecimento aprovado sobre Sol é separado do histórico da cliente e da memória íntima da autora.
+Documentação e corpus em execução têm versões e etapas de ativação diferentes; este registro não ativa ingestão Telegram, monitoramento ou gravação automática de conversas.

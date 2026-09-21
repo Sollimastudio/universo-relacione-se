@@ -91,3 +91,8 @@ Empoderar pessoas a romper ciclos de dor e escrever novas histórias por meio de
 > **Relações conscientes sustentam vidas extraordinárias.**
 
 O Universo Relacione-se não ensina pessoas a serem anti-pessoas. Ensina autoria, discernimento, presença, empatia, coerência, limites, acordos e responsabilidade sem autoabandono nem controle do outro.
+
+## Jarvis, LÚCIDA e Minutos Magnetus — diretriz de 21/09/2026
+
+Ler [Referências, séries, audiência e continuidade](09-app/JARVIS-LUCIDA-MINUTOS-MAGNETUS-2026-09-21.md): requisitos MM01–MM17, Visionário, ingestão de vídeos/canais/músicas, séries encadeadas, conhecimento dos episódios, respostas Telegram, memória individual, insights agregados e pré-mentoria.
+Sol dirige; Jarvis coordena; LÚCIDA acompanha. Estado: especificação registrada, não integração ativa.
