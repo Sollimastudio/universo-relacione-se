@@ -675,3 +675,15 @@ Vínculo técnico: `docs/planta-relacione-se.html`. Rota/serviço: `não ativado
 - biblioteca.6: lib/platform/support.ts; components/site/help.tsx; components/site/support-admin.tsx; app/admin/suporte; app/api/admin/suporte.
 
 107 testes locais + TypeScript/build aprovados; ensaios/limites no relatório. Nenhum preço, manuscrito ou direito inventado. IDs e ramificações C3–C8/MM01–MM17 preservados.
+
+## Recuperação C2-B — 22/09/2026
+
+Este bloco **não altera nem renumera os 260 itens acima**. Ele apenas registra o estado de recuperação da C2-B.
+
+- `biblioteca.6 / operacao.5`: paginação de protocolos em blocos de 50, busca exata, isolamento, cursor, erro/retry/vazio/foco e rascunho administrativo foram reportados como implementados e testados na C2-B. Estado atual: **aguardando recuperação da fonte para confirmação**, não reimplementar.
+- `biblioteca.1 / fundacao.2 / fundacao.4`: D01 e vínculo legado seguem parciais; nenhuma homologação real foi obtida nesta retomada.
+- `operacao.5 / jarvis.5 / D02`: administração continua negada por padrão enquanto o userId real de Sol não for obtido por mecanismo autorizado.
+- `fundacao.6 / D11`: nenhuma nova suíte foi executada nesta retomada porque a fonte do app não foi recuperada. Os números anteriores continuam históricos, não atuais.
+- C3–C8, MM01–MM17, SOL-IA PR #8 e Magnetus3 PR #1 permanecem preservados e fora do escopo desta recuperação.
+
+A fonte Sites e sua revisão mais recente precisam ser recuperadas antes de promover qualquer item desta matriz.
