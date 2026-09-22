@@ -69,3 +69,10 @@ O GitHub documental foi reconciliado sem alterar código da aplicação nem a ma
 - PROXIMO-PROMPT.md já havia sido atualizado na retomada anterior; o estado atual será acrescentado sem apagar seu histórico.
 
 O HEAD documental confirmado após essas escritas é `9e42658f90679f7cbeb3eaf17572382d4c02d001`. A fonte privada do app continua inacessível neste runtime: nova tentativa não interativa de `git ls-remote` retornou `Could not resolve host: git.chatgpt-team.site` (exit 128). O namespace Sites continua indisponível neste runtime. Portanto, não houve nova revisão Sites, build, testes, deploy ou alteração de código nesta retomada.
+
+## Fechamento documental desta continuação
+
+- HEAD documental atual confirmado antes desta atualização: `243fc6b294b11bf7a416e4696f50e44086b9c327`.
+- O GitHub documental foi pesquisado por `support-browser.tsx`, `identity-link.ts`, `0005_melodic_wong.sql`, commit `a16cfb5deec5e8c18e9427c9ff3786c6890c7b7a` e project_id do Sites; nenhum espelho do código C2-B foi localizado.
+- Essa busca negativa significa apenas que a implementação não está espelhada no GitHub pesquisável consultado; não prova perda da fonte Sites.
+- O próximo executor deve iniciar pela recuperação do ambiente Sites/fonte e não pela reimplementação da C2-B nem por nova reconciliação dos quatro registros.
