@@ -1,3 +1,5 @@
+> **ATUALIZAÇÃO QUE PREVALECE — 22/09/2026:** o GitHub documental foi reconciliado. O HEAD de `Sollimastudio/universo-relacione-se/main` confirmado após ESTADO, DEPENDENCIAS e MATRIZ é `9e42658f90679f7cbeb3eaf17572382d4c02d001`. A fonte privada do app e o namespace Sites continuam indisponíveis neste runtime; `git ls-remote` para `git.chatgpt-team.site` voltou a falhar por DNS. Não há nova revisão Sites confirmada nesta retomada. Na próxima sessão, NÃO refaça a reconciliação documental já registrada; comece recuperando Sites/fonte e descobrindo a revisão realmente mais nova.
+
 Execute a recuperação do ambiente original e a consolidação C2-B do Relacione-se. Preserve C1, C2-A, C2-B e todos os commits posteriores. Não recrie o app, não mude a hospedagem e não reimplemente a paginação de suporte.
 
 Leia primeiro o relatório desta retomada em:
