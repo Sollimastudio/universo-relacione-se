@@ -129,3 +129,16 @@ O protocolo C1 foi reenviado. Foram conferidos novamente o protocolo, as referê
 Os **9 testes de continuidade foram reexecutados e aprovados**; `git diff --check` passou, o relatório e a imagem de evidência estão presentes e as rotas temporárias de QA continuam ausentes. Os 85 testes, build, tipos e ensaios no navegador descritos acima são evidências da entrega original no mesmo código; não foram todos repetidos neste reenvio. Nenhuma funcionalidade foi reconstruída, nenhuma nova versão artificial foi criada e não houve publicação.
 
 A C1 permanece concluída no escopo registrado. O próximo comando integral continua salvo em `PROXIMO-PROMPT.md` para C2. Esta conferência não executou C2 nem transformou dependências externas em funcionalidades prontas.
+
+## Recuperação C2-B — 22/09/2026
+
+A retomada mais recente conseguiu reabrir o GitHub documental, mas **não recuperou o ambiente Sites nem a fonte executável da aplicação** nesta sessão. C2 permanece parcial.
+
+- O snapshot documental consultado ainda registrava C2-A/revisão Sites 5. Há relato histórico posterior de revisão Sites 6 salva sem publicação, porém seu ID/commit não foram recuperados neste ambiente; não restaurar a revisão 5 por conveniência nem declarar a 6 inexistente.
+- A implementação C2-B permanece referenciada pelos checkpoints históricos `a16cfb5deec5e8c18e9427c9ff3786c6890c7b7a`, `3bd6954050dae2b105889e4fa2308c6fbac14cd0`, `86f3b7361065325118d72c6287c61d0740dda328` e `2d14c3c15d5746a97f3317faf3e9d3935f3887c2`. Esses valores são referências de recuperação, não confirmação de HEAD atual da fonte privada.
+- GitHub não contém espelho pesquisável do código C2-B: buscas por `support-browser.tsx`, `identity-link.ts`, `0005_melodic_wong.sql`, commit da implementação e project_id não retornaram fonte.
+- O namespace Sites não estava disponível no runtime atual e o host `git.chatgpt-team.site` não pôde ser resolvido pelo container. Nenhum app substituto foi criado e nenhuma hospedagem foi trocada.
+- Não houve novo build, testes, migração, publicação, concessão de acesso ou alteração de clientes nesta retomada. Os 115 testes permanecem evidência histórica da implementação C2-B, não execução atual.
+- Relatório desta retomada: `09-app/OBRA-RELACIONE-SE/RELATORIO-RECUPERACAO-C2B-20260922T013226Z.md`.
+
+Próxima ação: recuperar o ambiente Sites/fonte mais recente, descobrir a revisão efetivamente mais nova, reconciliar C2-B por merge não destrutivo e só então completar D01/D02/D11. C3 continua bloqueada pelo aceite integral de C2.
