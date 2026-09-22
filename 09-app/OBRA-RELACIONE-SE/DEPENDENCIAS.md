@@ -42,3 +42,20 @@ Preservar `09-app/JARVIS-LUCIDA-MINUTOS-MAGNETUS-2026-09-21.md`: referências mu
 ## Evidência C2-A
 
 Revisão 5, commit `5fb0375ba3170985bca3d7a768dbb9d6e81c714a`. Relatório `docs/REVISAO-C2-2026-09-21.md`. Migração 0004 somente gerada/testada localmente. Preparação criptográfica não equivale a legado conectado. Resolução de suporte não libera conteúdo. Nenhuma chave, allowlist, pagamento, mensagem ou publicação ativada.
+
+## Recuperação C2-B — 22/09/2026
+
+**Bloqueio de recuperação de ambiente (ativo nesta retomada):**
+- GitHub documental disponível.
+- Sites/fonte privada executável não disponíveis neste runtime; não é o mesmo HTTP 400 histórico.
+- Não há base técnica atual para homologar D01, D02 ou D11, emitir revisão Sites, aplicar migração ou integrar o vínculo legado.
+- Não usar o texto projetado da vitrine, arquivos editoriais ou o repositório documental como substitutos do código-fonte.
+- Antes de qualquer nova implementação, recuperar Sites/fonte e comparar a versão mais recente com os checkpoints C2-B conhecidos.
+
+**D01:** segue pendente para login/logout/cancelamento/expiração/duas contas reais e troca de sessão em ambiente autorizado.
+
+**D02:** segue pendente; o userId administrativo real de Sol não foi obtido por mecanismo autorizado nesta retomada. Propriedade GitHub/Sites não é prova de identidade do app.
+
+**D11:** verificações 320/390/768 e fonte 200% permanecem evidência histórica local. iPhone/Safari, Android, leitor de tela, persistência/restauração e conflitos reais seguem não homologados.
+
+A paginação/busca de suporte C2-B não deve ser reimplementada; deve ser confirmada na fonte recuperada.
