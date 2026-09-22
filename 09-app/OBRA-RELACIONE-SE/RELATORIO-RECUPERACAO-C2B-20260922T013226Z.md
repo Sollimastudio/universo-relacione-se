@@ -58,3 +58,14 @@ Não houve acesso de escrita ao Git privado do app, salvamento de revisão Sites
 A matriz canônica foi lida e permanece intacta; não foi substituída por resumo ou delta. Os estados de implementação não foram promovidos sem evidência. Este relatório e o próximo comando são documentos de continuidade, não uma entrega de funcionalidades. O histórico do prompt anterior permanece no Git.
 
 Prioridade: recuperar o ambiente original do Sites e a fonte mais nova; confirmar ou corrigir o relato da revisão 6; só então concluir sincronização e atualizar por merge os quatro estados canônicos de aceite. C3 continua condicionada ao aceite integral de C2. Mantêm-se as 260 ramificações, MM01–MM17, SOL-IA PR #8, Magnetus3 PR #1 e todas as camadas/produtos previamente definidos.
+
+## Reconciliação documental concluída nesta retomada
+
+O GitHub documental foi reconciliado sem alterar código da aplicação nem a matriz de 260 itens. Operações concluídas na branch main:
+
+- ESTADO.md atualizado: commit `6bd6e1d65e1cd4bd37433cb74d2874a922bdb858`.
+- DEPENDENCIAS.md atualizado: commit `f52dcce3ad59e14d8a58ba4a3bbbe76411e7e64b`.
+- MATRIZ-PLANTA.md atualizado por acréscimo, sem renumerar/remover itens: commit `9e42658f90679f7cbeb3eaf17572382d4c02d001`.
+- PROXIMO-PROMPT.md já havia sido atualizado na retomada anterior; o estado atual será acrescentado sem apagar seu histórico.
+
+O HEAD documental confirmado após essas escritas é `9e42658f90679f7cbeb3eaf17572382d4c02d001`. A fonte privada do app continua inacessível neste runtime: nova tentativa não interativa de `git ls-remote` retornou `Could not resolve host: git.chatgpt-team.site` (exit 128). O namespace Sites continua indisponível neste runtime. Portanto, não houve nova revisão Sites, build, testes, deploy ou alteração de código nesta retomada.
