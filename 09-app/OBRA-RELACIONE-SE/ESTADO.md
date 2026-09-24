@@ -142,3 +142,9 @@ A retomada mais recente conseguiu reabrir o GitHub documental, mas **não recupe
 - Relatório desta retomada: `09-app/OBRA-RELACIONE-SE/RELATORIO-RECUPERACAO-C2B-20260922T013226Z.md`.
 
 Próxima ação: recuperar o ambiente Sites/fonte mais recente, descobrir a revisão efetivamente mais nova, reconciliar C2-B por merge não destrutivo e só então completar D01/D02/D11. C3 continua bloqueada pelo aceite integral de C2.
+
+## Diretriz LÚCIDA transversal — 23/09/2026
+
+Nova especificação canônica: `04-lucida/LUCIDA-GUIA-NAVEGACAO-APP-E-SITE-v1.md`.
+
+LÚCIDA deve ser uma única inteligência com dois adaptadores: **APP MODE** (guia privado de percurso, biblioteca, progresso e continuidade) e **SITE MODE** (guia público do Universo Relacione-se e ponte para o app). Site e app continuam independentes. Não criar duas LÚCIDAS, não transportar memória íntima para visitante anônimo e não transformar orientação de navegação em upsell.
