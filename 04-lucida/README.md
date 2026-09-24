@@ -165,3 +165,17 @@ Diretriz solicitada por Sol: [Jarvis + LÚCIDA + Minutos Magnetus](../09-app/JAR
 LÚCIDA deve colaborar na criação, conhecer os áudios publicados, interpretar respostas identificadas por episódio/pergunta, preservar mapa individual consentido, gerar aprendizado agregado para Sol e preparar o Mapa Pré-Mentoria já especificado.
 Conhecimento aprovado sobre Sol é separado do histórico da cliente e da memória íntima da autora.
 Documentação e corpus em execução têm versões e etapas de ativação diferentes; este registro não ativa ingestão Telegram, monitoramento ou gravação automática de conversas.
+
+## 12. Guia transversal do app e do site — 23/09/2026
+
+Diretriz nova aprovada por Sol: LÚCIDA deve também funcionar como **guia de navegação**, reduzindo a carga cognitiva e evitando que a pessoa se perca no ecossistema.
+
+Ela deve operar em dois contextos sem virar duas personagens:
+- **APP MODE:** guia privado de biblioteca, progresso, produtos, atividades e retorno seguro;
+- **SITE MODE:** guia público do Universo Relacione-se, páginas, livros, métodos, produtos e ponte para o app.
+
+Arquitetura completa e regras de privacidade, deep links, continuidade e roteamento em:
+- [LÚCIDA — Guia de Navegação do App e do Site v1](./LUCIDA-GUIA-NAVEGACAO-APP-E-SITE-v1.md)
+
+Regra central:
+> **LÚCIDA reduz carga cognitiva sem retirar autonomia.**
