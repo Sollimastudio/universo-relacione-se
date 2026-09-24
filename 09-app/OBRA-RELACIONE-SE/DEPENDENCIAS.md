@@ -1,3 +1,26 @@
+# Dependências atuais — 24/09/2026
+
+O acesso ao código original foi restabelecido; a revisão 8 está salva sem publicar e a v7 permanece privada. Esta atualização prevalece sobre referências históricas a ambiente perdido, v1 publicada, revisão 5 como última ou apenas 107 testes.
+
+| ID | Estado atual e próximo trabalho |
+|---|---|
+| D01 | C2 parcial. Login/callback/logout/expiração e isolamento entre contas reais continuam sem homologação. Receptor/helper de vínculo legado existem; integrar emissor autenticado e consentimento entre domínios, preservando titularidade. Não unir por e-mail. |
+| D02 | C2-B com busca/paginação de suporte recuperada e 30 testes de conta aprovados. Ambiente Sites revisão 0, sem variáveis. Obter o userId autenticado de Sol em Meu espaço → Identificação desta conta para suporte. Não usar IDs de proprietário/GitHub. Configurar administração apenas com escopo autorizado. |
+| D09 | V7 já publicada privadamente antes desta sessão; v8 salva, fonte `2c2b75550903c798c1e859f087b9c9281c241f0b`, sem deployment. Site PR #3 draft sobre PR #2; branch candidata não dispara deploy Git. Publicação nova ainda depende de autorização aplicável. |
+| D11 | 129 testes locais e builds aprovados; navegação verificada em telas menores. Login real, segunda conta autorizada, iPhone/Safari, perda de sessão, persistência e restauração real pendentes. |
+| D06 | Uma LÚCIDA, modos APP/SITE. Nova navegação entrega apenas parte da diretriz; provider, corpus ativo, IA e memória consentida continuam pendentes. Chave de API isolada não conclui a integração. |
+| D07 | SOL-IA PR #11 e Magnetus3 PR #2 confirmados como drafts abertos. Contexto MM01–MM17 preservado. Conexão operacional do Jarvis não demonstrada. |
+
+D03–D05, D08, D10 e D12 mantêm seus gates; não ativar C3 antes do aceite C2. Conteúdos já existentes devem ser localizados nos repositórios, sem pedir novamente a Sol ou recriar manuscritos. Site e app mantêm dados e responsabilidades separados.
+
+Ação mínima de Sol agora: enviar o identificador autenticado exibido no Perfil, testar salvamento/reabertura do Dia Zero no seu iPhone e decidir a publicação privada da candidata. Para teste entre contas será necessária uma segunda conta explicitamente autorizada; nenhum convite ou acesso foi criado nesta entrega.
+
+[Estado e recibos](ESTADO.md) · [Relatório](RELATORIO-DIRECAO-GERAL-2026-09-24.md).
+
+---
+
+## Histórico integral de dependências — ler em conjunto com a atualização acima
+
 # Dependências da conclusão — Relacione-se
 
 Atualizado na C2-A, 21/09/2026; C2 permanece parcial. Ausência de configuração homologada não significa ausência de conteúdo ou de código. Investigar fontes/autorização existentes antes de pedir algo a Sol. Não enviar mensagens, gastar, publicar ou ampliar permissões por inferência técnica.

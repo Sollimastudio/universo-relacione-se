@@ -1,3 +1,31 @@
+# Continuação completa e atual — 24/09/2026
+
+Copiar o bloco abaixo. Os prompts antigos após o separador são histórico; não executar instruções de recuperação já superadas.
+
+```text
+Assuma a direção geral e continue a conclusão do Relacione-se a partir da revisão 8, preservando o app original, a planta completa e todos os commits. Não recomece o projeto nem se limite a atualizar documentação.
+
+Leia ESTADO.md, DEPENDENCIAS.md, MATRIZ-PLANTA.md e RELATORIO-DIRECAO-GERAL-2026-09-24.md em Sollimastudio/universo-relacione-se/09-app/OBRA-RELACIONE-SE, o prompt mestre de evolução em 09-app, a planta e 04-lucida/LUCIDA-GUIA-NAVEGACAO-APP-E-SITE-v1.md. Preserve as 9 áreas, 51 grupos, 260 ramificações, MM01–MM17 e as fontes autorais Magnetus3, biblia-magnetus e trilogia-sol-lima. Relatórios antigos de ambiente perdido e v1 publicada foram superados; revalide o estado atual antes de modificar.
+
+Projeto Sites: appgprj_6ab11d2e84188191a90910ec6b06c64d. Checkout original /workspace/sites/relacione-se-universo, branch completion/c2b-2026-09-21. Fonte enviada e salva: 2c2b75550903c798c1e859f087b9c9281c241f0b. Revisão 8: appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_14d435eb7ca881918f97bb79c17ca368; pacote sha256:cd9eceea6e0e2885804e8e803fb17b71721905e16ec42f4e1510b3f381d9ba00; deployment_id null. A versão privada publicada anteriormente é 7, fonte 3e7777971c9dc10fdc632bce18866f0f669dccda, deployment appgdep_6ab55438c3f081919563f92497859750 succeeded. URL: https://relacione-se-universo.sollimalovecoach.chatgpt.site. Não confundir versão salva com a que o link serve.
+
+A revisão 8 acrescenta menu lateral, destinos internos com retorno e “Universo Relacione-se” para o site. Preserva C1/C2/C2-B, paginação de suporte, vitrine Magnetus e Dia Zero persistente. 129 testes existentes, TypeScript/build e QA local da navegação passaram; são ensaios sintéticos, não autenticação real.
+
+No site, PR #3 draft https://github.com/Sollimastudio/relacionese-website/pull/3, fonte 9f1257ce5764112a701f891d569fd755f4f61f40, branch work/site-app-navigation-20260924, baseado em agent/site-audit-accessibility (PR #2 preservado). Acrescenta Minha Biblioteca no cabeçalho, menu móvel e rodapé, com aviso de acesso privado. Deploy Git está desativado apenas nesta branch. Não fazer merge/publicação por inferência. Produção Vercel observada: 9c5fa84479624b958b944ebcea9484a279663727. Site e app continuam independentes; nenhum dado íntimo atravessa o link.
+
+Próxima etapa: fechar C2/D01/D02/D11 antes de C3. Reaproveite autenticação Sites e Better Auth existentes. Falta homologar login/callback/cancelamento/logout/expiração e duas contas reais; integrar emissor autenticado e consentimento do vínculo legado; confirmar userId administrativo real de Sol. Perfil já oferece “Identificação desta conta para suporte”. Ambiente Sites observado na revisão 0, sem variáveis. Não derivar userId de email/GitHub/proprietário, não simular uma conta real nem refazer paginação/busca já implementadas. Realize todo trabalho independente possível; se faltar intervenção humana, peça somente o identificador mostrado na conta, o ensaio de salvar/retomar no iPhone ou a definição explícita da segunda conta autorizada.
+
+LÚCIDA é uma inteligência com APP MODE e SITE MODE; menu manual e guia determinístico não substituem integração de IA. Preserve consentimento, direitos, corpus aprovado e separação entre Caderno, memória pessoal e indicadores do Jarvis. SOL-IA PR #11 ab197f9017972e273b274d2107333fba557688df e Magnetus3 PR #2 673a96f0d6da004237560a940d149101ea6b59e3 estavam em draft; revalide antes de integrar.
+
+Preserve ofertas, conteúdo autoral, hashes, gate pedagógico de 24h, dados e histórico. Não migrar dados reais, ampliar audiência/administração, ativar serviço pago, enviar mensagens ou publicar sem autorização específica aplicável. Não force push nem recrie repositórios. Não peça novamente autorização já concedida na sessão; registre o escopo autorizado. Depois do aceite C2, execute C3–C8 na ordem da planta.
+
+Entregue mudanças concretas verificadas e persistidas, recibos exatos e uma lista curta do que realmente exige Sol. Faça merge aditivo dos registros sem perder os 260 IDs. Deixe o próximo ponto executável; não declare pronto o que apenas foi documentado, compilado ou simulado.
+```
+
+---
+
+## Prompts históricos preservados — não substituem a continuação acima
+
 > **ATUALIZAÇÃO QUE PREVALECE — 22/09/2026:** o GitHub documental foi reconciliado. O HEAD de `Sollimastudio/universo-relacione-se/main` confirmado após ESTADO, DEPENDENCIAS e MATRIZ é `9e42658f90679f7cbeb3eaf17572382d4c02d001`. A fonte privada do app e o namespace Sites continuam indisponíveis neste runtime; `git ls-remote` para `git.chatgpt-team.site` voltou a falhar por DNS. Não há nova revisão Sites confirmada nesta retomada. Na próxima sessão, NÃO refaça a reconciliação documental já registrada; comece recuperando Sites/fonte e descobrindo a revisão realmente mais nova.
 
 Execute a recuperação do ambiente original e a consolidação C2-B do Relacione-se. Preserve C1, C2-A, C2-B e todos os commits posteriores. Não recrie o app, não mude a hospedagem e não reimplemente a paginação de suporte.

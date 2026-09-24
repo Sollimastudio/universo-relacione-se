@@ -1,3 +1,21 @@
+# Atualização da matriz — 24/09/2026
+
+**As 9 áreas, 51 grupos e 260 IDs/linhas do inventário abaixo foram preservados integralmente.** Esta é uma atualização de evidência, não uma substituição da planta nem uma declaração de conclusão integral.
+
+- Publicação: o valor histórico “live permanece v1” das células abaixo foi superado. **V7 está publicada privadamente; v8 foi salva sem publicar.** A última versão não equivale ao aceite funcional de todos os itens. Ver [ESTADO.md](ESTADO.md) para IDs, fontes e recibos.
+- Entrada/retorno e biblioteca: menu lateral no app e ponte “Universo Relacione-se”; entrada para Biblioteca no site (PR #3 draft). Separação de superfícies e de privacidade da diretriz de 23/09 preservada.
+- Conta/suporte: C2-B recuperada, com paginação/busca já implementadas; não recomeçar esta implementação. Administração, autenticação e isolamento externos seguem parciais (D01/D02/D11).
+- Magnetus: vitrine e Dia Zero persistente da revisão 7 preservados. Isso não declara entregues todos os Dias, conteúdos, compras ou a experiência masculina.
+- Fundação/qualidade: 129 testes existentes aprovados nesta sessão, TypeScript/build e navegação local responsiva; continuam pendentes aparelhos e contas reais.
+- LÚCIDA: uma identidade com APP MODE e SITE MODE. A navegação manual foi conectada; orientação inteligente, corpus, memória e integração de IA permanecem parciais. Não promover estados de C5 por causa dos botões.
+- Jarvis e MM01–MM17: requisitos preservados, sem nova ativação, envio, ingestão ou integração operacional nesta revisão.
+
+C2 permanece parcial e é o próximo gate. C3–C8 seguem a ordem do prompt mestre. [Relatório completo](RELATORIO-DIRECAO-GERAL-2026-09-24.md).
+
+---
+
+## Inventário integral e deltas históricos preservados
+
 # Matriz integral da planta — C1 preservada / C2-A parcial
 
 Referência: `09-app/PLANTA-ECOSSISTEMA-RELACIONE-SE-REFERENCIA.html`, blob `44e19d5cbbf88bd4b94f186a086a8b198d75f9a7`. Inventário: **9 áreas e 260 itens**, incluindo pais e folhas. IDs seguem a ordem congelada da planta, não devem ser renumerados; acrescentar novos IDs ao expandir. Mapeamento completo não significa implementação completa.

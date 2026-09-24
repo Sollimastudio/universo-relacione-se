@@ -1,3 +1,34 @@
+# Estado atual verificado — 24/09/2026
+
+**Fonte original recuperada. C1/C2/C2-B preservadas. C2 ainda parcial; C3 não liberada.** Este bloco prevalece sobre estados históricos abaixo. A fonte avançou até a versão privada 7 antes desta edição; o registro antigo de ambiente perdido foi superado nesta sessão.
+
+| Referência | Estado confirmado |
+|---|---|
+| Projeto original | `appgprj_6ab11d2e84188191a90910ec6b06c64d` |
+| Checkout | `/workspace/sites/relacione-se-universo`, branch `completion/c2b-2026-09-21` |
+| Revisão nova salva | **8**, fonte `2c2b75550903c798c1e859f087b9c9281c241f0b` |
+| ID da revisão 8 | `appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_14d435eb7ca881918f97bb79c17ca368` |
+| Pacote da revisão 8 | `sha256:cd9eceea6e0e2885804e8e803fb17b71721905e16ec42f4e1510b3f381d9ba00`, 304 arquivos, 4444160 bytes |
+| Publicação da revisão 8 | **Não publicada**; `deployment_id: null` |
+| Publicação privada existente | **7**, fonte `3e7777971c9dc10fdc632bce18866f0f669dccda` |
+| Deployment existente | `appgdep_6ab55438c3f081919563f92497859750`, `succeeded` |
+| URL privada atual | https://relacione-se-universo.sollimalovecoach.chatgpt.site |
+| Revisão 6 reconciliada | `c72c4e5ca5441087bad8d31ba9e17caada63556f`, sem deployment próprio |
+| Site: mudança proposta | [PR #3 draft](https://github.com/Sollimastudio/relacionese-website/pull/3), `9f1257ce5764112a701f891d569fd755f4f61f40`, sobre PR #2 |
+| Site: produção existente | `9c5fa84479624b958b944ebcea9484a279663727`, deployment `dpl_2KQbao5SbCq6WPwRnyhRuqzsZDhg` READY |
+
+Entrega nova: menu lateral do app com destinos internos e “Universo Relacione-se”; no site, entrada “Minha Biblioteca / Entrar no App” no cabeçalho, menu móvel e rodapé. Novas abas, origem preservada e nenhum dado pessoal na travessia. Vitrine Magnetus e Dia Zero persistente da v7 preservados. LÚCIDA APP/SITE continua uma identidade; IA não conectada.
+
+Validação desta sessão: **129 testes existentes aprovados**, TypeScript e build do app; site com TypeScript, 16 rotas, 35 links, metadados, build e rewrites; menu do app em 320 px/fonte 200%, 390 px e 768 px; menu do site em 320 px/fonte 200% e 390 px, teclado e links. Identidades dos testes são sintéticas. C2 real depende de D01/D02/D11.
+
+GitHub recebeu proposta incremental, sem merge e sem deployment Vercel criado para a candidata na consulta após o push. Sites mantém audiência da proprietária, ambiente revisão 0 sem variáveis e publicação privada v7. Nenhuma migração remota, cobrança, mensagem ou mudança de permissões.
+
+[Relatório e recibos desta entrega](RELATORIO-DIRECAO-GERAL-2026-09-24.md). [Próxima etapa completa](PROXIMO-PROMPT.md). Não refazer recuperação ou paginação do suporte já concluídas. Não tratar 260 itens inventariados como 260 entregues.
+
+---
+
+## Histórico integral preservado — estados abaixo não substituem a atualização de 24/09/2026
+
 # Estado da obra — Relacione-se
 
 Atualizado em 21/09/2026 após C2-A. **C1 preservada. C2 parcial, sem aceite integral.** Conta, continuidade, biblioteca e suporte receberam mudanças concretas; login externo, vínculo legado e administração real dependem de D01/D02/D11.
