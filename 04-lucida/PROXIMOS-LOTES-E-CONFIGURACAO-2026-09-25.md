@@ -1,26 +1,27 @@
 # Próximos lotes da LÚCIDA e configuração de acesso
-Data: 25/09/2026. Complemento operacional ao prompt mestre e ao checklist de 259 IDs; não reduz nem substitui nenhum deles.
+Data: 25/09/2026. Revisão posterior: Gemini primeiro, conforme instrução expressa de Sol. Complemento operacional ao prompt mestre e ao checklist de 259 IDs; não reduz nem substitui nenhum deles.
 
 ## Conferência atual
 
 - App Sites: appgprj_6ab11d2e84188191a90910ec6b06c64d.
 - URL: https://relacione-se-universo.sollimalovecoach.chatgpt.site
-- Última publicação reconfirmada: v16, commit 550b2dceb58f63833ca042e16968b2cd8ceaaabd, acesso somente Sol.
-- Ambiente de produção Sites: revisão 0, nenhuma variável cadastrada.
+- Última publicação reconfirmada: v17, commit 0e5990d7af09a28fcbcbf682eaffee66a232dc93, acesso somente Sol. Deployment appgdep_6ab6a3762f34819187d6b5314cf534c4 succeeded, ambiente revisão 1.
+- Ambiente de produção Sites: revisão 1, somente LUCIDA_PROVIDER=gemini. Nenhuma chave/modelo configurado.
 - O endpoint atual app/api/lucida/route.ts responde 503 e informa que a IA não está ativa. Colocar uma chave, isoladamente, não altera esse comportamento.
 - Magnetus3 main reconfirmada: 8e737a65f9b47bf2d8f621d101283129c61b028d. A configuração existente em lib/server/lucida.ts lê OPENAI_API_KEY e LUCIDA_MODEL e usa a API Responses da OpenAI.
 - O app Sites e o site institucional relacionese-website na Vercel são superfícies distintas. Variáveis cadastradas em uma não aparecem automaticamente na outra.
-- Escolha inicial de implementação: reaproveitar a integração OpenAI do runtime existente, adaptando-a ao app, sem presumir que ela já esteja conectada. Isso não muda o provedor do Jarvis e não requer chave Gemini para este lote.
+- Escolha vigente: Gemini primeiro; OpenAI opcional para quando houver chave. A escolha inicial de OpenAI do commit histórico 54dc50026c505499b3fdbbdf26cf907aa950a384 foi substituída pela instrução posterior de Sol, não é mais requisito para ativação. Não altera o provedor do Jarvis.
+- Lote 3: adaptadores de texto Gemini/OpenAI, modelos/chaves separados, rotação manual e diagnóstico administrativo implementados. Não ativam atendimento do visitante. Guia detalhado: docs/lucida/PROVEDORES_E_CHAVES.md no app; recibo canônico EXECUCAO-LOTE-3-2026-09-25.md.
 
 ## O que cabe a Sol
 
 ### Para ativar a conversa com IA
 
-1. Ter acesso à própria conta da API OpenAI. Se já houver conta, reutilizá-la; não criar outra por suposição.
-2. Quando o adaptador estiver preparado, criar uma chave dedicada à LÚCIDA, preferencialmente em projeto próprio da API para separar permissões e consumo. Página oficial: https://platform.openai.com/api-keys . Guardar a chave com segurança. Não colar neste chat, em PDF, screenshot ou GitHub.
-3. Conferir pessoalmente cobrança/créditos da API e autorizar um orçamento de uso. A cobrança da API é separada da assinatura ChatGPT. Não comprar créditos nem autorizar recarga automática em nome de Sol. Limite de orçamento no painel pode ser alerta, não garantia de bloqueio; engenharia deve implementar controles de uso apropriados.
-4. Inserir a chave somente por um campo/canal seguro de segredo confirmado para o servidor que fará as chamadas. Para o adaptador direto no app, o destino é o ambiente de produção do projeto Sites acima, marcado como segredo. Nenhum menu de inserção manual do Sites foi confirmado nesta inspeção: não inventar um caminho de cliques nem pedir que Sol use a Vercel institucional como substituto.
-5. Sol confirma apenas que a chave foi cadastrada; engenharia verifica presença sem exibir o valor, aplica a revisão do ambiente por publicação e testa a integração real dentro do orçamento autorizado.
+1. Usar sua conta/chave Gemini existente. Não precisa criar conta ou obter chave OpenAI agora.
+2. Disponibilizar a chave exclusivamente por mecanismo seguro confirmado de cadastro no servidor. A engenharia deve preparar esse mecanismo antes de pedir sua ação. Não colar a chave no chat, PDF, captura de tela ou GitHub. Referência oficial: https://ai.google.dev/gemini-api/docs/api-key .
+3. Confirmar cota/cobrança aplicável e o orçamento autorizado antes do primeiro ensaio real. Os testes do lote 3 usaram dados e transporte sintéticos; nenhuma chamada real. Não comprar créditos ou autorizar recarga em nome de Sol.
+4. Destino da configuração: ambiente de produção do próprio app Sites, GEMINI_API_KEY marcado como segredo. Nenhum caminho de menus para inserção manual segura foi confirmado; não inventar cliques nem usar a Vercel institucional como substituto.
+5. Sol confirma somente o cadastro seguro; engenharia verifica presença sem expor valor, configura GEMINI_MODEL disponível na conta, aplica ambiente por publicação e homologa a conexão com orçamento autorizado. A seleção LUCIDA_PROVIDER=gemini já foi registrada. Cadastrar uma chave não libera sozinho o atendimento nem os conteúdos pagos.
 
 A preparação da busca e dos controles de acesso pode avançar antes desses passos. Não é necessário adicionar chave para o guia atual, a vitrine ou os testes gratuitos.
 
@@ -37,11 +38,16 @@ Sol não precisa programar, escolher bibliotecas, editar banco, configurar promp
 
 | Configuração | Quem resolve | Destino / estado |
 |---|---|---|
-| OPENAI_API_KEY | Sol controla a conta e cadastra o segredo pelo mecanismo seguro confirmado; engenharia prepara e valida | Servidor que chama o provedor. Para o adaptador direto, produção Sites. Ainda não consumida pelo app v16 |
-| LUCIDA_MODEL | Engenharia escolhe e fixa um identificador habilitado na conta, conforme qualidade, disponibilidade e orçamento | Mesmo servidor. Não é uma chave secreta. Nome já existente no runtime Magnetus3 |
-| Limites de uso, timeout e consumo | Engenharia implementa; Sol autoriza orçamento | Servidor. Nomes das novas configurações devem ser definidos no código, não inventados como se já existissem |
-| Credencial entre Jarvis e LÚCIDA | Engenharia gera, configura e testa identidade e escopo do serviço | Etapa própria. O leitor atual usa RELACIONE_JARVIS_TOKEN_SHA256; isso não autoriza escrita/treinamento |
-| Credenciais Kiwify/WhatsApp | Sol autoriza as contas; engenharia confirma requisitos e configura | Etapas posteriores, nomes exatos a conferir na implementação |
+| LUCIDA_PROVIDER | Engenharia | gemini vigente. openai somente quando Sol tiver chave e houver homologação |
+| GEMINI_API_KEY | Sol controla a conta e cadastro seguro; engenharia prepara e verifica presença | Segredo no servidor do app Sites. Ainda não cadastrado |
+| GEMINI_MODEL | Engenharia | Identificador explícito de modelo de texto disponível na conta, avaliado com orçamento autorizado |
+| GEMINI_API_KEY_SECONDARY / GEMINI_API_KEY_SLOT | Engenharia, quando houver rotação | Segunda chave opcional; seletor primary/secondary. Não há rodízio automático para superar cota |
+| OPENAI_API_KEY / OPENAI_MODEL | Sol e engenharia, futuramente | Opcionais, separados de Gemini. Legado LUCIDA_MODEL aceito só para OpenAI explícita |
+| OPENAI_API_KEY_SECONDARY / OPENAI_API_KEY_SLOT | Engenharia, futuramente | Rotação manual equivalente, sem afetar Gemini |
+| LUCIDA_MAX_OUTPUT_TOKENS / LUCIDA_TIMEOUT_MS | Engenharia | Padrões 2048 e 20000 ms; limites por requisição implementados, não equivalem a orçamento mensal |
+| LUCIDA_DIAGNOSTICS_ENABLED | Engenharia após consumo autorizado | false por padrão. true permite teste administrativo com texto técnico fixo; desligar após ensaio |
+| Credencial entre Jarvis e LÚCIDA | Engenharia gera, configura e testa identidade e escopo do serviço | Etapa própria. RELACIONE_JARVIS_TOKEN_SHA256 atual é leitura; não autoriza escrita/treinamento |
+| Credenciais Kiwify/WhatsApp | Sol autoriza as contas; engenharia confirma requisitos e configura | Etapas posteriores, nomes exatos conforme implementação |
 
 Nunca usar prefixos públicos como NEXT_PUBLIC_ ou VITE_ para chaves. Arquivo .env de desenvolvimento não configura sozinho a produção. Não gravar segredos em .openai/hosting.json, código, documentação, logs ou respostas. Preservar todas as outras variáveis ao cadastrar as novas.
 
@@ -55,8 +61,8 @@ Assuma a direção técnica e continue a LÚCIDA do estado atual, seguindo integ
 LOCALIZAÇÃO E ÚLTIMA ENTREGA CONHECIDA
 App Sites: appgprj_6ab11d2e84188191a90910ec6b06c64d.
 URL: https://relacione-se-universo.sollimalovecoach.chatgpt.site .
-Referência histórica: v16, commit 550b2dceb58f63833ca042e16968b2cd8ceaaabd.
-Recibo canônico: Sollimastudio/universo-relacione-se, 04-lucida/EXECUCAO-LOTE-2-2026-09-25.md.
+Referência histórica anterior: v16, commit 550b2dceb58f63833ca042e16968b2cd8ceaaabd. Conferir a entrega do lote 3 e alterações posteriores antes de editar.
+Recibo canônico mais recente: Sollimastudio/universo-relacione-se, 04-lucida/EXECUCAO-LOTE-3-2026-09-25.md. Preservar também os recibos dos lotes 1 e 2.
 Plano complementar: 04-lucida/PROXIMOS-LOTES-E-CONFIGURACAO-2026-09-25.md.
 Runtime especializado: Sollimastudio/Magnetus3. Jarvis: Sollimastudio/SOL-IA.
 Site institucional: Sollimastudio/relacionese-website, independente do app.
@@ -71,9 +77,9 @@ Inventarie as fontes acessíveis e seus estados. Não publique rascunhos, não d
 Valide ausência de fonte, conflito, retirada editorial, revogação, troca de usuário, compra avulsa, assinatura e gates. Não declarar corpus completo por testar poucas fichas.
 
 LOTE B — PRIMEIRA CONVERSA REAL
-Adapte a integração OpenAI existente para o ambiente real do app. Preserve manual, maiêutica, clareza, recomendações e limites de acesso. As configurações previstas são OPENAI_API_KEY no servidor como segredo e LUCIDA_MODEL com modelo explícito. Escolha o modelo com documentação atual e avaliação adequada ao orçamento autorizado.
+Use Gemini primeiro, conforme decisão posterior de Sol. OpenAI permanece opcional para quando houver chave; não é dependência de Gemini. Reutilize os adaptadores já implementados em lib/platform/lucida-provider-config.ts e lucida-provider.ts. Use LUCIDA_PROVIDER=gemini, GEMINI_API_KEY como segredo e GEMINI_MODEL explícito. OpenAI possui OPENAI_API_KEY e OPENAI_MODEL separados. Cada provedor tem seleção manual primary/secondary; não realizar troca automática de chaves por limite de uso. Leia PROVEDORES_E_CHAVES.md e decisões D15–D17. Preserve manual, maiêutica, clareza, recomendações e direitos. Engenharia escolhe o modelo com documentação atual, disponibilidade e orçamento autorizado.
 Prepare o código e o mecanismo seguro de configuração antes de solicitar a ação de Sol. Não peça a chave no chat e não invente menus. Verifique primeiro as credenciais/contas já disponíveis sem revelar valores. Não copie segredos do Jarvis por presunção.
-Implemente limites, cancelamento, timeout, tratamento de falhas, registros sem conteúdo pessoal e controle de consumo. Não iniciar chamadas pagas sem configuração válida e orçamento autorizado.
+Preserve os limites por chamada, cancelamento, timeout e erros já implementados; acrescente cotas por pessoa, orçamento, idempotência de atendimento e registros sem conteúdo pessoal. Não iniciar chamadas pagas sem configuração válida e orçamento autorizado.
 Sem chave ou material aprovado, avance nas partes independentes e registre o bloqueio exato; não apresente respostas fixas como conversa inteligente. Se houver dependências satisfeitas, conecte e valide perguntas reais com referências e limites de conteúdo antes de declarar a IA operacional.
 
 LOTE C — HOMOLOGAÇÃO E CONTINUIDADE
@@ -92,4 +98,5 @@ A cada entrega, diga em português simples o que funciona, onde acessar, o que f
 - API key: https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key
 - Cobrança separada: https://help.openai.com/en/articles/9039756
 - Fonte runtime: https://github.com/Sollimastudio/Magnetus3/blob/8e737a65f9b47bf2d8f621d101283129c61b028d/lib/server/lucida.ts
-- Este documento organiza a próxima execução; não ativa um provedor, não cadastra segredos, não altera ofertas e não modifica o app v16.
+- Revisão deste documento acompanha o lote 3. O código dos adaptadores e o seletor Gemini foram entregues; nenhuma chave/modelo real foi configurado e o atendimento ao visitante não foi ativado. Recibo do lote 3 contém versão/commit/ambiente efetivamente publicados.
+- Gemini API: https://ai.google.dev/api/generate-content e https://ai.google.dev/gemini-api/docs/api-key . Referências OpenAI acima são opcionais para a fase futura.
