@@ -1,3 +1,15 @@
+# Incidente de interação no aparelho da proprietária — 25/09/2026
+
+Sol informou após a publicação que **nenhum botão funciona em seu iPhone e que a LÚCIDA tampouco responde**. O site e o guia da LÚCIDA responderam a cliques em navegador remoto; a falha não foi reproduzida nesse ambiente. O estado correto, portanto, é **publicado, porém não homologado**, com divergência real entre o aparelho da proprietária e o ambiente de verificação.
+
+Vercel continua READY e Sites v9 continua succeeded, mas esses estados comprovam infraestrutura, não usabilidade. Nenhum código ou deployment foi alterado nesta atualização documental. A prioridade é reproduzir Safari/iOS e navegador interno do ChatGPT, conferir assets/hidratação/cache/camadas de toque/navegação e validar o app depois do login real. Registros 401 de /api/biblioteca observados em diagnóstico sem sessão comprovada não identificam, sozinhos, a causa.
+
+[Relatório completo para revisão no Manus](RELATORIO-GERAL-RELACIONE-SE-PARA-MANUS-2026-09-25.md).
+
+---
+
+## Estado de publicação anterior, preservado como evidência
+
 # Estado vigente — publicação confirmada em 25/09/2026
 
 Este recibo prevalece sobre os blocos históricos abaixo. Sol confirmou a publicação do site e a atualização privada do app. **Site em produção e app v9 publicado privadamente; C2 permanece parcial.**

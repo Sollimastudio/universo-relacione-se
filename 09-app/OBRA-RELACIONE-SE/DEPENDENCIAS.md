@@ -1,3 +1,17 @@
+# Dependência urgente de usabilidade — 25/09/2026
+
+| Dependência | Estado e próximo passo |
+|---|---|
+| D11 — aparelho real e interação | **Bloqueante.** Sol relata que nenhum botão funciona no iPhone e que a LÚCIDA não responde. O navegador remoto executou os cliques testados, então a causa permanece aberta. Reproduzir em Safari/iOS e no navegador interno do ChatGPT; registrar console/rede/assets/hidratação/cache/overlay/navegação. Só considerar resolvido depois de reteste no aparelho afetado. |
+| D01 — sessão privada | Pós-login no aparelho de Sol ainda não homologado. Dois 401 de /api/biblioteca ocorreram durante diagnóstico sem sessão autenticada comprovada; não atribuir esses eventos à conta de Sol nem concluir a causa por inferência. |
+| Documentação/revisão | Entregar [o relatório geral para Manus](RELATORIO-GERAL-RELACIONE-SE-PARA-MANUS-2026-09-25.md) junto com a matriz integral. Site e documentação estão no GitHub; código do app permanece no Git interno do Sites. |
+
+Nenhum código ou deployment foi alterado por esta atualização. D11 permanece aberto e C2 continua parcial.
+
+---
+
+## Dependências de publicação anteriores, preservadas
+
 # Dependências vigentes após publicação — 25/09/2026
 
 A autorização de publicação foi recebida e executada: app v9 privado e site em produção. Não pedir novamente autorização para esta publicação já concluída. Os registros abaixo que ainda pedem publicação são históricos.
