@@ -1,110 +1,58 @@
-# Próximos lotes da LÚCIDA e configuração de acesso
+# Próximos lotes da LÚCIDA — configuração vigente em 25/09/2026
 
-**Revisão posterior — lote 4:** cadastro seguro confirmado no Supabase ACESSORA-SOL.IA: https://supabase.com/dashboard/project/rkkpbmzrucaghrojujvb/functions/secrets , nome `LUCIDA_GEMINI_API_KEY`. App usa transporte Supabase com credencial exclusiva; não substituir chaves do Jarvis. Leia `docs/lucida/CHAVE_E_CONHECIMENTO.md` e recibo do lote 4 para a configuração vigente. D1 permanece fonte editorial/direitos do app; não foi migrado ou misturado à memória privada do Jarvis.
-Data: 25/09/2026. Revisão posterior: Gemini primeiro, conforme instrução expressa de Sol. Complemento operacional ao prompt mestre e ao checklist de 259 IDs; não reduz nem substitui nenhum deles.
+Este documento atualiza a orientação operacional anterior. Método integral: docs/lucida/PROMPT_EXECUCAO_LUCIDA_V1.md. Escopo integral: docs/lucida/LUCIDA_CHECKLIST_MESTRE_2026-09-25.md, 259 IDs. Não reduz requisitos. O histórico Git e os recibos dos lotes 1–4 preservam instruções/estados anteriores.
 
-## Conferência atual
+## Estado confirmado após lote 5
 
-- App Sites: appgprj_6ab11d2e84188191a90910ec6b06c64d.
-- URL: https://relacione-se-universo.sollimalovecoach.chatgpt.site
-- Última publicação reconfirmada: v19, commit 7e7926281ebd01b5f70ddce526537f1ada1c98f6, somente proprietária. Deployment appgdep_6ab6aa231e5c819184c2bc6a01aba0c8 succeeded, ambiente revisão 2.
-- Ambiente de produção Sites: revisão 2; LUCIDA_PROVIDER=gemini, LUCIDA_TRANSPORT=supabase e LUCIDA_GATEWAY_TOKEN secreto. Chave do modelo é cadastrada no Supabase como LUCIDA_GEMINI_API_KEY; nenhum modelo foi configurado.
-- O endpoint atual app/api/lucida/route.ts responde 503 e informa que a IA não está ativa. Colocar uma chave, isoladamente, não altera esse comportamento.
-- Magnetus3 main reconfirmada: 8e737a65f9b47bf2d8f621d101283129c61b028d. A configuração existente em lib/server/lucida.ts lê OPENAI_API_KEY e LUCIDA_MODEL e usa a API Responses da OpenAI.
-- O app Sites e o site institucional relacionese-website na Vercel são superfícies distintas. Variáveis cadastradas em uma não aparecem automaticamente na outra.
-- Escolha vigente: Gemini primeiro; OpenAI opcional para quando houver chave. A escolha inicial de OpenAI do commit histórico 54dc50026c505499b3fdbbdf26cf907aa950a384 foi substituída pela instrução posterior de Sol, não é mais requisito para ativação. Não altera o provedor do Jarvis.
-- Lote 3: adaptadores de texto Gemini/OpenAI, modelos/chaves separados, rotação manual e diagnóstico administrativo implementados. Não ativam atendimento do visitante. Guia detalhado: docs/lucida/PROVEDORES_E_CHAVES.md no app; recibo canônico EXECUCAO-LOTE-3-2026-09-25.md.
+- App Sites appgprj_6ab11d2e84188191a90910ec6b06c64d, https://relacione-se-universo.sollimalovecoach.chatgpt.site .
+- v20, commit e756a64b07573ca4d2b64bf2b36ac237c5b55af4, deployment appgdep_6ab6b34239c08191b9fe302e7792b9a0 succeeded, ambiente revisão4.
+- Somente proprietária; não abrir público automaticamente.
+- Gemini cadastrado por Sol, aceito pelo Google e geração real verificada. **Não pedir novamente API key ou cadastro.**
+- Modelo gemini-3.1-flash-lite, transporte Supabase, saída768, timeout30s no app. OpenAI opcional futura.
+- /api/lucida conectado ao manual e fichas públicas, histórico curto, fontes validadas, cotas30/conta e100/app por dia UTC. Nenhum texto de conversa gravado em banco.
+- D1 continua dados editoriais/direitos/Caderno. Nova tabela operacional lucida_usage, sem texto pessoal. Supabase ACESSORA-SOL.IA mantém cofre e função exclusiva lucida-provider v8, sem ler memórias privadas do Jarvis.
+- Navegação e proteção de acesso responderam em avaliação real. Reflexão apresentou instabilidade502/504 no teste integrado; respondeu no teste direto. Não considerar qualidade/estabilidade integral homologada.
+- 145 cenários sintéticos, TypeScript/lint/build e publicação aprovados. Isto não equivale a todos os produtos/canais ou a uma compra real. Recibo: 04-lucida/EXECUCAO-LOTE-5-2026-09-25.md.
 
-## O que cabe a Sol
+## Parte de Sol
 
-### Para preparar a conexão Gemini
+O cadastro da chave já está feito. Para troca futura, o local é https://supabase.com/dashboard/project/rkkpbmzrucaghrojujvb/functions/secrets — projeto ACESSORA-SOL.IA → Edge Functions → Secrets → LUCIDA_GEMINI_API_KEY. Não substituir GEMINI_API_KEY/GOOGLE_API_KEY do Jarvis; nunca enviar valor no chat. A chave Google pode ser administrada em https://aistudio.google.com/apikey .
 
-1. Abrir https://supabase.com/dashboard/project/rkkpbmzrucaghrojujvb/functions/secrets na própria conta Supabase; projeto ACESSORA-SOL.IA.
-2. Em Edge Functions → Secrets, adicionar Key/Name LUCIDA_GEMINI_API_KEY e, no Value, a chave Gemini; salvar. Não substituir as variáveis do Jarvis.
-3. Avisar apenas que salvou, sem chave ou screenshot com valor exposto.
-4. Confirmar o consumo autorizado antes do ensaio com modelo real. Engenharia seleciona/configura GEMINI_MODEL, valida presença sem valor e homologa a conexão.
-5. Atendimento ainda exige serviço de conversa ligado ao manual/fontes, cotas por pessoa/orçamento e homologação. Cadastrar a chave não o ativa automaticamente.
+Sol pode experimentar o chat no app privado e revisar se o tom representa a LÚCIDA. As próximas decisões que dependem dela são editoriais/comerciais: versões aprovadas, amostras gratuitas, benefícios/limites/preços/ofertas e orçamento mensal. Engenharia deve primeiro apresentar inventário e opções concretas, sem pedir reenvio do que já está acessível. Contas/número/permissões de WhatsApp entram apenas na etapa própria.
 
-OpenAI é opcional futura (LUCIDA_OPENAI_API_KEY). Transporte selecionado no Sites: LUCIDA_TRANSPORT=supabase; segredo técnico LUCIDA_GATEWAY_TOKEN já provisionado. Não é a chave Gemini e não dá acesso ao banco do Jarvis. O caminho anterior de chave direta no Sites permanece alternativa técnica, mas não é o fluxo vigente.
+Sol não precisa migrar banco, programar, editar prompts ou fazer redeploy manual.
 
-A busca autorizada de livros publicados foi implementada no lote 4, com metadados públicos, direitos antes da leitura e revalidação após recuperação. Percursos com gates continuam exigindo adaptadores próprios. Não precisa de modelo para validar a busca com fontes sintéticas.
+## Configuração técnica vigente
 
-### Decisões editoriais e comerciais, quando chegar a etapa
+| Configuração | Local / valor |
+|---|---|
+| LUCIDA_GEMINI_API_KEY | Supabase Secrets, já cadastrada |
+| LUCIDA_GATEWAY_TOKEN | Segredo Sites, conexão exclusiva sem acesso a banco |
+| LUCIDA_PROVIDER / LUCIDA_TRANSPORT | Sites: gemini / supabase |
+| GEMINI_MODEL | Sites: gemini-3.1-flash-lite |
+| LUCIDA_CHAT_ENABLED | Sites: true; false + deploy interrompe somente conversa IA |
+| LUCIDA_DAILY_ACCOUNT_LIMIT / LUCIDA_DAILY_TOTAL_LIMIT | Sites:30 /100, limites operacionais privados, não oferta comercial |
+| LUCIDA_MAX_OUTPUT_TOKENS / LUCIDA_TIMEOUT_MS | Sites:768 /30000 |
+| LUCIDA_DIAGNOSTICS_ENABLED | Não ativado; diagnóstico administrativo exige identidade autorizada |
+| LUCIDA_OPENAI_API_KEY / OPENAI_MODEL | Opcionais, Supabase e Sites respectivamente, quando houver chave |
+| Chaves secundárias e slots | LUCIDA_GEMINI_API_KEY_SECONDARY / LUCIDA_OPENAI_API_KEY_SECONDARY; seletores GEMINI_API_KEY_SLOT / OPENAI_API_KEY_SLOT primary ou secondary |
 
-- Confirmar quais versões dos materiais são aprovadas e quais trechos podem servir de amostra gratuita. Engenharia deve primeiro apresentar um inventário do acervo já acessível; não pedir que Sol reenvie tudo.
-- Aprovar benefícios, produtos incluídos, duração e preço de cada assinatura/oferta. Não inventar condições nem aplicar preços históricos a um produto diferente.
-- Revisar as fichas técnicas e os novos cartões antes da expansão pública.
-- Para WhatsApp e outros canais: confirmar conta/número comercial, autorizar acesso oficial e custos aplicáveis, quando o fluxo concreto estiver pronto para homologação.
+Não há fallback automático ou rodízio para ultrapassar cotas. Não expor segredos no navegador/Git/logs. O modelo listado nem sempre gera:2.5 retornou404; validar uma troca com teste limitado. Atualização de variável Sites exige aplicar nova revisão em deploy; segredo Supabase é independente.
 
-Sol não precisa programar, escolher bibliotecas, editar banco, configurar prompts por conta própria, reenviar os 259 itens, migrar o app ou fazer redeploy manual. Essas ações técnicas cabem ao desenvolvimento.
+## Prompt de execução da próxima etapa
 
-## Configuração prevista e responsabilidades
+Assuma a direção técnica e prossiga do estado real, seguindo integralmente o prompt mestre e o checklist de259 IDs em docs/lucida. Antes de editar, reabra a fonte Sites autenticada, confira produção, HEAD, ambiente e público. Preserve alterações posteriores, trabalhos locais/PRs, dados e identidade visual. Leia continuidade, funções protegidas, decisões e recibo do lote5. Não restaure uma árvore histórica, não refaça o chat e não migre para Vercel por conveniência.
 
-| Configuração | Quem resolve | Destino / estado |
-|---|---|---|
-| LUCIDA_PROVIDER | Engenharia | gemini vigente. openai somente quando Sol tiver chave e houver homologação |
-| LUCIDA_GEMINI_API_KEY | Sol cadastra no painel seguro confirmado; engenharia verifica presença | Supabase ACESSORA-SOL.IA → Edge Functions → Secrets. Nunca no chat |
-| GEMINI_MODEL | Engenharia | Identificador explícito de modelo de texto disponível na conta, avaliado com orçamento autorizado |
-| LUCIDA_GEMINI_API_KEY_SECONDARY / GEMINI_API_KEY_SLOT | Engenharia, quando houver rotação | Segunda chave opcional; seletor primary/secondary. Não há rodízio automático para superar cota |
-| LUCIDA_OPENAI_API_KEY / OPENAI_MODEL | Sol e engenharia, futuramente | Opcionais, separados de Gemini. Legado LUCIDA_MODEL aceito só para OpenAI explícita |
-| LUCIDA_OPENAI_API_KEY_SECONDARY / OPENAI_API_KEY_SLOT | Engenharia, futuramente | Rotação manual equivalente, sem afetar Gemini |
-| LUCIDA_MAX_OUTPUT_TOKENS / LUCIDA_TIMEOUT_MS | Engenharia | Padrões 2048 e 20000 ms; limites por requisição implementados, não equivalem a orçamento mensal |
-| LUCIDA_DIAGNOSTICS_ENABLED | Engenharia após consumo autorizado | false por padrão. true permite teste administrativo com texto técnico fixo; desligar após ensaio |
-| Credencial entre Jarvis e LÚCIDA | Engenharia gera, configura e testa identidade e escopo do serviço | Etapa própria. RELACIONE_JARVIS_TOKEN_SHA256 atual é leitura; não autoriza escrita/treinamento |
-| Credenciais Kiwify/WhatsApp | Sol autoriza as contas; engenharia confirma requisitos e configura | Etapas posteriores, nomes exatos conforme implementação |
+1. **Homologação privada do atendimento:** conferir a v20 ou sucessora e as falhas registradas. Separar timeout do ambiente de teste, erro HTTP do provedor, formato da resposta e falha de busca. Usar diagnóstico mínimo, sem logar conversas/chaves. Não repetir tentativas indefinidamente, enfraquecer auth ou afirmar estabilidade só por LUCIDA_OK. Preservar história curta, limites atômicos, cancelamento, erro com rascunho, referências e recusa de compra. Ampliar avaliação representativa de tom, maiêutica, fonte inexistente, recusa, contexto e isolamento. Gemini já funciona em cenários de navegação; não pedir novamente chave.
 
-Nunca usar prefixos públicos como NEXT_PUBLIC_ ou VITE_ para chaves. Arquivo .env de desenvolvimento não configura sozinho a produção. Não gravar segredos em .openai/hosting.json, código, documentação, logs ou respostas. Preservar todas as outras variáveis ao cadastrar as novas.
+2. **Conhecimento editorial:** inventariar materiais nos repositórios canônicos já autorizados, com versão, produto, origem, disponibilidade e classificação. Preparar amostras concretas para aprovação de Sol, sem publicar rascunhos nem transformar PDF inteiro em degustação. Reaproveitar lucida-knowledge.ts: fichas públicas no atendimento atual; livros publicados por direito na ferramenta separada. Integrar trechos pagos somente após autorização de recurso/assistência, gates específicos e revalidação imediatamente antes da resposta. Não enviar Caderno, notas de Sol, dados de terceiros ou corpus privado do Jarvis.
 
-## Comando pronto — continuidade do próximo desenvolvimento
+3. **Continuidade e dependências seguintes:** manter259 IDs e os quatro registros técnicos. Resolver rotinas técnicas; registrar ofertas, preços, canais, identidade pública, mentoria e orçamento ainda indefinidos. Compras avulsas continuam independentes da assinatura. Memória pessoal exige escolha, revisão/exclusão; Jarvis operador precisa fluxo versionado próprio. Não confundir conector de leitura com treinamento automático. WhatsApp/redes/voz exigem interfaces oficiais e homologação; Telegram permanece excluído.
 
-Copie este comando para iniciar a execução:
+4. **Regressão/publicação:** preservar navegação, retorno, rascunhos, guia, ícone, consentimento, testes/cartões, Caderno, leitura/áudio, gates, direitos e pagamentos existentes. Conferir diff e regressões proporcionais ao risco. Publicar lote completo na audiência atual pelo fluxo oficial, verificar versão/ambiente/deploy e migração quando aplicável. Atualizar recibo e instrução de retomada. Não declarar todos os259 itens concluídos.
 
-```text
-Assuma a direção técnica e continue a LÚCIDA do estado atual, seguindo integralmente o PROMPT_EXECUCAO_LUCIDA_V1.md e o LUCIDA_CHECKLIST_MESTRE_2026-09-25.md, presentes em docs/lucida no repositório associado ao app Sites. Mantenha os 259 IDs rastreáveis e todos os requisitos anteriores.
+Repositórios de referência: Sollimastudio/universo-relacione-se (especificação), relacionese-website (institucional Vercel), SOL-IA (Jarvis), Magnetus3, trilogia-sol-lima e biblia-magnetus (fontes). Conferir remotos antes de modificar qualquer um; os SHAs históricos nos recibos não são autorização para sobrescrever versões novas.
 
-LOCALIZAÇÃO E ÚLTIMA ENTREGA CONHECIDA
-App Sites: appgprj_6ab11d2e84188191a90910ec6b06c64d.
-URL: https://relacione-se-universo.sollimalovecoach.chatgpt.site .
-Referência histórica mais recente: v19, commit 7e7926281ebd01b5f70ddce526537f1ada1c98f6. Conferir o recibo do lote 4 e alterações posteriores antes de editar; preservar caixa de chat da v18.
-Recibo canônico mais recente: Sollimastudio/universo-relacione-se, 04-lucida/EXECUCAO-LOTE-4-2026-09-25.md. Preservar também os recibos dos lotes 1 e 2.
-Plano complementar: 04-lucida/PROXIMOS-LOTES-E-CONFIGURACAO-2026-09-25.md.
-Runtime especializado: Sollimastudio/Magnetus3. Jarvis: Sollimastudio/SOL-IA.
-Site institucional: Sollimastudio/relacionese-website, independente do app.
+A cada entrega, informar em português simples o que ficou utilizável, onde acessar, como foi testado, o que antigo foi conferido e qual dependência resta. Não pedir aprovação novamente para trabalho autorizado. Não encerrar apenas com outro plano.
 
-ANTES DE EDITAR
-Reabra a fonte autenticada e confira versão publicada, HEAD, ambiente, público, alterações locais, branches e PRs posteriores. A v16 é referência, nunca autorização para restaurar uma árvore antiga. Leia continuidade, decisões, funções protegidas, recibos e os IDs relacionados. Preserve trabalhos concorrentes e a audiência privada. Não migre o app para Vercel por conveniência.
-
-LOTE A — RECUPERAÇÃO AUTORIZADA
-Implemente no servidor a busca de trechos aprovados por produto, versão e direito, reaproveitando lib/platform/lucida-context.ts, direitos/gates existentes e política do Magnetus3. Atenda especialmente LUC-015–023 e LUC-113–120, conciliando o restante do checklist.
-Aplique autorização antes da consulta e novamente nas ferramentas; visitante somente fichas/amostras públicas aprovadas, comprador somente recursos adquiridos e etapas liberadas. Não confiar em alegações feitas no chat. Excluir conteúdo pago de respostas públicas, caches compartilhados e bundles do navegador.
-Inventarie as fontes acessíveis e seus estados. Não publique rascunhos, não deduza que todo PDF enviado é amostra gratuita e não peça reenvio de materiais já disponíveis. Preserve referência verdadeira a obra/capítulo/página e versão.
-Valide ausência de fonte, conflito, retirada editorial, revogação, troca de usuário, compra avulsa, assinatura e gates. Não declarar corpus completo por testar poucas fichas.
-
-LOTE B — PRIMEIRA CONVERSA REAL
-Use Gemini primeiro, conforme decisão posterior de Sol. OpenAI permanece opcional para quando houver chave; não é dependência de Gemini. Reutilize os adaptadores já implementados em lib/platform/lucida-provider-config.ts e lucida-provider.ts, o transporte Supabase exclusivo e lucida-knowledge.ts. Não recriar estes componentes nem migrar os dados do Jarvis. Use LUCIDA_PROVIDER=gemini, LUCIDA_TRANSPORT=supabase, LUCIDA_GEMINI_API_KEY no cofre Supabase e GEMINI_MODEL explícito no app. OpenAI possui LUCIDA_OPENAI_API_KEY no mesmo cofre e OPENAI_MODEL no app. GEMINI_API_KEY/OPENAI_API_KEY são apenas a alternativa de transporte direto. Cada provedor tem seleção manual primary/secondary; não realizar troca automática de chaves por limite de uso. Leia PROVEDORES_E_CHAVES.md e decisões D15–D17. Preserve manual, maiêutica, clareza, recomendações e direitos. Engenharia escolhe o modelo com documentação atual, disponibilidade e orçamento autorizado.
-Preserve o mecanismo seguro já entregue: Supabase Edge Functions Secrets, instruções em CHAVE_E_CONHECIMENTO.md. Reconfirme o estado antes de orientar Sol. Não peça a chave no chat e não invente menus. Verifique primeiro as credenciais/contas já disponíveis sem revelar valores. Não copie segredos do Jarvis por presunção.
-Preserve os limites por chamada, cancelamento, timeout e erros já implementados; acrescente cotas por pessoa, orçamento, idempotência de atendimento e registros sem conteúdo pessoal. Não iniciar chamadas pagas sem configuração válida e orçamento autorizado.
-Sem chave ou material aprovado, avance nas partes independentes e registre o bloqueio exato; não apresente respostas fixas como conversa inteligente. Se houver dependências satisfeitas, conecte e valide perguntas reais com referências e limites de conteúdo antes de declarar a IA operacional.
-
-LOTE C — HOMOLOGAÇÃO E CONTINUIDADE
-Confira regressões de navegação, voltar, rascunhos, Caderno, leitura, direitos, gates, consentimento, guia, ícone, testes gratuitos e cartões. Complete a verificação pendente do download Story quando houver ambiente apropriado. Não confundir iframe com aparelho físico nem menu de compartilhar com publicação real.
-Publique a menor entrega funcional completa no público atual pelo fluxo autorizado do projeto, confira commit/deploy e registre evidências, versões e limitações. Preserve histórico e forma de recuperação.
-Atualize CONTINUIDADE_LUCIDA.md, EXECUCAO_LUCIDA.json, FUNCOES_APROVADAS_LUCIDA.md e DECISOES_LUCIDA.md; mantenha o checklist integral.
-Prossiga conforme dependências e autorizações já existentes. Preparação de WhatsApp, voz, pagamentos e Jarvis não equivale a autorização para novas despesas, postagem social, abertura pública ou transferência de memória privada.
-
-MINHA PARTICIPAÇÃO
-Peça somente decisões ou ações realmente indispensáveis: acesso seguro ao provedor, orçamento, aprovação de amostras/ofertas ou autorização das contas de canais. Apresente antes o resultado concreto e revisável. Conduza escolhas técnicas rotineiras sem me transferir programação.
-A cada entrega, diga em português simples o que funciona, onde acessar, o que foi testado, quais funções antigas foram conferidas e qual dependência permanece. Não encerre com apenas um novo plano.
-```
-
-## Referências e limites desta entrega
-
-- API key: https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key
-- Cobrança separada: https://help.openai.com/en/articles/9039756
-- Fonte runtime: https://github.com/Sollimastudio/Magnetus3/blob/8e737a65f9b47bf2d8f621d101283129c61b028d/lib/server/lucida.ts
-- Revisão deste documento acompanha o lote 3. O código dos adaptadores e o seletor Gemini foram entregues; nenhuma chave/modelo real foi configurado e o atendimento ao visitante não foi ativado. Recibo do lote 3 contém versão/commit/ambiente efetivamente publicados.
-- Gemini API: https://ai.google.dev/api/generate-content e https://ai.google.dev/gemini-api/docs/api-key . Referências OpenAI acima são opcionais para a fase futura.
-
-## Conferência da chave informada por Sol
-
-Após Sol informar o cadastro às 14:07 de 25/09/2026, a consulta autenticada da função respondeu 200, mas LUCIDA_GEMINI_API_KEY ainda indicou configured:false. Não foi possível validar a chave junto ao Google. Solicitar somente conferência de projeto/nome/Save; não pedir valor da chave. Uma captura pode mostrar apenas o nome com o valor totalmente oculto. Atualizar este registro após nova confirmação; não tratar a ausência como API inválida.
+Referências técnicas: https://supabase.com/docs/guides/functions/secrets , https://ai.google.dev/gemini-api/docs/api-key , https://ai.google.dev/api/generate-content . Revalidar documentação ao alterar integrações.
