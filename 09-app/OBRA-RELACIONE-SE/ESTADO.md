@@ -1,3 +1,19 @@
+# Estado atual — programas integrados — 25/09/2026
+
+Revisão **9**, salva sem publicar em 25/09/2026 UTC. Fonte `11902e57c3dec375f118208d264d70e88392ff88`; versão `appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_d0c16092b87c8191b10bf5251d37f129`; pacote `sha256:eb0bd3388f212fc23364d26e575cf2019943ca915b3e7ec1b09392b7139cd1ae` (314 arquivos, 4515840 bytes); deployment_id null. A publicação privada existente continua v7.
+
+Dois testes gratuitos integrados ao app e ao site; catálogo com Script do Silêncio, Minutos Magnetus · Mulheres, Mapa da Suspeita e Dor-de-Cotovelo. Produtos incompletos abrem “Em breve”. LÚCIDA mantém reflexão editorial e IA “Em breve”.
+
+- App original preservado em `/workspace/sites/relacione-se-universo`, branch `completion/c2b-2026-09-21`. V8 e todas as revisões anteriores continuam no histórico.
+- Site: [PR #3](https://github.com/Sollimastudio/relacionese-website/pull/3), draft aberto, head `86cb6b2ad76d4d6ad22dee1dd1727e4e94becfe4`. Sem merge; deploy automático dessa branch continua desativado. Produção Vercel não recebeu esta alteração.
+- Verificação: 137 testes do app, TypeScript/build; site com 20 rotas, 42 links internos e build/rewrites válidos. Ambos os questionários concluídos no navegador em cada superfície. Clique da LÚCIDA e reflexão editorial abriram na candidata local.
+- Back-up adicional completo: `relacione-se-programas-recuperacao-20260924.bundle`, SHA-256 `c54eaeca6828b5b86c6dfb60d5fe904b723675ff8323e2f771ebab4dcccac1f7`. Bundles antigos preservados.
+- C2 permanece parcial. Não houve autenticação externa real, compra, nova IA, migração ou alteração de audiência. O problema relatado no aparelho da proprietária precisa de conferência da candidata publicada nesse aparelho.
+
+[Inventário, mudanças e limites](RELATORIO-PROGRAMAS-2026-09-25.md). Os registros abaixo são históricos quando divergirem deste recibo.
+
+---
+
 # Estado atual verificado — 24/09/2026
 
 **Fonte original recuperada. C1/C2/C2-B preservadas. C2 ainda parcial; C3 não liberada.** Este bloco prevalece sobre estados históricos abaixo. A fonte avançou até a versão privada 7 antes desta edição; o registro antigo de ambiente perdido foi superado nesta sessão.

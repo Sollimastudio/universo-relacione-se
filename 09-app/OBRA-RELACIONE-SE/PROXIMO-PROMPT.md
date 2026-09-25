@@ -1,3 +1,21 @@
+# Continuação atual — 25/09/2026
+
+Use este bloco. Os prompts anteriores abaixo ficam preservados como histórico e não são instrução para recomeçar versões superadas.
+
+```text
+Continue a direção do Relacione-se a partir da revisão 9 salva, fonte 11902e57c3dec375f118208d264d70e88392ff88, preservando todo o histórico, os 260 itens e MM01–MM17. Leia o ESTADO.md e o RELATORIO-PROGRAMAS-2026-09-25.md em 09-app/OBRA-RELACIONE-SE de Sollimastudio/universo-relacione-se; siga também a planta e as fontes autorais já registradas.
+
+O app original permanece no projeto appgprj_6ab11d2e84188191a90910ec6b06c64d, checkout /workspace/sites/relacione-se-universo. Revisão 9: appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_d0c16092b87c8191b10bf5251d37f129, salva sem publicar. Publicação existente v7 é privada. Não reconstruir nem deduzir estado de registros antigos.
+
+Testes de presença, catálogo de programas e páginas “Em breve” já estão implementados. Não refazê-los. O site relacionado é Sollimastudio/relacionese-website; PR #3 draft, branch work/site-app-navigation-20260924, head 86cb6b2ad76d4d6ad22dee1dd1727e4e94becfe4. Inclui os dois testes gratuitos sem depender de abrir contas/biblioteca do app. O deploy automático dessa branch está desativado. Antes de qualquer mudança, reler as duas fontes atuais e preservar commits concorrentes.
+
+O pedido novo autorizou este recorte de navegação/programas. A instrução anterior de salvar sem publicar foi mantida; verificar se Sol já autorizou a publicação em mensagens posteriores e não pedir de novo se autorizou. Havendo autorização, publicar a candidata no escopo indicado, conferir o clique de LÚCIDA e o funil no endereço e aparelho afetados; não ampliar a audiência privada do app sem pedido explícito. Não afirmar que toda a IA ou todos os produtos estão prontos.
+
+C2 segue parcial: D01/D02/D11 exigem autenticação/administração/ensaio externo reais; a paginação de suporte C2-B já existe. As entregas C3–C8 seguem a planta e os limites registrados. Não fazer compras, enviar mensagens, migrar dados ou assumir credenciais por inferência. Apresente a Sol somente os passos que realmente dependem dela, em linguagem simples.
+```
+
+---
+
 # Continuação completa e atual — 24/09/2026
 
 Copiar o bloco abaixo. Os prompts antigos após o separador são histórico; não executar instruções de recuperação já superadas.

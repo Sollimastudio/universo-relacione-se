@@ -1,3 +1,13 @@
+# Complemento — programas — 25/09/2026
+
+Revisão **9**, salva sem publicar em 25/09/2026 UTC. Fonte `11902e57c3dec375f118208d264d70e88392ff88`; versão `appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_d0c16092b87c8191b10bf5251d37f129`; pacote `sha256:eb0bd3388f212fc23364d26e575cf2019943ca915b3e7ec1b09392b7139cd1ae` (314 arquivos, 4515840 bytes); deployment_id null. A publicação privada existente continua v7.
+
+Dois testes gratuitos integrados ao app e ao site; catálogo com Script do Silêncio, Minutos Magnetus · Mulheres, Mapa da Suspeita e Dor-de-Cotovelo. Produtos incompletos abrem “Em breve”. LÚCIDA mantém reflexão editorial e IA “Em breve”.
+
+A revisão seguinte está documentada integralmente em [RELATORIO-PROGRAMAS-2026-09-25.md](RELATORIO-PROGRAMAS-2026-09-25.md). O relatório original abaixo permanece intacto; sua referência à v8 era o estado anterior.
+
+---
+
 # Recibo final — 24/09/2026
 
 Revisão Sites **8** salva, sem deployment: `appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_14d435eb7ca881918f97bb79c17ca368`. Fonte enviada: `2c2b75550903c798c1e859f087b9c9281c241f0b`. Pacote `sha256:cd9eceea6e0e2885804e8e803fb17b71721905e16ec42f4e1510b3f381d9ba00`, 304 arquivos, 4444160 bytes. Produção privada anterior permanece v7.

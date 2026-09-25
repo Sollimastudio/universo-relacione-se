@@ -1,3 +1,16 @@
+# Evidência adicional da matriz — 25/09/2026
+
+As 260 linhas/IDs originais abaixo permanecem integrais. Esta atualização acrescenta evidência e não altera os aceites integrais das camadas.
+
+- C1/C4/C7, recorte expressamente solicitado: testes de presença feminino/masculino, catálogo de programas, páginas de espera, saídas Canva/Telegram/Mapa e continuidade teste → vitrine. App v9 e site PR #3 são candidatos, não lançamentos públicos.
+- C5: LÚCIDA abriu a reflexão editorial local; navegação reforçada. IA/corpus/memória inteligente seguem pendentes.
+- C2/C8: 137 verificações e percursos locais não substituem contas, aparelho real ou publicação. O relato de cliques sem resposta em produção não foi reproduzido localmente, nem declarado resolvido em produção.
+- Recepção/testes gratuitos do site não exigem cadastro. A biblioteca do app continua privada e não foi exposta para viabilizar o funil.
+
+[Estado e recibos](ESTADO.md) · [Relatório](RELATORIO-PROGRAMAS-2026-09-25.md).
+
+---
+
 # Atualização da matriz — 24/09/2026
 
 **As 9 áreas, 51 grupos e 260 IDs/linhas do inventário abaixo foram preservados integralmente.** Esta é uma atualização de evidência, não uma substituição da planta nem uma declaração de conclusão integral.

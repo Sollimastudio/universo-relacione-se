@@ -1,3 +1,18 @@
+# Atualização de dependências — 25/09/2026
+
+Dois testes gratuitos integrados ao app e ao site; catálogo com Script do Silêncio, Minutos Magnetus · Mulheres, Mapa da Suspeita e Dor-de-Cotovelo. Produtos incompletos abrem “Em breve”. LÚCIDA mantém reflexão editorial e IA “Em breve”.
+
+A candidata resolve a dependência dos testes em relação aos deploys antigos: o feminino teve erro de lockfile e uma página masculina publicada tinha botões sem lógica. Os originais não foram sobrescritos; perguntas foram preservadas e o resultado contraditório do teste masculino foi corrigido na integração.
+
+- Publicação: app v9 salvo e site PR #3 draft; faltam revisão/autorização de publicação e ensaio da versão no aparelho afetado. A instrução anterior de salvar sem publicar foi mantida. Não alterar audiência por inferência.
+- Links: Mapa responde na Vercel; isso não valida checkout/resultado pago. Canva e convite Telegram estão configurados, sem comprovação completa de seu conteúdo externo. Canal não equivale ao pack pago.
+- Dor-de-Cotovelo: documentação localizada; programa executável/deploy correspondente não localizado pelo nome. Apresentação “Em breve” pronta.
+- D01/D02/D11 continuam abertos nos limites anteriores: autenticação, administração e dispositivos reais. C3–C8, corpus, ofertas e IA não são concluídos por este catálogo.
+
+[Relatório e evidências](RELATORIO-PROGRAMAS-2026-09-25.md). Demais dependências preservadas integralmente abaixo.
+
+---
+
 # Dependências atuais — 24/09/2026
 
 O acesso ao código original foi restabelecido; a revisão 8 está salva sem publicar e a v7 permanece privada. Esta atualização prevalece sobre referências históricas a ambiente perdido, v1 publicada, revisão 5 como última ou apenas 107 testes.
