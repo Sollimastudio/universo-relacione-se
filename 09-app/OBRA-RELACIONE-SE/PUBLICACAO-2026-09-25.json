@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-25",
+  "app": {
+    "project": "appgprj_6ab11d2e84188191a90910ec6b06c64d",
+    "version": 9,
+    "version_id": "appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_d0c16092b87c8191b10bf5251d37f129",
+    "commit": "11902e57c3dec375f118208d264d70e88392ff88",
+    "deployment": "appgdep_6ab5be97ee208191b39f9480473cf3a9",
+    "status": "succeeded",
+    "audience": "owner-private",
+    "url": "https://relacione-se-universo.sollimalovecoach.chatgpt.site"
+  },
+  "website": {
+    "repository": "Sollimastudio/relacionese-website",
+    "commit": "d01f4c3b593d63e33bcfd9cd041f49e89a2138c5",
+    "source_tree": "7a8064f8d5d2da71863bc3f630868201b2dfacb3",
+    "deployment": "dpl_75Lpf3Laav5qiqGw3hbi8kTNgEta",
+    "status": "READY",
+    "target": "production",
+    "url": "https://relacionese-website.vercel.app",
+    "pr": 3
+  },
+  "lucida": {
+    "canonical_repository": "Sollimastudio/Magnetus3",
+    "canonical_commit": "8e737a65f9b47bf2d8f621d101283129c61b028d",
+    "implemented": true,
+    "public_guide": true,
+    "app_editorial_reflection": true,
+    "conversational_ai_in_app": false
+  },
+  "c2": "partial",
+  "backup_sha256": "c54eaeca6828b5b86c6dfb60d5fe904b723675ff8323e2f771ebab4dcccac1f7",
+  "report": "RELATORIO-PUBLICACAO-LUCIDA-2026-09-25.md"
+}

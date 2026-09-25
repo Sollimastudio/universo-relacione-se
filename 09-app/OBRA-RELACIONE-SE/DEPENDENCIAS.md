@@ -1,3 +1,25 @@
+# Dependências vigentes após publicação — 25/09/2026
+
+A autorização de publicação foi recebida e executada: app v9 privado e site em produção. Não pedir novamente autorização para esta publicação já concluída. Os registros abaixo que ainda pedem publicação são históricos.
+
+| Dependência | Estado e próximo passo |
+|---|---|
+| D09 — publicação deste recorte | Concluída: app `appgdep_6ab5be97ee208191b39f9480473cf3a9` succeeded; site `dpl_75Lpf3Laav5qiqGw3hbi8kTNgEta` READY production. Não amplia audiência do app. |
+| D06 — LÚCIDA | Implementação canônica localizada no Magnetus3. Adaptar identidade e persistência entre Node/PostgreSQL/Better Auth e Sites/Workers/D1; configurar provedor/modelo por mecanismo seguro autorizado, validar custo/consentimentos/fontes/isolamento. Guia público e reflexão editorial disponíveis; IA conversacional indisponível. |
+| D01/D02 | Autenticação externa, vínculo legado, identidade administrativa e isolamento real permanecem pendentes. Sites está na revisão de ambiente 0, sem variáveis. Não inferir identidade por e-mail ou pelo proprietário do projeto. |
+| D11 | Sol deve testar os cliques no aparelho em que falharam e a persistência do Dia Zero após fechar/reabrir o app. Segunda conta real exige autorização própria. Dois 401 de /api/biblioteca não demonstram falha de execução nem sessão autenticada. |
+| D07 | PR #2 Magnetus3 continua draft, head `673a96f0d6da004237560a940d149101ea6b59e3`. Jarvis/SOL-IA e MM01–MM17 preservados; nenhuma integração operacional nova declarada. |
+
+D03–D05, D08, D10 e D12 mantêm seus gates. A rota /produtos/magnetus/lucida no domínio legado da Vercel respondeu 404; não oferecê-la como conversa disponível. Deploy READY sozinho não prova funcionalidade.
+
+Ação simples de Sol: abrir /programas e /lucida no site publicado; no app privado, conferir LÚCIDA e salvar/reabrir o Dia Zero. Para configuração administrativa posterior, usar apenas o identificador autenticado mostrado em Meu espaço → Identificação desta conta para suporte; não enviar senha ou chave de API em conversa. Não é preciso fornecer esse dado para visitar os testes gratuitos.
+
+[Relatório desta publicação](RELATORIO-PUBLICACAO-LUCIDA-2026-09-25.md).
+
+---
+
+## Dependências históricas preservadas
+
 # Atualização de dependências — 25/09/2026
 
 Dois testes gratuitos integrados ao app e ao site; catálogo com Script do Silêncio, Minutos Magnetus · Mulheres, Mapa da Suspeita e Dor-de-Cotovelo. Produtos incompletos abrem “Em breve”. LÚCIDA mantém reflexão editorial e IA “Em breve”.

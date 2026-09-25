@@ -1,3 +1,19 @@
+# Evidência vigente da matriz — publicação de 25/09/2026
+
+As **260 linhas e seus IDs originais foram preservados integralmente**, sem renumeração ou promoção de aceite geral.
+
+- Publicação: app v9 publicado privadamente e site PR #3 mesclado/publicado na Vercel. Referências abaixo a candidatos sem publicação são históricas.
+- C1/C4/C7, recorte solicitado: testes gratuitos e vitrine publicados; produtos incompletos continuam com páginas “Em breve”. Não equivale a entrega integral dessas camadas.
+- C5: LÚCIDA existente confirmada no Magnetus3, com backend/política/corpus documentado. Guia público /lucida publicado e reflexão editorial do app preservada. Conversa, vínculo seguro de identidade, runtime e consentimentos ainda precisam de integração; não declarar IA ativa.
+- C2/C8: publicação e ensaios locais não substituem login real, segunda conta e aparelho afetado. C2 permanece parcial; C3 não recebe aceite por esta publicação.
+- Nenhum dado privado ou corpus protegido foi exposto no guia. Audiência do app inalterada.
+
+[Relatório desta publicação](RELATORIO-PUBLICACAO-LUCIDA-2026-09-25.md) · [Estado e recibos](ESTADO.md).
+
+---
+
+## Evidências históricas preservadas
+
 # Evidência adicional da matriz — 25/09/2026
 
 As 260 linhas/IDs originais abaixo permanecem integrais. Esta atualização acrescenta evidência e não altera os aceites integrais das camadas.

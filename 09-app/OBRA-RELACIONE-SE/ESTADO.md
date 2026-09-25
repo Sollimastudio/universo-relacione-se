@@ -1,3 +1,28 @@
+# Estado vigente — publicação confirmada em 25/09/2026
+
+Este recibo prevalece sobre os blocos históricos abaixo. Sol confirmou a publicação do site e a atualização privada do app. **Site em produção e app v9 publicado privadamente; C2 permanece parcial.**
+
+| Superfície | Fonte e publicação verificadas |
+|---|---|
+| App original | Projeto `appgprj_6ab11d2e84188191a90910ec6b06c64d`; revisão **9**, fonte `11902e57c3dec375f118208d264d70e88392ff88` |
+| Versão do app | `appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_d0c16092b87c8191b10bf5251d37f129` |
+| Publicação do app | `appgdep_6ab5be97ee208191b39f9480473cf3a9`, **succeeded**, 25/09/2026 00:22:07 UTC |
+| Acesso ao app | https://relacione-se-universo.sollimalovecoach.chatgpt.site — audiência restrita à proprietária, zero grupos |
+| Site | https://relacionese-website.vercel.app — repositório `Sollimastudio/relacionese-website` |
+| Fonte do site | Main `d01f4c3b593d63e33bcfd9cd041f49e89a2138c5`; árvore `7a8064f8d5d2da71863bc3f630868201b2dfacb3` igual à árvore testada |
+| Publicação do site | `dpl_75Lpf3Laav5qiqGw3hbi8kTNgEta`, **READY**, production; PR #3 mesclado |
+| LÚCIDA | Construção real confirmada no Magnetus3 `8e737a65f9b47bf2d8f621d101283129c61b028d`; guia público em /lucida e reflexão editorial no app; conversa com IA no app ainda indisponível |
+
+Os dois testes gratuitos, catálogo de programas, saídas para Script do Silêncio, Minutos Magnetus e Mapa da Suspeita e páginas “Em breve” fazem parte da entrega publicada. Isso não certifica compras ou resultados externos nem conclui todos os produtos.
+
+Site aprovado em TypeScript, verificação de 21 rotas/44 links internos, build/metadados/rewrites e percursos locais do guia. Cinco rotas publicadas responderam HTTP 200 via conector Vercel; o arquivo JavaScript servido corresponde ao build. App sem alteração de código nesta confirmação: reutilizada a evidência anterior de 137 testes/TypeScript/build. Não houve novo teste de login real, segunda conta ou aparelho da proprietária. Dois registros recentes de /api/biblioteca responderam 401 sem erro de execução; é necessário verificar a sessão real.
+
+O histórico e os 260 IDs da matriz foram preservados. Backup adicional completo `relacione-se-publicacao-20260925.bundle`, SHA-256 `c54eaeca6828b5b86c6dfb60d5fe904b723675ff8323e2f771ebab4dcccac1f7`; backups anteriores mantidos. [Relatório desta publicação](RELATORIO-PUBLICACAO-LUCIDA-2026-09-25.md) e [recibo estruturado](PUBLICACAO-2026-09-25.json).
+
+---
+
+## Registros históricos — não substituem o recibo vigente
+
 # Estado atual — programas integrados — 25/09/2026
 
 Revisão **9**, salva sem publicar em 25/09/2026 UTC. Fonte `11902e57c3dec375f118208d264d70e88392ff88`; versão `appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_d0c16092b87c8191b10bf5251d37f129`; pacote `sha256:eb0bd3388f212fc23364d26e575cf2019943ca915b3e7ec1b09392b7139cd1ae` (314 arquivos, 4515840 bytes); deployment_id null. A publicação privada existente continua v7.

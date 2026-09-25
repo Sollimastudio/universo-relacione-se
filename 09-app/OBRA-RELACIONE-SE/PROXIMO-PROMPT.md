@@ -1,3 +1,27 @@
+# Continuação vigente — publicação e LÚCIDA — 25/09/2026
+
+Copie o bloco abaixo. Os textos após o separador são históricos e não devem reabrir trabalhos concluídos.
+
+```text
+Continue a direção geral do Relacione-se preservando o app original, a engenharia, as 9 áreas, 51 grupos, 260 itens, MM01–MM17 e todos os commits. Leia primeiro ESTADO.md, DEPENDENCIAS.md, MATRIZ-PLANTA.md, RELATORIO-PUBLICACAO-LUCIDA-2026-09-25.md e PUBLICACAO-2026-09-25.json em Sollimastudio/universo-relacione-se/09-app/OBRA-RELACIONE-SE. Siga o prompt mestre, a planta e as fontes autorais já registradas; revalide os heads antes de editar e preserve trabalho concorrente.
+
+Sol confirmou a publicação: ela já foi executada. App original appgprj_6ab11d2e84188191a90910ec6b06c64d, checkout /workspace/sites/relacione-se-universo, branch completion/c2b-2026-09-21. V9, fonte 11902e57c3dec375f118208d264d70e88392ff88, versão appgprj_6ab11d2e84188191a90910ec6b06c64d~appgver_d0c16092b87c8191b10bf5251d37f129, deployment appgdep_6ab5be97ee208191b39f9480473cf3a9 succeeded. URL https://relacione-se-universo.sollimalovecoach.chatgpt.site. Audiência somente da proprietária; não a ampliar por inferência. As referências antigas a v7 publicada/v9 apenas salva foram superadas.
+
+Site Sollimastudio/relacionese-website: PR #3 mesclado; main d01f4c3b593d63e33bcfd9cd041f49e89a2138c5, árvore testada 7a8064f8d5d2da71863bc3f630868201b2dfacb3. Vercel dpl_75Lpf3Laav5qiqGw3hbi8kTNgEta READY production. URL https://relacionese-website.vercel.app. Testes gratuitos feminino/masculino, /programas, produtos com “Em breve”, saídas para Script do Silêncio, Telegram Minutos Magnetus Mulheres e Mapa da Suspeita já publicados. Não refazer. /lucida oferece guia fixo com cinco intenções e até três destinos. Conversa com IA está identificada como “Em breve”.
+
+A LÚCIDA existe em Sollimastudio/Magnetus3 main 8e737a65f9b47bf2d8f621d101283129c61b028d: components/ecosystem/Lucida.tsx, app/api/lucida/route.ts, lib/server/lucida.ts, lib/server/lucida-policy.ts e corpus documentado em docs/03-ia/LUCIDA-CORPUS-M1.md (99 fontes/1.586 trechos, não automaticamente sincronizados com edições novas). Leia também 04-lucida/README.md e LUCIDA-GUIA-NAVEGACAO-APP-E-SITE-v1.md no Universo. Reaproveitar uma identidade LÚCIDA; não recriar personagem, manuscritos ou backend sem examinar o que já existe. PR #2 Magnetus3 continua draft 673a96f0d6da004237560a940d149101ea6b59e3, não mesclado. A rota antiga /produtos/magnetus/lucida respondeu 404 apesar de deploys READY.
+
+Conversa de IA no app ainda indisponível: backend canônico Node/PostgreSQL/Better Auth, app atual Workers/D1/Sites, ambiente revisão 0 sem variáveis. Próximo trabalho exige adaptador seguro de identidade/persistência, autorização por recurso, consentimento/memória, provedor/modelo e validação de custo/qualidade/isolamento. Não usar sessão administrativa como cliente, unir contas por e-mail, simular autenticação, inventar IDs/chaves ou copiar corpus protegido para o visitante público. Não pedir segredos em conversa nem presumir autorização para gastos. Guia e reflexão editorial não fecham C5.
+
+C2 continua parcial. D01/D02/D11 exigem autenticação/administração/aparelho/segunda conta reais. Paginação e busca de suporte C2-B já estão implementadas. Reutilize os testes anteriores quando a fonte não mudou; publicação não é homologação completa. Na verificação, site passou TypeScript/21 rotas/44 links/build/rewrites e percursos do guia; app mantém evidência de 137 testes. Cinco rotas publicadas responderam 200 via conector. Dois GET /api/biblioteca responderam 401 com execução ok; verificar sessão real antes de concluir a causa. Peça a Sol somente o que depende dela: conferir o aparelho afetado e, se necessário ao próximo passo autorizado, o identificador autenticado em Meu espaço.
+
+Backups completos anteriores preservados; adicional relacione-se-publicacao-20260925.bundle SHA-256 c54eaeca6828b5b86c6dfb60d5fe904b723675ff8323e2f771ebab4dcccac1f7. Não restaurar versões antigas sobre versões novas. Não declarar toda a obra concluída. Atualize os quatro documentos de forma aditiva, preserve exatamente as 260 linhas da matriz e registre o que leu integralmente, o que reutilizou e o que não verificou.
+```
+
+---
+
+## Prompts históricos — superados pelo bloco vigente
+
 # Continuação atual — 25/09/2026
 
 Use este bloco. Os prompts anteriores abaixo ficam preservados como histórico e não são instrução para recomeçar versões superadas.
