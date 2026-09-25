@@ -31,3 +31,7 @@ Relatório completo no app: docs/lucida/LOTE_5_2026-09-25.md, CONTINUIDADE_LUCID
 Próximo: acompanhar estabilidade do atendimento privado; apresentar inventário editorial para classificação de fontes/amostras/pago, integrar aplicação nos materiais por direitos/gates. Memória, Jarvis operador, canais/voz, comércio/mentoria e público externo seguem pendentes com suas dependências. Não pedir chave novamente nem duplicar a infraestrutura. Telegram fora.
 
 Recuperação: desativar LUCIDA_CHAT_ENABLED e redeploy para interromper somente modelo. Reverter somente delta de código se necessário; tabela operacional aditiva pode permanecer. Nunca restaurar banco nem apagar registros anteriores.
+
+## Conferência adicional de autenticação
+
+Uma tentativa HTTP de consultar o estado do chat publicado com a credencial nativa de inspeção Sites retornou401, pois não substitui a sessão de entrada no app. Nenhuma pergunta foi enviada à produção por esse teste. Não forjamos cabeçalhos de identidade nem alteramos autenticação. Sol acessa o app com sua sessão habitual; validação completa na conta continua pendente. Ambiente revisão4, migração e publicação foram confirmados pelas ferramentas nativas.
