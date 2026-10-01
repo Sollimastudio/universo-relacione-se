@@ -1,0 +1,29 @@
+name: Build MINDSETmagro 2.5 Editorial PDF
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '05-produtos/MINDSETmagro/MINDSETmagro-2.5-Editorial-Premium.html'
+      - '.github/workflows/build-mindsetmagro-pdf.yml'
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install WeasyPrint
+        run: |
+          python -m pip install --upgrade pip
+          pip install weasyprint
+      - name: Render PDF
+        run: |
+          weasyprint "05-produtos/MINDSETmagro/MINDSETmagro-2.5-Editorial-Premium.html" "MINDSETmagro-2.5-Editorial-Premium.pdf"
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MINDSETmagro-2.5-Editorial-Premium
+          path: MINDSETmagro-2.5-Editorial-Premium.pdf
