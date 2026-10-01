@@ -1,10 +1,10 @@
-name: Build MINDSETmagro 2.3 Editorial PDF
+name: Build MINDSETmagro 2.4 Editorial PDF
 
 on:
   pull_request:
     branches: [main]
     paths:
-      - '05-produtos/MINDSETmagro/MINDSETmagro-2.3-Editorial-Premium.html'
+      - '05-produtos/MINDSETmagro/MINDSETmagro-2.4-Editorial-Premium.html'
       - '.github/workflows/build-mindsetmagro-pdf.yml'
   workflow_dispatch:
 
@@ -21,9 +21,9 @@ jobs:
           pip install weasyprint
       - name: Render PDF
         run: |
-          weasyprint "05-produtos/MINDSETmagro/MINDSETmagro-2.3-Editorial-Premium.html" "MINDSETmagro-2.3-Editorial-Premium.pdf"
+          weasyprint "05-produtos/MINDSETmagro/MINDSETmagro-2.4-Editorial-Premium.html" "MINDSETmagro-2.4-Editorial-Premium.pdf"
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          name: MINDSETmagro-2.3-Editorial-Premium
-          path: MINDSETmagro-2.3-Editorial-Premium.pdf
+          name: MINDSETmagro-2.4-Editorial-Premium
+          path: MINDSETmagro-2.4-Editorial-Premium.pdf
