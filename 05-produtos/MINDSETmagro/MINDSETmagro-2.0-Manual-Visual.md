@@ -41,3 +41,21 @@ A edição 2.1 usa 16 SVGs com `title` e `desc` embutidos. Os diagramas são est
 - `sala-controle.svg`, `mmi-2.svg`, `tradutor-prato.svg`, `tres-rotas.svg` — ferramentas e escolha de dose.
 
 Os PDFs mantêm fundo claro, contraste alto, texto composto fora de imagens críticas e leitura possível em escala de cinza. A homologação com leitor de tela e impressão física continua sendo um gate externo.
+
+
+## Direção cromática oficial — aprovada pela autora em 2026-10-01
+
+A referência visual aprovada para o MINDSETmagro™ é a página-modelo **“Leveza com Autoridade”**. A identidade deve comunicar **autoridade, conforto, leveza mental/emocional/corporal, feminilidade madura, sofisticação calma e alto valor percebido**.
+
+### Paleta-base
+- **Marfim seda** — fundo principal e respiro editorial. Referência: `#F7F3EB`.
+- **Azul ardósia** — autoridade, clareza e estabilidade. Referência: `#31556E`.
+- **Oliva elegante / sálvia** — corpo, natureza, equilíbrio e continuidade. Referências: `#5F6840` / `#97BC9C`.
+- **Ouro fosco / dourado envelhecido** — valor, sofisticação e calor, sempre como acento, nunca como massa dominante. Referência: `#B79262`.
+- **Ameixa discreta** — profundidade emocional e contraste premium, em pequenas doses. Referência: `#594D63`.
+
+### Regra de uso
+A página deve ser predominantemente **marfim e clara**, com azul ardósia e oliva sustentando a identidade. O dourado entra como acento editorial (filetes, pequenos círculos, marcadores, palavras-chave ou detalhes), e o ameixa aparece apenas como contraponto pontual. Evitar amarelo dourado saturado, excesso de preto, verdes hospitalares, bege sem personalidade ou combinações que deixem a página pesada.
+
+### Sensação desejada
+**Leveza com autoridade.** O leitor deve perceber calma e acolhimento sem perder força, método e credibilidade. A estética deve parecer um livro premium de transformação, não uma apostila, catálogo de dieta ou material clínico.
