@@ -1,0 +1,79 @@
+[
+  {
+    "file": "01-Untitled.pdf",
+    "pages": 46,
+    "sha256": "8aa937ef1ff8f5d623cbf119890ce77ce37067b56d2a43cb59c04ade862f6ccd",
+    "links": [
+      {
+        "page": 14,
+        "uri": "https://gamma.app/embed/2j80l6ielxst0iy"
+      },
+      {
+        "page": 20,
+        "uri": "https://www.instagram.com/sol.limalove/"
+      },
+      {
+        "page": 29,
+        "uri": "https://open.spotify.com/playlist/5smLymgUCP004HfQGUxvYu?si=htTU548mRXu_J4mzlRLGmw&pi=u-xKyHjzSsTuiT"
+      },
+      {
+        "page": 29,
+        "uri": "https://cdn.gamma.app/chsz9m94wgp9bkr/ae5ad65aa8544fb2a59180dbe3e036a2/original/Afirmacoes-Poderosas-para-Bem-Estar-e-Autoestima.pdf"
+      },
+      {
+        "page": 36,
+        "uri": "https://www.instagram.com/sol.limalove/"
+      },
+      {
+        "page": 36,
+        "uri": "https://cdn.gamma.app/chsz9m94wgp9bkr/29308383ead042a78ef0243f8a27f3d1/original/Sistema-de-Avaliacao-e-Ajuste-Continuo-MINDSETmagro-3.pdf"
+      },
+      {
+        "page": 45,
+        "uri": "https://cdn.gamma.app/chsz9m94wgp9bkr/0d23794ae80a40e1bb367ee8d27f5db0/original/Combatendo-a-Inflamacao-Chas-Alimentos-e-Dicas-para-uma-Vida-Mais-Saudavel.pdf"
+      },
+      {
+        "page": 46,
+        "uri": "https://gamma.app/embed/3cvabhakccom996"
+      }
+    ]
+  },
+  {
+    "file": "02-A-Historia-que-Mudou-Minha-Visao-Sobre-Corpo-e-Beleza.pdf",
+    "pages": 8,
+    "sha256": "f0182763df481f9ffe34c8c894f80848cec6656fdfddb5bec16b44dd7809519f",
+    "links": [
+      {
+        "page": 8,
+        "uri": "https://gamma.app/docs/screenshot"
+      }
+    ]
+  },
+  {
+    "file": "Google.pdf",
+    "pages": 14,
+    "sha256": "4fc830e8f693abd0118d17defc9e8a0a666149ae1d47812eb5eb0356a4c9a1e8",
+    "links": []
+  },
+  {
+    "file": "30 Dias para um Mindset Magro - Landing Page de Alta Conversão.pdf",
+    "sha256": "af65ecf10f4f65ba119dd047e3f337a9c277db9e33c2467f114b6b0766a978e0",
+    "status": "historical_marketing_document",
+    "source_path": "/workspace/scratch/17309276d752/recovered_sources/30 Dias para um Mindset Magro - Landing Page de Alta Conversão.pdf",
+    "audit_note": "Texto integral lido; landing com 6 páginas; sem comprovação de claims de conversão, compatibilidade ou audiência."
+  },
+  {
+    "file": "REGISTRO_CANONICO_MINDSETMAGRO_ORIGEM_EVOLUCAO_V2.md",
+    "sha256": "5dff820ba2766521359c892025a5f18b72aef8bbbaa824c00e7d7f17ffb7204f",
+    "status": "author_correction",
+    "source_path": "/workspace/scratch/17309276d752/recovered_sources/REGISTRO_CANONICO_MINDSETMAGRO_ORIGEM_EVOLUCAO_V2.md",
+    "audit_note": "Texto integral lido; landing com 6 páginas; sem comprovação de claims de conversão, compatibilidade ou audiência."
+  },
+  {
+    "file": "ATUALIZACAO_PAINEL_MESTRE_MINDSETMAGRO_2026-06-20.md",
+    "sha256": "8a1c61e3679dca51fd5bbc4574f834483aed1925b2d62b0bd2c7943663b04517",
+    "status": "author_correction",
+    "source_path": "/workspace/scratch/17309276d752/recovered_sources/ATUALIZACAO_PAINEL_MESTRE_MINDSETMAGRO_2026-06-20.md",
+    "audit_note": "Texto integral lido; landing com 6 páginas; sem comprovação de claims de conversão, compatibilidade ou audiência."
+  }
+]

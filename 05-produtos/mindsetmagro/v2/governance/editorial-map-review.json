@@ -1,0 +1,186 @@
+{
+  "status": "candidate_execution",
+  "decision_source": "AUTHOR_PROMPT_20260930",
+  "days": [
+    [
+      1,
+      "O que você está carregando?",
+      "DESCONGESTIONAR",
+      "baseline, Diário Vivo, registrar um excesso observável"
+    ],
+    [
+      2,
+      "Nem toda aba precisa ficar aberta",
+      "DESCONGESTIONAR",
+      "Estacionamento Mental, descarregar e escolher próxima ação"
+    ],
+    [
+      3,
+      "Pausa não é desaparecimento",
+      "DESCONGESTIONAR",
+      "P.A.R.A.: Pare, Ative o Corpo, Rastreie, Aja pelo Valor; mindfulness breve"
+    ],
+    [
+      4,
+      "Dê um endereço à preocupação",
+      "DESCONGESTIONAR",
+      "Janela do Caos temporária e opcional; ruminação versus resolução; sair da análise"
+    ],
+    [
+      5,
+      "Seu ambiente também escolhe",
+      "DESCONGESTIONAR",
+      "arquitetura da escolha, Poda Ambiental, sobrecarga digital, revisão 1"
+    ],
+    [
+      6,
+      "O fato não chegou contando história",
+      "DISCERNIR",
+      "Fato × História × Incógnita"
+    ],
+    [
+      7,
+      "Uma conclusão precisa prestar contas",
+      "DISCERNIR",
+      "Filtro da Sensatez, evidência e contraprova"
+    ],
+    [
+      8,
+      "Sempre? Nunca? Vamos conferir",
+      "DISCERNIR",
+      "precisão de linguagem, crenças, exceções; PNL repertório autoral sem validação"
+    ],
+    [
+      9,
+      "De quem é essa voz?",
+      "DISCERNIR",
+      "influência, redes, normas, origem sem atribuir intenção"
+    ],
+    [
+      10,
+      "Três cenas, uma hipótese",
+      "DISCERNIR",
+      "Três Cenas Uma Estrutura, Sala de Controle completa, revisão 2"
+    ],
+    [
+      11,
+      "Você não cabe no personagem",
+      "VOLTAR A SI",
+      "papéis, antifuga, autoria flexível"
+    ],
+    [
+      12,
+      "Valor aparece quando custa",
+      "VOLTAR A SI",
+      "propósito em comportamento, valores e contexto"
+    ],
+    [
+      13,
+      "Como quero viver neste corpo?",
+      "VOLTAR A SI",
+      "MMI 2.0, história avó/alfinete sem alegação Alzheimer, corpo opt-in"
+    ],
+    [
+      14,
+      "Identidade precisa de testemunhas reais",
+      "VOLTAR A SI",
+      "Banco de Evidências da Identidade, autoeficácia, autocompaixão"
+    ],
+    [
+      15,
+      "Pertencer sem se abandonar",
+      "VOLTAR A SI",
+      "conexões, apoio, gratidão opcional sem negar dor, revisão 3"
+    ],
+    [
+      16,
+      "Sua parte não é tudo",
+      "REPOSICIONAR",
+      "Árvore, Frutos sem culpa total, responsabilidade distribuída"
+    ],
+    [
+      17,
+      "Um limite precisa de uma frase",
+      "REPOSICIONAR",
+      "limites, acordo, pedido observável, segurança"
+    ],
+    [
+      18,
+      "O espaço que a Poda abre",
+      "REPOSICIONAR",
+      "Poda e Nova Semente, interromper comportamento e substituir"
+    ],
+    [
+      19,
+      "O futuro precisa de uma cena",
+      "REPOSICIONAR",
+      "Futuro Telefona, Filme do Processo, Contraste Real, SE ENTÃO"
+    ],
+    [
+      20,
+      "Desça da Árvore e teste",
+      "REPOSICIONAR",
+      "experimento real pequeno, evidência e revisão 4"
+    ],
+    [
+      21,
+      "Seu corpo não é uma prestação atrasada",
+      "HABITAR",
+      "autocuidado, função corporal, opt-in saúde, não promessa peso"
+    ],
+    [
+      22,
+      "O prato traduzido, sem tribunal",
+      "HABITAR",
+      "Pausa/Tradutor do Prato, mindful eating, visual açúcar real, história bebê conforme fonte"
+    ],
+    [
+      23,
+      "Movimento que cabe na vida",
+      "HABITAR",
+      "Movimento Possível, dança, unir útil agradável, força sem prescrição"
+    ],
+    [
+      24,
+      "Descansar também é cuidado",
+      "HABITAR",
+      "sono e descanso, limites digital, sem promessa hormonal"
+    ],
+    [
+      25,
+      "Próxima escolha, não punição",
+      "HABITAR",
+      "flexibilidade alimentação, contratempos, sem jejum compensatório, revisão 5"
+    ],
+    [
+      26,
+      "Consistência não é perfeição",
+      "SUSTENTAR",
+      "prática integrada e repetição contextual, antes pequeno seguro que plano inexequível"
+    ],
+    [
+      27,
+      "Quando a rotina sair do eixo",
+      "SUSTENTAR",
+      "retomada componente sem voltar D1, recaída e apoio"
+    ],
+    [
+      28,
+      "Auditoria dos Frutos",
+      "SUSTENTAR",
+      "baseline versus agora, atribuição prudente, contexto, revisão 6"
+    ],
+    [
+      29,
+      "Uma carta com data e compromisso",
+      "SUSTENTAR",
+      "carta futuro, planos D+30/60/90 após término, rede apoio"
+    ],
+    [
+      30,
+      "Uma escolha viva precisa de cuidado",
+      "SUSTENTAR",
+      "ritual completo planta real, devolvo/assumo/reparo/podo/semente/água/manutenção; espiritualidade opcional"
+    ]
+  ]
+}

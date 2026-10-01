@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "allowed_event_names": [
+    "journey_open",
+    "day_start",
+    "day_complete",
+    "save_error"
+  ],
+  "allowed_properties": [
+    "product_id",
+    "content_version",
+    "day",
+    "error_code"
+  ],
+  "forbidden": [
+    "answers",
+    "weight",
+    "measures",
+    "emotion",
+    "free_text",
+    "food",
+    "medical",
+    "prompt",
+    "name",
+    "email"
+  ],
+  "activation": "separate implementation/homologation; no trackers in standalone"
+}
