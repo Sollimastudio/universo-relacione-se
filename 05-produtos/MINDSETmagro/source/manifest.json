@@ -1,0 +1,30 @@
+{
+  "product_id": "mindsetmagro_30d",
+  "version": "2.1.0-editorial-upgrade",
+  "language": "pt-BR",
+  "canonical_source": "source/content-source.json",
+  "days": 30,
+  "visual_assets": [
+    "arvore-frutos.svg",
+    "capa-planta.svg",
+    "ciclo-posicione-se.svg",
+    "metodo-posicione-se-mapa.svg",
+    "mmi-2.svg",
+    "ritual-nova-semente.svg",
+    "sala-controle.svg",
+    "seis-travessias.svg",
+    "tradutor-prato.svg",
+    "travessia-01.svg",
+    "travessia-02.svg",
+    "travessia-03.svg",
+    "travessia-04.svg",
+    "travessia-05.svg",
+    "travessia-06.svg",
+    "tres-rotas.svg"
+  ],
+  "pdfs": [
+    "MINDSETmagro-2.0-Livro-Final.pdf",
+    "MINDSETmagro-2.0-Workbook-Final.pdf"
+  ],
+  "status": "candidato a piloto fechado; gates externos ainda obrigatórios"
+}
