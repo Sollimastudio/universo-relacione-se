@@ -1,0 +1,235 @@
+{
+  "id": "d24",
+  "day": 24,
+  "title": "Descansar também é cuidado",
+  "traversal": "HABITAR",
+  "objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+  "previous": "Movimento que cabe na vida",
+  "next": "Próxima escolha, não punição",
+  "blocks": [
+    {
+      "id": "d24-01-opening",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Você deita. O corpo chegou à cama, mas a cabeça ainda está atendendo clientes, respondendo parentes e revisando uma conversa de três anos atrás. O expediente acabou no relógio; dentro, ninguém recebeu o comunicado.",
+        "Hoje vamos cuidar de uma condição de descanso. Não controlar o sono à força. Depois do movimento possível, precisamos reconhecer que repouso também participa do cuidado, sem precisar ser comprado com exaustão."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d24-02-reading",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Pense comigo: que parte da sua rotina dificulta encerrar o dia? Pode ser um compromisso tardio, um ambiente inadequado, responsabilidades de cuidado, trabalho em turnos ou acesso contínuo a mensagens. Nem tudo é escolha individual. Comece pela condição que você consegue influenciar e reconheça o que depende de apoio, negociação ou avaliação.",
+        "Uma transição pode ajudar a organizar esse encerramento: anotar a primeira tarefa de amanhã, guardar o que será usado, avisar um horário de disponibilidade ou reduzir uma fonte evitável de interrupção. Use o Estacionamento Mental do Dia 2 se uma pendência estiver ocupando espaço. Registre o próximo passo; não abra uma audiência noturna para todos os problemas.",
+        "Descanso não se resume a sono. Uma pausa pode envolver silêncio, mudança de atividade, redução de estímulo ou apoio para sair de uma demanda. Também não precisa virar mais uma tarefa impecável. Se você tem poucos recursos, escolha uma adaptação pequena e possível. Um quarto de revista não é requisito para começar a observar o que interfere.",
+        "Imagine uma pessoa que pretende se deitar em determinado horário, mas segue respondendo mensagens sem urgência. Ela combina um horário de retorno e prepara o aparelho conforme suas necessidades reais de contato. O teste não é “dormir perfeitamente”; é verificar se conseguiu encerrar as respostas e como ficou a transição. Emergências e deveres de cuidado precisam ser considerados.",
+        "Evite fiscalizar cada minuto da noite como se estivesse administrando uma empresa de travesseiros. Se monitorar o sono intensificar preocupação, reduza o registro. Você pode observar apenas se realizou o ajuste escolhido. Não precisa entregar números para comprovar que descansou.",
+        "Há dificuldades que ultrapassam a organização da rotina. Problemas persistentes de sono, sonolência importante ou sinais que preocupam merecem avaliação profissional. Estas páginas não explicam tudo por estresse e não orientam iniciar, suspender ou ajustar medicamentos. Anotar perguntas para atendimento pode ser mais útil que tentar mais um ritual caseiro.",
+        "Também não prometemos corrigir cortisol, limpar toxinas ou produzir uma fase específica do sono com uma técnica. O cuidado de hoje tem um tamanho honesto: criar uma condição mais favorável e observar. A noite não precisa obedecer imediatamente para que o gesto tenha sentido. Se você trabalha à noite, adapte a transição ao seu período de descanso, sem usar o horário alheio como régua."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C20"
+      ],
+      "source_refs": [
+        "LEGACY-GOOGLE",
+        "LEGACY-UNTITLED",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4434546/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d24-03-reading",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "O consenso AASM/SRS recomenda que adultos saudáveis de 18 a 60 anos durmam sete horas ou mais regularmente, considerando necessidades individuais. Essa referência não funciona como teste diário de competência. Dificuldades persistentes precisam de avaliação; uma transição organizada não substitui investigação ou tratamento."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C20"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4434546/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d24-04-exercise",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha um obstáculo modificável e uma adaptação para o período de descanso. Use algo dos Dias anteriores: Poda de uma interrupção, pedido de ajuda ou Estacionamento Mental. Defina uma ação, não uma promessa sobre a qualidade do sono."
+      ],
+      "fields": [
+        {
+          "id": "d24.descanso",
+          "label": "Opcional: qual condição de descanso quero ajustar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d24.ajuste",
+          "label": "Qual ação possível farei e que deveres preciso preservar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d24-05-mission",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Faça o ajuste uma vez antes do seu período de descanso. Se não houver margem para executá-lo, identifique o recurso ou a negociação necessária. A missão pode ser preparar apoio, sem informar dados pessoais de saúde."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d24-06-fruit_review",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "Você realizou a adaptação? O que ela mudou na transição, se algo mudou? Registre somente o que observou. Se não fez, anote obstáculo e próxima ação segura. Evite concluir que uma única noite confirma ou invalida tudo."
+      ],
+      "fields": [
+        {
+          "id": "d24.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d24-07-if_then",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se uma pendência reaparecer no encerramento do dia, então anotarei sua próxima ação em vez de resolvê-la inteira naquele momento, quando puder esperar. Ação mínima: escolher uma condição de descanso que mereça cuidado."
+      ],
+      "fields": [
+        {
+          "id": "d24.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d24-08-installation",
+      "day_id": "d24",
+      "learning_objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Amanhã vamos trabalhar os dias que saem do previsto. Um cuidado pode continuar mesmo depois de uma noite difícil, uma refeição diferente ou uma agenda quebrada. A próxima escolha não precisa ser punição."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d24.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Uma transição de descanso possível"
+    ],
+    "on_trigger": [
+      "Estacionamento Mental sem prolongar análise"
+    ],
+    "weekly": [
+      "Rever condições e necessidade de apoio"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-GOOGLE",
+    "LEGACY-UNTITLED",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

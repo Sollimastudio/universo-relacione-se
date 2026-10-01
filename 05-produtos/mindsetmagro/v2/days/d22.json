@@ -1,0 +1,273 @@
+{
+  "id": "d22",
+  "day": 22,
+  "title": "O prato traduzido, sem tribunal",
+  "traversal": "HABITAR",
+  "objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+  "previous": "Seu corpo não é uma prestação atrasada",
+  "next": "Movimento que cabe na vida",
+  "blocks": [
+    {
+      "id": "d22-01-opening",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "O prato já tem comida suficiente; não precisa receber também um tribunal. Hoje a proposta é enxergar uma escolha com mais precisão. Nenhum alimento será interrogado por crimes contra a sua dignidade.",
+        "Ontem você escolheu um cuidado. Se desejar incluir alimentação, vamos usar a Pausa do Prato e o Tradutor do Prato como uma única prática breve. Se esse tema aumentar sofrimento ou vigilância, use a alternativa: observar uma compra cotidiana sem registrar comida."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d22"
+    },
+    {
+      "id": "d22-02-reading",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "A Pausa do Prato é um instante para notar a situação: estou comendo com pressa, acompanhada, distraída, com fome, seguindo uma orientação específica? Não é uma prova de autocontrole. Não exige adiar a refeição, mastigar um número fixo de vezes ou produzir uma sensação correta. Você pode simplesmente perceber um sabor, uma textura ou o ambiente e continuar comendo.",
+        "O Tradutor do Prato acrescenta perguntas: quais alimentos estão presentes? Onde há fontes de proteína, carboidratos, vegetais ou fibras? Existem fontes repetidas, e isso foi escolha ou automático? Como o conjunto conversa com minhas necessidades, recursos, preferências e orientações individuais? Uma repetição não torna o prato errado; a pergunta serve para enxergar o conjunto.",
+        "Arroz, batata, mandioca e massas contêm amidos que são digeridos em açúcares menores. Isso não faz deles açúcar de mesa. Alimentos diferem em composição, preparo e contexto de consumo. Não vamos trocar explicação por susto, nem ensinar a olhar uma refeição como se fosse um amontoado de culpa.",
+        "A Tradução Visual Honesta exige rótulo e quantidade real. Se uma bebida informa determinada quantidade de açúcar por porção, a representação precisa respeitar essa porção e o volume consumido. Açúcares totais e adicionados são informações diferentes: identifique qual está usando. Um copo cheio de açúcar não pode representar qualquer copo de refrigerante. Impacto visual não recebe licença para inventar dados.",
+        "Exemplo apenas matemático, sem representar uma marca: se o rótulo informar 10 gramas por 100 mililitros, 200 mililitros correspondem a 20 gramas dessa informação. Para uma comparação visual exata, use massa medida, não colheres de tamanho indefinido. Você não precisa fazer essa conta diariamente; ela ensina a conferir uma equivalência antes de acreditar nela.",
+        "A associação visual com comida de bebê misturada a líquido pertence à origem autoral indicada por Sol. O aprendizado que preservamos é a força que uma imagem pode ter numa escolha. Não a transformamos em exercício de nojo: provocar repulsa à comida não é a meta deste protocolo.",
+        "Planejar também pode aliviar improvisos. Observar o que já existe em casa, combinar uma compra possível ou preparar uma opção conhecida pode ser mais útil que construir um cardápio ideal inacessível. Se já recebe orientação nutricional, use essa orientação como referência. Aqui não há porcentagem universal de prato, dieta cetogênica, jejum ou substituição obrigatória."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C11",
+        "C12",
+        "C21",
+        "C22"
+      ],
+      "source_refs": [
+        "LEGACY-GOOGLE",
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1111/obr.13860",
+        "https://www.sciencedirect.com/science/article/pii/S0272735826000899",
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://medlineplus.gov/carbohydrates.html"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d22-03-reading",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Pesquisas sobre intervenções de atenção ao comer sugerem ajuda para perceber padrões, com resultados variáveis. Prestar atenção não é um botão que desliga fome nem garante perda de peso. A explicação de carboidratos e a comparação do açúcar seguem informação nutricional, não metáfora."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C11",
+        "C12",
+        "C21",
+        "C22"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1111/obr.13860",
+        "https://www.sciencedirect.com/science/article/pii/S0272735826000899",
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://medlineplus.gov/carbohydrates.html"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d22-prato-visual",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "visual",
+      "title": "Um prato, várias perguntas",
+      "content": [
+        "Localize as fontes de nutrientes e o contexto da escolha. O desenho não define porções nem uma refeição universal."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "tradutor-prato"
+    },
+    {
+      "id": "d22-04-exercise",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha apenas uma opção: observar uma refeição sem julgá-la; conferir uma informação de rótulo; ou, fora da trilha alimentar, observar como decidiu uma compra. Registre uma informação e uma possível escolha. Não transforme o exercício em contabilidade permanente."
+      ],
+      "fields": [
+        {
+          "id": "d22.prato",
+          "label": "Opcional: o que observei no prato e no contexto?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "food"
+        },
+        {
+          "id": "d22.rotulo",
+          "label": "Opcional: qual informação, porção e volume conferi?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "food"
+        },
+        {
+          "id": "d22.alternativa",
+          "label": "Alternativa sem alimentação: como decidi uma compra cotidiana?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d22-05-mission",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Faça a observação escolhida uma vez. Nenhuma mudança de refeição é exigida. Se houver orientação clínica, preserve-a. Interrompa se o exercício intensificar medo de comer, culpa ou restrição e procure apoio adequado."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d22-06-fruit_review",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "Qual informação concreta você percebeu e o que decidiu fazer com ela? Pode responder sem descrever alimentos. Se não realizou, registre obstáculo e próxima ação segura. O Fruto é clareza, não comer menos a qualquer custo."
+      ],
+      "fields": [
+        {
+          "id": "d22.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d22-07-if_then",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se uma imagem alimentar me assustar, então verificarei a fonte e a quantidade antes de concluir. Ação mínima: identificar a porção de um rótulo, ou o critério de uma compra não alimentar."
+      ],
+      "fields": [
+        {
+          "id": "d22.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d22-08-installation",
+      "day_id": "d22",
+      "learning_objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Guarde a precisão, dispense o tribunal. Amanhã vamos aproximar movimento da vida possível, sem transformá-lo em compensação pelo que foi comido."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d22.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Nenhum registro alimentar obrigatório"
+    ],
+    "on_trigger": [
+      "Pausa e Tradutor do Prato, se úteis"
+    ],
+    "weekly": [
+      "Planejamento viável de ambiente e compras"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-GOOGLE",
+    "AUTHOR_PROMPT_20260930",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "d20",
+  "day": 20,
+  "title": "Desça da Árvore e teste",
+  "traversal": "REPOSICIONAR",
+  "objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+  "previous": "O futuro precisa de uma cena",
+  "next": "Seu corpo não é uma prestação atrasada",
+  "blocks": [
+    {
+      "id": "d20-01-opening",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Há uma hora em que pensar mais deixa de esclarecer e começa a adiar. Você já separou fatos, investigou narrativas, escolheu uma posição e ensaiou uma resposta. Agora: desça da Árvore e vá viver. A realidade tem informações que o pensamento sozinho não consegue entregar.",
+        "Hoje encerra a travessia Reposicionar. Não vamos celebrar quantidade de páginas lidas. Vamos localizar uma diferença entre a sua intenção e o que conseguiu fazer, para escolher o próximo ajuste."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d20"
+    },
+    {
+      "id": "d20-02-reading",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Um experimento é uma tentativa delimitada para aprender algo. Ele começa com uma hipótese, não com uma sentença. “Se eu avisar meu horário antes, talvez a organização melhore.” “Se eu deixar a alternativa pronta, talvez consiga usá-la.” O talvez preserva o espaço de revisão. Sem ele, qualquer resultado vira torcida.",
+        "Escolha uma situação de baixo risco ligada aos últimos quatro Dias. Defina a ação e a observação. Se você testar um pedido, a evidência pode ser o pedido comunicado e a resposta recebida. Se testar uma Poda, pode ser a alternativa utilizada quando o gatilho apareceu. Evite metas como “ficar totalmente tranquila”: você pode agir com clareza e ainda sentir desconforto.",
+        "Pense comigo: uma pessoa decide conferir a agenda antes de aceitar uma tarefa. Sua hipótese é que isso ajudará a evitar sobrecarga. Ela consulta a agenda, mas aceita mesmo assim porque teme desagradar. O teste não é inútil. Ele mostrou que a barreira não era apenas lembrar de conferir. O próximo ajuste pode ser ensaiar uma frase ou negociar prazo.",
+        "Também pode acontecer o contrário: o teste parece funcionar uma vez. Isso é um dado promissor, não uma lei da natureza. Talvez o dia estivesse mais fácil ou alguém tenha ajudado. Pergunte o que participou do resultado. Reconhecer apoio e contexto torna sua conclusão mais precisa e seu plano menos frágil.",
+        "Escolha antecipadamente quando revisar. Sem isso, o experimento pode virar uma prova interminável em que você nunca se autoriza a concluir nada. Para hoje, um episódio basta. Em decisões maiores, será necessário mais tempo, mais dados ou orientação adequada. O tamanho da evidência deve conversar com o tamanho da decisão.",
+        "A revisão desta travessia cabe em três perguntas: qual responsabilidade ficou mais bem distribuída; qual posição chegou à linguagem ou à ação; qual ajuste será levado adiante? Não refaça todos os exercícios. Consulte o registro que responde à pergunta e mantenha somente o que precisa continuar.",
+        "Se você não conseguiu testar, descreva a barreira sem enfeitar nem se acusar. “Não encontrei um momento seguro” é diferente de “eu nunca consigo”. A primeira frase permite decidir um próximo passo. A segunda fecha a investigação com uma condenação que os fatos não sustentam."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "POSICIONE_SE",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d20-03-reading",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Registrar ações e revisar progresso pode apoiar metas, segundo uma meta-análise de estudos experimentais. Isso sustenta monitoramento com propósito; não exige registrar cada pensamento ou expor resultados publicamente. O experimento deste Dia é educativo, não uma avaliação clínica nem prova de eficácia do protocolo inteiro."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C03"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1037/bul0000025"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d20-04-exercise",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha uma hipótese dos Dias 16–19. Escreva: ação, contexto, observação e momento de revisão. Defina também o que faria você rever a hipótese. Uma contraprova pode ser simples: a alternativa estava disponível, mas não respondeu à dificuldade real."
+      ],
+      "fields": [
+        {
+          "id": "d20.hipotese",
+          "label": "Que hipótese pequena vou testar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d20.teste",
+          "label": "Qual ação, contexto e observação combinados?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d20.revisao",
+          "label": "O que faria eu manter, ajustar ou abandonar a hipótese?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d20-05-mission",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Faça o teste uma vez em situação segura. Observe o episódio sem produzir exposição desnecessária nem provocar conflito para obter dados. Se as condições mudarem, adapte ou adie conscientemente e registre a razão."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d20-06-fruit_review",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "Descreva a ação, o resultado e uma conclusão proporcional. O que você sabe agora e o que continua desconhecido? Se não fez, registre obstáculo e próxima ação segura. Termine escolhendo apenas uma prática para carregar à travessia seguinte."
+      ],
+      "fields": [
+        {
+          "id": "d20.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d20-07-if_then",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu transformar um resultado em sentença sobre mim, então voltarei ao episódio concreto e ao contexto. Ação mínima: testar um único gesto da ação planejada, ou preparar a condição que falta."
+      ],
+      "fields": [
+        {
+          "id": "d20.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d20-08-installation",
+      "day_id": "d20",
+      "learning_objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Você não precisa morar no Mirante. Ele serve para enxergar e voltar à vida. Amanhã o corpo entra em primeiro plano como lugar de cuidado e participação, sem se tornar um boletim de desempenho."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d20.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Uma prática escolhida na revisão"
+    ],
+    "on_trigger": [
+      "Árvore e Filtro quando necessários"
+    ],
+    "weekly": [
+      "Experimento pequeno e revisão de Frutos"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "POSICIONE_SE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

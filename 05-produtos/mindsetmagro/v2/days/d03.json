@@ -1,0 +1,275 @@
+{
+  "id": "d03",
+  "day": 3,
+  "title": "Pausa não é desaparecimento",
+  "traversal": "DESCONGESTIONAR",
+  "objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+  "previous": "Nem toda aba precisa ficar aberta",
+  "next": "Dê um endereço à preocupação",
+  "blocks": [
+    {
+      "id": "d03-01",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "opening",
+      "title": "O intervalo também é uma escolha",
+      "content": [
+        "Você percebe a mensagem, sente a vontade de responder e já está digitando. Quando vê, enviou um parágrafo que precisaria de advogado, intérprete e café. Hoje vamos experimentar um pequeno intervalo. Não para esconder a emoção, mas para não transformar todo impulso em instrução.",
+        "Ontem demos lugar às pendências. Agora damos lugar à resposta. Não é obrigatório ficar calma para fazer uma escolha mais cuidadosa. Em situações simples, você pode sentir irritação e ainda decidir que aquela conversa merece uma frase clara, não uma guerra por aplicativo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d03"
+    },
+    {
+      "id": "d03-02",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "reading",
+      "title": "P.A.R.A.: quatro movimentos possíveis",
+      "content": [
+        "PARE. Interrompa por um instante a ação automática, se houver segurança para isso. Tire o dedo de enviar, deixe o objeto sobre a mesa ou avise que precisa pensar. ATIVE O CORPO. Aqui isso significa voltar ao contato com o presente: perceber o apoio da cadeira, olhar ao redor ou fazer um movimento confortável. Não é uma técnica para comandar hormônios.",
+        "RASTREIE. Nomeie o que chegou: “há irritação e vontade de responder imediatamente”. Procure a situação que disparou a resposta, sem escavar sua história inteira. AJA PELO VALOR. Escolha uma ação pequena que sustente algo importante, como clareza, respeito ou proteção. Pausar sem voltar a escolher pode virar desaparecimento; o último movimento importa."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-03",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "story",
+      "title": "Um ensaio sem heroísmo",
+      "content": [
+        "Exemplo cotidiano: alguém pede uma tarefa extra quando você já está ocupada. Você costuma dizer sim antes de consultar a agenda. No ensaio de hoje, percebe o contato dos pés ou outro apoio confortável, nota o impulso de agradar e responde: “Vou conferir meus horários e te digo até o fim da tarde”.",
+        "Ainda não recusou, ainda não aceitou. Criou uma condição para decidir. Quando o horário combinado chegar, precisa retornar com uma resposta possível. A pausa protege a escolha apenas se não virar uma promessa indefinida que transfere a desorganização para o outro."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-04",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "health_note",
+      "title": "Presença sem obrigação de fechar os olhos",
+      "content": [
+        "Você pode manter os olhos abertos e prestar atenção a um objeto neutro. Respiração profunda, contagem e exploração corporal não são exigidas. Se focar no corpo aumentar angústia, desorientação ou desconforto, interrompa e use uma referência externa confortável, ou simplesmente pule o exercício.",
+        "Esta prática breve não trata crises e não exige permanecer numa situação ameaçadora. Quando houver risco, priorize segurança e apoio. O objetivo é ensaiar uma escolha cotidiana, não testar resistência ao sofrimento. Sentir mais tensão durante o exercício não significa que você precisa insistir até “vencer a mente”.",
+        "No fim, confira se a pausa ajudou a escolher ou apenas adiou uma resposta necessária. Se você prometeu retornar, esse retorno faz parte da experiência. Presença inclui cumprir o próximo passo combinado."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-05",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Algumas práticas guiadas estudadas em aplicativos ajudam a observar pensamentos com mais distância, mas os resultados variam. Isso não demonstra eficácia específica do P.A.R.A. A sigla é uma organização pedagógica autoral e não descreve uma sequência de regiões cerebrais."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C07"
+      ],
+      "source_refs": [
+        "C07",
+        "https://www.nature.com/articles/s44184-023-00048-5"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-06",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha uma situação simples para o ensaio. Nomeie o impulso sem censurá-lo e procure uma resposta que expresse o valor escolhido. Você pode registrar depois do acontecimento; não precisa interromper uma conversa para preencher os campos ou executar a sigla perfeitamente."
+      ],
+      "fields": [
+        {
+          "id": "d03.gatilho",
+          "label": "Em qual situação simples quero experimentar a pausa?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d03.impulso",
+          "label": "Qual impulso apareceu e que valor quero sustentar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d03.resposta",
+          "label": "Que resposta pequena seria possível?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-07",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Experimente o P.A.R.A. uma vez, numa conversa ou tarefa de baixo risco. Não precisa pronunciar a sigla nem executar uma coreografia. Note a oportunidade, encontre um apoio confortável, nomeie o impulso e escolha a resposta. Se não lembrar na hora, reconstrua a cena depois e ensaie uma frase para a próxima ocasião."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-08",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "O Fruto é a resposta observada: você aguardou, consultou a agenda, pediu informação ou respondeu como antes? Inclua o contexto. Uma pausa pequena não garante a reação do outro. Se houve desconforto, anote qual parte precisa ser adaptada ou retirada."
+      ],
+      "fields": [
+        {
+          "id": "d03.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-09",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu perceber vontade de aceitar uma tarefa imediatamente, então direi que preciso conferir minha disponibilidade antes de confirmar. Substitua esse exemplo por um gatilho real seu; preserve uma resposta curta, concreta e segura."
+      ],
+      "fields": [
+        {
+          "id": "d03.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d03-10",
+      "day_id": "d03",
+      "learning_objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: notar “estou com vontade de…” antes de agir, mesmo que a escolha seguinte ainda não mude. Perceber é treino, não absolvição automática das consequências.",
+        "Mantenha a anotação de uma cena. Use o Estacionamento quando houver pendência e o P.A.R.A. quando surgir impulso; nenhum dos dois exige ficar de plantão o dia inteiro.",
+        "Amanhã vamos distinguir preocupação que pede providência de repetição que só retorna ao mesmo lugar. A pausa de hoje abrirá espaço para essa pergunta."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d03.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Mantenha a anotação de uma cena. Use o Estacionamento quando houver pendência e o P.A.R.A. quando surgir impulso; nenhum dos dois exige ficar de plantão o dia inteiro."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

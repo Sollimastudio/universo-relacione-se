@@ -1,0 +1,277 @@
+{
+  "id": "d11",
+  "day": 11,
+  "title": "Você não cabe no personagem",
+  "traversal": "VOLTAR A SI",
+  "objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+  "previous": "Três cenas, uma hipótese",
+  "next": "Valor aparece quando custa",
+  "blocks": [
+    {
+      "id": "d11-01",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "opening",
+      "title": "Quem aparece quando o papel descansa?",
+      "content": [
+        "Você pode cuidar, trabalhar, organizar, acolher e resolver. Cada papel mostra uma parte da sua vida. O problema começa quando uma função vira condição de existência: se não sou útil agora, parece que não tenho lugar. Hoje vamos olhar para essa passagem com cuidado.",
+        "Na travessia anterior, você investigou conclusões. Agora vai investigar as exigências que coloca sobre si para continuar pertencendo. Não precisamos descobrir uma essência intocável escondida debaixo de todas as camadas. Precisamos reconhecer onde existe escolha e onde você está representando uma disponibilidade que não consegue sustentar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d11"
+    },
+    {
+      "id": "d11-02",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "reading",
+      "title": "Papel, preferência e personagem",
+      "content": [
+        "Um papel pode ser legítimo e importante: mãe, profissional, amiga, cuidadora. Ele inclui responsabilidades reais e acordos. Uma preferência é algo que você gosta, valoriza ou deseja, podendo mudar. Chamaremos de personagem, aqui, uma atuação que você mantém principalmente para atender expectativas, escondendo necessidades e limites relevantes. É linguagem pedagógica, não diagnóstico.",
+        "A mesma ação pode cumprir funções diferentes. Ajudar alguém pode expressar generosidade, obrigação acordada, medo de desapontar ou várias coisas juntas. Não conclua a função apenas olhando o comportamento. Pergunte o que estava em jogo, que alternativas existiam e qual custo você percebeu."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-03",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "story",
+      "title": "A pessoa que concorda com tudo",
+      "content": [
+        "Exemplo: numa escolha de programa entre amigos, uma pessoa sempre responde “qualquer coisa”. Às vezes realmente não tem preferência. Outras vezes quer um lugar tranquilo, mas teme ser considerada difícil. Depois chega exausta e ressentida, enquanto o grupo sequer conhece sua preferência.",
+        "Ela testa uma frase pequena: “Hoje prefiro um lugar mais tranquilo; vocês topam?”. O grupo pode concordar ou não. Expressar uma preferência não garante recebê-la, mas muda a qualidade da participação. Agora existe informação para negociar. Ela não precisa transformar um jantar em declaração de independência nacional."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-04",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "reading",
+      "title": "Antifuga em tamanho cotidiano",
+      "content": [
+        "A contribuição de Fuga Identitária entra aqui como pergunta de autoria, não como resumo de outro livro. O que estou fazendo por escolha? O que assumi por acordo? O que desempenho para evitar um julgamento imaginado? O que ainda não posso mudar com segurança?",
+        "Você pode reconhecer uma necessidade sem resolvê-la imediatamente. Dependências e riscos exigem planejamento, recursos e apoio. Autoria não é romper todos os vínculos nem dizer tudo sem considerar consequências. Também inclui decidir quando, como e com quem uma preferência pode aparecer. Flexibilidade não é desaparecer; é encontrar uma forma possível de continuar presente.",
+        "Não é preciso escolher entre ser inteiramente espontânea e representar uma função. Há convenções úteis em ambientes diferentes. O ponto é reconhecer o custo da atuação e preservar espaço para necessidades legítimas, sem exigir que todos os seus lados apareçam em qualquer ocasião."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-05",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Pesquisas encontram relações entre hábitos e a maneira como as pessoas se percebem, mas associação não estabelece uma identidade fixa nem prova uma causa única. Aqui, examinamos episódios e escolhas; um dia ou um papel não resume quem você é."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C14"
+      ],
+      "source_refs": [
+        "C14",
+        "https://doi.org/10.1111/aphw.70017"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-06",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Separe o papel que você exerce das exigências que acrescentou a ele. Indique uma necessidade atual e uma maneira segura de reconhecê-la. Não é obrigatório conversar com alguém hoje; em situações de dependência ou risco, planejar apoio pode ser a escolha adequada."
+      ],
+      "fields": [
+        {
+          "id": "d11.papel",
+          "label": "Qual papel ocupo e quais responsabilidades reais ele inclui?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d11.preferencia",
+          "label": "Qual preferência ou necessidade fica escondida?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d11.ensaio",
+          "label": "Como posso expressar uma parte disso com segurança?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-07",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Escolha uma preferência pequena numa situação de baixo risco e dê a ela uma frase concreta. Pode ser horário, local, forma de executar uma tarefa ou necessidade de esclarecimento. Se não houver segurança para expressá-la, registre-a para si e identifique que apoio tornaria uma decisão possível. Não confronte por obrigação."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-08",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Registre o que conseguiu expressar, a resposta observada e como lidou com ela. Não adivinhe intenções. Se a preferência não foi atendida, veja se houve negociação respeitosa. O resultado não define seu valor nem torna errado ter uma necessidade."
+      ],
+      "fields": [
+        {
+          "id": "d11.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-09",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu responder “tanto faz” quando houver uma preferência clara, então considerarei dizê-la em uma frase, desde que a situação seja segura. Se realmente tanto fizer, então posso manter essa resposta sem transformar espontaneidade em suspeita."
+      ],
+      "fields": [
+        {
+          "id": "d11.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d11-10",
+      "day_id": "d11",
+      "learning_objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: escrever uma preferência que existe hoje. Não precisa justificar por que merece tê-la.",
+        "Use Fato × História para distinguir uma reação observada do medo de rejeição. O P.A.R.A. pode ajudar antes de concordar automaticamente, sem criar mais um formulário.",
+        "Amanhã vamos transformar um valor em comportamento. Ter uma preferência mostra presença; sustentar um princípio exige escolher como agir quando há custo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d11.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Use Fato × História para distinguir uma reação observada do medo de rejeição. O P.A.R.A. pode ajudar antes de concordar automaticamente, sem criar mais um formulário."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "POSICIONE_SE",
+    "FUGA_IDENTITARIA"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

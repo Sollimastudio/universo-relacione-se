@@ -1,0 +1,255 @@
+{
+  "id": "d06",
+  "day": 6,
+  "title": "O fato não chegou contando história",
+  "traversal": "DISCERNIR",
+  "objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+  "previous": "Seu ambiente também escolhe",
+  "next": "Uma conclusão precisa prestar contas",
+  "blocks": [
+    {
+      "id": "d06-01",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "opening",
+      "title": "O acontecimento e a legenda",
+      "content": [
+        "Uma mensagem ficou sem resposta. Esse é o começo. “A pessoa não se importa comigo” já é uma explicação. Pode estar certa, pode estar errada, pode conter uma parte da realidade. O problema aparece quando a explicação entra vestida de acontecimento e ninguém confere o documento.",
+        "Na primeira travessia, você abriu espaço entre estímulo e resposta. Agora vamos usar esse espaço para discernir. Não vamos desacreditar sua percepção. Vamos dar a cada informação o lugar adequado, para que uma escolha importante não dependa apenas da primeira legenda que apareceu."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d06"
+    },
+    {
+      "id": "d06-02",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "reading",
+      "title": "Três lugares, nenhuma sentença antecipada",
+      "content": [
+        "FATO: o que foi observado ou pode ser descrito com alguma precisão? “Enviei ontem e ainda não recebi resposta” é diferente de “fui desprezada”. HISTÓRIA: qual significado você acrescentou? “Talvez esteja me evitando” é uma hipótese, não um registro direto da intenção alheia. INCÓGNITA: o que ainda falta saber? Pode ser disponibilidade, contexto, acordo de prazo ou algo que ninguém informou.",
+        "Você não precisa transformar toda lembrança em gravação perfeita. Pode escrever “lembro assim” quando houver incerteza. Separar essas camadas não apaga o impacto de uma experiência. A dor pode ser real enquanto a explicação permanece incompleta."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d06-03",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "story",
+      "title": "Uma cena com mais de uma leitura",
+      "content": [
+        "Exemplo didático: uma colega passa sem cumprimentar. Você pensa que ela está irritada. O fato disponível é o encontro sem cumprimento percebido. Talvez ela não tenha visto, talvez esteja ocupada, talvez haja um conflito. Criar alternativas não significa escolher a mais agradável. Significa admitir que a cena, sozinha, não resolve todas as hipóteses.",
+        "Uma resposta proporcional pode ser cumprimentar normalmente numa próxima ocasião ou perguntar sobre um assunto concreto. Se existe um histórico claro de desrespeito, inclua esse histórico como evidência. O exercício não manda esquecer padrões nem oferecer acesso ilimitado para “ter certeza”."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d06-04",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "reading",
+      "title": "Emoção entra como informação",
+      "content": [
+        "A Sala de Controle começa hoje com três painéis: Fato, Narrativa e Incógnita. É uma metáfora para organizar observações, não uma sala escondida no cérebro. Você pode reconhecer a emoção ao lado dos painéis: “senti tristeza ao interpretar o silêncio dessa forma”.",
+        "Pense comigo: sentir tristeza prova que a pessoa quis ferir? Não. Significa que algo importou para você. Isso merece cuidado e pode orientar uma pergunta. Mas emoção, intenção atribuída e evidência não são a mesma categoria. A distinção permite acolher o que sente sem entregar automaticamente a conclusão ao sentimento.",
+        "Há fatos que exigem proteção antes de qualquer conversa esclarecedora. Uma ameaça explícita, por exemplo, não precisa esperar que você confirme a intenção do outro. O exercício serve para evitar inferências desnecessárias; não serve para transformar evidência de risco em dúvida permanente. A resposta pode ser segura e proporcional mesmo quando parte da história continua desconhecida."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d06-05",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Preencha cada campo com uma camada diferente da mesma situação. No fato, evite verbos que atribuem intenção. Na história, dê nome à sua hipótese. Na incógnita, identifique o que realmente falta saber para a decisão, sem exigir conhecer tudo sobre outra pessoa."
+      ],
+      "fields": [
+        {
+          "id": "d06.fato",
+          "label": "O que observei ou lembro, indicando o que é incerto?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d06.historia",
+          "label": "Que interpretação acrescentei?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d06.incognita",
+          "label": "O que ainda não sei e realmente preciso saber?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d06-06",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Escolha uma situação recente de baixo risco e separe as três camadas antes de responder. Depois faça uma ação proporcional: perguntar algo específico, aguardar um prazo razoável ou seguir um acordo conhecido. Não procure uma conversa perigosa só para testar discernimento. Você pode praticar com uma tarefa ou um pequeno desencontro cotidiano."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d06-07",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "O Fruto não é descobrir obrigatoriamente a intenção de alguém. É registrar se sua resposta mudou quando você distinguiu observação e interpretação. Se permaneceu a mesma, explique por quê. Uma hipótese pode continuar plausível depois da revisão; ela só precisa manter seu grau real de certeza."
+      ],
+      "fields": [
+        {
+          "id": "d06.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d06-08",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu escrever uma intenção alheia como fato, então reformularei: “estou interpretando que…” e identificarei o que foi observado. Se houver risco conhecido, então priorizarei proteção sem esperar uma confissão de intenção para agir."
+      ],
+      "fields": [
+        {
+          "id": "d06.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d06-09",
+      "day_id": "d06",
+      "learning_objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: acrescentar “minha interpretação é” antes de uma conclusão. Isso não torna a conclusão falsa; torna visível a operação que você está fazendo.",
+        "Use a pausa do Dia 3 quando o impulso chegar antes da distinção. O registro de hoje já conta como sua anotação diária; não precisa preencher um segundo diário.",
+        "Amanhã sua hipótese vai passar pelo Filtro da Sensatez. Vamos perguntar o que a sustenta e o que poderia fazê-la mudar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d06.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Use a pausa do Dia 3 quando o impulso chegar antes da distinção. O registro de hoje já conta como sua anotação diária; não precisa preencher um segundo diário."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "POSICIONE_SE"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

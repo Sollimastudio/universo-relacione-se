@@ -1,0 +1,245 @@
+{
+  "id": "d29",
+  "day": 29,
+  "title": "Uma carta com data e compromisso",
+  "traversal": "SUSTENTAR",
+  "objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+  "previous": "Auditoria dos Frutos",
+  "next": "Uma escolha viva precisa de cuidado",
+  "blocks": [
+    {
+      "id": "d29-01-opening",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Uma carta para o futuro pode virar uma cobrança com envelope bonito. “Espero que você finalmente tenha virado outra pessoa.” Vamos dispensar esse remetente. A carta de hoje levará fatos, cuidado e um compromisso que pode ser revisto.",
+        "Ontem você auditou os Frutos. Agora vamos transformar essa leitura num plano de continuidade. O futuro precisa saber o que funcionou, onde você teve dificuldade e como deseja responder quando a vida mudar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d29"
+    },
+    {
+      "id": "d29-02-reading",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Comece pela data e pela situação atual. Escreva para você como escreveria a alguém que merece respeito e informação: “Hoje percebo isto; consegui fazer aquilo; ainda preciso de apoio aqui”. Não monte uma versão heroica do presente. A pessoa que vai abrir a carta precisa de um ponto de partida verdadeiro.",
+        "Inclua uma evidência concreta da jornada. Um pedido comunicado, uma hipótese revista, um cuidado possível ou uma retomada já realizada. Depois nomeie algo que continua difícil. As duas partes protegem a carta de virar propaganda ou acusação. Você pode reconhecer uma escolha sem negar que o contexto segue exigente.",
+        "Escolha um compromisso de processo. “Vou revisar minha agenda antes de assumir novos pedidos.” “Vou consultar meu plano de retomada quando a rotina mudar.” Evite comprometer-se com resultados que não dependem apenas de você, como uma reação alheia, um peso específico ou a ausência definitiva de sofrimento.",
+        "O material histórico já trazia uma carta para três meses. Preservamos essa direção e organizamos três revisões: D+30, D+60 e D+90, contadas a partir do término do protocolo. Portanto, D+30 é trinta dias depois de concluir o Dia 30. Não é outra forma de chamar o último Dia da jornada.",
+        "Em D+30, observe a prática principal: ela continuou acessível e útil? Em D+60, reveja contexto e apoio: algo mudou na rotina, nos recursos ou nas prioridades? Em D+90, reabra a carta e faça nova Auditoria dos Frutos: o que manter, ajustar, encerrar ou escolher agora? Essas perguntas são orientações, não prazos clínicos.",
+        "Você não precisa esperar as datas se houver uma dificuldade importante. O plano de retomada fica disponível sob gatilho; ajuda profissional não depende do calendário do produto. As revisões servem para criar encontros deliberados com suas escolhas, sem fiscalizar cada dia.",
+        "Pense também no impacto além de você. Uma rotina mais coerente pode abrir espaço para cuidar de um vínculo ou cumprir melhor um compromisso coletivo. Escolha algo proporcional e consentido. Propósito não obriga a se sacrificar, converter outras pessoas ao método nem oferecer disponibilidade ilimitada.",
+        "Se desejar, registre gratidão por um apoio real recebido e uma forma concreta de reconhecê-lo. Essa prática é opcional. Gratidão não exige agradecer pela dor, perdoar imediatamente ou negar injustiça; tampouco cura sintomas por vibração. Uma mensagem simples pode bastar, e você decide se quer enviá-la.",
+        "Por fim, escolha onde guardar a carta. Ela pode permanecer privada. Publicar não torna a decisão mais legítima. Sua continuidade não precisa de plateia para existir."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C01"
+      ],
+      "source_refs": [
+        "LEGACY-GOOGLE",
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.3390/healthcare12232488"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d29-03-reading",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "A evidência sobre formação de hábitos aponta variação de tempo e importância de repetição contextual. Por isso a manutenção ultrapassa o calendário inicial. As datas D+30/60/90 são uma escolha pedagógica deste produto; não representam etapas universais do cérebro."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C01"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.3390/healthcare12232488"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d29-04-exercise",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escreva uma carta curta com situação atual, uma evidência, uma dificuldade, compromisso de processo e frase de retomada. Registre a data real de conclusão quando chegar ao Dia 30 e, a partir dela, marque as três revisões. Se terminar mais tarde, ajuste as datas."
+      ],
+      "fields": [
+        {
+          "id": "d29.carta",
+          "label": "Minha carta: fatos, cuidado, compromisso e retomada",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d29.revisoes",
+          "label": "Quais datas de D+30, D+60 e D+90 após a conclusão real?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d29.rede",
+          "label": "Que apoio ou contribuição proporcional quero preservar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d29-05-mission",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Guarde a carta em um lugar que possa reencontrar e prepare o lembrete das revisões, quando souber a data de conclusão. Esta ação não envia mensagens a outras pessoas nem compartilha o Caderno automaticamente."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d29-06-fruit_review",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "A carta contém um compromisso realizável e uma forma respeitosa de retomar? Registre onde ficará acessível, sem expor seu conteúdo se não quiser. Se não fez, anote obstáculo e próxima ação segura."
+      ],
+      "fields": [
+        {
+          "id": "d29.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d29-07-if_then",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu abrir a carta e encontrar uma vida diferente da prevista, então revisarei o plano a partir da realidade, sem usar o passado para me condenar. Ação mínima: escrever uma frase de compromisso de processo."
+      ],
+      "fields": [
+        {
+          "id": "d29.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d29-08-installation",
+      "day_id": "d29",
+      "learning_objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Amanhã vamos plantar uma escolha de verdade. Separe, se puder, uma planta ou semente adequada ao seu ambiente, um recipiente e os cuidados necessários. O ritual será simples; o sentido está na continuidade que você decidiu cultivar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d29.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Prática principal sem novas obrigações"
+    ],
+    "on_trigger": [
+      "Plano de retomada"
+    ],
+    "weekly": [
+      "Revisão breve até D+30/60/90"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-GOOGLE",
+    "AUTHOR_PROMPT_20260930",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

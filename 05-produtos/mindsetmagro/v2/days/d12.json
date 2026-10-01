@@ -1,0 +1,278 @@
+{
+  "id": "d12",
+  "day": 12,
+  "title": "Valor aparece quando custa",
+  "traversal": "VOLTAR A SI",
+  "objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+  "previous": "Você não cabe no personagem",
+  "next": "Como quero viver neste corpo?",
+  "blocks": [
+    {
+      "id": "d12-01",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "opening",
+      "title": "Valor no discurso é fácil de decorar",
+      "content": [
+        "Respeito, cuidado, honestidade, liberdade. As palavras cabem bonitas numa parede. O trabalho começa quando duas delas parecem puxar você em direções diferentes. Cuidar de alguém pode exigir presença; cuidar de si pode exigir descanso. Que decisão respeita as condições reais sem abandonar nenhum lado por princípio?",
+        "Ontem você deu lugar a uma preferência. Hoje escolherá um valor e uma forma concreta de praticá-lo. Valor não é uma emoção que precisa aparecer antes da ação. É uma direção que você deseja sustentar, com responsabilidade e disposição para revisar a maneira de expressá-la."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d12"
+    },
+    {
+      "id": "d12-02",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "reading",
+      "title": "Da palavra ao verbo",
+      "content": [
+        "Escolha um valor que importe para uma situação atual. Pergunte: se alguém observasse minha ação, o que veria? “Cuidado” pode virar preparar um recurso necessário, pedir ajuda, comparecer a um compromisso possível ou respeitar uma orientação profissional. “Honestidade” pode virar informar que um prazo não cabe, em vez de prometer e desaparecer.",
+        "Não existe uma ação universal que demonstre cada valor. O contexto participa. Dizer tudo o que pensa pode ferir sem necessidade; omitir informação relevante pode impedir um acordo. Investigue direitos, deveres, recursos e consequências. O Método Posicione-se pede coerência com empatia, não uma autorização para usar sinceridade como martelo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-03",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "story",
+      "title": "O custo que precisa ser nomeado",
+      "content": [
+        "Exemplo: uma pessoa valoriza colaboração e aceita revisar um trabalho. Ao consultar a agenda, percebe que só consegue oferecer quinze minutos. Pode prometer uma revisão completa e falhar ou informar a ajuda que consegue dar. A segunda resposta talvez produza frustração, mas permite um acordo mais claro.",
+        "Ela não escolheu entre ser boa e ser egoísta. Escolheu como participar dentro de um limite. Quem pediu poderá buscar outra ajuda. A responsabilidade dela é informar com clareza e cumprir o que combinou, não garantir que ninguém fique contrariado."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-04",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "reading",
+      "title": "Desconforto não é prova de virtude",
+      "content": [
+        "Algumas escolhas coerentes são desconfortáveis. Outras são simples e até prazerosas. Não use sofrimento como certificado de valor. Um custo só faz sentido quando conversa com a finalidade e com suas condições. Há custos que você não deve aceitar, sobretudo quando ameaçam segurança ou direitos.",
+        "Pergunte também: este valor foi escolhido ou estou tentando merecer aprovação? A origem não decide tudo, como vimos no Dia 9. Você pode manter um valor aprendido e mudar a forma de praticá-lo. Generosidade pode continuar presente sem disponibilidade ilimitada. Responsabilidade pode continuar presente sem culpa por tudo que acontece.",
+        "A honestidade emocional pede reconhecer o que sente, diz e escolhe, inclusive quando essas partes não combinam. Você pode dizer que uma situação está boa e perceber ressentimento. Isso não prova mentira deliberada; pode indicar dificuldade de reconhecer ou expressar uma necessidade. O passo útil é nomear o desencontro e investigar uma resposta segura, sem obrigar exposição."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "AUTHOR_ORIGIN_20260620"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-05",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Abordagens psicológicas trabalham a possibilidade de agir conforme valores mesmo com pensamentos e emoções difíceis. A evidência de tratamentos completos não valida este exercício isolado. Aqui, a proposta é educativa: escolher uma ação possível, observar e revisar sem prometer efeito clínico."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C08"
+      ],
+      "source_refs": [
+        "C08",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12210942/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-06",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha um valor por vez e traduza-o num verbo observável. Inclua o limite antes da ação: assim você pode perceber quando a tentativa de coerência começa a pedir um custo inviável. Uma ação menor pode expressar o mesmo valor de forma mais sustentável."
+      ],
+      "fields": [
+        {
+          "id": "d12.valor",
+          "label": "Qual valor quero sustentar nesta situação e por quê?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d12.verbo",
+          "label": "Que ação observável expressa esse valor agora?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d12.custo",
+          "label": "Qual custo é aceitável e qual limite preciso preservar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-07",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Pratique uma ação pequena ligada ao valor escolhido. Dê a ela começo e fim: informar uma limitação, cumprir uma parte combinada ou pedir um recurso. Antes de agir, confira se a ação respeita o território de outra pessoa. Depois observe o resultado sem exigir uma reação de aprovação."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-08",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "O Fruto é o que você fez e o que aconteceu, não o elogio recebido. Se a ação pareceu coerente, descreva por quê. Se percebeu que o valor virou cobrança excessiva, ajuste a forma de praticá-lo. Identificar um custo inviável é motivo legítimo para revisão."
+      ],
+      "fields": [
+        {
+          "id": "d12.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-09",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu perceber que estou prometendo além dos meus recursos para demonstrar cuidado, então direi qual ajuda consigo oferecer. Se a necessidade exigir mais do que posso fazer, então considerarei apoio adicional em vez de assumir sozinha."
+      ],
+      "fields": [
+        {
+          "id": "d12.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d12-10",
+      "day_id": "d12",
+      "learning_objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: completar “hoje, respeito aparece quando eu…”. Escolha um verbo e uma situação, não uma qualidade abstrata.",
+        "Mantenha o registro de um episódio e use a Sala de Controle quando houver conflito de valores. A prática de ontem pode continuar apenas quando surgir oportunidade segura.",
+        "Amanhã esse cuidado chegará à relação com o corpo. O MMI será ampliado para perguntar como você quer viver nele, além de como deseja parecer."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d12.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Mantenha o registro de um episódio e use a Sala de Controle quando houver conflito de valores. A prática de ontem pode continuar apenas quando surgir oportunidade segura."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "LEGACY_MINDSETMAGRO",
+    "POSICIONE_SE"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

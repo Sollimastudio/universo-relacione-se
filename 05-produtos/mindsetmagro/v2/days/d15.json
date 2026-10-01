@@ -1,0 +1,284 @@
+{
+  "id": "d15",
+  "day": 15,
+  "title": "Pertencer sem se abandonar",
+  "traversal": "VOLTAR A SI",
+  "objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+  "previous": "Identidade precisa de testemunhas reais",
+  "next": "Sua parte não é tudo",
+  "blocks": [
+    {
+      "id": "d15-01",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "opening",
+      "title": "Ter lugar não deveria exigir desaparecimento",
+      "content": [
+        "Você não precisa fazer tudo sozinha para provar autoria. Apoio pode ampliar possibilidades. O problema não é precisar de gente; é acreditar que, para continuar perto, você deve concordar com tudo, esconder necessidades ou se tornar permanentemente útil.",
+        "Nesta travessia você reconheceu papéis, escolheu um valor, ampliou o MMI e registrou ações reais. Hoje vai olhar para a forma como participa dos vínculos. Pertencer e preservar autoria não são opostos obrigatórios. A pergunta é qual relação, acordo e dose de presença tornam essa combinação possível."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d15"
+    },
+    {
+      "id": "d15-02",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "reading",
+      "title": "Pedido não é contrato secreto",
+      "content": [
+        "Escolha um apoio concreto. “Preciso que você me entenda” pode expressar uma necessidade importante, mas ainda deixa a ação indefinida. “Você consegue me ouvir por dez minutos, sem sugerir soluções agora?” informa o tipo de ajuda. A outra pessoa pode aceitar, negociar ou não estar disponível.",
+        "Um pedido respeitoso admite resposta. Um acordo precisa ser entendido pelos envolvidos. Se você espera um comportamento que nunca foi combinado, talvez precise torná-lo explícito antes de concluir desinteresse. Isso não vale para apagar deveres claros ou justificar desrespeito; vale para retirar expectativas ocultas de situações que permitem conversa."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-03",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "story",
+      "title": "Apoio que cabe aos dois",
+      "content": [
+        "Exemplo: uma pessoa quer reservar um período para uma atividade importante e precisa dividir uma tarefa doméstica. Em vez de esperar que alguém adivinhe, propõe um horário e pergunta qual parte pode ser compartilhada. O outro informa uma limitação. Eles ajustam o plano.",
+        "Talvez não cheguem ao acordo desejado. Ainda assim, a conversa produz informação sobre recursos e disponibilidade. Se a resposta vier com ameaça ou coerção, o problema deixa de ser apenas formulação do pedido. Segurança e apoio adequado passam à frente do exercício. Nenhuma frase perfeita garante um vínculo respeitoso."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-04",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "reading",
+      "title": "Gratidão com os olhos abertos",
+      "content": [
+        "Se fizer sentido, reconheça uma ajuda recebida dizendo o que a pessoa fez e como isso participou do seu dia. Gratidão aqui é um gesto opcional de reconhecimento, não obrigação de encontrar beleza em sofrimento. Você pode agradecer um apoio e continuar discordando de outra atitude.",
+        "Também pode reconhecer a ausência de apoio sem se chamar de ingrata. Não use gratidão para cancelar dor, dispensar reparação ou manter acesso que prejudica você. O vínculo precisa comportar fatos inteiros. Uma ajuda não compra silêncio; um conflito não apaga automaticamente toda a história da relação."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-05",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "reading",
+      "title": "Fechar a travessia sem fechar a identidade",
+      "content": [
+        "Volte a uma cena do Dia 11. Houve algum espaço maior para uma preferência ou necessidade? Qual valor ficou mais concreto? Seu MMI ampliou cuidado ou aumentou cobrança? Qual registro do Banco mostrou uma condição útil?",
+        "Escolha somente um aprendizado para levar adiante. Se nada parece ter mudado, procure uma pergunta que ficou mais precisa ou um recurso que percebeu faltar. Não invente progresso para acompanhar o calendário. O ritmo do produto organiza a experiência; não determina quando sua vida deve apresentar um resultado."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-06",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Formule a ajuda em termos de uma ação possível e considere se a pessoa tem condições de oferecê-la. O reconhecimento é opcional e específico. Na revisão, escolha um aprendizado para continuar; você não precisa demonstrar mudança em todas as áreas ao mesmo tempo."
+      ],
+      "fields": [
+        {
+          "id": "d15.apoio",
+          "label": "De que ajuda concreta preciso e com quem seria seguro conversar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d15.pedido",
+          "label": "Como formularei um pedido que admita negociação?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d15.reconhecimento",
+          "label": "Opcional: qual ajuda real quero reconhecer?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d15.revisao",
+          "label": "O que levo desta travessia e o que precisa diminuir?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-07",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Faça um pedido específico a alguém apropriado ou prepare um contato com uma fonte segura de apoio. Se não houver pessoa disponível, identifique um recurso possível e o próximo passo para acessá-lo. Reconhecer uma ajuda já recebida pode acompanhar a missão, mas não substitui nomear sua necessidade."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-08",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Registre o pedido, a resposta recebida ou o obstáculo ao contato. Diferencie resposta observada e interpretação. O Fruto pode ser um acordo, uma recusa clara ou a percepção de que será necessário buscar outro recurso. Recusa não é automaticamente prova de desvalor."
+      ],
+      "fields": [
+        {
+          "id": "d15.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-09",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu esperar que alguém adivinhe uma necessidade negociável, então formularei um pedido concreto. Se houver risco na conversa, então priorizarei proteção e buscarei apoio apropriado, sem usar o exercício como teste de coragem."
+      ],
+      "fields": [
+        {
+          "id": "d15.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d15-10",
+      "day_id": "d15",
+      "learning_objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: completar “preciso de ajuda com…” e nomear uma ação. Você não precisa enviar uma mensagem nem expor intimidade para preencher este Dia.",
+        "O reconhecimento é opcional. Mantenha como prática apenas o registro breve e os recursos que ajudaram. Pedidos e revisões do MMI entram quando houver necessidade, não por obrigação diária.",
+        "Amanhã começa Reposicionar. A Árvore vai ajudar a distribuir responsabilidades: sua parte importa, mas ela não é tudo que existe."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d15.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "O reconhecimento é opcional. Mantenha como prática apenas o registro breve e os recursos que ajudaram. Pedidos e revisões do MMI entram quando houver necessidade, não por obrigação diária."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "LEGACY_MINDSETMAGRO",
+    "POSICIONE_SE",
+    "FUGA_IDENTITARIA"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

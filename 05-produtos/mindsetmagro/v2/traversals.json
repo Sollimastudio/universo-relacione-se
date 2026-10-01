@@ -1,0 +1,56 @@
+[
+  {
+    "id": "t1",
+    "title": "DESCONGESTIONAR",
+    "days": [
+      1,
+      5
+    ],
+    "objective": "Reconhecer o excesso, abrir espaço e escolher uma prioridade."
+  },
+  {
+    "id": "t2",
+    "title": "DISCERNIR",
+    "days": [
+      6,
+      10
+    ],
+    "objective": "Separar fatos de interpretações e investigar antes de concluir."
+  },
+  {
+    "id": "t3",
+    "title": "VOLTAR A SI",
+    "days": [
+      11,
+      15
+    ],
+    "objective": "Rever papéis, reconhecer valores e cuidar da relação consigo."
+  },
+  {
+    "id": "t4",
+    "title": "REPOSICIONAR",
+    "days": [
+      16,
+      20
+    ],
+    "objective": "Transformar discernimento em limites e experiências na vida real."
+  },
+  {
+    "id": "t5",
+    "title": "HABITAR",
+    "days": [
+      21,
+      25
+    ],
+    "objective": "Cuidar do corpo, da alimentação, do movimento e do descanso."
+  },
+  {
+    "id": "t6",
+    "title": "SUSTENTAR",
+    "days": [
+      26,
+      30
+    ],
+    "objective": "Revisar os Frutos, preparar retomadas e continuar cuidando."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "day_files": 30,
+  "additional_block_collections": 2,
+  "errors": [],
+  "validator": "jsonschema Draft202012"
+}

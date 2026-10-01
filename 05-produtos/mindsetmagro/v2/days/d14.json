@@ -1,0 +1,285 @@
+{
+  "id": "d14",
+  "day": 14,
+  "title": "Identidade precisa de testemunhas reais",
+  "traversal": "VOLTAR A SI",
+  "objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+  "previous": "Como quero viver neste corpo?",
+  "next": "Pertencer sem se abandonar",
+  "blocks": [
+    {
+      "id": "d14-01",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "opening",
+      "title": "Quem você diz ser precisa poder mudar",
+      "content": [
+        "“Eu sou assim” pode funcionar como uma explicação rápida ou como uma porta trancada. Se todo episódio difícil confirma o rótulo e toda exceção é descartada como sorte, a investigação já chega com o resultado pronto. Hoje vamos devolver espaço aos acontecimentos.",
+        "Ontem você escolheu uma forma possível de cuidado. Agora vai procurar uma evidência concreta de uma ação que deseja desenvolver. Não precisa fabricar uma nova identidade e defendê-la a qualquer custo. Basta reconhecer: em determinada situação, com certas condições, consegui praticar algo que importa."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d14"
+    },
+    {
+      "id": "d14-02",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "reading",
+      "title": "Banco de Evidências da Identidade",
+      "content": [
+        "O nome é autoral, e a proposta é simples: guardar pequenos registros de comportamento, contexto e apoio. “Sou disciplinada” é amplo. “Preparei o material antes da tarefa e comecei no horário combinado” mostra uma ação. “Consegui porque alguém dividiu uma responsabilidade comigo” preserva o papel do apoio.",
+        "Registre também limites. Uma ação realizada não prova que você repetirá sempre; uma ação não realizada não apaga todas as anteriores. O Banco não serve para somar pontos de merecimento. Serve para localizar condições sob as quais uma escolha se tornou possível e poderá ser ensaiada novamente."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-03",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "story",
+      "title": "O registro que o rótulo deixava de fora",
+      "content": [
+        "Exemplo: uma pessoa se define como alguém que abandona tudo. Ao consultar o Caderno, encontra um pedido de esclarecimento que fez, um compromisso renegociado e uma pequena alteração no ambiente. Nenhum deles resolveu a vida, mas todos contradizem a ideia de completa passividade.",
+        "Ela formula uma descrição provisória: “Consigo agir melhor quando reduzo a tarefa e explicito o prazo”. Essa frase ainda precisará responder a novas experiências. Não vira um slogan para negar dificuldades. Vira uma hipótese prática sobre o que ajuda a começar e continuar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-04",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "reading",
+      "title": "Respeito ao erro não é licença para repetir",
+      "content": [
+        "Quando uma escolha não funciona, descreva o episódio sem insulto. O que você fez? Que consequência apareceu? Há algo a reparar? Que condição precisa mudar? Responder com respeito não apaga responsabilidade. Ajuda a manter o foco na ação que ainda pode ser feita.",
+        "“Eu falhei neste combinado” é diferente de “sou uma falha”. A primeira frase pode levar a um pedido de desculpas e um novo acordo. A segunda costuma encerrar a conversa sobre o comportamento numa condenação pessoal. Não precisamos escolher entre fingir que nada aconteceu e humilhar quem precisa corrigir a rota.",
+        "Uma testemunha real não precisa ser uma plateia. O próprio registro de um acontecimento verificável basta. Compartilhar é opcional; nenhuma postagem, foto ou aprovação externa será exigida como confirmação da sua participação.",
+        "Observe também a distância entre o compromisso declarado e a ação. Honestidade não exige inventar uma boa intenção para toda escolha, mas também não autoriza presumir má-fé. Descreva o desencontro, reconheça sua parte e considere as condições que impediram ou favoreceram o comportamento. O Banco deve ajudar a corrigir a rota, não a defender uma imagem impecável."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "AUTHOR_ORIGIN_20260620"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-05",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Há relações observadas entre identidade e hábitos, mas isso não prova que declarar uma identidade produza automaticamente um comportamento. O Banco trabalha ações e condições, mantendo descrições revisáveis. Uma dificuldade de hoje não deve ser transformada em definição permanente de quem você é."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C14"
+      ],
+      "source_refs": [
+        "C14",
+        "https://doi.org/10.1111/aphw.70017"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-06",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Use episódios reais que já apareceram no Caderno. Registre apoio e contexto junto com a ação, para não atribuir tudo a uma qualidade pessoal. Sua descrição deve continuar revisável. Se houver reparo necessário, nomeie a parte concreta em vez de compensar com autoacusação."
+      ],
+      "fields": [
+        {
+          "id": "d14.evidencia",
+          "label": "Qual ação concreta mostra uma capacidade que desejo desenvolver?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d14.condicoes",
+          "label": "Que apoio, recurso ou condição tornou essa ação possível?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d14.descricao",
+          "label": "Como descrevo essa capacidade de modo provisório, sem sempre ou nunca?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d14.reparo",
+          "label": "Há um ajuste ou reparo que preciso fazer?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-07",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Encontre no Caderno uma evidência real e use uma das condições que ajudaram para uma nova ação pequena. Se não encontrar uma ação concluída, procure um pedido de apoio, uma percepção ou uma tentativa interrompida e descreva seu alcance com honestidade. Não aumente o episódio para que pareça uma vitória."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-08",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Escreva o que foi realizado e qual condição participou. Se não conseguiu repetir, registre a diferença de contexto. O Banco precisa guardar a realidade, não apenas cenas que sustentam uma narrativa positiva. A capacidade em desenvolvimento continua aberta à prática e à revisão."
+      ],
+      "fields": [
+        {
+          "id": "d14.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-09",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se um erro me levar a um rótulo definitivo, então descreverei a ação, a consequência e uma possibilidade de reparo. Se eu estiver usando uma frase positiva para ignorar um problema, então voltarei ao fato observado."
+      ],
+      "fields": [
+        {
+          "id": "d14.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d14-10",
+      "day_id": "d14",
+      "learning_objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: registrar um verbo no passado com contexto: “pedi”, “observei”, “renegociei”, “comecei”. Uma palavra bonita sobre identidade não substitui esse registro.",
+        "Continue com uma anotação breve. O Banco usa os registros que já existem; não exige escrever uma segunda versão de cada Dia nem colecionar provas o tempo inteiro.",
+        "Amanhã vamos levar essa autoria para o pertencimento. Você pode receber apoio e participar de vínculos sem precisar entregar a eles a definição inteira de quem é."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d14.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Continue com uma anotação breve. O Banco usa os registros que já existem; não exige escrever uma segunda versão de cada Dia nem colecionar provas o tempo inteiro."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

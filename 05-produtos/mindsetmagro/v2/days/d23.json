@@ -1,0 +1,235 @@
+{
+  "id": "d23",
+  "day": 23,
+  "title": "Movimento que cabe na vida",
+  "traversal": "HABITAR",
+  "objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+  "previous": "O prato traduzido, sem tribunal",
+  "next": "Descansar também é cuidado",
+  "blocks": [
+    {
+      "id": "d23-01-opening",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "O melhor movimento do mundo, se não cabe na sua realidade, vira mais uma propaganda pendurada na consciência. A proposta de hoje começa menor: qual possibilidade existe, com o corpo, o tempo e os recursos que você tem?",
+        "Ontem trabalhamos uma escolha sem tribunal. Movimento também não será castigo nem moeda para pagar comida. Ele entra como cuidado e participação na vida, com adaptação quando necessária."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d23-02-reading",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Na origem do protocolo, Sol aproxima duas coisas: gostar de música e precisar se movimentar. Dançar ouvindo música aparece como exemplo de unir o útil ao agradável. O que preservamos é essa pergunta prática: existe uma maneira de tornar uma ação desejada mais compatível com algo de que você gosta?",
+        "Isso não significa que toda atividade precisa ser divertida. Também não exige dançar. Pode haver prazer em companhia, ar livre, ritmo, aprendizagem ou na sensação de terminar uma tarefa possível. Algumas pessoas preferem silêncio. Outras precisam de orientação, apoio físico ou um ambiente acessível. Seu movimento não precisa parecer com o vídeo de ninguém.",
+        "Pense comigo: “preciso mudar minha vida” não define o que fazer hoje. “Quero verificar uma oportunidade segura de movimento na minha rotina” já abre uma investigação. Pode ser uma caminhada que você já sabe tolerar, uma atividade orientada que deseja retomar ou uma adaptação que precisa conhecer com um profissional. O protocolo não determina intensidade, carga, duração ou exercício para a sua condição.",
+        "O Princípio do Movimento Possível troca a comparação pela viabilidade. Você escolhe uma versão compatível e observa. Se está inativa, tem sintomas, limitações ou dúvidas de segurança, preparar uma conversa com profissional pode ser a missão adequada. Não é preciso se testar até o limite para merecer o registro do Dia.",
+        "Força também interessa como capacidade de participar da vida. Acompanhamento adequado pode ajudar a escolher práticas, mas não usaremos a promessa de “substituir gordura por músculo” como troca literal nem a ideia de músculo como fornalha mágica. Objetivos de composição corporal pedem avaliação própria e não são critério obrigatório desta jornada.",
+        "Veja um exemplo: alguém decide participar de uma atividade com outra pessoa, mas o horário não cabe. Em vez de concluir “não tenho disciplina”, verifica outra oportunidade ou um apoio necessário. O dado útil é o conflito de agenda. Se a experiência acontece e não agrada, pode testar outra forma. Gostar de uma modalidade não é dever moral.",
+        "Há ainda o descanso necessário. Dor nova importante, mal-estar ou sinais incomuns não são obstáculos a vencer com pensamento positivo. Pare e procure avaliação adequada. Não aumente esforço para compensar uma refeição ou um dia parado. A ação precisa cuidar da pessoa que a executa, inclusive quando a escolha responsável é interromper."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C19"
+      ],
+      "source_refs": [
+        "LEGACY-UNTITLED",
+        "LEGACY-GOOGLE",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://www.ncbi.nlm.nih.gov/books/NBK566046/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d23-03-reading",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "As diretrizes de atividade física reconhecem que algum movimento pode ser melhor que nenhum e que começar pequeno é válido. Isso é orientação geral de saúde pública, não prescrição individual. A dose e as adaptações dependem das condições da pessoa; o protocolo não oferece liberação clínica para exercício."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C19"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://www.ncbi.nlm.nih.gov/books/NBK566046/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d23-04-exercise",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha uma oportunidade já segura para você, ou uma preparação para obter orientação. Identifique horário possível, recurso e uma forma de tornar a experiência mais agradável. Não acrescente metas de calorias, peso ou desempenho."
+      ],
+      "fields": [
+        {
+          "id": "d23.movimento",
+          "label": "Opcional: qual movimento possível ou preparação escolhi?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d23.apoio",
+          "label": "Qual horário, adaptação ou apoio torna minha escolha viável?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d23-05-mission",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Experimente a oportunidade escolhida dentro das suas condições habituais ou prepare o acesso ao apoio necessário. Se não optar pela trilha corporal, organize uma condição prática de participação, como horário ou companhia, sem realizar exercício."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d23-06-fruit_review",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "O que foi possível? O que facilitou e o que precisa mudar? Registre a ação ou o obstáculo e a próxima ação segura. Não é necessário informar duração, peso ou desempenho físico para concluir."
+      ],
+      "fields": [
+        {
+          "id": "d23.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d23-07-if_then",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se o plano ficar grande demais para o dia, então reduzirei a exigência ou prepararei a condição que falta. Ação mínima: escolher uma oportunidade real e verificar se ela é segura e acessível."
+      ],
+      "fields": [
+        {
+          "id": "d23.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d23-08-installation",
+      "day_id": "d23",
+      "learning_objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Mantenha somente uma combinação que faça sentido. O agradável pode ajudar a começar; o ajuste ajuda a continuar. Amanhã vamos olhar o descanso, sem tratá-lo como prêmio por ter produzido bastante."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d23.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Movimento possível apenas quando adequado"
+    ],
+    "on_trigger": [
+      "Adaptar sem compensação"
+    ],
+    "weekly": [
+      "Rever acessibilidade, preferência e apoio"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-UNTITLED",
+    "LEGACY-GOOGLE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

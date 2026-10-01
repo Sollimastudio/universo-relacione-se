@@ -1,0 +1,241 @@
+{
+  "id": "d18",
+  "day": 18,
+  "title": "O espaço que a Poda abre",
+  "traversal": "REPOSICIONAR",
+  "objective": "Interromper um padrão específico e escolher uma substituição viável.",
+  "previous": "Um limite precisa de uma frase",
+  "next": "O futuro precisa de uma cena",
+  "blocks": [
+    {
+      "id": "d18-01-opening",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Você tirou uma coisa da agenda. Ótimo. O espaço ficou vazio por oito minutos e apareceu outra obrigação usando o crachá da anterior. A Poda não termina quando você diz “chega”; ela pede atenção ao que vai ocupar o lugar.",
+        "Ontem você ensaiou uma frase de limite. Hoje a pergunta é prática: qual comportamento será interrompido e qual Nova Semente será colocada no espaço? Não vamos podar a personalidade de ninguém. Vamos escolher um objeto específico."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d18"
+    },
+    {
+      "id": "d18-02-reading",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Poda, no Método Posicione-se, é interrupção responsável. Pode envolver uma rotina, um acesso, uma permissão, um prazo, uma interpretação ou uma forma de vínculo. Não exige romper relações nem transformar cada incômodo numa despedida cinematográfica. Às vezes a Poda mais útil é retirar uma notificação de um horário em que você precisa trabalhar.",
+        "Pense comigo: “vou parar de me abandonar” expressa uma direção importante, mas ainda não diz o que muda às quatro da tarde. “Antes de aceitar mais uma tarefa, vou conferir minha agenda” descreve uma posição observável. Quanto mais preciso o objeto, mais possível observar se a mudança aconteceu.",
+        "O comportamento antigo costuma cumprir alguma função, mesmo quando custa caro. Responder imediatamente pode reduzir o medo de desagradar. Abrir a rede social pode oferecer descanso, companhia ou fuga de uma tarefa confusa. Nomear essa função não é desculpar tudo; é evitar uma substituição que não conversa com a necessidade.",
+        "A Nova Semente deve ser pequena, contextual e revisável. Se você retira a pausa digital, precisa considerar como vai descansar. Se recusa uma tarefa, talvez precise combinar prioridades. Se limita uma conversa desgastante, pode buscar companhia em outro lugar. Poda sem alternativa pode virar apenas uma ordem severa esperando ser descumprida.",
+        "Um exemplo: a pessoa pega o celular sempre que não sabe como começar um trabalho. A Poda é deixar o aparelho fora do alcance por um intervalo escolhido. A Nova Semente é escrever a primeira ação do trabalho antes de começar. Se a dificuldade persistir, investigue instrução, ajuda ou tamanho da tarefa. Não conclua que o telefone era a causa única.",
+        "Também existem custos. Silenciar um canal usado para emergências pode não ser adequado. Cancelar algo contratado pode ter consequências financeiras. Reduzir contato com alguém de quem você depende pede cuidado. A ação deve caber nos seus deveres e nas suas condições, com apoio quando necessário. Antes de executar, verifique se a mudança cria algum custo que outra pessoa precisará conhecer e negociar com você.",
+        "Hoje escolha um teste reversível. Uma prática não precisa ganhar nome novo para funcionar. Poda Ambiental, limite e Arquitetura da Escolha podem trabalhar juntos. O objetivo não é colecionar ferramentas; é usar a menor combinação que ajude sua vida."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "POSICIONE_SE",
+        "LEGACY-GOOGLE",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d18-03-reading",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "O modelo COM-B convida a olhar habilidade, oportunidade e motivação. Aqui ele ajuda a perguntar se a alternativa está realmente disponível. A Poda e a Nova Semente são linguagem autoral; não correspondem a uma cirurgia mental nem garantem que o comportamento antigo desapareça."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C15"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1186/1748-5908-6-42"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d18-04-exercise",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Complete três linhas: “vou interromper”, “isso costumava me oferecer” e “no lugar, vou testar”. Defina quando começa e quando será revisto. Escolha algo pequeno o suficiente para testar hoje. Se sua proposta exigir mudar cinco áreas da vida, reduza para uma situação."
+      ],
+      "fields": [
+        {
+          "id": "d18.poda",
+          "label": "Qual comportamento ou acesso específico vou interromper?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d18.funcao",
+          "label": "Que função ele cumpria e que custo tinha?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d18.semente",
+          "label": "Qual alternativa concreta vou testar e quando revisar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d18-05-mission",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Faça a mudança no ambiente ou na rotina e use a alternativa uma vez. Observe se ela estava acessível no momento necessário. Se faltou recurso, registre isso; não transforme indisponibilidade em defeito pessoal."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d18-06-fruit_review",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "O padrão antigo apareceu? A Nova Semente pôde ser usada? Que ajuste tornaria a próxima tentativa mais viável? Registre um episódio, ou obstáculo e próxima ação segura. Não é necessário provar que abandonou o comportamento para sempre."
+      ],
+      "fields": [
+        {
+          "id": "d18.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d18-07-if_then",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu buscar o padrão antigo, então tentarei a alternativa preparada antes de decidir o próximo passo. Ação mínima: deixar a Nova Semente pronta, mesmo que o gatilho não apareça hoje."
+      ],
+      "fields": [
+        {
+          "id": "d18.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d18-08-installation",
+      "day_id": "d18",
+      "learning_objective": "Interromper um padrão específico e escolher uma substituição viável.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Mantenha a alternativa que fez sentido e revise a que não serviu. Amanhã vamos ensaiar uma cena futura com seus obstáculos reais. O futuro não precisa de propaganda; precisa de um caminho que comece no presente."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d18.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "A Nova Semente escolhida, se adequada"
+    ],
+    "on_trigger": [
+      "Poda específica",
+      "SE → ENTÃO"
+    ],
+    "weekly": [
+      "Rever custo e função da substituição"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "POSICIONE_SE",
+    "LEGACY-GOOGLE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

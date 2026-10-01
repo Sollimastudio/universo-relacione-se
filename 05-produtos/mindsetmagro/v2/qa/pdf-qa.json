@@ -1,0 +1,43 @@
+{
+  "Livro": {
+    "pages": 149,
+    "sample_pages": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      64,
+      103,
+      135,
+      149
+    ],
+    "out_of_bounds_blocks": [],
+    "characters": 202048,
+    "sha256": "665d1d551e891344e5b25a4db12e35c7cbbcb8db5fc099a7fc3c20f2f2ba828f"
+  },
+  "Caderno-Vivo": {
+    "pages": 111,
+    "sample_pages": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      49,
+      56,
+      101,
+      106,
+      111
+    ],
+    "out_of_bounds_blocks": [],
+    "characters": 73859,
+    "sha256": "3ee6c7457f9cc9967e5b90963361914d7b906d86fc6144bc03483f17f956037d"
+  },
+  "limits": [
+    "PDFs are printable, not tagged accessible PDFs or fillable AcroForm",
+    "Visual review samples plus all-page bounds scan, not human proofreading of all pages",
+    "HTML browser testing blocked: browsers unavailable; download returned truncated ZIP; VM logic checks executed"
+  ],
+  "rerender_note": "Source content and assets unchanged; regenerated only to record current source-lock; output byte hashes refreshed."
+}

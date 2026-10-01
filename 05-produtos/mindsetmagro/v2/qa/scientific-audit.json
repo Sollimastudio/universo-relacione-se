@@ -1,0 +1,382 @@
+{
+  "audit_type": "AI editorial scientific consistency review; not clinical sign-off",
+  "as_of_utc": "2026-10-01T00:39:12.072925+00:00",
+  "scope": "Leitura substantiva dos 30 dias, rastreabilidade, proporcionalidade dos claims, saúde e distinção autoria/evidência; não valida eficácia do pacote",
+  "days": [
+    {
+      "day": 1,
+      "file": "days/d01.json",
+      "sha256": "a7e821f72cdf4e9be37889da44b42caac4ef50e6a4710106a0780e3fa4f620eb",
+      "claim_ids": [
+        "C03"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C03: registro e revisão de metas descritos com possibilidade de benefício; sem transferir validação ao pacote; limitações externas explicitadas.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 2,
+      "file": "days/d02.json",
+      "sha256": "c734dce6c6b62b3ba43093cde4b02e79e3a1a6ec413fc33d9e2fd9744dae07cc",
+      "claim_ids": [
+        "C05"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C05: externalização da memória, não eliminação de ansiedade; limite de três pendências é proposta autoral e não dose científica.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 3,
+      "file": "days/d03.json",
+      "sha256": "c0c1d716c7c3bd83ae8c6a38f09f2d7723f54d33c3222889b369cf8d08b6c3a5",
+      "claim_ids": [
+        "C07"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C07: apoio indireto dos apps de mindfulness reconhecido; P.A.R.A. sem inferência hormonal/cerebral; alternativas externas e direito de pausa.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 4,
+      "file": "days/d04.json",
+      "sha256": "e7ce79c8cb6e35ce5a8df6b5d6ffa6cccb3343690cb3254d200fe922fe1e2cea",
+      "claim_ids": [
+        "C06"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "Janela do Caos breve, opcional e com saída; sem prometer eliminar pensamentos ou melhorar sono. C06 apoia referência geral a tratamento, não a janela. C26 recomendado como base mais específica.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 5,
+      "file": "days/d05.json",
+      "sha256": "e17fc5c0554cec7114a4a2ff0183fe253605eac159b1a809ffa9a838b0453891",
+      "claim_ids": [
+        "C15"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "COM-B explicitamente modelo; experimento de ambiente não garante resultado; mantém canais essenciais e respeita terceiros.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 6,
+      "file": "days/d06.json",
+      "sha256": "22b4174a987840f3e115f4664fb61f758b32d187110a3f8a9d3d291491158efe",
+      "claim_ids": [],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "Fato/narrativa/incógnita e Sala apresentados como metáfora autoral; emoção não equiparada a prova de intenção; memória incerta reconhecida.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 7,
+      "file": "days/d07.json",
+      "sha256": "2fab9eec855962ea72bfc2abe7e80fcbde1bbb8bf97e5a33c01d23d199b0ddb6",
+      "claim_ids": [],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "Filtro é instrumento reflexivo autoral; contraevidência e assimetria de poder preservadas; não classifica terceiros.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 8,
+      "file": "days/d08.json",
+      "sha256": "2f675ba397bde72094537ec511db18cbc715dfe09a7c414f2b3170b0fcb6e338",
+      "claim_ids": [
+        "C24"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C24 usado para limitar PNL; não promete reprogramação nem diagnóstico sensorial; perguntas não substituem apoio.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 9,
+      "file": "days/d09.json",
+      "sha256": "3bdd4e3caabd492ab5e74d68bec8f34d7888e834654bf2c8407f3d019ac1983a",
+      "claim_ids": [
+        "C13"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C13: razões próprias e competência com linguagem cautelosa; autonomia sem isolamento; origem de crenças não inventada.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 10,
+      "file": "days/d10.json",
+      "sha256": "a5a177c447535e10f6409dcfdd5a2d6f9fdacadf49a4e8f2892ce3e46ffeba79",
+      "claim_ids": [],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "Três cenas produzem hipótese, não causalidade ou diagnóstico; Sala de Controle não vira anatomia; corpo opcional e carga reduzida.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 11,
+      "file": "days/d11.json",
+      "sha256": "6dc484b6ef4b6ae056ca1a769ec5dc591b1ed03dab5a82e41236986ed2645615",
+      "claim_ids": [
+        "C14"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C14 limita relação identidade/hábito à associação. Personagem explicitamente pedagógico, não diagnóstico; preferência em contexto seguro.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 12,
+      "file": "days/d12.json",
+      "sha256": "00131701a54a24165150695a7b351aa5f7fd8f1833d279526c169416dc02c933",
+      "claim_ids": [
+        "C08"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C08 descreve abordagem por valores sem validar exercício isolado; não promete remover pensamentos ou tratar depressão.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 13,
+      "file": "days/d13.json",
+      "sha256": "e13ff7a63e18641c94383b01b064fc1736c1a12a0129fe82d9d9ea0ac9cb9c8c",
+      "claim_ids": [
+        "C10",
+        "C25"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C10 corresponde ao ensaio de escrita com mulheres jovens; memória da avó não prova preservação identitária em demência; MMI opt-in sem meta universal. C25 incluído para determinantes do peso; campos adicionais de MMI confirmados opt-in.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 14,
+      "file": "days/d14.json",
+      "sha256": "d833bf74a9bda036fd8e82a6affea1c9f28ebc6da21be9ff003447733d8da5a6",
+      "claim_ids": [
+        "C14"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C14 não transforma declaração identitária em causalidade; Banco guarda contexto e contraprova; linguagem de reparo sem humilhação.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 15,
+      "file": "days/d15.json",
+      "sha256": "4999da63f54bf3f8561885263cf60aa8fb643777ba6ce32e9fbbc1bba7faf9c9",
+      "claim_ids": [],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "Pedidos negociáveis e gratidão opcionais; sem promessa de efeito hormonal ou clínico; violência prioriza proteção.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 16,
+      "file": "days/d16.json",
+      "sha256": "cf390f16379db52baabde1120d923fcec5aaa60aa43d5ad65461fa33e4b601d2",
+      "claim_ids": [
+        "C15"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C15 organizador, Árvore autoral. Frutos explicitamente distribuídos entre ação, contexto e acaso; sem culpa por violência sofrida.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 17,
+      "file": "days/d17.json",
+      "sha256": "e150138d3ed23589c7d0b95ad52d4fa0971bd6019e31ed7da0a08f110e90bb49",
+      "claim_ids": [],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "Roteiro de limites explicitamente autoral, sem promessa clínica ou controle de terceiros; confronto não obrigatório em risco.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 18,
+      "file": "days/d18.json",
+      "sha256": "7675532280039ee08c657876535f66f10537b6221dd8690c038f2933202da8eb",
+      "claim_ids": [
+        "C15"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C15 organiza disponibilidade da alternativa. Poda/Nova Semente não são cirurgia mental nem apagam hábito definitivamente.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 19,
+      "file": "days/d19.json",
+      "sha256": "82a620aaf98eef6cb895c35312314ceb94d5bdc2f9729139f3bdedad85712ac3",
+      "claim_ids": [
+        "C02",
+        "C04"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C02/C04 usados com limitações, incluindo população de maior peso; visualização não materializa nem garante emagrecimento mantido; alternativa verbal disponível.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 20,
+      "file": "days/d20.json",
+      "sha256": "de96f6664b1a02f920e9f42e5c63322cb231595bdaa5d1d16cd6a63c5be7930c",
+      "claim_ids": [
+        "C03"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C03 monitora ação sem vigilância/exposição. Experimento único não vira lei ou avaliação clínica; contexto e contraprova preservados.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 21,
+      "file": "days/d21.json",
+      "sha256": "b1ac864e23487c5fc80a97e26fabb85e5ff3314d2d1900aa40fa1db61937df13",
+      "claim_ids": [
+        "C10",
+        "C25"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C10/C25 apoiam funcionalidade e multifatorialidade. MMI não é teste clínico; corpo e medidas opcionais; sintomas não atribuídos a mentalidade.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 22,
+      "file": "days/d22.json",
+      "sha256": "f46c50e5500ac5e85ef2973e8a5d6685218a5c3d6c08c6b01cf29d328e0f45d6",
+      "claim_ids": [
+        "C11",
+        "C12",
+        "C21",
+        "C22"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C11/C12/C21/C22 proporcionais. 10 g/100 ml × 200 ml = 20 g correto, exemplo fictício identificado; totais e adicionados distinguidos; amido não igualado a açúcar de mesa. Sem dieta, nojo universal ou adiamento da refeição.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 23,
+      "file": "days/d23.json",
+      "sha256": "887c60c57ebfc0d2ba06d9c649cc14aeace7e64344a4bfe1bf048199937fb860",
+      "claim_ids": [
+        "C19"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C19 usado como orientação geral, sem dose individual ou exercício compensatório. História música/dança referida como origem; atividade pode ser substituída por preparação de apoio.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 24,
+      "file": "days/d24.json",
+      "sha256": "ce82e93f294f59485b0cde70925615fa4baec9e2a099ac6a1f239def76aa7fa4",
+      "claim_ids": [
+        "C20"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C20: formulação corrigida e conferida para adultos saudáveis 18–60 anos e sete horas ou mais. Sem promessa de sono perfeito, cortisol/detox ou tratamento; monitoramento pode ser reduzido.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 25,
+      "file": "days/d25.json",
+      "sha256": "1a1bfd9d27f46a0462af4535ba0936b8b5da31b94074e53d8e38a3cf6f708c31",
+      "claim_ids": [
+        "C09"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C09 descreve autocompaixão com limites; frase não equivale a tratamento; rejeita jejum/exercício punitivos; sofrimento alimentar recebe orientação de buscar cuidado.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 26,
+      "file": "days/d26.json",
+      "sha256": "865b8c2946fd63bc7530e4ebe6dc70b41ee3d0546f568c305fe72648e55a1654",
+      "claim_ids": [
+        "C01"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C01: tempo variável e 30 dias não garantem automatização; repetição contextual e manutenção; ação mínima segura substitui malfeito indiscriminado.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 27,
+      "file": "days/d27.json",
+      "sha256": "c648a1ef4ce6b31f3e537b7d4550f2e0ff6e2996ff209047faeaa823ec9d5da8",
+      "claim_ids": [
+        "C02",
+        "C15"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C15/C02: retomada educativa a testar; componente e contexto substituem culpa; pausa por sofrimento e autonomia frente à IA preservadas.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 28,
+      "file": "days/d28.json",
+      "sha256": "0b460c97675f09d9950f7333c5b5423cd1001e8b4e692d1d76fb3f6e337ab9d4",
+      "claim_ids": [
+        "C03"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C03: auditoria não prova eficácia do produto, mudança cerebral ou causalidade; inclui contraevidência, custo e condições externas.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 29,
+      "file": "days/d29.json",
+      "sha256": "aefe637311365bb25a1cf842426923285a880dc3d04bc89f53ebdf6ded49cfb0",
+      "claim_ids": [
+        "C01"
+      ],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "C01: revisões D+30/60/90 são calendário pedagógico após conclusão, não estágios cerebrais; compromisso de processo sem resultado garantido.",
+      "human_clinical_signoff": false
+    },
+    {
+      "day": 30,
+      "file": "days/d30.json",
+      "sha256": "21fff4dbadfe158a5ca6107e04a692cc540defe67e954d13998c88dd7bc802ba",
+      "claim_ids": [],
+      "unknown_claim_ids": [],
+      "status": "reviewed_no_critical_scientific_issue",
+      "substantive_note": "Ritual explicitamente autoral e simbólico; planta não absorve dor nem prediz resultado; cuidado ajustado à espécie, sem rega universal; dificuldades e ausência de melhora admitidas.",
+      "human_clinical_signoff": false
+    }
+  ],
+  "visual_checks": [
+    {
+      "asset": "assets/acucar-honesto.svg",
+      "result": "Cálculo correto:10g/100ml ×200ml=20g; fictício identificado; totais/adicionados diferenciados; sem equivalência falsa de copo lotado."
+    }
+  ],
+  "global_limits": [
+    "Revisão bibliográfica dirigida, não revisão sistemática original",
+    "Aprovação editorial não equivale a validação clínica ou ensaio do produto",
+    "Conteúdo novo/modificado precisa de revisão de hash e leitura"
+  ],
+  "recommendations": [
+    {
+      "severity": "traceability_improvement",
+      "day": 4,
+      "action": "Adicionar C26 conforme mensagem ao redator; texto sem alegação clínica indevida."
+    }
+  ],
+  "open_items": [],
+  "conclusion": "30 dias lidos; sem correções científicas críticas pendentes após ajustes D13/C25 e D24/população. D04/C26 permanece sugestão opcional de enriquecimento, não correção de erro. Não equivale a validação clínica."
+}

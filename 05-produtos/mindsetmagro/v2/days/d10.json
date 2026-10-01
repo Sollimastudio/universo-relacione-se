@@ -1,0 +1,329 @@
+{
+  "id": "d10",
+  "day": 10,
+  "title": "Três cenas, uma hipótese",
+  "traversal": "DISCERNIR",
+  "objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+  "previous": "De quem é essa voz?",
+  "next": "Você não cabe no personagem",
+  "blocks": [
+    {
+      "id": "d10-01",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "opening",
+      "title": "Repetição merece pergunta, não carimbo",
+      "content": [
+        "Uma cena mostra um episódio. Três cenas podem ajudar a perceber uma estrutura, mas ainda não revelam uma causa definitiva. Hoje vamos reunir o que você já registrou para procurar um ponto de intervenção. Não é caça a defeito. É investigação com espaço para surpresa.",
+        "Você aprendeu a separar fato, história e incógnita; examinou evidências, palavras e influências. Agora essas peças vão trabalhar juntas. Não precisa produzir uma conclusão grandiosa. “Aceito tarefas antes de consultar meus horários” já oferece uma oportunidade concreta de reposicionamento."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d10"
+    },
+    {
+      "id": "d10-02",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "reading",
+      "title": "Três Cenas, Uma Estrutura",
+      "content": [
+        "Escolha até três situações comuns dos seus registros. Em cada uma, identifique o que aconteceu, como interpretou, o que fez e o que veio depois. Procure uma semelhança verificável: mesmo tipo de pedido, mesmo horário, ausência do mesmo recurso, mesma resposta. Procure também uma diferença.",
+        "Se só tiver uma ou duas cenas, use o que existe e registre a limitação. Não crie lembranças para completar a tabela. Formule: “Nessas situações, parece que…”. Depois indique uma cena que não combina com a hipótese, se houver. A exceção pode mostrar uma condição de apoio que vale repetir."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d10-03",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "reading",
+      "title": "A Sala de Controle completa",
+      "content": [
+        "A Sala é nossa metáfora pedagógica de metacognição e escolha. CORPO: o que percebo, se quiser observar? FATO: o que aconteceu? NARRATIVA: o que acrescentei? ORIGEM: essa regra é conhecida, possível ou desconhecida? EMOÇÃO: o que sinto? IMPULSO: o que quero fazer agora?",
+        "VALOR: que princípio quero sustentar? ESCOLHA: qual resposta depende de mim? FUTURO: que consequência pode aparecer agora e depois? FRUTO: o que aconteceu após a ação? Os painéis não são dez tarefas diárias. No modo rápido, use Fato, Escolha e Fruto. No profundo, consulte os demais quando realmente ajudarem."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d10-04",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "story",
+      "title": "Uma hipótese que pode cair",
+      "content": [
+        "Exemplo: em três ocasiões uma pessoa adiou uma tarefa quando recebeu instruções vagas. Ela imagina que a falta de clareza participa do adiamento. Em outra ocasião, começou logo porque recebeu um exemplo pronto. Resolve pedir um exemplo antes de iniciar uma tarefa semelhante.",
+        "Se começar com mais facilidade, a hipótese ganha algum apoio naquele contexto. Se continuar adiando, investigará outros fatores. Não conclui que “a causa era apenas essa”. Uma ferramenta útil mantém a porta aberta para correção; uma sentença sobre personalidade costuma fechar a porta e guardar a chave.",
+        "Depois de preencher, feche a Sala. Você não precisa observar cada pensamento enquanto vive a situação. Uma ferramenta metacognitiva se torna pesada quando exige fiscalização contínua. Use os painéis para uma escolha relevante e deixe que a experiência aconteça. O Fruto será observado depois, incluindo os acontecimentos que não combinarem com sua expectativa. É justamente essa abertura que torna o registro útil para a próxima revisão."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d10-05",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "control_room",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Comece pelas cenas que já existem no Caderno. Na Sala rápida, use Fato, Escolha e o registro de Fruto ao final do Dia. Se precisar investigar mais, abra os demais painéis. O corpo é opcional; nenhum painel exige revelar uma intimidade para produzir uma escolha."
+      ],
+      "fields": [
+        {
+          "id": "d10.cenas",
+          "label": "Quais cenas comparo: fato, resposta e consequência?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d10.hipotese",
+          "label": "Que hipótese limitada surgiu? Qual diferença ou exceção existe?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d10.corpo",
+          "label": "Se desejar: o que percebo fisicamente?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body",
+          "panel": "body"
+        },
+        {
+          "id": "d10.fato",
+          "label": "O que aconteceu?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "fact"
+        },
+        {
+          "id": "d10.narrativa",
+          "label": "O que minha mente acrescentou?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "narrative"
+        },
+        {
+          "id": "d10.origem",
+          "label": "O que sei sobre a origem da regra?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "origin"
+        },
+        {
+          "id": "d10.emocao",
+          "label": "O que sinto e o que isso informa?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "emotion"
+        },
+        {
+          "id": "d10.impulso",
+          "label": "O que quero fazer imediatamente?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "impulse"
+        },
+        {
+          "id": "d10.valor",
+          "label": "Que princípio quero sustentar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "value"
+        },
+        {
+          "id": "d10.escolha",
+          "label": "Qual resposta depende de mim?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "choice"
+        },
+        {
+          "id": "d10.futuro",
+          "label": "Que consequência pode aparecer a curto, médio e longo prazo?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null,
+          "panel": "future"
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d10-06",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Escolha uma situação futura semelhante e altere uma única resposta: pedir esclarecimento, consultar o horário ou preparar um recurso. Use a Sala no modo que couber. O teste não precisa acontecer imediatamente; se não houver oportunidade, registre a ocasião prevista e o primeiro passo possível."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d10-07",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Compare a resposta testada com a hipótese, sem forçar concordância. O que aconteceu depois? Que condição foi diferente? Se não houve tentativa, o obstáculo e uma próxima escolha segura são suficientes para encerrar o registro. Conclusão provisória é mais honesta do que certeza fabricada."
+      ],
+      "fields": [
+        {
+          "id": "d10.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null,
+          "panel": "fruit"
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d10-08",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu reconhecer a condição presente nas cenas anteriores, então testarei a resposta escolhida uma vez. Se o contexto for diferente ou inseguro, então adaptarei a ação em vez de obedecer ao plano mecanicamente."
+      ],
+      "fields": [
+        {
+          "id": "d10.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d10-09",
+      "day_id": "d10",
+      "learning_objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: comparar duas cenas e apontar uma semelhança concreta. Não precisa encontrar uma raiz profunda.",
+        "Na revisão desta travessia, mantenha uma pergunta do Filtro que tenha sido útil. A Sala completa fica sob demanda. Guarde espaço para agir, descansar e conviver.",
+        "Amanhã começa Voltar a Si. Vamos examinar os papéis que você exerce sem transformar nenhum deles na medida inteira de quem você é."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d10.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Na revisão desta travessia, mantenha uma pergunta do Filtro que tenha sido útil. A Sala completa fica sob demanda. Guarde espaço para agir, descansar e conviver."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "POSICIONE_SE"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

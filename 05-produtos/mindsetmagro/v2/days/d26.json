@@ -1,0 +1,246 @@
+{
+  "id": "d26",
+  "day": 26,
+  "title": "Consistência não é perfeição",
+  "traversal": "SUSTENTAR",
+  "objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+  "previous": "Próxima escolha, não punição",
+  "next": "Quando a rotina sair do eixo",
+  "blocks": [
+    {
+      "id": "d26-01-opening",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Se a rotina só funciona no dia em que você dormiu bem, ninguém pediu nada e todos os semáforos abriram, talvez ela seja uma homenagem ao impossível. A vida comum merece um plano que a reconheça.",
+        "Ontem você praticou a próxima escolha sem punição. Hoje começa Sustentar. O trabalho é decidir o que continua e em qual frequência. Aprender trinta Dias não significa carregar trinta tarefas diárias."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d26"
+    },
+    {
+      "id": "d26-02-reading",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Pense comigo: qual prática produziu alguma utilidade observável? Não escolha a mais bonita no papel. Escolha a que ajudou você a perceber, decidir ou agir numa situação real. Pode ser conferir a agenda antes de responder, fazer uma pergunta de precisão ou preparar uma alternativa no ambiente.",
+        "Defina a função dessa prática. Algumas são diárias, porque participam de uma rotina escolhida. Outras só fazem sentido sob gatilho, como Fato × História quando surge uma conclusão precipitada. Outras são semanais, como revisar Frutos. Uma ferramenta profunda pode ficar disponível sem ser aberta todos os dias. Caixa de ferramentas não é lista de obrigações.",
+        "O efeito cumulativo consiste em integrar habilidades, não empilhar formulários. Você aprende a distinguir fato e interpretação e leva essa habilidade para um pedido, uma refeição ou um plano. Não precisa preencher novamente toda a Sala de Controle cada vez que toma uma decisão. O modo rápido existe para a vida caber entre as perguntas.",
+        "Para a prática selecionada, escolha um gatilho reconhecível: depois de um evento habitual, antes de uma decisão ou em um horário viável. Evite depender apenas de “quando eu lembrar”. Prepare o recurso necessário e defina uma versão mínima. Ela não serve para fazer tudo de qualquer jeito; serve para preservar um gesto útil quando as condições estiverem reduzidas.",
+        "A frase “antes o mal feito que o não feito” precisa de precisão. Em tarefas de baixo risco, uma versão pequena e imperfeita pode ser um começo. Em saúde, segurança, contratos ou decisões importantes, mal feito pode trazer dano. Nossa formulação é: antes um passo pequeno, seguro e revisável que um plano tão grande que nunca começa.",
+        "Imagine uma pessoa que pretende escrever uma página por noite. Descobre que uma linha sobre ação e obstáculo já permite revisar a semana. A página continua disponível quando ajuda; a linha vira a versão mínima. Se nem a linha está útil, vale rever o propósito. Consistência não exige conservar uma prática que deixou de servir.",
+        "Também não vamos declarar que seu comportamento entrou no DNA ou que o cérebro foi reprogramado definitivamente. A repetição depende de contexto e pode perder força quando a vida muda. Por isso haverá revisão, adaptação e apoio. Manter não é congelar.",
+        "Escolha uma prática para cada frequência somente se necessário. Para hoje basta definir uma prática principal e deixar as outras como ferramentas sob demanda. Leveza também é retirar do protocolo o excesso que você não precisa carregar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C01"
+      ],
+      "source_refs": [
+        "LEGACY-UNTITLED",
+        "LEGACY-GOOGLE",
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.3390/healthcare12232488"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d26-03-reading",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Uma revisão sobre formação de hábitos encontrou grande variação no tempo necessário, com limitações nos estudos disponíveis. Repetição em contexto ajuda a desenvolver hábitos; trinta dias não garantem automatização. O nosso calendário organiza a aprendizagem, não estabelece um prazo biológico universal."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C01"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.3390/healthcare12232488"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d26-04-exercise",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Selecione uma prática e escreva: para que serve, quando usar, versão mínima e data de revisão. Classifique as demais como sob gatilho, semanais ou dispensáveis por enquanto. Não acrescente uma prática nova para compensar as que decidiu guardar."
+      ],
+      "fields": [
+        {
+          "id": "d26.pratica",
+          "label": "Qual prática principal quero manter e para que ela serve?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d26.frequencia",
+          "label": "Qual gatilho ou frequência é adequado?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d26.minima",
+          "label": "Qual versão mínima segura e quando vou revisar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d26-05-mission",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Use a versão escolhida uma vez ou prepare o contexto em que será usada. Observe se o gatilho é fácil de reconhecer. A missão é testar a sustentabilidade, não aumentar a quantidade de tarefas."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d26-06-fruit_review",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "A prática coube nas condições reais? Qual parte ajudou e qual ficou excessiva? Registre a ação ou obstáculo e próxima ação segura. Não precisa apresentar uma sequência sem falhas para concluir."
+      ],
+      "fields": [
+        {
+          "id": "d26.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d26-07-if_then",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se o dia ficar apertado, então usarei a versão mínima segura ou replanejarei conscientemente. Ação mínima: definir o gatilho e deixar o recurso necessário pronto."
+      ],
+      "fields": [
+        {
+          "id": "d26.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d26-08-installation",
+      "day_id": "d26",
+      "learning_objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Deixe seu plano visível onde faz sentido, sem encher a casa de cobranças. Amanhã vamos preparar a retomada para quando o contexto mudar. Consistência inclui saber voltar sem recomeçar a própria identidade."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d26.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Uma prática principal, se essa for a frequência adequada"
+    ],
+    "on_trigger": [
+      "Ferramentas selecionadas, não todas"
+    ],
+    "weekly": [
+      "Revisão breve da sustentabilidade"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-UNTITLED",
+    "LEGACY-GOOGLE",
+    "AUTHOR_PROMPT_20260930",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}
