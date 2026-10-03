@@ -1,6 +1,6 @@
 {
   "product_id": "mindsetmagro_30d",
-  "version": "2.1.0-editorial-upgrade",
+  "version": "2.5-dossier-lucida-spec",
   "language": "pt-BR",
   "canonical_source": "source/content-source.json",
   "days": 30,
@@ -26,5 +26,51 @@
     "MINDSETmagro-2.0-Livro-Final.pdf",
     "MINDSETmagro-2.0-Workbook-Final.pdf"
   ],
-  "status": "candidato a piloto fechado; gates externos ainda obrigatórios"
+  "status": "candidato a piloto fechado; gates externos ainda obrigatórios",
+  "dossier_spec": "DOSSIER-MINDSETmagro-ENGENHARIA-CANONICA.md",
+  "lucida_spec": "LUCIDA-MINDSETmagro-ARQUITETURA-ASSISTENCIA.md",
+  "lucida_prompts": "source/lucida-prompts.json",
+  "delivery_model": "livro de leitura + dossiê de execução + assistência LÚCIDA",
+  "travessias": [
+    {
+      "id": 1,
+      "name": "Descongestionar",
+      "days": "1-5"
+    },
+    {
+      "id": 2,
+      "name": "Discernir",
+      "days": "6-10"
+    },
+    {
+      "id": 3,
+      "name": "Voltar a si",
+      "days": "11-15"
+    },
+    {
+      "id": 4,
+      "name": "Reposicionar",
+      "days": "16-20"
+    },
+    {
+      "id": 5,
+      "name": "Habitar",
+      "days": "21-25"
+    },
+    {
+      "id": 6,
+      "name": "Sustentar",
+      "days": "26-30"
+    }
+  ],
+  "printables": [
+    "mmi-2",
+    "sala-controle",
+    "arvore-discernimento",
+    "futuro-telefona",
+    "auditoria-frutos",
+    "carta-futuro-d30-60-90",
+    "ritual-nova-semente"
+  ],
+  "visual_system": "Leveza com Autoridade"
 }
