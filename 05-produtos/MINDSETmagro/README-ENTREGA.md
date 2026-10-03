@@ -2,7 +2,7 @@
 
 Foi adicionada uma nova camada de execução mobile-first do MINDSETmagro™, separada do Livro e do Workbook.
 
-- `DOSSIE-MINDSETmagro-30-DIAS-Mobile-v2.6.html` — dossiê vertical responsivo, com 30 Dias, destaques visuais por travessia e ponte diária para a LÚCIDA.
+- `DOSSIE-MINDSETmagro-30-DIAS-Mobile-v2.6.html` — dossiê vertical responsivo, com 30 Dias, destaques visuais por travessia e ponte diária para a LÚCIDA.\n- `DOSSIE-MINDSETmagro-30-DIAS-Mobile-v2.6.pdf` — exportação mobile-first final, 210 páginas em 9:16.
 - `DOSSIE-MINDSETmagro-30-DIAS-Mobile-v2.6-README.md` — especificação, alterações e QA.
 - A exportação PDF correspondente tem 210 páginas 9:16 e foi validada para leitura sem zoom como alvo de design.
 
