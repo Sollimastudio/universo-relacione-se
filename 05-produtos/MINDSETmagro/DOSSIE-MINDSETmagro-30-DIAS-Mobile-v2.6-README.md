@@ -81,11 +81,9 @@ O dossiê contém:
 - badges 1–5 verificados visualmente sem corte;
 - PDF aberto com PyMuPDF; sem criptografia, XFA ou dependência de JavaScript.
 
-## Arquivo
+## Arquivos
 
-`DOSSIE-MINDSETmagro-30-DIAS-Mobile-v2.6.html`
-
-Esse HTML é a fonte mobile da edição e pode ser aberto diretamente no navegador. A exportação de revisão usa WeasyPrint em 432 × 768 pt.
+- `DOSSIE-MINDSETmagro-30-DIAS-Mobile-v2.6.html` — fonte responsiva da edição, para navegador.\n- `DOSSIE-MINDSETmagro-30-DIAS-Mobile-v2.6.pdf` — exportação mobile-first fixa, 210 páginas em 432 × 768 pt.\n\nO HTML é a fonte responsiva; o PDF é a entrega de leitura vertical sem zoom como alvo de design.
 
 ## Nota editorial
 
