@@ -41,3 +41,39 @@ A edição 2.1 usa 16 SVGs com `title` e `desc` embutidos. Os diagramas são est
 - `sala-controle.svg`, `mmi-2.svg`, `tradutor-prato.svg`, `tres-rotas.svg` — ferramentas e escolha de dose.
 
 Os PDFs mantêm fundo claro, contraste alto, texto composto fora de imagens críticas e leitura possível em escala de cinza. A homologação com leitor de tela e impressão física continua sendo um gate externo.
+
+
+## Adendo 2.5 — Dossiê e LÚCIDA
+
+### Paleta oficial aprovada — “Leveza com Autoridade”
+- Marfim seda: `#F7F3EB`
+- Azul ardósia: `#31556E`
+- Oliva elegante: `#5F6840`
+- Sálvia: `#97BC9C`
+- Ouro fosco: `#B79262`
+- Ameixa discreta: `#594D63`
+
+O dossiê deve comunicar autoridade, conforto, leveza mental/emocional/corporal, feminilidade madura sem excluir homens ou outras pessoas, sofisticação calma e alto valor percebido. Evitar dourado amarelo saturado, preto em excesso, verde hospitalar, bege sem personalidade e repetição da mesma pessoa como solução ilustrativa.
+
+### Peças físicas/destacáveis obrigatórias
+- **MMI 2.0 A4 emoldurável** — molde de manequim para imprimir, preencher e deixar visível em mesa, criado-mudo, closet ou outro local escolhido.
+- **Sala de Controle A4** — painel reutilizável.
+- **Árvore do Discernimento A4**.
+- **Futuro Telefona — storyboard A4**.
+- **Auditoria dos Frutos A4**.
+- **Carta ao Futuro + D+30/60/90**.
+- **Ritual da Nova Semente A4**.
+
+### Tradutor do Prato e açúcar
+Haverá duas camadas visuais:
+1. **Metáfora visual de impacto**, quando pedagogicamente útil, sempre rotulada como metáfora e nunca como equivalência nutricional literal.
+2. **Tradução Visual Honesta**, usando porção e valor real de rótulo/fonte quando houver dado quantitativo.
+
+### Ilustração por função
+- emocional: identificação;
+- diagrama: compreensão;
+- worksheet: execução;
+- destacável: permanência fora do livro.
+
+### LÚCIDA
+Cada Dia deve conter caixa editorial **LEVE PARA A LÚCIDA**, com prompt copiável no PDF e botão de envio no produto digital. O texto da imagem nunca deve carregar instruções críticas que não existam também como texto acessível.
