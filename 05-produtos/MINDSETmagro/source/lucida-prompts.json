@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0.0",
+  "product": "MINDSETmagro",
+  "ecosystem": "Relacione-se",
+  "assistant": "LÚCIDA",
+  "updated_at": "2026-10-03",
+  "response_contract": [
+    "O que estou vendo",
+    "O que está claro",
+    "O que ainda é hipótese/incógnita",
+    "Pergunta-chave",
+    "Minha escolha possível",
+    "Versão mínima",
+    "Fruto para observar",
+    "O que levar para o próximo dia"
+  ],
+  "guardrails": [
+    "não inventar causas, traumas, diagnósticos ou intenções",
+    "não moralizar comida, peso ou corpo",
+    "não prescrever dieta, exercício ou tratamento clínico",
+    "não tomar decisões pelo aluno",
+    "distinguir fato, hipótese e interpretação",
+    "manter autoria do aluno"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "travessia": 1,
+      "travessia_name": "Descongestionar",
+      "title": "O que você está carregando?",
+      "tool": "Diário Vivo + Sala rápida",
+      "fields": [
+        "situação concreta",
+        "excesso percebido",
+        "o que fiz",
+        "o que aconteceu depois",
+        "contexto ou recurso relevante"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 1 — Descongestionar, Dia 1 — O que você está carregando?.\nA ferramenta de hoje é Diário Vivo + Sala rápida.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- situação concreta: [PREENCHER]\n- excesso percebido: [PREENCHER]\n- o que fiz: [PREENCHER]\n- o que aconteceu depois: [PREENCHER]\n- contexto ou recurso relevante: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 2,
+      "travessia": 1,
+      "travessia_name": "Descongestionar",
+      "title": "Nem toda aba precisa ficar aberta",
+      "tool": "Estacionamento Mental",
+      "fields": [
+        "até 3 pendências",
+        "qual parece urgente",
+        "o que depende de mim",
+        "o que depende de informação/outra pessoa",
+        "quando posso revisar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 1 — Descongestionar, Dia 2 — Nem toda aba precisa ficar aberta.\nA ferramenta de hoje é Estacionamento Mental.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- até 3 pendências: [PREENCHER]\n- qual parece urgente: [PREENCHER]\n- o que depende de mim: [PREENCHER]\n- o que depende de informação/outra pessoa: [PREENCHER]\n- quando posso revisar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 3,
+      "travessia": 1,
+      "travessia_name": "Descongestionar",
+      "title": "Pausa não é desaparecimento",
+      "tool": "P.A.R.A.",
+      "fields": [
+        "gatilho",
+        "impulso",
+        "o que percebi no corpo (opcional)",
+        "valor que quero sustentar",
+        "resposta possível"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 1 — Descongestionar, Dia 3 — Pausa não é desaparecimento.\nA ferramenta de hoje é P.A.R.A..\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- gatilho: [PREENCHER]\n- impulso: [PREENCHER]\n- o que percebi no corpo (opcional): [PREENCHER]\n- valor que quero sustentar: [PREENCHER]\n- resposta possível: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 4,
+      "travessia": 1,
+      "travessia_name": "Descongestionar",
+      "title": "Dê um endereço à preocupação",
+      "tool": "Janela do Caos",
+      "fields": [
+        "preocupação",
+        "pergunta específica",
+        "ação/informação/incógnita",
+        "momento de revisão",
+        "atividade para a qual quero voltar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 1 — Descongestionar, Dia 4 — Dê um endereço à preocupação.\nA ferramenta de hoje é Janela do Caos.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- preocupação: [PREENCHER]\n- pergunta específica: [PREENCHER]\n- ação/informação/incógnita: [PREENCHER]\n- momento de revisão: [PREENCHER]\n- atividade para a qual quero voltar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 5,
+      "travessia": 1,
+      "travessia_name": "Descongestionar",
+      "title": "Seu ambiente também escolhe",
+      "tool": "Poda Ambiental + Arquitetura da Escolha",
+      "fields": [
+        "comportamento automático",
+        "estímulo ou atrito",
+        "mudança reversível",
+        "limites compartilhados",
+        "efeito que quero observar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 1 — Descongestionar, Dia 5 — Seu ambiente também escolhe.\nA ferramenta de hoje é Poda Ambiental + Arquitetura da Escolha.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- comportamento automático: [PREENCHER]\n- estímulo ou atrito: [PREENCHER]\n- mudança reversível: [PREENCHER]\n- limites compartilhados: [PREENCHER]\n- efeito que quero observar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 6,
+      "travessia": 2,
+      "travessia_name": "Discernir",
+      "title": "O fato não chegou contando história",
+      "tool": "Fato × História × Incógnita",
+      "fields": [
+        "fato observável",
+        "minha interpretação",
+        "o que ainda não sei",
+        "impulso",
+        "ação que estou considerando"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 2 — Discernir, Dia 6 — O fato não chegou contando história.\nA ferramenta de hoje é Fato × História × Incógnita.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- fato observável: [PREENCHER]\n- minha interpretação: [PREENCHER]\n- o que ainda não sei: [PREENCHER]\n- impulso: [PREENCHER]\n- ação que estou considerando: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 7,
+      "travessia": 2,
+      "travessia_name": "Discernir",
+      "title": "Uma conclusão precisa prestar contas",
+      "tool": "Filtro da Sensatez + Árvore",
+      "fields": [
+        "conclusão",
+        "evidências a favor",
+        "evidências contrárias",
+        "dado que mudaria minha conclusão",
+        "custo de agir assim"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 2 — Discernir, Dia 7 — Uma conclusão precisa prestar contas.\nA ferramenta de hoje é Filtro da Sensatez + Árvore.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- conclusão: [PREENCHER]\n- evidências a favor: [PREENCHER]\n- evidências contrárias: [PREENCHER]\n- dado que mudaria minha conclusão: [PREENCHER]\n- custo de agir assim: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 8,
+      "travessia": 2,
+      "travessia_name": "Discernir",
+      "title": "Sempre? Nunca? Vamos conferir",
+      "tool": "Metamodelo de linguagem",
+      "fields": [
+        "frase absoluta",
+        "situação em que aparece",
+        "exceções",
+        "o que eu realmente quero resolver"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 2 — Discernir, Dia 8 — Sempre? Nunca? Vamos conferir.\nA ferramenta de hoje é Metamodelo de linguagem.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- frase absoluta: [PREENCHER]\n- situação em que aparece: [PREENCHER]\n- exceções: [PREENCHER]\n- o que eu realmente quero resolver: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 9,
+      "travessia": 2,
+      "travessia_name": "Discernir",
+      "title": "De quem é essa voz?",
+      "tool": "Rastreio de Influência",
+      "fields": [
+        "regra interna",
+        "origem conhecida/provável/desconhecida",
+        "como essa regra ajuda",
+        "como essa regra custa",
+        "manter/adaptar/reduzir"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 2 — Discernir, Dia 9 — De quem é essa voz?.\nA ferramenta de hoje é Rastreio de Influência.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- regra interna: [PREENCHER]\n- origem conhecida/provável/desconhecida: [PREENCHER]\n- como essa regra ajuda: [PREENCHER]\n- como essa regra custa: [PREENCHER]\n- manter/adaptar/reduzir: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 10,
+      "travessia": 2,
+      "travessia_name": "Discernir",
+      "title": "Três cenas, uma hipótese",
+      "tool": "Três Cenas + Sala de Controle",
+      "fields": [
+        "cena 1",
+        "cena 2",
+        "cena 3",
+        "semelhança percebida",
+        "diferença ou exceção"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 2 — Discernir, Dia 10 — Três cenas, uma hipótese.\nA ferramenta de hoje é Três Cenas + Sala de Controle.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- cena 1: [PREENCHER]\n- cena 2: [PREENCHER]\n- cena 3: [PREENCHER]\n- semelhança percebida: [PREENCHER]\n- diferença ou exceção: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 11,
+      "travessia": 3,
+      "travessia_name": "Voltar a si",
+      "title": "Você não cabe no personagem",
+      "tool": "Antifuga Identitária",
+      "fields": [
+        "papel que ocupo",
+        "responsabilidades reais",
+        "preferência escondida",
+        "o que temo que aconteça se eu me expressar",
+        "nível de segurança"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 3 — Voltar a si, Dia 11 — Você não cabe no personagem.\nA ferramenta de hoje é Antifuga Identitária.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- papel que ocupo: [PREENCHER]\n- responsabilidades reais: [PREENCHER]\n- preferência escondida: [PREENCHER]\n- o que temo que aconteça se eu me expressar: [PREENCHER]\n- nível de segurança: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 12,
+      "travessia": 3,
+      "travessia_name": "Voltar a si",
+      "title": "Valor aparece quando custa",
+      "tool": "Valor em Ação",
+      "fields": [
+        "valor",
+        "situação",
+        "ação observável",
+        "custo aceitável",
+        "limite a preservar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 3 — Voltar a si, Dia 12 — Valor aparece quando custa.\nA ferramenta de hoje é Valor em Ação.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- valor: [PREENCHER]\n- situação: [PREENCHER]\n- ação observável: [PREENCHER]\n- custo aceitável: [PREENCHER]\n- limite a preservar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 13,
+      "travessia": 3,
+      "travessia_name": "Voltar a si",
+      "title": "Como quero viver neste corpo?",
+      "tool": "MMI 2.0",
+      "fields": [
+        "aparência desejada (opcional)",
+        "medidas/manequim/peso (opcionais)",
+        "roupa/caimento",
+        "conforto",
+        "energia",
+        "mobilidade",
+        "sono/descanso",
+        "vitalidade/sexualidade (opcional)",
+        "limites/recursos",
+        "ação de cuidado possível"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 3 — Voltar a si, Dia 13 — Como quero viver neste corpo?.\nA ferramenta de hoje é MMI 2.0.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- aparência desejada (opcional): [PREENCHER]\n- medidas/manequim/peso (opcionais): [PREENCHER]\n- roupa/caimento: [PREENCHER]\n- conforto: [PREENCHER]\n- energia: [PREENCHER]\n- mobilidade: [PREENCHER]\n- sono/descanso: [PREENCHER]\n- vitalidade/sexualidade (opcional): [PREENCHER]\n- limites/recursos: [PREENCHER]\n- ação de cuidado possível: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 14,
+      "travessia": 3,
+      "travessia_name": "Voltar a si",
+      "title": "Identidade precisa de testemunhas reais",
+      "tool": "Banco de Evidências da Identidade",
+      "fields": [
+        "ação concreta",
+        "contexto",
+        "apoio ou recurso",
+        "resultado",
+        "capacidade que essa ação sugere sem virar rótulo"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 3 — Voltar a si, Dia 14 — Identidade precisa de testemunhas reais.\nA ferramenta de hoje é Banco de Evidências da Identidade.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- ação concreta: [PREENCHER]\n- contexto: [PREENCHER]\n- apoio ou recurso: [PREENCHER]\n- resultado: [PREENCHER]\n- capacidade que essa ação sugere sem virar rótulo: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 15,
+      "travessia": 3,
+      "travessia_name": "Voltar a si",
+      "title": "Pertencer sem se abandonar",
+      "tool": "Pedido + Pertencimento",
+      "fields": [
+        "necessidade",
+        "pessoa/recurso seguro",
+        "pedido que quero fazer",
+        "respostas possíveis do outro",
+        "meu limite"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 3 — Voltar a si, Dia 15 — Pertencer sem se abandonar.\nA ferramenta de hoje é Pedido + Pertencimento.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- necessidade: [PREENCHER]\n- pessoa/recurso seguro: [PREENCHER]\n- pedido que quero fazer: [PREENCHER]\n- respostas possíveis do outro: [PREENCHER]\n- meu limite: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 16,
+      "travessia": 4,
+      "travessia_name": "Reposicionar",
+      "title": "Sua parte não é tudo",
+      "tool": "Responsabilidade Distribuída",
+      "fields": [
+        "episódio",
+        "minha parte",
+        "parte de outra pessoa",
+        "contexto",
+        "desconhecido"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 4 — Reposicionar, Dia 16 — Sua parte não é tudo.\nA ferramenta de hoje é Responsabilidade Distribuída.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- episódio: [PREENCHER]\n- minha parte: [PREENCHER]\n- parte de outra pessoa: [PREENCHER]\n- contexto: [PREENCHER]\n- desconhecido: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 17,
+      "travessia": 4,
+      "travessia_name": "Reposicionar",
+      "title": "Um limite precisa de uma frase",
+      "tool": "Frase de Limite",
+      "fields": [
+        "fato",
+        "necessidade",
+        "pedido",
+        "o que eu farei",
+        "segurança/risco"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 4 — Reposicionar, Dia 17 — Um limite precisa de uma frase.\nA ferramenta de hoje é Frase de Limite.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- fato: [PREENCHER]\n- necessidade: [PREENCHER]\n- pedido: [PREENCHER]\n- o que eu farei: [PREENCHER]\n- segurança/risco: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 18,
+      "travessia": 4,
+      "travessia_name": "Reposicionar",
+      "title": "O espaço que a Poda abre",
+      "tool": "Poda + Nova Semente",
+      "fields": [
+        "o que quero interromper",
+        "o que isso me oferecia",
+        "custo atual",
+        "alternativa concreta",
+        "quando revisar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 4 — Reposicionar, Dia 18 — O espaço que a Poda abre.\nA ferramenta de hoje é Poda + Nova Semente.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- o que quero interromper: [PREENCHER]\n- o que isso me oferecia: [PREENCHER]\n- custo atual: [PREENCHER]\n- alternativa concreta: [PREENCHER]\n- quando revisar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 19,
+      "travessia": 4,
+      "travessia_name": "Reposicionar",
+      "title": "O futuro precisa de uma cena",
+      "tool": "Futuro Telefona + Filme do Processo + Contraste Real",
+      "fields": [
+        "cena futura",
+        "ação/processo anterior",
+        "obstáculo provável",
+        "recurso disponível",
+        "resposta se o obstáculo aparecer"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 4 — Reposicionar, Dia 19 — O futuro precisa de uma cena.\nA ferramenta de hoje é Futuro Telefona + Filme do Processo + Contraste Real.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- cena futura: [PREENCHER]\n- ação/processo anterior: [PREENCHER]\n- obstáculo provável: [PREENCHER]\n- recurso disponível: [PREENCHER]\n- resposta se o obstáculo aparecer: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 20,
+      "travessia": 4,
+      "travessia_name": "Reposicionar",
+      "title": "Desça da Árvore e teste",
+      "tool": "Experimento comportamental",
+      "fields": [
+        "hipótese",
+        "ação que posso testar",
+        "contexto",
+        "o que vou observar",
+        "o que faria manter/ajustar/abandonar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 4 — Reposicionar, Dia 20 — Desça da Árvore e teste.\nA ferramenta de hoje é Experimento comportamental.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- hipótese: [PREENCHER]\n- ação que posso testar: [PREENCHER]\n- contexto: [PREENCHER]\n- o que vou observar: [PREENCHER]\n- o que faria manter/ajustar/abandonar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 21,
+      "travessia": 5,
+      "travessia_name": "Habitar",
+      "title": "Seu corpo não é uma prestação atrasada",
+      "tool": "MMI aplicado ao cuidado",
+      "fields": [
+        "dimensão de cuidado",
+        "necessidade",
+        "recurso",
+        "adaptação",
+        "limite"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 5 — Habitar, Dia 21 — Seu corpo não é uma prestação atrasada.\nA ferramenta de hoje é MMI aplicado ao cuidado.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- dimensão de cuidado: [PREENCHER]\n- necessidade: [PREENCHER]\n- recurso: [PREENCHER]\n- adaptação: [PREENCHER]\n- limite: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 22,
+      "travessia": 5,
+      "travessia_name": "Habitar",
+      "title": "O prato traduzido, sem tribunal",
+      "tool": "Tradutor do Prato + Tradução Visual Honesta",
+      "fields": [
+        "o que há no prato/bebida ou rótulo",
+        "porção",
+        "contexto",
+        "fome/prazer/hábito",
+        "preferência",
+        "dado objetivo disponível"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 5 — Habitar, Dia 22 — O prato traduzido, sem tribunal.\nA ferramenta de hoje é Tradutor do Prato + Tradução Visual Honesta.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- o que há no prato/bebida ou rótulo: [PREENCHER]\n- porção: [PREENCHER]\n- contexto: [PREENCHER]\n- fome/prazer/hábito: [PREENCHER]\n- preferência: [PREENCHER]\n- dado objetivo disponível: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 23,
+      "travessia": 5,
+      "travessia_name": "Habitar",
+      "title": "Movimento que cabe na vida",
+      "tool": "Movimento Possível + Útil ao Agradável",
+      "fields": [
+        "movimento ou preparação",
+        "condição/segurança",
+        "horário",
+        "recurso/adaptação",
+        "algo agradável que pode acompanhar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 5 — Habitar, Dia 23 — Movimento que cabe na vida.\nA ferramenta de hoje é Movimento Possível + Útil ao Agradável.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- movimento ou preparação: [PREENCHER]\n- condição/segurança: [PREENCHER]\n- horário: [PREENCHER]\n- recurso/adaptação: [PREENCHER]\n- algo agradável que pode acompanhar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 24,
+      "travessia": 5,
+      "travessia_name": "Habitar",
+      "title": "Descansar também é cuidado",
+      "tool": "Plano de Descanso",
+      "fields": [
+        "condição que atrapalha",
+        "deveres que preciso preservar",
+        "ajuste possível",
+        "recurso/negociação",
+        "o que vou observar"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 5 — Habitar, Dia 24 — Descansar também é cuidado.\nA ferramenta de hoje é Plano de Descanso.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- condição que atrapalha: [PREENCHER]\n- deveres que preciso preservar: [PREENCHER]\n- ajuste possível: [PREENCHER]\n- recurso/negociação: [PREENCHER]\n- o que vou observar: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 25,
+      "travessia": 5,
+      "travessia_name": "Habitar",
+      "title": "Próxima escolha, não punição",
+      "tool": "Retomada sem compensação",
+      "fields": [
+        "episódio fora do previsto",
+        "consequência real",
+        "reparo necessário",
+        "impulso punitivo/compensatório",
+        "próxima escolha possível"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 5 — Habitar, Dia 25 — Próxima escolha, não punição.\nA ferramenta de hoje é Retomada sem compensação.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- episódio fora do previsto: [PREENCHER]\n- consequência real: [PREENCHER]\n- reparo necessário: [PREENCHER]\n- impulso punitivo/compensatório: [PREENCHER]\n- próxima escolha possível: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 26,
+      "travessia": 6,
+      "travessia_name": "Sustentar",
+      "title": "Consistência não é perfeição",
+      "tool": "Prática Essencial",
+      "fields": [
+        "prática útil",
+        "para que serve",
+        "gatilho/frequência",
+        "versão mínima",
+        "data de revisão"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 6 — Sustentar, Dia 26 — Consistência não é perfeição.\nA ferramenta de hoje é Prática Essencial.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- prática útil: [PREENCHER]\n- para que serve: [PREENCHER]\n- gatilho/frequência: [PREENCHER]\n- versão mínima: [PREENCHER]\n- data de revisão: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 27,
+      "travessia": 6,
+      "travessia_name": "Sustentar",
+      "title": "Quando a rotina sair do eixo",
+      "tool": "Protocolo de Retomada",
+      "fields": [
+        "contratempo",
+        "capacidade",
+        "oportunidade",
+        "motivação",
+        "apoio disponível"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 6 — Sustentar, Dia 27 — Quando a rotina sair do eixo.\nA ferramenta de hoje é Protocolo de Retomada.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- contratempo: [PREENCHER]\n- capacidade: [PREENCHER]\n- oportunidade: [PREENCHER]\n- motivação: [PREENCHER]\n- apoio disponível: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 28,
+      "travessia": 6,
+      "travessia_name": "Sustentar",
+      "title": "Auditoria dos Frutos",
+      "tool": "Auditoria dos Frutos + Árvore",
+      "fields": [
+        "intenção inicial",
+        "episódio que ajudou",
+        "episódio que não coube",
+        "episódio de dúvida",
+        "fatores de contexto"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 6 — Sustentar, Dia 28 — Auditoria dos Frutos.\nA ferramenta de hoje é Auditoria dos Frutos + Árvore.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- intenção inicial: [PREENCHER]\n- episódio que ajudou: [PREENCHER]\n- episódio que não coube: [PREENCHER]\n- episódio de dúvida: [PREENCHER]\n- fatores de contexto: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 29,
+      "travessia": 6,
+      "travessia_name": "Sustentar",
+      "title": "Uma carta com data e compromisso",
+      "tool": "Carta ao Futuro + D+30/60/90",
+      "fields": [
+        "situação atual",
+        "evidência concreta",
+        "dificuldade",
+        "compromisso de processo",
+        "frase de retomada",
+        "datas D+30/D+60/D+90"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 6 — Sustentar, Dia 29 — Uma carta com data e compromisso.\nA ferramenta de hoje é Carta ao Futuro + D+30/60/90.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- situação atual: [PREENCHER]\n- evidência concreta: [PREENCHER]\n- dificuldade: [PREENCHER]\n- compromisso de processo: [PREENCHER]\n- frase de retomada: [PREENCHER]\n- datas D+30/D+60/D+90: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    },
+    {
+      "day": 30,
+      "travessia": 6,
+      "travessia_name": "Sustentar",
+      "title": "Uma escolha viva precisa de cuidado",
+      "tool": "Ritual da Nova Semente",
+      "fields": [
+        "carrego menos",
+        "entendi",
+        "devolvo",
+        "assumo",
+        "reparo",
+        "podo",
+        "Nova Semente",
+        "plantio real ou data",
+        "como cuidarei",
+        "datas D+30/D+60/D+90"
+      ],
+      "prompt_template": "LÚCIDA, estou no MINDSETmagro™, Travessia 6 — Sustentar, Dia 30 — Uma escolha viva precisa de cuidado.\nA ferramenta de hoje é Ritual da Nova Semente.\n\nUse somente o que eu informar e o contexto anterior que eu autorizar. Não invente causas, intenções, diagnósticos ou partes da minha história.\n\nMINHAS RESPOSTAS:\n- carrego menos: [PREENCHER]\n- entendi: [PREENCHER]\n- devolvo: [PREENCHER]\n- assumo: [PREENCHER]\n- reparo: [PREENCHER]\n- podo: [PREENCHER]\n- Nova Semente: [PREENCHER]\n- plantio real ou data: [PREENCHER]\n- como cuidarei: [PREENCHER]\n- datas D+30/D+60/D+90: [PREENCHER]\n\nMEUS LIMITES/RECURSOS DE HOJE:\n[PREENCHER OU ESCREVER “NÃO SEI”]\n\nO QUE ESTOU PENSANDO EM FAZER:\n[PREENCHER]\n\nFaça a devolutiva em 8 blocos:\n1. O que você está vendo no meu registro.\n2. O que está claro.\n3. O que ainda é hipótese ou incógnita.\n4. Até 3 perguntas de precisão, somente se necessárias.\n5. Uma escolha possível sob meu controle.\n6. Uma versão mínima para hoje.\n7. O Fruto que devo observar.\n8. Uma síntese curta para eu levar ao próximo Dia.\n\nSe houver mais de uma interpretação plausível, mostre-as sem escolher uma como verdade."
+    }
+  ]
+}
