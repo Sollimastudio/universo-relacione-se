@@ -1,0 +1,9 @@
+{
+  "canonical": "days + prebook + postbook JSON",
+  "ebook": "all paragraphs; same fields referenced",
+  "workbook": "fields and practice contexts derived, blank printable spaces",
+  "app": "one block visible; server gated content",
+  "html": "author reference includes complete source; local gate is pedagogy only",
+  "sync": "tools/validate_sync.py --write-lock --app PATH",
+  "drift": "SHA256 lock; no direct edits generated copies"
+}

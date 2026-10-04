@@ -1,0 +1,276 @@
+{
+  "id": "d05",
+  "day": 5,
+  "title": "Seu ambiente também escolhe",
+  "traversal": "DESCONGESTIONAR",
+  "objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+  "previous": "Dê um endereço à preocupação",
+  "next": "O fato não chegou contando história",
+  "blocks": [
+    {
+      "id": "d05-01",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "opening",
+      "title": "O ambiente também entra na conversa",
+      "content": [
+        "Até aqui, você observou, anotou, pausou e deu destino a uma preocupação. Hoje vamos olhar para fora. Uma notificação acende, um objeto some, um compromisso fica invisível e a tarefa se torna mais difícil antes mesmo de começar. Nem todo obstáculo é uma crença profunda esperando análise. Às vezes, é o carregador no lugar errado.",
+        "Isso não explica toda dificuldade, mas abre uma pergunta útil: que parte do ambiente está convidando a ação automática, e que pequena mudança poderia favorecer a ação escolhida? Vamos mexer em uma condição, não reformar a casa inteira."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d05"
+    },
+    {
+      "id": "d05-02",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "story",
+      "title": "A escolha que começa antes da escolha",
+      "content": [
+        "Exemplo: uma pessoa quer ler algumas páginas depois do trabalho. O livro fica guardado e o telefone permanece sobre a almofada. Antes de concluir “não tenho disciplina”, ela testa deixar o livro visível e guardar o telefone por um período compatível com suas responsabilidades.",
+        "Talvez leia. Talvez descubra que precisa primeiro descansar ou resolver outra necessidade. O experimento não serve para provar uma teoria bonita. Serve para descobrir se aquela alteração ajuda naquela rotina. Se não ajudar, teremos um resultado para revisar, não uma nova acusação de preguiça."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-03",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "reading",
+      "title": "Poda Ambiental: retirar e substituir",
+      "content": [
+        "Escolha uma fonte de atrito ou um convite repetido. Pode ser uma notificação não essencial, uma tarefa sem material acessível ou uma decisão que precisa ser refeita todos os dias. Retire um obstáculo e dê lugar à alternativa. Silenciar um aviso pode ajudar mais se você também definir quando consultará o aplicativo.",
+        "Preserve canais necessários de trabalho, cuidado e emergência. Em espaços compartilhados, combine alterações antes de mexer no que pertence aos outros. Autoria não é licença para governar a casa inteira. Sua mudança precisa respeitar recursos, acessibilidade, segurança e a vida de quem divide o ambiente."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-04",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "reading",
+      "title": "O que cabe levar adiante",
+      "content": [
+        "Chegamos ao fechamento da primeira travessia. Recuperar não significa reler tudo. Tente lembrar: qual ferramenta ajudou em uma cena concreta? Qual exigiu esforço demais? Qual ainda não teve ocasião de uso? O que precisa de adaptação?",
+        "Selecione um apoio diário leve, como o registro de uma frase, e uma ferramenta sob gatilho. As demais ficam disponíveis. Acumular habilidades é diferente de empilhar tarefas. Se você passou a fiscalizar tudo o que pensa, o protocolo ficou pesado demais. Reduza a dose e preserve a vida fora destas páginas.",
+        "Quando a mudança envolve acesso digital, preserve o que você precisa consultar por responsabilidade real. Uma rotina de cuidado pode exigir disponibilidade. O experimento é reduzir uma entrada dispensável, não imitar uma rotina que pertence a outra pessoa."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-05",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "O modelo COM-B organiza perguntas sobre capacidade, oportunidade e motivação. É um mapa para investigar condições da ação, não prova de eficácia do MINDSETmagro. Aqui, usamos a dimensão das oportunidades para não atribuir toda dificuldade à força de vontade."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C15"
+      ],
+      "source_refs": [
+        "C15",
+        "https://doi.org/10.1186/1748-5908-6-42"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-06",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Descreva o ambiente como ele existe, incluindo recursos e responsabilidades compartilhadas. A alteração deve ser pequena, segura e reversível. Na revisão, indique o que vale manter e o que deve diminuir; a travessia seguinte não exige carregar todas as práticas anteriores."
+      ],
+      "fields": [
+        {
+          "id": "d05.ambiente",
+          "label": "Qual condição favorece a ação automática?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d05.mudanca",
+          "label": "Qual alteração pequena e reversível farei?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d05.revisao",
+          "label": "O que ajudou nesta travessia e o que vou reduzir?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-07",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Mude uma condição segura do ambiente antes de uma tarefa habitual e observe uma oportunidade de uso. Pode preparar o material, ajustar um aviso ou combinar uma interrupção. Não precisa comprar nada. Depois compare a experiência com a cena inicial do Dia 1, reconhecendo que os dias também podem ter condições diferentes."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-08",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Descreva a alteração e o que ocorreu em seguida. A ação ficou mais acessível? Apareceu um obstáculo que você não via? Evite concluir que uma única tentativa explica seu comportamento inteiro. Se não conseguiu alterar o ambiente, registre a dependência real e uma alternativa menor."
+      ],
+      "fields": [
+        {
+          "id": "d05.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-09",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu perceber que a tarefa começa com a procura de um objeto, então deixarei esse objeto num local combinado após o uso. Se compartilhar o espaço, então combinarei primeiro uma solução que respeite as outras pessoas."
+      ],
+      "fields": [
+        {
+          "id": "d05.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d05-10",
+      "day_id": "d05",
+      "learning_objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: tornar um material necessário mais acessível, ou identificar a pessoa com quem precisa combinar essa mudança. O primeiro Fruto pode ser um acordo.",
+        "Mantenha somente o registro breve e a ferramenta que mostrou utilidade. P.A.R.A., Estacionamento e Janela não viram uma lista diária obrigatória. A revisão retorna ao final de cada travessia.",
+        "Amanhã começa Discernir. Vamos examinar não apenas o que ocupa sua atenção, mas as histórias que sua mente conta sobre o que aconteceu."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d05.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Mantenha somente o registro breve e a ferramenta que mostrou utilidade. P.A.R.A., Estacionamento e Janela não viram uma lista diária obrigatória. A revisão retorna ao final de cada travessia."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "LEGACY_MINDSETMAGRO"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

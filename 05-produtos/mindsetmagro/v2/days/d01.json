@@ -1,0 +1,275 @@
+{
+  "id": "d01",
+  "day": 1,
+  "title": "O que você está carregando?",
+  "traversal": "DESCONGESTIONAR",
+  "objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+  "previous": "Compromisso inicial e baseline",
+  "next": "Nem toda aba precisa ficar aberta",
+  "blocks": [
+    {
+      "id": "d01-01",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "opening",
+      "title": "A bagagem que ninguém pesou",
+      "content": [
+        "Você pode chegar aqui com a impressão de que precisa mudar tudo: corpo, rotina, pensamentos, casa, relações. Antes que sua segunda-feira vire uma empresa de reformas, pare. Hoje não vamos consertar a vida inteira. Vamos descobrir o que você está carregando e escolher uma alça dessa mala.",
+        "MINDSETmagro começa com economia de excesso. Uma preocupação pode pedir providência; uma emoção pode trazer informação; uma responsabilidade pode ser realmente sua. Não vamos chamar tudo isso de entulho. O excesso que interessa é aquele que ocupa espaço sem ajudar você a viver com mais cuidado e coerência."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d01"
+    },
+    {
+      "id": "d01-02",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "story",
+      "title": "Uma cena possível",
+      "content": [
+        "Imagine esta situação, criada como exemplo: você senta para resolver uma conta e abre uma mensagem. A mensagem lembra uma conversa; a conversa lembra uma obrigação. Meia hora depois, a conta continua aberta e você conclui: “Sou uma bagunça”. Repare no salto. Houve uma sequência de ações num contexto. Sua identidade inteira não foi submetida à perícia.",
+        "Se o Caderno registrar apenas “sou uma bagunça”, não teremos onde agir. Se registrar “interrompi a conta para responder mensagens três vezes”, aparece um ponto concreto de mudança. Ainda faltará entender o motivo. Hoje basta enxergar a cena."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-03",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "reading",
+      "title": "Pense comigo: qual excesso tem endereço?",
+      "content": [
+        "“Estou sobrecarregada” é uma experiência legítima, mas ainda é um mapa sem ruas. Escolha uma situação recente e comum, não a lembrança mais dolorosa da sua vida. Onde você estava? O que tentou fazer? O que acabou fazendo? Qual foi a consequência visível?",
+        "Diferencie o que pesa do que pode ser mudado agora. Cuidar de alguém pode exigir muito e continuar importante. Falta de dinheiro, doença e trabalho precário não desaparecem com pensamento positivo. Sua esfera de escolha existe dentro de condições reais. Registrar uma limitação é honestidade, não falta de comprometimento."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-04",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "reading",
+      "title": "Diário Vivo, não tribunal portátil",
+      "content": [
+        "O Diário Vivo acompanhará a travessia como um lugar de observação. Use uma cena por vez. Pode escrever “não consegui identificar” ou “não fiz”. Não precisa narrar a vida inteira, vigiar cada pensamento ou entregar intimidades para provar dedicação. O registro pertence a você.",
+        "Antes de tentar melhorar a cena, deixe uma fotografia escrita do ponto de partida: “Hoje, quando aconteceu X, respondi Y e observei Z”. Isso será sua referência. Ao final, compararemos episódios e condições, sem inventar uma nota de valor pessoal. Peso, medidas e fotos não são necessários para começar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-05",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Pesquisas sobre monitoramento de metas indicam que registrar ações e revisar o progresso pode ajudar. Isso não exige fiscalização permanente nem exposição pública. O Diário Vivo é uma aplicação autoral dessa ideia; o protocolo completo não foi validado por esses estudos."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C03"
+      ],
+      "source_refs": [
+        "C03",
+        "https://doi.org/10.1037/bul0000025"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-06",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escreva com as palavras que você usaria numa conversa honesta. Os campos abaixo pertencem ao seu registro deste Dia; não é preciso copiar as respostas em outro lugar. Você pode deixar os campos opcionais em branco e voltar depois."
+      ],
+      "fields": [
+        {
+          "id": "d01.cena",
+          "label": "Qual cena recente mostra o excesso que quero observar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d01.baseline",
+          "label": "O que tentei, o que fiz e o que aconteceu?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d01.limite",
+          "label": "Que condição ou recurso preciso considerar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-07",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Escolha uma ocasião habitual de hoje para perceber o excesso selecionado. Não provoque um problema só para preencher o exercício. Quando a ocasião aparecer, nomeie em silêncio o que está acontecendo e anote uma frase depois. Sua missão termina nesse registro; nenhuma transformação dramática é exigida."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-08",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Volte à cena, não à avaliação de quem você é. Conseguiu perceber a interrupção, a pressa ou a sobrecarga? Qual detalhe ficou visível? Se a ocasião não aconteceu, registre isso e indique quando poderá observar com segurança. Ausência de oportunidade também é informação útil."
+      ],
+      "fields": [
+        {
+          "id": "d01.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-09",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Exemplo: se eu terminar uma tarefa me chamando de incapaz, então descreverei uma ação concreta antes de julgar meu dia. Escolha uma resposta que dependa de você. Não use “vou parar de sentir” como plano: sentimento não recebe memorando."
+      ],
+      "fields": [
+        {
+          "id": "d01.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d01-10",
+      "day_id": "d01",
+      "learning_objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: escrever apenas “o excesso que notei hoje foi…”. Instalar, neste livro, significa deixar uma prática disponível para repetir e revisar; não gravar uma mudança definitiva no cérebro.",
+        "Por enquanto, mantenha somente uma anotação breve. Não acumule tarefas extras por entusiasmo e depois use o cansaço como prova de fracasso.",
+        "Amanhã, essa primeira cena vai nos ajudar a retirar pendências da cabeça e dar a elas um lugar de consulta."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d01.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Por enquanto, mantenha somente uma anotação breve. Não acumule tarefas extras por entusiasmo e depois use o cansaço como prova de fracasso."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "LEGACY_MINDSETMAGRO"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

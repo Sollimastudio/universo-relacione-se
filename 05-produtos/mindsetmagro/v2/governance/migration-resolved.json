@@ -1,0 +1,2829 @@
+{
+  "product_id": "mindsetmagro_30d",
+  "version": "2.0.0-review.1",
+  "status": "review",
+  "total_units": 96,
+  "count_note": "83 unidades anteriores mantidas nos mesmos IDs; 13 adições MIG084–096 de duas correções autorais recuperadas e documentação da landing. Não renumerar.",
+  "map_source": "editorial-map.json",
+  "map_sha256": "df113112bbd706959c22323baa22778a822bb0d68a990e5ec0d34b33a0e78f49",
+  "claims_source": "research-temp/claims-evidence.json",
+  "rules": [
+    "Destino específico não significa manter claim histórico no dia.",
+    "Remoção clínica retira instrução/claim público, nunca apaga fonte histórica.",
+    "Referência ligada sustenta somente texto permitido; não valida produto/ferramenta/história.",
+    "Todos destinos e decisões são review; dias e engenharia não alterados."
+  ],
+  "rows": [
+    {
+      "id": "MIG-001",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        2,
+        3
+      ],
+      "original": "Duas imersões e quatro fases; anexo para 16 dias",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d01",
+        "title": "O que você está carregando?",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Seis travessias; não inventar continuidade histórica",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-002",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        4,
+        5
+      ],
+      "original": "Método nasceu da experiência com dietas, balança e autoimagem",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d01",
+        "title": "O que você está carregando?",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar relato como relato; revisar gênero e não acrescentar biografia",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Preservar história/relato; confirmar detalhes e voz, sem inferir diagnósticos, intenção de terceiros ou biografia nova."
+    },
+    {
+      "id": "MIG-003",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "original": "Técnicas comprovadas de neurociência e PNL; reprogramação",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d08",
+        "title": "Sempre? Nunca? Vamos conferir",
+        "traversal": "DISCERNIR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Excluir selo científico; perguntas linguísticas como recurso autoral",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C24",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Usamos perguntas de precisão linguística como recurso de reflexão, sem apresentar PNL como fundamento científico validado.",
+          "grade": "C",
+          "limitation": "Pesquisa limitada e de baixa qualidade; não comprova eficácia clínica nem ausência universal de efeito",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-004",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        6
+      ],
+      "original": "Leia na ordem; pratique; reflita e registre",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d01",
+        "title": "O que você está carregando?",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Campos compartilhados e prática mínima; retomada",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-005",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        6
+      ],
+      "original": "Headspace e Calm como aliados",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d03",
+        "title": "Pausa não é desaparecimento",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Recursos sem obrigatoriedade; verificar versões e acesso",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-006",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        7
+      ],
+      "original": "Termo de isenção / consultar profissionais",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Retirar riscos das práticas e acrescentar sinais concretos de pausa",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-007",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        8
+      ],
+      "original": "Comprometimento nota 10; controle de peso definitivamente",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d01",
+        "title": "O que você está carregando?",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Disponibilidade real e ação possível; peso opcional",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C13",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Ter razões próprias e sentir-se capaz pode apoiar mudanças de comportamento.",
+          "grade": "B",
+          "limitation": "Efeito pequeno; viés de publicação; mecanismos mediacionais não provam toda cadeia causal",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C25",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Peso corporal resulta de múltiplos fatores; não é boletim de caráter nem simples reflexo de força de vontade.",
+          "grade": "A",
+          "limitation": "Peso não mede valor pessoal; fatores sociais/clínicos fora do controle individual",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-008",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "original": "Hipotireoidismo, hipoglicemia, hipotensão, anemia, TDAH e SPA",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Não atualizar diagnósticos de memória; validar necessidade narrativa",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Preservar história/relato; confirmar detalhes e voz, sem inferir diagnósticos, intenção de terceiros ou biografia nova."
+    },
+    {
+      "id": "MIG-009",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        9
+      ],
+      "original": "Pressão alta: não usar gengibre/canela",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Orientar avaliação individual de medicamentos/suplementos; não substituir por outra prescrição",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-010",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        10
+      ],
+      "original": "Idade metabólica 60+ = envelhecimento precoce",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não inferir envelhecimento a partir desse número",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-011",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        12
+      ],
+      "original": "Diário alimentar e emocional: anotar tudo todos os dias",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d01",
+        "title": "O que você está carregando?",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Um episódio escolhido; trilha alimentar opt-in; pausa quando registro piora sofrimento",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C03",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Registrar o que você fez e revisar o progresso pode ajudar a alcançar metas.",
+          "grade": "A",
+          "limitation": "Efeito médio não individual; vigilância excessiva não foi o objetivo; privacidade prevalece sobre exposição",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-012",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        13
+      ],
+      "original": "Água com limão, 2–3 copos; cardio em jejum; saudação ao sol",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d23",
+        "title": "Movimento que cabe na vida",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Rotina flexível sem jejum; movimento adaptado e água conforme contexto",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C19",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algum movimento é melhor que nenhum. Começar pequeno e progredir conforme suas condições é válido.",
+          "grade": "A",
+          "limitation": "Adaptar a capacidade/condição; não individualizar dose pelo app",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-013",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "original": "mindsetGORDO, gordices, reset total",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Preservar nome com nova definição; retirar antagonista gordo",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-014",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        13
+      ],
+      "original": "Visualizar manequim ao adormecer molda subconsciente",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d19",
+        "title": "O futuro precisa de uma cena",
+        "traversal": "REPOSICIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Cena concreta de processo com obstáculo e SE–ENTÃO",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C02",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Imaginar o objetivo, reconhecer um obstáculo e planejar uma resposta pode ajudar a transformar intenção em ação.",
+          "grade": "B",
+          "limitation": "Viés de publicação; efeito pequeno/moderado; não garante cada meta",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C04",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Imaginar uma cena futura concreta pode apoiar escolhas que consideram consequências mais distantes.",
+          "grade": "B",
+          "limitation": "Desfechos de escolha não equivalem a emagrecimento mantido; não generalizar a todos",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-015",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        14
+      ],
+      "original": "Acumular todas as práticas até dia 30",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d26",
+        "title": "Consistência não é perfeição",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Um núcleo diário; ferramentas sob gatilho; revisão semanal",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C01",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Hábitos se desenvolvem com repetição e contexto; o tempo varia muito. Trinta dias iniciam uma prática, não garantem automatização.",
+          "grade": "B",
+          "limitation": "Muitos estudos com alto risco de viés; apenas quatro estimaram tempo; autorrelato",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-016",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "original": "Jardim cerebral, caminhos neurais, neuroplasticidade boa/ruim",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d26",
+        "title": "Consistência não é perfeição",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Jardim como metáfora explicitada; aprendizagem sem promessa de apagar",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C01",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Hábitos se desenvolvem com repetição e contexto; o tempo varia muito. Trinta dias iniciam uma prática, não garantem automatização.",
+          "grade": "B",
+          "limitation": "Muitos estudos com alto risco de viés; apenas quatro estimaram tempo; autorrelato",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-017",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        16
+      ],
+      "original": "Se achar rotina restritiva, é seu sabotador",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d08",
+        "title": "Sempre? Nunca? Vamos conferir",
+        "traversal": "DISCERNIR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Crítica é informação; permitir adaptar ou pausar",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-018",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        17,
+        18,
+        19
+      ],
+      "original": "Dia 1: detox mental e observação de pensamentos",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d01",
+        "title": "O que você está carregando?",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Perceber e nomear sem suprimir; registrar um episódio",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C07",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algumas práticas guiadas estudadas em apps ajudam a observar pensamentos com mais distância; os resultados variam.",
+          "grade": "C",
+          "limitation": "Resultados mistos em vários processos; diferenças entre apps e comparadores",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-019",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        19,
+        20,
+        21
+      ],
+      "original": "Gratidão e alma; três motivos diários",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d15",
+        "title": "Pertencer sem se abandonar",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Gratidão não apaga sofrimento; espiritualidade opcional",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-020",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        20,
+        21
+      ],
+      "original": "Filipenses 4:8; Jeremias 29:11–13",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d15",
+        "title": "Pertencer sem se abandonar",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Identificar leitura espiritual, sem mecanismo clínico",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-021",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        20,
+        21
+      ],
+      "original": "Dia 2: peneira; pensamentos, evidências e reformulação",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d06",
+        "title": "O fato não chegou contando história",
+        "traversal": "DISCERNIR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Pensamento é evento; separar fato, história e incógnita",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C07",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algumas práticas guiadas estudadas em apps ajudam a observar pensamentos com mais distância; os resultados variam.",
+          "grade": "C",
+          "limitation": "Resultados mistos em vários processos; diferenças entre apps e comparadores",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-022",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        22,
+        23
+      ],
+      "original": "Dia 3: crenças limitantes/empoderadoras",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d08",
+        "title": "Sempre? Nunca? Vamos conferir",
+        "traversal": "DISCERNIR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Investigar contexto, exceções e recursos; não negar biologia",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C24",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Usamos perguntas de precisão linguística como recurso de reflexão, sem apresentar PNL como fundamento científico validado.",
+          "grade": "C",
+          "limitation": "Pesquisa limitada e de baixa qualidade; não comprova eficácia clínica nem ausência universal de efeito",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C25",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Peso corporal resulta de múltiplos fatores; não é boletim de caráter nem simples reflexo de força de vontade.",
+          "grade": "A",
+          "limitation": "Peso não mede valor pessoal; fatores sociais/clínicos fora do controle individual",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-023",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        24,
+        25
+      ],
+      "original": "Dia 4: propósito, carta e perguntas do metamodelo",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d12",
+        "title": "Valor aparece quando custa",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Selecionar poucas perguntas; carta vinculada a ação observável",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C13",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Ter razões próprias e sentir-se capaz pode apoiar mudanças de comportamento.",
+          "grade": "B",
+          "limitation": "Efeito pequeno; viés de publicação; mecanismos mediacionais não provam toda cadeia causal",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-024",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        25
+      ],
+      "original": "SMART: 5 kg em 30 dias / 10 kg em 50 dias",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Prazo para comportamento/revisão, sem meta de perda universal",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C25",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Peso corporal resulta de múltiplos fatores; não é boletim de caráter nem simples reflexo de força de vontade.",
+          "grade": "A",
+          "limitation": "Peso não mede valor pessoal; fatores sociais/clínicos fora do controle individual",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-025",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        26
+      ],
+      "original": "Meu Manequim Mental Ideal",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "MMI 2.0 com conforto, força, sono, energia e aparência opt-in",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C10",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Exercícios de escrita sobre o que o corpo permite viver podem apoiar uma relação corporal mais ampla que aparência.",
+          "grade": "B",
+          "limitation": "Amostra específica; função não deve virar padrão capacitista; não valida MMI",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-026",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        27,
+        28
+      ],
+      "original": "Dia 5: ambiente físico/social; média de cinco pessoas",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d05",
+        "title": "Seu ambiente também escolhe",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Mapear situações e efeitos observados sem julgar valor pessoal",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C15",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Para entender uma ação, investigaremos habilidade, condições disponíveis e motivação.",
+          "grade": "D",
+          "limitation": "Modelo organizador, não prova de eficácia do pacote",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-027",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        29
+      ],
+      "original": "Dia 6: mindfulness 10 min; mindful eating",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d03",
+        "title": "Pausa não é desaparecimento",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Prática curta opcional; alternativa olhos abertos; observar efeito",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C07",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algumas práticas guiadas estudadas em apps ajudam a observar pensamentos com mais distância; os resultados variam.",
+          "grade": "C",
+          "limitation": "Resultados mistos em vários processos; diferenças entre apps e comparadores",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C11",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Prestar atenção à experiência de comer pode ajudar a perceber padrões alimentares.",
+          "grade": "B",
+          "limitation": "Intervenções variáveis; não prescrição para compulsão; perda de peso não garantida",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-028",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        29
+      ],
+      "original": "Músicas e afirmações em anexos",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d03",
+        "title": "Pausa não é desaparecimento",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Inventariar links; recuperar antes de copiar",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-029",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        30
+      ],
+      "original": "Dia 7: conexões, hobbies, natureza, autocompaixão",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d15",
+        "title": "Pertencer sem se abandonar",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Contato seguro e consentido; prazer sem explicação neuro decorativa",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C09",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Práticas de autocompaixão podem ajudar a lidar com sofrimento; aqui usamos uma resposta respeitosa ao erro para escolher o próximo passo.",
+          "grade": "B",
+          "limitation": "Doses e controles distintos; não transferir efeitos clínicos a frase isolada",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-030",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        30
+      ],
+      "original": "Amo música e preciso me exercitar: danço ouvindo música",
+      "decision": "manter",
+      "primary_destination": {
+        "day_id": "d23",
+        "title": "Movimento que cabe na vida",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar dança+música como exemplo autoral, não obrigação",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C19",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algum movimento é melhor que nenhum. Começar pequeno e progredir conforme suas condições é válido.",
+          "grade": "A",
+          "limitation": "Adaptar a capacidade/condição; não individualizar dose pelo app",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-031",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        31,
+        32
+      ],
+      "original": "Dia 8: deixa/rotina/recompensa de Duhigg",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d26",
+        "title": "Consistência não é perfeição",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Modelo pedagógico simplificado; contexto–ação–consequência observável",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C01",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Hábitos se desenvolvem com repetição e contexto; o tempo varia muito. Trinta dias iniciam uma prática, não garantem automatização.",
+          "grade": "B",
+          "limitation": "Muitos estudos com alto risco de viés; apenas quatro estimaram tempo; autorrelato",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-032",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        33
+      ],
+      "original": "Dia 9: revisão semanal e autocompaixão",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d28",
+        "title": "Auditoria dos Frutos",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Auditoria breve com um ajuste; evitar ruminação",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C03",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Registrar o que você fez e revisar o progresso pode ajudar a alcançar metas.",
+          "grade": "A",
+          "limitation": "Efeito médio não individual; vigilância excessiva não foi o objetivo; privacidade prevalece sobre exposição",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C09",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Práticas de autocompaixão podem ajudar a lidar com sofrimento; aqui usamos uma resposta respeitosa ao erro para escolher o próximo passo.",
+          "grade": "B",
+          "limitation": "Doses e controles distintos; não transferir efeitos clínicos a frase isolada",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-033",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        34,
+        35
+      ],
+      "original": "Dia 10: comprometimento versus motivação",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d26",
+        "title": "Consistência não é perfeição",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Compromisso com flexibilidade; oportunidade e capacidade além da vontade",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C01",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Hábitos se desenvolvem com repetição e contexto; o tempo varia muito. Trinta dias iniciam uma prática, não garantem automatização.",
+          "grade": "B",
+          "limitation": "Muitos estudos com alto risco de viés; apenas quatro estimaram tempo; autorrelato",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C02",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Imaginar o objetivo, reconhecer um obstáculo e planejar uma resposta pode ajudar a transformar intenção em ação.",
+          "grade": "B",
+          "limitation": "Viés de publicação; efeito pequeno/moderado; não garante cada meta",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-034",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        36
+      ],
+      "original": "Avaliação igual à primeira; stories/direct",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d28",
+        "title": "Auditoria dos Frutos",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Baseline comparável privado; compartilhamento opcional sem respostas sensíveis",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C03",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Registrar o que você fez e revisar o progresso pode ajudar a alcançar metas.",
+          "grade": "A",
+          "limitation": "Efeito médio não individual; vigilância excessiva não foi o objetivo; privacidade prevalece sobre exposição",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-035",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        37,
+        38
+      ],
+      "original": "Órgãos detox; suor, fibra e respiração eliminam toxinas",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Educação geral sobre funções normais sem ritual de purificação",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C23",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Este protocolo não usa detox, termogênicos ou suplementos como atalho. Esses produtos não integram a proposta educativa.",
+          "grade": "B",
+          "limitation": "Poucos estudos de baixa qualidade; não afirmar ausência absoluta de todo efeito possível",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-036",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        39
+      ],
+      "original": "Água 2 L; orgânicos; reduzir processados",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Necessidades/contextos individuais e alimentos acessíveis",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-037",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        39
+      ],
+      "original": "Substituir açúcar por mel/melado/stevia",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Mel/melado também contêm açúcares; tradução por rótulo",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-038",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        39
+      ],
+      "original": "Café/chá preto sobrecarregam fígado",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d24",
+        "title": "Descansar também é cuidado",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Contextualizar cafeína sem esse claim",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-039",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        39,
+        40
+      ],
+      "original": "Proteínas, gorduras, frutas/fibras; cozinhar; sono; atividade",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Educação geral, sem quantidades ou suplementação individual",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C19",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algum movimento é melhor que nenhum. Começar pequeno e progredir conforme suas condições é válido.",
+          "grade": "A",
+          "limitation": "Adaptar a capacidade/condição; não individualizar dose pelo app",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C20",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Adultos geralmente precisam de pelo menos sete horas regulares de sono; dificuldades persistentes merecem avaliação.",
+          "grade": "A",
+          "limitation": "Necessidades individuais; insônia não se resolve apenas com disciplina",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-040",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        40
+      ],
+      "original": "Sauna/escalda-pés/escovação a seco estimulam toxinas",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não publicar como mecanismo; não obrigatório",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C23",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Este protocolo não usa detox, termogênicos ou suplementos como atalho. Esses produtos não integram a proposta educativa.",
+          "grade": "B",
+          "limitation": "Poucos estudos de baixa qualidade; não afirmar ausência absoluta de todo efeito possível",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-041",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        40
+      ],
+      "original": "Fotos e medidas corporais regulares",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Opt-in, privacidade, substituição por funcionalidade",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C10",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Exercícios de escrita sobre o que o corpo permite viver podem apoiar uma relação corporal mais ampla que aparência.",
+          "grade": "B",
+          "limitation": "Amostra específica; função não deve virar padrão capacitista; não valida MMI",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-042",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        41,
+        42
+      ],
+      "original": "Dia 11: detox fortalece imunidade, energia, peso e sono",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Retirar causalidade detox; preservar alimentação e descanso",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C23",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Este protocolo não usa detox, termogênicos ou suplementos como atalho. Esses produtos não integram a proposta educativa.",
+          "grade": "B",
+          "limitation": "Poucos estudos de baixa qualidade; não afirmar ausência absoluta de todo efeito possível",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-043",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        42
+      ],
+      "original": "1 L antes do café, limão+vinagre; trocar fome por sede",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Retirar recomendação integral; hidratação sem punição ou volume obrigatório",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C23",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Este protocolo não usa detox, termogênicos ou suplementos como atalho. Esses produtos não integram a proposta educativa.",
+          "grade": "B",
+          "limitation": "Poucos estudos de baixa qualidade; não afirmar ausência absoluta de todo efeito possível",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-044",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        42
+      ],
+      "original": "Iniciar jejum 12h; eliminar farinhas/açúcares",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Planejar acesso a comida e respeitar contexto; jejum não tarefa",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-045",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        43,
+        44
+      ],
+      "original": "Dia 12: platô por 4 semanas, força, roupa, gordura localizada",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d27",
+        "title": "Quando a rotina sair do eixo",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Explicar variabilidade sem diagnóstico; rever com profissional",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C25",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Peso corporal resulta de múltiplos fatores; não é boletim de caráter nem simples reflexo de força de vontade.",
+          "grade": "A",
+          "limitation": "Peso não mede valor pessoal; fatores sociais/clínicos fora do controle individual",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-046",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        44
+      ],
+      "original": "Aumentar treino/suplementar; horários fixos essenciais",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d23",
+        "title": "Movimento que cabe na vida",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não prescrever escalada; revisar sono, contexto e tolerância",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-047",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        45
+      ],
+      "original": "Dia 13: jejum + cardio para secar 2–3 kg após festas",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d25",
+        "title": "Próxima escolha, não punição",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Próxima escolha não punição; jejum apenas informação crítica fora da tarefa",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C09",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Práticas de autocompaixão podem ajudar a lidar com sofrimento; aqui usamos uma resposta respeitosa ao erro para escolher o próximo passo.",
+          "grade": "B",
+          "limitation": "Doses e controles distintos; não transferir efeitos clínicos a frase isolada",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-048",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        46
+      ],
+      "original": "Dia 14: desinflamar; corpo guarda cada caloria",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Não diagnosticar inflamação por sensação; cuidado cotidiano",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-049",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        46
+      ],
+      "original": "Limão alcalinizante; termogênicos; sucos detox",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Receita só como alimento, se recuperada; sem mecanismo prometido",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C23",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Este protocolo não usa detox, termogênicos ou suplementos como atalho. Esses produtos não integram a proposta educativa.",
+          "grade": "B",
+          "limitation": "Poucos estudos de baixa qualidade; não afirmar ausência absoluta de todo efeito possível",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-050",
+      "status": "review",
+      "source_id": "LEGACY-UNTITLED",
+      "source_pages": [
+        46
+      ],
+      "original": "Dia 15 substituindo gorduras corporais por... link Gamma",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Continuação recuperada em Google.pdf, 14 páginas, Dias15–30; ver MIG056 em diante.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-051",
+      "status": "review",
+      "source_id": "LEGACY-HISTORIA",
+      "source_pages": [
+        1,
+        2,
+        3
+      ],
+      "original": "Mãe Véia, 85 anos; alfinete no vestido; estou nessa magreza",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar observação e frase; não usar demência como prova de identidade invulnerável",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Correção autoral recuperada 20/06 confirma inspiração paradoxal Mãe-Véia e gesto do vestido; ver MIG084–085. Detalhes da mãe, cronologia e interpretação clínica continuam pendentes. Não apagar histórias."
+    },
+    {
+      "id": "MIG-052",
+      "status": "review",
+      "source_id": "LEGACY-HISTORIA",
+      "source_pages": [
+        4,
+        5,
+        6
+      ],
+      "original": "Mãe entre espelhos e balanças; três gerações",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Narradora descreve o que observou e como a marcou; sem diagnosticar mãe",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Correção autoral recuperada 20/06 confirma inspiração paradoxal Mãe-Véia e gesto do vestido; ver MIG084–085. Detalhes da mãe, cronologia e interpretação clínica continuam pendentes. Não apagar histórias."
+    },
+    {
+      "id": "MIG-053",
+      "status": "review",
+      "source_id": "LEGACY-HISTORIA",
+      "source_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "original": "Autoimagem mais poderosa que diagnóstico; somos o que acreditamos",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Influência não controle absoluto; aceitação não muda diagnóstico",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Correção autoral recuperada 20/06 confirma inspiração paradoxal Mãe-Véia e gesto do vestido; ver MIG084–085. Detalhes da mãe, cronologia e interpretação clínica continuam pendentes. Não apagar histórias."
+    },
+    {
+      "id": "MIG-054",
+      "status": "review",
+      "source_id": "LEGACY-HISTORIA",
+      "source_pages": [
+        7,
+        8
+      ],
+      "original": "Emagrecimento verdadeiro acontece na mente; beleza não ideal externo",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "MAGRO como economia do excesso; peso só um possível fruto",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C25",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Peso corporal resulta de múltiplos fatores; não é boletim de caráter nem simples reflexo de força de vontade.",
+          "grade": "A",
+          "limitation": "Peso não mede valor pessoal; fatores sociais/clínicos fora do controle individual",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": true,
+      "author_review_note": "Correção autoral recuperada 20/06 confirma inspiração paradoxal Mãe-Véia e gesto do vestido; ver MIG084–085. Detalhes da mãe, cronologia e interpretação clínica continuam pendentes. Não apagar histórias."
+    },
+    {
+      "id": "MIG-055",
+      "status": "review",
+      "source_id": "LEGACY-HISTORIA",
+      "source_pages": [
+        8
+      ],
+      "original": "Compartilhe e marque alguém; link screenshot",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d15",
+        "title": "Pertencer sem se abandonar",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não transpor CTA antigo; discussão opcional privada",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-056",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        1
+      ],
+      "original": "Dia 15: substituir gordura por massa magra; músculo fornalha",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d23",
+        "title": "Movimento que cabe na vida",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Força/funcionalidade com adaptação, sem promessa de queimar gordura automaticamente",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C19",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algum movimento é melhor que nenhum. Começar pequeno e progredir conforme suas condições é válido.",
+          "grade": "A",
+          "limitation": "Adaptar a capacidade/condição; não individualizar dose pelo app",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-057",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        1,
+        2
+      ],
+      "original": "Suplementação com nutricionista; creatina/whey/cafeína/BCAA/glutamina/beta-alanina/vitaminas",
+      "decision": "optional",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "optional_health_or_spiritual_note",
+      "resolution": "Não prescrever nem dar lista de compra; revisão por indicação e evidência específica",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-058",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        2
+      ],
+      "original": "Dia 16: movimento consciente; yoga/caminhada 20 minutos",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d23",
+        "title": "Movimento que cabe na vida",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Movimento possível, duração adaptável e opt-in; sem mecanismo espiritual",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C19",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Algum movimento é melhor que nenhum. Começar pequeno e progredir conforme suas condições é válido.",
+          "grade": "A",
+          "limitation": "Adaptar a capacidade/condição; não individualizar dose pelo app",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-059",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        2
+      ],
+      "original": "Sono REN como restaurador; envelhecer com saúde",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d24",
+        "title": "Descansar também é cuidado",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Sono integral, rotina e sinais de dificuldade; evitar aula neuro sem função",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C20",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Adultos geralmente precisam de pelo menos sete horas regulares de sono; dificuldades persistentes merecem avaliação.",
+          "grade": "A",
+          "limitation": "Necessidades individuais; insônia não se resolve apenas com disciplina",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-060",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        2
+      ],
+      "original": "Como eu, como Inteligência Artificial, visualizo o envelhecimento",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d23",
+        "title": "Movimento que cabe na vida",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Excluir integralmente; não atribuir experiência de IA à autora",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-061",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        2
+      ],
+      "original": "Cinco sentidos: tato/olfato/paladar/visão/gustação",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Selecionar sensações úteis, sem checklist obrigatório de cinco",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C11",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Prestar atenção à experiência de comer pode ajudar a perceber padrões alimentares.",
+          "grade": "B",
+          "limitation": "Intervenções variáveis; não prescrição para compulsão; perda de peso não garantida",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-062",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        3
+      ],
+      "original": "Dia 17: eliminar açúcares incluindo arroz/batata/mandioca",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Tradutor do Prato e rótulo; carboidrato não é literalmente açúcar de mesa",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C22",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Amidos são digeridos em açúcares menores; arroz e batata não são literalmente açúcar de mesa.",
+          "grade": "A",
+          "limitation": "Resposta individual depende de quantidade, alimento, preparo e contexto",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-063",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        3
+      ],
+      "original": "Abstinência do açúcar 1–2 semanas; adoçantes químicos prejudiciais",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Desejos têm contextos; não diagnosticar abstinência nem demonizar adoçantes",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-064",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        3
+      ],
+      "original": "Eu comeria se soubesse que é puro açúcar?",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Equivalência quantitativa só para açúcar declarado e porção real",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C22",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Amidos são digeridos em açúcares menores; arroz e batata não são literalmente açúcar de mesa.",
+          "grade": "A",
+          "limitation": "Resposta individual depende de quantidade, alimento, preparo e contexto",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-065",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        4
+      ],
+      "original": "Dia 18: comece dieta cetogênica; <50g carboidrato; eletrólitos",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d25",
+        "title": "Próxima escolha, não punição",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não integrar dieta/eletrólitos às tarefas; explicar escopo e encaminhar",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-066",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        4
+      ],
+      "original": "Dia 19: preparar em lote, sobras e compras",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Planejar disponibilidade, tempo e orçamento; sem dieta imposta",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C21",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Uma alimentação variada considera qualidade e contexto. Compare açúcar usando gramas e volume do rótulo real.",
+          "grade": "A",
+          "limitation": "Recomendações populacionais; não prescrição individual; confirmar ano da versão ao publicar",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-067",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        4
+      ],
+      "original": "Prato 15–30% proteína, 30–40% gordura, 40–50% vegetais",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Sem proporções genéricas nem confundir massa, energia e volume",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-068",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        5
+      ],
+      "original": "Dia 20: escolha equilibrada na próxima refeição sem culpa",
+      "decision": "manter",
+      "primary_destination": {
+        "day_id": "d25",
+        "title": "Próxima escolha, não punição",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Próxima escolha não punição; aplicar também fora da alimentação",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C09",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Práticas de autocompaixão podem ajudar a lidar com sofrimento; aqui usamos uma resposta respeitosa ao erro para escolher o próximo passo.",
+          "grade": "B",
+          "limitation": "Doses e controles distintos; não transferir efeitos clínicos a frase isolada",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-069",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        5
+      ],
+      "original": "Doce sempre após proteína; ajustar à cetose; jejum 12h",
+      "decision": "remover_clinica",
+      "primary_destination": {
+        "day_id": "d25",
+        "title": "Próxima escolha, não punição",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não substituir por regra universal alternativa",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-070",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        6
+      ],
+      "original": "Imersão 3: novo mindset imutável, hábitos no DNA, não mais lutar",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d26",
+        "title": "Consistência não é perfeição",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "30 dias iniciam reorganização; revisão e manutenção",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C01",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Hábitos se desenvolvem com repetição e contexto; o tempo varia muito. Trinta dias iniciam uma prática, não garantem automatização.",
+          "grade": "B",
+          "limitation": "Muitos estudos com alto risco de viés; apenas quatro estimaram tempo; autorrelato",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-071",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        6
+      ],
+      "original": "Dia 21: MMI, carta ao futuro para 3 meses, obstáculos",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d29",
+        "title": "Uma carta com data e compromisso",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar carta D+90, funcionalidade e obstáculos; imagens opt-in",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C04",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Imaginar uma cena futura concreta pode apoiar escolhas que consideram consequências mais distantes.",
+          "grade": "B",
+          "limitation": "Desfechos de escolha não equivalem a emagrecimento mantido; não generalizar a todos",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C10",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Exercícios de escrita sobre o que o corpo permite viver podem apoiar uma relação corporal mais ampla que aparência.",
+          "grade": "B",
+          "limitation": "Amostra específica; função não deve virar padrão capacitista; não valida MMI",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-072",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        7
+      ],
+      "original": "Dia 22: rever ambiente/influências e resultados reais",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d05",
+        "title": "Seu ambiente também escolhe",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Rever hipótese por efeito observado e possível contraprova",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C03",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Registrar o que você fez e revisar o progresso pode ajudar a alcançar metas.",
+          "grade": "A",
+          "limitation": "Efeito médio não individual; vigilância excessiva não foi o objetivo; privacidade prevalece sobre exposição",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C15",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Para entender uma ação, investigaremos habilidade, condições disponíveis e motivação.",
+          "grade": "D",
+          "limitation": "Modelo organizador, não prova de eficácia do pacote",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-073",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        7
+      ],
+      "original": "Dia 23: intensificar hábito, ajustar para caber na vida",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d26",
+        "title": "Consistência não é perfeição",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Manter o suficiente; escolher um componente, reduzir atrito",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C01",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Hábitos se desenvolvem com repetição e contexto; o tempo varia muito. Trinta dias iniciam uma prática, não garantem automatização.",
+          "grade": "B",
+          "limitation": "Muitos estudos com alto risco de viés; apenas quatro estimaram tempo; autorrelato",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-074",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        8
+      ],
+      "original": "Dia 24: avaliar avanços em neuroplasticidade por diário",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d28",
+        "title": "Auditoria dos Frutos",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Nomear como revisão de comportamento observável, sem inferência neural",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C03",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Registrar o que você fez e revisar o progresso pode ajudar a alcançar metas.",
+          "grade": "A",
+          "limitation": "Efeito médio não individual; vigilância excessiva não foi o objetivo; privacidade prevalece sobre exposição",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-075",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        9
+      ],
+      "original": "Dia 25: propósito maior e impacto coletivo",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d12",
+        "title": "Valor aparece quando custa",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Cuidado depende de recursos/contexto; contribuição escolhida, sem moralização",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C13",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Ter razões próprias e sentir-se capaz pode apoiar mudanças de comportamento.",
+          "grade": "B",
+          "limitation": "Efeito pequeno; viés de publicação; mecanismos mediacionais não provam toda cadeia causal",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-076",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        10
+      ],
+      "original": "Dia 26: mindful eating, parar satisfeito, ritmo moderado, sessão longa",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d22",
+        "title": "O prato traduzido, sem tribunal",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Reconhecer sinais sem impor emagrecimento ou sessão prolongada",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C11",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Prestar atenção à experiência de comer pode ajudar a perceber padrões alimentares.",
+          "grade": "B",
+          "limitation": "Intervenções variáveis; não prescrição para compulsão; perda de peso não garantida",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C12",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Atenção ao comer não é um botão que desliga fome; estudos mostram resultados diferentes para ingestão e apetite.",
+          "grade": "B",
+          "limitation": "Redução pequena de ingestão; sem efeito significativo em apetite; não inferir saciedade individual",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-077",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        11
+      ],
+      "original": "Dia 27: gratidão profunda, vibração, toxinas, curar feridas físicas",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d15",
+        "title": "Pertencer sem se abandonar",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Prática breve opcional; espiritualidade explicitamente simbólica; pode coexistir com dor",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-078",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        12
+      ],
+      "original": "Dia 28: revisão alimentação, peso, cetose, humor",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d28",
+        "title": "Auditoria dos Frutos",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Auditoria de Frutos com contexto; peso opt-in; detectar rigidez e pausar",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C03",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Registrar o que você fez e revisar o progresso pode ajudar a alcançar metas.",
+          "grade": "A",
+          "limitation": "Efeito médio não individual; vigilância excessiva não foi o objetivo; privacidade prevalece sobre exposição",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C25",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Peso corporal resulta de múltiplos fatores; não é boletim de caráter nem simples reflexo de força de vontade.",
+          "grade": "A",
+          "limitation": "Peso não mede valor pessoal; fatores sociais/clínicos fora do controle individual",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-079",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        13
+      ],
+      "original": "Dia 29: consolidar cetogênica e jejum termogênico",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d29",
+        "title": "Uma carta com data e compromisso",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Plano de manutenção com poucos hábitos, gatilhos e apoio",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [
+        {
+          "claim_id": "C01",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Hábitos se desenvolvem com repetição e contexto; o tempo varia muito. Trinta dias iniciam uma prática, não garantem automatização.",
+          "grade": "B",
+          "limitation": "Muitos estudos com alto risco de viés; apenas quatro estimaram tempo; autorrelato",
+          "does_not_validate_original": true
+        },
+        {
+          "claim_id": "C02",
+          "relation": "corrective_or_replacement_only",
+          "permitted_text": "Imaginar o objetivo, reconhecer um obstáculo e planejar uma resposta pode ajudar a transformar intenção em ação.",
+          "grade": "B",
+          "limitation": "Viés de publicação; efeito pequeno/moderado; não garante cada meta",
+          "does_not_validate_original": true
+        }
+      ],
+      "basis_if_no_claim": null,
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-080",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        14
+      ],
+      "original": "Dia 30: planta real, terra, água, carta, celebração, cuidar futuro",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d30",
+        "title": "Uma escolha viva precisa de cuidado",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar plantio/carta/água; conectar Frutos/Poda/Nova Semente e manutenção",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-081",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        14
+      ],
+      "original": "Quartzo amplifica intenção; energia universal; para sempre",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d30",
+        "title": "Uma escolha viva precisa de cuidado",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Excluir mecanismo e garantia; espiritualidade opcional sem objetos obrigatórios",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-082",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        14
+      ],
+      "original": "Zamioculca/lírio da paz; vela; círculo; convidados; dança",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d30",
+        "title": "Uma escolha viva precisa de cuidado",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Planta adequada ao ambiente, crianças/animais; vela e público dispensáveis",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-083",
+      "status": "review",
+      "source_id": "LEGACY-GOOGLE",
+      "source_pages": [
+        10,
+        14
+      ],
+      "original": "METABOLISMO METAMORFO",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Arquivar como linguagem histórica; se retomada, marcar explicitamente metáfora autoral de adaptação comportamental, nunca tipo metabólico ou resultado clínico. Preferir mudanças de rotina como texto público.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE / NEW_EDITORIAL_SYNTHESIS; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-084",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§4–6",
+      "original": "Mãe-Véia musa paradoxal e égua indomável",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar força e contradições da avó, sem santificar, vilanizar, idealizar magreza nem transformar lembrança em prova clínica. Correção autoral explícita supera leitura simplificada do PDF histórico.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Origem/gesto/paradoxo confirmados no registro autoral; datas e detalhes não fixados continuam em revisão."
+    },
+    {
+      "id": "MIG-085",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§4–6",
+      "original": "Gesto de ajustar vestido na cintura; insistência em existir",
+      "decision": "manter",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Manter gesto e leitura simbólica autoral; não prometer identidade preservada integralmente em demência. Fonte menciona vídeo, mas vídeo não foi inspecionado.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Origem/gesto/paradoxo confirmados no registro autoral; datas e detalhes não fixados continuam em revisão."
+    },
+    {
+      "id": "MIG-086",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§2,8",
+      "original": "Desonestidade mental",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d08",
+        "title": "Sempre? Nunca? Vamos conferir",
+        "traversal": "DISCERNIR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar investigação do desencontro entre o que percebo e o que justifico. Não chamar limite material, medo protetivo, sintoma ou falta de recurso de mentira.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-087",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§2,8",
+      "original": "Desonestidade emocional",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d12",
+        "title": "Valor aparece quando custa",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Examinar sentimento, fala, tolerância e escolha em primeira pessoa, sem diagnóstico moral ou atribuir intenção a terceiros. Informação pode estar incerta.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-088",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§7",
+      "original": "Três pesos: físico, mental e emocional",
+      "decision": "manter",
+      "primary_destination": {
+        "day_id": "d21",
+        "title": "Seu corpo não é uma prestação atrasada",
+        "traversal": "HABITAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Preservar como mapa autoral. Não afirmar que todo peso físico seja produzido por emoção ou pensamento.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-089",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§2,8",
+      "original": "Desacumulação de objetos, tarefas, estímulos e culpas",
+      "decision": "reescrever",
+      "primary_destination": {
+        "day_id": "d05",
+        "title": "Seu ambiente também escolhe",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Vincular à Poda Ambiental, próximo passo e recursos; vínculos pedem análise contextual, sem cortar pessoas por desconforto.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-090",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§8",
+      "original": "Decisão magra: clara, proporcional e sustentável",
+      "decision": "manter",
+      "primary_destination": {
+        "day_id": "d07",
+        "title": "Uma conclusão precisa prestar contas",
+        "traversal": "DISCERNIR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Incorporar como qualidade de uma escolha sob Filtro, não nova ferramenta/marca nem sinônimo de certeza.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-091",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§8",
+      "original": "Responsabilidade sem culpa por violências sofridas",
+      "decision": "manter",
+      "primary_destination": {
+        "day_id": "d16",
+        "title": "Sua parte não é tudo",
+        "traversal": "REPOSICIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Assumir esfera possível sem aceitar responsabilidade pela violência de outro; risco altera ação segura.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-092",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§10,13",
+      "original": "Cronologia de criação e lugar no Ato VI de Morte em Vida",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d13",
+        "title": "Como quero viver neste corpo?",
+        "traversal": "VOLTAR A SI"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Preservar vínculo de origem e lugar editorial externo. Datas de cunhagem, vídeo e primeira versão permanecem pendentes; não inventar cronologia.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": true,
+      "author_review_note": "Origem/gesto/paradoxo confirmados no registro autoral; datas e detalhes não fixados continuam em revisão."
+    },
+    {
+      "id": "MIG-093",
+      "status": "review",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§11",
+      "original": "+1.000.000 de mentes transformadas",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d28",
+        "title": "Auditoria dos Frutos",
+        "traversal": "SUSTENTAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não migrar para vitrine ou livro como resultado. Registro autoral já exige comprovação; não há base documental examinada para este número.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-094",
+      "status": "review",
+      "source_id": "CANONICAL-PANEL-20260620",
+      "source_section": "Origem/Evolução/Lugar",
+      "original": "Painel-mestre corrobora origem e expansão",
+      "decision": "manter",
+      "primary_destination": {
+        "day_id": "d01",
+        "title": "O que você está carregando?",
+        "traversal": "DESCONGESTIONAR"
+      },
+      "placement": "lesson_or_practice",
+      "resolution": "Registrar autoridade autoral da evolução além de emagrecimento; Árvore como ferramenta de investigação, não diagnóstico clínico.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-095",
+      "status": "review",
+      "source_id": "LEGACY-LANDING-202511",
+      "source_section": "pp1–4",
+      "original": "Oferta limitada, garantia 7 dias, preço riscado, CTA href=# e depoimento",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d25",
+        "title": "Próxima escolha, não punição",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não importar oferta/garantia/checkout/depoimento sem condições e ativos verificados. O PDF é documentação de projeto, não comprovação de operação ou resultados.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    },
+    {
+      "id": "MIG-096",
+      "status": "review",
+      "source_id": "LEGACY-LANDING-202511",
+      "source_section": "pp2–6",
+      "original": "100% mobile; todos dispositivos; segurança e compatibilidade",
+      "decision": "historical",
+      "primary_destination": {
+        "day_id": "d24",
+        "title": "Descansar também é cuidado",
+        "traversal": "HABITAR"
+      },
+      "placement": "historical_registry_and_day_guardrail",
+      "resolution": "Não importar como resultado de QA. As listas de compatibilidade e segurança são alegações da documentação; validar implementação atual. Respeitar movimento reduzido em vez de impor CTA pulsante.",
+      "legacy_preserved": true,
+      "original_claim_must_not_be_rendered_as_science": true,
+      "claim_basis": [],
+      "basis_if_no_claim": "AUTHOR_SOURCE; correction dated 2026-06-20, or historical technical document; no scientific efficacy claimed",
+      "author_review_required": false,
+      "author_review_note": null
+    }
+  ]
+}

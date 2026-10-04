@@ -111,3 +111,17 @@ Quando um conceito muda:
 3. marcar versões antigas;
 4. atualizar dependências;
 5. impedir que LÚCIDA use semântica obsoleta como vigente.
+
+## 9. MINDSETmagro™
+
+Inventário específico:
+`06-fontes/mindsetmagro/INVENTARIO-FONTES-v0.1.md`
+
+Arquitetura candidata:
+- `05-produtos/mindsetmagro/README.md`
+- `05-produtos/mindsetmagro/ENGENHARIA-MINDSETMAGRO-30D-v0.1.md`
+- `05-produtos/mindsetmagro/CONTENT-SCHEMA-v0.1.json`
+- `07-pesquisa/MINDSETMAGRO-MATRIZ-EVIDENCIAS-v0.1.md`
+- `09-app/MINDSETMAGRO-INTEGRACAO-APP-SITE-v0.1.md`
+
+Regra: PDFs históricos permanecem fontes; afirmações antigas de saúde/neurociência não são promovidas automaticamente a cânone vigente.

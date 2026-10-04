@@ -1,0 +1,244 @@
+{
+  "id": "d28",
+  "day": 28,
+  "title": "Auditoria dos Frutos",
+  "traversal": "SUSTENTAR",
+  "objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+  "previous": "Quando a rotina sair do eixo",
+  "next": "Uma carta com data e compromisso",
+  "blocks": [
+    {
+      "id": "d28-01-opening",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Chegou a hora de olhar os Frutos. Não os que ficariam bonitos numa postagem: os que existem. Pode haver avanço, estabilidade, dificuldade, surpresa e pergunta sem resposta. A auditoria aceita a vida inteira, não só a parte que rende depoimento.",
+        "Ontem você preparou uma retomada. Hoje vai usar o Caderno como evidência para decidir o que manter. O trabalho não é convencer você de que o protocolo funcionou. É ajudar você a enxergar o que aconteceu."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d28"
+    },
+    {
+      "id": "d28-02-reading",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Volte ao compromisso inicial e à avaliação de partida. Compare perguntas equivalentes, preservando o significado original. Se você registrou um excesso específico, veja como ele aparece agora. Se não tem registro inicial, diga isso e use uma descrição retrospectiva com cautela. Memória ajuda a pensar, mas não substitui uma medição que não foi feita.",
+        "Escolha dois ou três episódios do Caderno. Um em que a prática ajudou, outro em que não coube ou não produziu o esperado e, se houver, um que trouxe dúvida. Isso evita selecionar apenas confirmações. Você não precisa reler todas as páginas nem transformar a revisão em trabalho de conclusão de curso.",
+        "Separe processo, resultado e contexto. Processo: você fez um pedido mais claro. Resultado: houve um acordo. Contexto: a outra pessoa estava disponível para conversar. O resultado não prova que qualquer pessoa aceitará esse pedido em qualquer circunstância. Também não permite atribuir toda a mudança ao protocolo. Apoio, tratamento, tempo e outras experiências podem ter participado.",
+        "Pense comigo: alguém percebe mais rapidez para reconhecer uma interpretação precipitada, mas continua sentindo ansiedade. Isso pode ser uma habilidade adquirida sem mudança equivalente no sofrimento. As duas informações cabem juntas. Se o sofrimento é importante ou persistente, merece cuidado adequado, não uma cobrança para que a ferramenta resolva tudo.",
+        "Olhe também o custo. Uma prática ajudou a organizar ou aumentou vigilância? O registro ficou útil ou tomou tempo demais? A trilha corporal ampliou cuidado ou intensificou comparação? Você pode reduzir, adaptar ou suspender uma proposta. Não chame aumento de cobrança de progresso só porque ele veio acompanhado de muitas anotações.",
+        "Corpo, peso, medidas, alimentação e sono continuam opcionais. Caso tenha registros, não use variações isoladas para diagnosticar causas ou declarar sucesso clínico. O foco geral é autoria observável: escolhas mais claras, apoio procurado, limites comunicados, práticas possíveis, revisões feitas. Não há nota de pessoa boa.",
+        "Reconheça limites externos que continuam presentes. Talvez você tenha encontrado uma resposta mais cuidadosa numa condição difícil, sem conseguir mudar a condição. Isso não torna o contexto aceitável nem elimina a necessidade de recursos, direitos ou apoio. Responsabilidade distribuída permanece valendo no encerramento.",
+        "Conclua com três destinos: manter o que ajuda, ajustar o que pede mudança e deixar de lado o que não serve agora. Essa é a Auditoria dos Frutos. Uma revisão que autoriza mudar de ideia vale mais que um certificado de entusiasmo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C03"
+      ],
+      "source_refs": [
+        "LEGACY-GOOGLE",
+        "POSICIONE_SE",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1037/bul0000025"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d28-03-reading",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Pesquisas sobre monitoramento de metas apoiam registrar e revisar progresso. O registro deve servir à decisão; não exige exposição pública nem autoriza inferir mudança cerebral pelo diário. Esta auditoria é educativa, não escala diagnóstica, ensaio clínico ou demonstração de eficácia do produto."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C03"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1037/bul0000025"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d28-04-exercise",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Abra um registro inicial e dois episódios recentes. Escreva uma mudança observável, uma dificuldade que continua e um fator de contexto. Depois escolha uma prática para manter, uma para ajustar ou retirar. Se não houver evidência suficiente, registre a incerteza."
+      ],
+      "fields": [
+        {
+          "id": "d28.comparacao",
+          "label": "O que mudou entre o registro inicial e agora, com exemplos?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d28.limite",
+          "label": "O que continua difícil e quais fatores de contexto participaram?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d28.decisao",
+          "label": "O que vou manter, ajustar ou deixar de lado?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d28-05-mission",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Aplique um ajuste derivado da auditoria: simplifique um registro, reposicione um recurso ou retire uma exigência desnecessária. A revisão precisa mudar alguma coisa na sua prática, ainda que a decisão seja manter conscientemente o que já funciona."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d28-06-fruit_review",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "Qual conclusão os registros sustentam e qual conclusão seria exagerada? Registre a decisão aplicada, ou obstáculo e próxima ação segura. Você não precisa apresentar melhora para concluir o Dia."
+      ],
+      "fields": [
+        {
+          "id": "d28.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d28-07-if_then",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu escolher apenas evidências favoráveis, então procurarei também um episódio que desafie minha conclusão. Ação mínima: comparar uma intenção inicial com uma ação realmente registrada."
+      ],
+      "fields": [
+        {
+          "id": "d28.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d28-08-installation",
+      "day_id": "d28",
+      "learning_objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Guarde essa síntese para a carta de amanhã. Ela dará ao seu futuro um retrato honesto do presente, com continuidade possível e sem promessa de transformação permanente."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d28.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Prática principal revisada"
+    ],
+    "on_trigger": [
+      "Rever quando houver custo excessivo"
+    ],
+    "weekly": [
+      "Auditoria breve de ação, contexto e ajuste"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-GOOGLE",
+    "POSICIONE_SE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

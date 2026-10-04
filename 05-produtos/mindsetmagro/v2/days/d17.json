@@ -1,0 +1,236 @@
+{
+  "id": "d17",
+  "day": 17,
+  "title": "Um limite precisa de uma frase",
+  "traversal": "REPOSICIONAR",
+  "objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+  "previous": "Sua parte não é tudo",
+  "next": "O espaço que a Poda abre",
+  "blocks": [
+    {
+      "id": "d17-01-opening",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "“Ela deveria perceber.” Pode ser. Mas a sua vida não precisa ficar hospedada no setor de adivinhação. Há acordos que nunca foram ditos e cobranças que chegam como se todos tivessem assinado contrato.",
+        "Ontem você separou responsabilidades. Hoje vamos transformar sua parte em linguagem: o que está acontecendo, do que você precisa e o que pode fazer. Um limite não é um discurso perfeito. É uma posição compreensível que você consegue sustentar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d17-02-reading",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Pense comigo: “você não me respeita” fala de uma conclusão ampla. “Quando combinamos um horário e ele muda, preciso ser avisada” descreve uma situação e um pedido. Talvez o problema seja maior que o horário; mesmo assim, começar pelo observável dá à conversa um objeto. A pessoa pode concordar, discordar ou negociar. Você pode avaliar a resposta pelos Frutos.",
+        "Separe pedido, acordo e limite. Pedido: “Você consegue avisar quando houver atraso?”. Acordo: ambos definem como vão fazer isso. Limite: “Posso esperar até este horário; depois vou seguir meu compromisso”. O pedido depende de uma resposta. O acordo depende de consentimento. O limite organiza sua própria conduta. Misturar os três costuma produzir ameaça com legenda de autocuidado.",
+        "Um limite também precisa ser proporcional. “Se discordar de mim, nunca mais me verá” não vira sensato porque foi falado com voz calma. Considere direitos, deveres, dependências, poder e consequência. Não use o método para escapar de uma responsabilidade que assumiu nem para governar a agenda inteira de alguém. O território do outro continua existindo.",
+        "A frase pode seguir uma forma simples: “Quando acontece X, preciso de Y. Posso fazer Z. Podemos combinar W?”. Use somente o que couber. Não é uma fórmula capaz de produzir aceitação automática. Às vezes o resultado é descobrir que o acordo não existe. Essa informação também ajuda a escolher o próximo passo.",
+        "Imagine uma pessoa que recebe pedidos de trabalho fora do horário. Uma resposta possível é informar quando poderá atender e verificar quais urgências realmente fazem parte do acordo. Se existe risco de perder renda, a decisão pede estratégia, registro e orientação adequada, não uma cena heroica montada por um capítulo.",
+        "Também há relações em que falar diretamente aumenta o risco. Quando há ameaça, coerção ou violência, não transforme confronto em missão. Buscar uma pessoa de confiança, atendimento especializado ou um plano de segurança pode ser a ação mais responsável. Silêncio de proteção não é ausência de posicionamento.",
+        "Antes de ensaiar, pergunte: quero ser compreendida ou quero produzir uma reação específica? O primeiro objetivo orienta sua fala. O segundo promete um controle que você não tem. Você pode falar com firmeza, escutar uma proposta e rever detalhes sem abandonar o princípio."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "POSICIONE_SE",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d17-03-reading",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Neste Dia não apresentamos um roteiro de limites como tratamento validado. Ele é uma aplicação autoral dos pilares Limite Sagrado e Acordo Consciente. A qualidade será examinada pela clareza, pela segurança e pelo que você conseguiu fazer, sem medir sucesso pela obediência alheia."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d17-04-exercise",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha uma conversa pequena. Escreva o fato, o pedido e a conduta que depende de você. Leia em voz baixa: há insulto, leitura de mente ou punição escondida? Retire. Se a frase ficou longa, preserve a informação necessária e deixe o processo inteiro fora da primeira mensagem."
+      ],
+      "fields": [
+        {
+          "id": "d17.fato_pedido",
+          "label": "Qual fato e qual pedido quero comunicar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d17.limite",
+          "label": "O que eu farei dentro da minha esfera?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d17.seguranca",
+          "label": "É seguro conversar agora? Que apoio ou adaptação preciso?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d17-05-mission",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Comunique a frase em um contexto seguro ou ensaie com alguém de confiança. Se conversar não for seguro, escolha uma medida de preparação ou apoio. Não envie mensagens por impulso nem exponha dados íntimos para comprovar que realizou."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d17-06-fruit_review",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "Registre a frase efetivamente usada e o resultado observável, sem atribuir intenção. Houve acordo, contraproposta ou ausência de resposta? Se só ensaiou, isso é o registro real. Se não realizou, anote obstáculo e próxima ação segura."
+      ],
+      "fields": [
+        {
+          "id": "d17.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d17-07-if_then",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu começar a justificar meu limite sem parar, então retomarei a frase central e ouvirei a resposta. Ação mínima: escrever o pedido em uma linha, sem enviá-lo ainda."
+      ],
+      "fields": [
+        {
+          "id": "d17.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d17-08-installation",
+      "day_id": "d17",
+      "learning_objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Um limite pode precisar de revisão e repetição. Não transforme isso em uma disputa infinita para obter reconhecimento. Amanhã vamos examinar o que interromper e o que colocar no espaço aberto: Poda pede Nova Semente."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d17.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um Fruto breve"
+    ],
+    "on_trigger": [
+      "Pedido, acordo e limite",
+      "Filtro da Sensatez"
+    ],
+    "weekly": [
+      "Rever acordos importantes"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "POSICIONE_SE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

@@ -80,3 +80,16 @@ AJUDAR AGORA
 ```
 
 Nenhum produto deve ser indicado apenas porque existe no catálogo.
+
+## MINDSETmagro™
+
+**Tipo:** protocolo de 30 dias + eBook + experiência interativa + workbook/Caderno Vivo.  
+**Função:** reduzir excessos mentais, emocionais, identitários, comportamentais e corporais desnecessários; recuperar autoria; aplicar discernimento; transformar escolha em prática; observar Frutos e sustentar leveza.
+
+**Não é:** dieta isolada, programa clínico, promessa de corpo específico ou substituto do Reposicione-se.
+
+**Relação com o método:** usa o motor do Posicione-se™ em travessia prática:
+> PERCEBER → NOMEAR → DISTANCIAR → DISCERNIR → ESCOLHER → PRATICAR → OBSERVAR → REVISAR
+
+Fonte de arquitetura:
+`05-produtos/mindsetmagro/README.md`

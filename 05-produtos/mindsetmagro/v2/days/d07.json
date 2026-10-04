@@ -1,0 +1,263 @@
+{
+  "id": "d07",
+  "day": 7,
+  "title": "Uma conclusão precisa prestar contas",
+  "traversal": "DISCERNIR",
+  "objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+  "previous": "O fato não chegou contando história",
+  "next": "Sempre? Nunca? Vamos conferir",
+  "blocks": [
+    {
+      "id": "d07-01",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "opening",
+      "title": "Convicção também precisa mostrar serviço",
+      "content": [
+        "Ontem separamos acontecimento e interpretação. Hoje sua interpretação pode apresentar as razões. Ter certeza é uma sensação; demonstrar por que uma conclusão merece confiança exige outro trabalho. Pense comigo: se toda informação confirma sua ideia, inclusive a que a contradiz, ainda estamos investigando?",
+        "O Filtro da Sensatez vem do Método Posicione-se. Aqui ele tem uma função prática: ajudar você a escolher uma resposta proporcional numa situação do dia. Não vamos fazer uma tese para decidir onde guardar as chaves. A profundidade precisa acompanhar o custo da escolha."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d07"
+    },
+    {
+      "id": "d07-02",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "reading",
+      "title": "O filtro na dose certa",
+      "content": [
+        "Para uma decisão simples e reversível, use três perguntas: o que sustenta minha leitura, o que a enfraquece e qual ação cabe agora? Para situações de maior impacto, amplie: que regra escondida estou supondo; que acordos existem; quem responde por qual parte; que recursos, poder e riscos estão presentes?",
+        "A versão profunda do Filtro também examina emoção, simetria, consequências e possibilidade de revisão. Ela não é uma obrigação para cada detalhe cotidiano. Se a análise cresce enquanto a ação desaparece, lembre o comando: desça da Árvore e vá viver. Uma investigação precisa saber quando já há informação suficiente para o passo possível."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d07-03",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "story",
+      "title": "Quando a contraprova não é desculpa",
+      "content": [
+        "Exemplo: você pensa “não consigo cumprir nenhum combinado”. Encontra dois atrasos recentes. Essa é uma evidência relevante, mas “nenhum” exige olhar além desses episódios. Você também cumpriu outro compromisso? Os atrasos ocorreram no mesmo horário, com a mesma dependência ou com prazos inviáveis?",
+        "Reconhecer uma exceção não apaga os atrasos. Ajuda a trocar uma condenação geral por uma hipótese útil: talvez você esteja aceitando prazos incompatíveis com a rotina. A nova hipótese permite testar um prazo melhor. Se o atraso continuar, será preciso revisar novamente, incluindo fatores que a primeira leitura não alcançou."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d07-04",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "reading",
+      "title": "A régua e a conta",
+      "content": [
+        "Experimente inverter os papéis. Você avaliaria outra pessoa com a mesma regra? Se não, existe uma diferença concreta que justifique a mudança? Simetria não significa ignorar poder, dependência ou responsabilidade. Uma criança e um adulto não têm os mesmos recursos; uma relação desigual pede atenção a essa realidade.",
+        "Depois olhe para o custo: sua decisão resolve o incômodo agora e produz qual consequência depois? A saída mais confortável no instante pode cobrar caro; a mais difícil também pode ser desnecessária. Sensatez não é escolher sofrimento. É examinar a conta antes de assumir uma posição.",
+        "Você também pode concluir que não tem competência ou informação para decidir sozinha. Pedir orientação técnica é uma forma de discernimento. O Filtro não substitui análise médica, jurídica ou outra avaliação especializada. Ele pode ajudar a formular melhor a pergunta e a distinguir uma preferência pessoal de um fato que precisa ser verificado antes de uma decisão importante."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d07-05",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Trabalhe com uma conclusão específica. Evidência a favor e informação contrária merecem campos honestos, mesmo quando não aparecem em quantidades iguais. No critério de revisão, diga que dado mudaria sua confiança. Se não souber, deixe essa dificuldade visível para investigar depois."
+      ],
+      "fields": [
+        {
+          "id": "d07.conclusao",
+          "label": "Qual conclusão específica quero examinar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d07.evidencias",
+          "label": "O que sustenta e o que enfraquece essa conclusão?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d07.revisabilidade",
+          "label": "Que informação me faria mudar de ideia?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d07.posicao",
+          "label": "Qual resposta proporcional e revisável me cabe?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d07-06",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Use o Filtro numa decisão pequena que precisa tomar hoje. Escreva uma evidência a favor, uma informação contrária ou ausente e uma resposta possível. Execute apenas essa resposta. Não use a ferramenta para vencer uma discussão ou exigir que outra pessoa preencha seu formulário de discernimento."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d07-07",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Descreva o que você fez depois da revisão. Sua conclusão ficou mais precisa, menos absoluta ou permaneceu sustentada? Qual informação continua faltando? O Fruto também pode ser uma decisão de buscar orientação qualificada antes de agir em assunto que ultrapassa seus recursos."
+      ],
+      "fields": [
+        {
+          "id": "d07.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d07-08",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu perceber que estou descartando toda contraprova, então perguntarei qual dado realmente aceitaria como motivo para revisar. Se a resposta for “nenhum”, então reconhecerei que estou defendendo uma posição antes de investigá-la."
+      ],
+      "fields": [
+        {
+          "id": "d07.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d07-09",
+      "day_id": "d07",
+      "learning_objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: localizar uma informação que sua primeira conclusão deixou de fora. Não precisa inverter a opinião para provar abertura.",
+        "Fato, História e Incógnita continuam sendo a entrada do Filtro. Use a dose breve nas situações comuns; preserve a versão profunda para decisões de maior custo ou risco.",
+        "Amanhã vamos olhar para as palavras que tornam uma dificuldade maior e mais permanente do que os próprios fatos permitem."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d07.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Fato, História e Incógnita continuam sendo a entrada do Filtro. Use a dose breve nas situações comuns; preserve a versão profunda para decisões de maior custo ou risco."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "POSICIONE_SE"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

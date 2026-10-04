@@ -1,0 +1,238 @@
+{
+  "id": "d16",
+  "day": 16,
+  "title": "Sua parte não é tudo",
+  "traversal": "REPOSICIONAR",
+  "objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+  "previous": "Pertencer sem se abandonar",
+  "next": "Um limite precisa de uma frase",
+  "blocks": [
+    {
+      "id": "d16-01-opening",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Você pode ter participado de um problema sem ter fabricado todas as peças dele. E pode estar sofrendo as consequências de algo que não escolheu. Parece evidente. Até a culpa chegar com uma calculadora defeituosa e colocar a conta inteira no seu nome.",
+        "Ontem olhamos o pertencimento. Hoje vamos olhar a parte que lhe cabe dentro das relações e das circunstâncias. O objetivo é sair de dois extremos: “não posso fazer nada” e “se tudo não melhorou, a falha é minha”. Nenhum deles descreve, sozinho, uma vida real."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d16"
+    },
+    {
+      "id": "d16-02-reading",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Pense comigo: uma conversa terminou mal. Você interrompeu; a outra pessoa gritou; ambos estavam atrasados; existia uma questão antiga que ninguém tinha esclarecido. Reconhecer sua interrupção é responsabilidade. Assumir o grito alheio, o trânsito e toda a história da família é outra coisa. Nem o melhor departamento administrativo daria conta.",
+        "Use a Árvore do Discernimento para localizar o episódio. O Fruto é o resultado observável: a conversa terminou sem acordo. O Galho é a área em que isso apareceu. A Posição descreve o que você fez, aceitou, adiou ou não conseguiu fazer. Começamos pelo que aconteceu, sem inventar uma Raiz para explicar tudo.",
+        "Agora distribua a investigação em quatro espaços: minha parte, parte de outra pessoa, contexto e desconhecido. Na sua parte podem estar uma frase, um compromisso esquecido ou a decisão de buscar apoio. Na parte alheia ficam ações que não dependem da sua vontade. No contexto entram recursos, horários, desigualdades, doença, regras e condições materiais. No desconhecido, aquilo que você ainda não sabe. Incógnita não é convite para escrever uma acusação criativa.",
+        "“Sua árvore, seus Frutos” chama você para responder pela própria atuação; não torna você causa de todo resultado. Um Fruto informa, mas não sentencia valor pessoal. Uma tentativa cuidadosa pode encontrar uma barreira real. Uma atitude imprudente pode dar certo por acaso. Precisamos examinar processo e consequência, sem converter sorte em competência ou dificuldade em defeito.",
+        "Imagine que você planejou uma tarefa e não conseguiu realizá-la porque faltou um recurso necessário. Há uma diferença entre organizar o acesso a esse recurso e prometer que, amanhã, terá mais força de vontade. A primeira resposta conversa com a barreira; a segunda conversa com um personagem.",
+        "Escolha uma situação pequena e recente. Não use este exercício para revisitar sozinha uma experiência que provoque intenso sofrimento. Em situações de violência ou ameaça, o primeiro passo pode ser proteção e apoio. Nenhuma metáfora de cultivo transfere a responsabilidade da violência para quem a sofreu."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "POSICIONE_SE",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d16-03-reading",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "O modelo COM-B ajuda a investigar comportamento olhando capacidade, oportunidade e motivação. É uma estrutura para perguntar melhor, não uma explicação universal da sua história. A Árvore e a divisão de responsabilidades são formulações autorais do método; não são instrumentos clínicos nem testes que descubram a intenção de terceiros."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C15"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1186/1748-5908-6-42"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d16-04-exercise",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Descreva um episódio em duas frases observáveis. Distribua os elementos nos quatro espaços sem precisar preencher todos. Circule apenas uma resposta possível na sua esfera. A resposta deve começar com um verbo: esclarecer, pedir, recusar, organizar, procurar apoio. “Fazer a pessoa entender” ainda depende da pessoa. “Explicar meu pedido em uma frase” já tem dono."
+      ],
+      "fields": [
+        {
+          "id": "d16.situacao",
+          "label": "Qual foi o Fruto observável?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d16.partes",
+          "label": "O que é minha parte, parte alheia, contexto e desconhecido?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d16.resposta",
+          "label": "Qual resposta concreta cabe a mim?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d16-05-mission",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Realize essa resposta em uma situação de baixo risco. Se a ação depender de recurso indisponível, faça a preparação possível ou registre a barreira. Não é necessário resolver a relação inteira: hoje você testa uma posição."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d16-06-fruit_review",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "O que você efetivamente fez? O que aconteceu depois? Separe sua ação da reação alheia e não complete a intenção do outro. Se não realizou, registre o obstáculo e a próxima ação segura. Essa distinção é o Fruto que interessa hoje."
+      ],
+      "fields": [
+        {
+          "id": "d16.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d16-07-if_then",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu começar a assumir a conta inteira, então voltarei aos quatro espaços antes de decidir. Ação mínima: escrever uma frase que comece com “minha parte agora é”."
+      ],
+      "fields": [
+        {
+          "id": "d16.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d16-08-installation",
+      "day_id": "d16",
+      "learning_objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Releia sua escolha: ela exige que você aja ou que outra pessoa obedeça? Ajuste até que a resposta esteja ao seu alcance. Amanhã vamos dar linguagem a essa posição: um limite precisa de uma frase possível de sustentar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d16.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação ou obstáculo"
+    ],
+    "on_trigger": [
+      "Fato × História × Incógnita",
+      "Responsabilidade distribuída"
+    ],
+    "weekly": [
+      "Revisar Frutos sem culpa total"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "POSICIONE_SE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

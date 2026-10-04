@@ -1,0 +1,275 @@
+{
+  "id": "d04",
+  "day": 4,
+  "title": "Dê um endereço à preocupação",
+  "traversal": "DESCONGESTIONAR",
+  "objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+  "previous": "Pausa não é desaparecimento",
+  "next": "Seu ambiente também escolhe",
+  "blocks": [
+    {
+      "id": "d04-01",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "opening",
+      "title": "Pensar de novo nem sempre é pensar melhor",
+      "content": [
+        "Há pensamentos que voltam trazendo informação nova. Outros voltam com a mesma mala, o mesmo assunto e nenhuma proposta de saída. Depois de perceber um impulso, como fizemos ontem, vale perguntar: estou investigando alguma coisa ou estou apenas repetindo uma cena?",
+        "Pensar muito não é prova de profundidade. Às vezes é esforço sem direção, e isso pode cansar. A proposta de hoje não é expulsar pensamentos. É perceber se a conversa interna produz uma pergunta respondível, uma ação possível ou apenas mais uma volta."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d04"
+    },
+    {
+      "id": "d04-02",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "reading",
+      "title": "A pergunta que muda o trabalho",
+      "content": [
+        "Escolha uma preocupação de intensidade administrável. Pergunte: existe algo específico que posso fazer com os recursos de hoje? Se sim, transforme a resposta numa pequena providência. Se depende de informação, identifique onde buscá-la. Se exige certeza sobre o futuro ou a intenção de outra pessoa, reconheça esse limite.",
+        "“E se tudo der errado?” não tem uma resposta completa. “Qual documento preciso separar para a reunião?” pode ter. Nem toda incerteza vira tarefa. Algumas terão de continuar abertas enquanto você cuida da parte que conhece. Não saber ainda não significa que você deve continuar pensando até esgotar o assunto — ou a si mesma."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-03",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "reading",
+      "title": "Janela do Caos, com porta de saída",
+      "content": [
+        "A Janela do Caos é um recurso opcional e temporário: reserve um período breve, por exemplo cinco minutos, para consultar uma preocupação anotada. Escolha um horário que não invada descanso ou cuidado necessário. Abra o registro, nomeie a pergunta e decida se há providência, informação a buscar ou incerteza a reconhecer.",
+        "Ao encerrar, escreva uma frase de destino e passe a uma atividade concreta. Não use a janela para listar todos os cenários terríveis ou reviver detalhes dolorosos. Se o exercício intensificar sofrimento ou prolongar a repetição, retire-o. Você não precisa de mais uma reunião improdutiva dentro da própria cabeça."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-04",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "story",
+      "title": "O ensaio da resposta possível",
+      "content": [
+        "Exemplo: uma pessoa aguarda retorno sobre uma candidatura e passa a tarde relendo a mensagem enviada. Na janela, identifica que não existe informação nova. Pode conferir se o prazo informado terminou e, se apropriado, planejar um contato. Antes disso, reler a mensagem não faz a resposta chegar.",
+        "Ela encerra escrevendo: “Ainda não sei. Meu próximo contato será na data combinada”. Depois retoma uma atividade do presente. Isso não promete acabar com a preocupação. Apenas separa a providência possível do esforço de controlar algo que continua fora do alcance.",
+        "Uma preocupação com risco concreto não deve ser estacionada por conveniência. Se houver uma providência de segurança ou cuidado que precisa ocorrer agora, ela tem prioridade sobre a janela e sobre o preenchimento do Caderno."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-05",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Há tratamentos psicológicos que ajudam a trabalhar preocupação e ruminação persistentes. A evidência desses tratamentos não pode ser transferida automaticamente para esta janela breve. Se a repetição causa sofrimento persistente, prejudica sono ou funcionamento, buscar ajuda profissional é uma providência de cuidado, não uma derrota."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C06"
+      ],
+      "source_refs": [
+        "C06",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-06",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Use uma preocupação administrável, sem buscar a lembrança mais dolorosa. Distingua providência, informação e incerteza. O campo de encerramento serve para dar um destino à rodada, inclusive quando a resposta for reconhecer um limite e procurar apoio em vez de continuar analisando."
+      ],
+      "fields": [
+        {
+          "id": "d04.pergunta",
+          "label": "Qual preocupação consigo formular como uma pergunta específica?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d04.destino",
+          "label": "Há ação, informação a buscar ou incerteza a reconhecer?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d04.encerramento",
+          "label": "Qual frase de encerramento e qual atividade seguinte escolho?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-07",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Faça um único teste de organização da preocupação. Você pode usar a janela breve ou apenas uma pergunta no momento em que notar repetição. Defina o destino do assunto e retorne a uma atividade possível. Seu teste é encerrar a rodada; não precisa eliminar o retorno do pensamento para completar a missão."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-08",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Registre se apareceu uma providência nova ou se você reconheceu ausência de informação. Se o pensamento voltou, isso não invalida o registro. Observe se conseguiu retomar alguma atividade. Caso tenha ficado mais presa à análise, registre esse efeito e suspenda a ferramenta."
+      ],
+      "fields": [
+        {
+          "id": "d04.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-09",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu reler uma preocupação sem encontrar informação nova, então consultarei a decisão registrada e retornarei à atividade escolhida. Se houver informação nova relevante, então revisarei o plano. Flexibilidade também inclui reabrir o que realmente mudou."
+      ],
+      "fields": [
+        {
+          "id": "d04.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d04-10",
+      "day_id": "d04",
+      "learning_objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: perguntar “qual informação ou ação nova surgiu desta rodada?”. Se nenhuma surgiu, você pode encerrar por agora.",
+        "O Estacionamento guarda a pendência; o P.A.R.A. ajuda a notar o impulso. A Janela é opcional, temporária e substitui uma rodada de análise — não acrescenta vigilância permanente.",
+        "Amanhã olharemos para o ambiente. Há ocasiões em que o próximo passo é mexer na disposição das coisas, não discutir mais consigo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d04.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "O Estacionamento guarda a pendência; o P.A.R.A. ajuda a notar o impulso. A Janela é opcional, temporária e substitui uma rodada de análise — não acrescenta vigilância permanente."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

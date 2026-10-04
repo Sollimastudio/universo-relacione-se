@@ -1,0 +1,248 @@
+{
+  "id": "d27",
+  "day": 27,
+  "title": "Quando a rotina sair do eixo",
+  "traversal": "SUSTENTAR",
+  "objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+  "previous": "Consistência não é perfeição",
+  "next": "Auditoria dos Frutos",
+  "blocks": [
+    {
+      "id": "d27-01-opening",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Uma viagem, uma doença, um prazo, um cuidado inesperado. A rotina muda e o plano fica sem chão. Isso não apaga o que você aprendeu. Só mostra que ele estava apoiado em condições que agora são outras.",
+        "Ontem você escolheu uma prática sustentável. Hoje vamos construir a forma de retomá-la. A pergunta será “qual componente saiu do eixo?”, em vez de “por que eu sou assim?”. A primeira pode produzir uma resposta útil. A segunda costuma convocar um júri."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d27"
+    },
+    {
+      "id": "d27-02-reading",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Comece pelo episódio. O gatilho deixou de existir? O recurso estava indisponível? A ação ficou grande demais? Você não sabia como fazer? A meta perdeu sentido? Surgiu uma necessidade mais urgente? São problemas diferentes e pedem respostas diferentes. Chamar todos de falta de disciplina economiza palavras e desperdiça informação.",
+        "Use a investigação de capacidade, oportunidade e motivação. Capacidade inclui saber e conseguir realizar a ação. Oportunidade envolve ambiente, tempo, apoio e acesso. Motivação inclui razões, prioridades e respostas automáticas. Você pode encontrar mais de um componente, mas escolha o ajuste com maior utilidade agora.",
+        "Imagine alguém que registrava o Fruto depois do trabalho e passou a trabalhar em outro horário. O gatilho antigo desapareceu. A resposta pode ser escolher outro momento, e não comprar um caderno novo para celebrar um recomeço. Às vezes o que falta é uma mudança de cinco minutos; a mente já queria uma cerimônia de reconstrução nacional.",
+        "Outro exemplo: a pessoa não pratica porque o exercício ativa sofrimento. Nesse caso, insistir numa versão menor pode não resolver. A retomada pode significar pausar, trocar a ferramenta e buscar apoio. A continuidade é da sua capacidade de cuidar e escolher, não de obedecer ao material a qualquer custo.",
+        "Defina sinais de retorno. “Quando eu notar que aceitei compromissos sem olhar a agenda, retomarei a conferência antes do próximo pedido.” “Quando a análise se repetir sem ação, voltarei a Fato × História e escolherei um passo.” São sinais de funcionamento, não alarmes sobre o seu valor.",
+        "Defina também quem pode ajudar. Uma pessoa de confiança pode lembrar um acordo ou participar de uma preparação. Um profissional pode avaliar um problema persistente. LÚCIDA, quando disponível, pode ajudar a organizar a observação, mas não deve virar autorização obrigatória para cada decisão. A autoria precisa continuar com você.",
+        "Não volte ao Dia 1 por castigo. Retome o componente necessário: pausa, precisão, ambiente, limite, plano ou revisão. Se quiser reler um Dia, faça isso com uma pergunta concreta. Depois volte à prática. Releitura infinita pode parecer trabalho enquanto adia justamente o teste que traria informação.",
+        "O objetivo não é impedir todo contratempo. É reduzir o tamanho da confusão quando ele chegar e conservar um caminho de volta. Um plano de retomada pode ser breve o suficiente para você realmente encontrá-lo num dia difícil."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C15",
+        "C02"
+      ],
+      "source_refs": [
+        "LEGACY-GOOGLE",
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1186/1748-5908-6-42",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8149892/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d27-03-reading",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "COM-B é uma estrutura para investigar condições do comportamento, não um diagnóstico de personalidade. Planos com obstáculo e resposta definida têm apoio em pesquisas de metas, com efeitos médios e limitações. O plano de retomada deste protocolo combina esses recursos de modo educativo e precisa ser testado na sua realidade."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C15",
+        "C02"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1186/1748-5908-6-42",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8149892/"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d27-04-exercise",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha um contratempo provável e localize o componente mais vulnerável. Escreva o sinal de retorno, a menor intervenção e um apoio possível. Não tente antecipar todas as crises da vida; prepare um caminho para a situação mais comum."
+      ],
+      "fields": [
+        {
+          "id": "d27.componente",
+          "label": "Qual componente costuma sair do eixo e em que situação?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d27.retomada",
+          "label": "Qual sinal reconhecer e qual menor intervenção retomar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d27.apoio",
+          "label": "Que apoio posso procurar sem entregar minha decisão a outra pessoa?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d27-05-mission",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Deixe o plano de retomada acessível e teste uma preparação concreta: mudar um lembrete, ajustar o recurso ou combinar apoio. Se o contratempo já ocorreu, execute somente o passo seguro que couber agora."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d27-06-fruit_review",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "O que ficou mais fácil de retomar? O plano responde à barreira real ou precisa mudar? Registre a ação, ou obstáculo e próxima ação segura. Uma pausa fundamentada pode ser a decisão adequada."
+      ],
+      "fields": [
+        {
+          "id": "d27.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d27-07-if_then",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu concluir que preciso começar tudo do zero, então identificarei primeiro o componente que falhou. Ação mínima: escrever o nome de uma ferramenta que posso retomar e a situação em que ela ajuda."
+      ],
+      "fields": [
+        {
+          "id": "d27.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d27-08-installation",
+      "day_id": "d27",
+      "learning_objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Você já tem um caminho de volta. Amanhã vamos olhar os registros da jornada com honestidade: o que mudou, o que não mudou e o que ainda não sabemos. A Auditoria dos Frutos não pede um final feliz ensaiado."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d27.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Manter somente a prática principal"
+    ],
+    "on_trigger": [
+      "Retomada por componente"
+    ],
+    "weekly": [
+      "Verificar se o plano responde ao contexto atual"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-GOOGLE",
+    "AUTHOR_PROMPT_20260930",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

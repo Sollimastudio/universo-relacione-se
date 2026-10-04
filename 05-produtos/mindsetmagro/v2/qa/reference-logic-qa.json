@@ -1,0 +1,79 @@
+{
+  "executed_at": "2026-10-01T00:42:50.590Z",
+  "method": "Node VM with minimal DOM harness; source code checks, not browser rendering",
+  "checks": [
+    {
+      "name": "No persistence before consent",
+      "result": "pass"
+    },
+    {
+      "name": "Day 2 initially locked",
+      "result": "pass"
+    },
+    {
+      "name": "Consent then first day render",
+      "result": "pass"
+    },
+    {
+      "name": "Time alone does not unlock",
+      "result": "pass"
+    },
+    {
+      "name": "Completion plus 24h unlocks",
+      "result": "pass"
+    },
+    {
+      "name": "Completion without interval stays locked",
+      "result": "pass"
+    },
+    {
+      "name": "Known answers round trip",
+      "result": "pass"
+    },
+    {
+      "name": "Unknown fields rejected",
+      "result": "pass"
+    },
+    {
+      "name": "Non-string answer rejected",
+      "result": "pass"
+    },
+    {
+      "name": "Long answer rejected",
+      "result": "pass"
+    },
+    {
+      "name": "Future timestamps rejected",
+      "result": "pass"
+    },
+    {
+      "name": "Storage survives resume",
+      "result": "pass"
+    },
+    {
+      "name": "Notebook reuses fields",
+      "result": "pass"
+    },
+    {
+      "name": "Print uses existing answers",
+      "result": "pass"
+    },
+    {
+      "name": "Erase clears storage",
+      "result": "pass"
+    },
+    {
+      "name": "Mobile CSS controls present",
+      "result": "pass"
+    }
+  ],
+  "not_tested": [
+    "Real browser layout 320px",
+    "iPhone",
+    "Safari",
+    "screen reader",
+    "Native file download/import chooser",
+    "Browser printing",
+    "Cross-user server isolation: separate app responsibility"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "product_id": "mindsetmagro_30d",
+  "status": "architecture_candidate",
+  "source_of_truth": "05-produtos/mindsetmagro/README.md",
+  "pedagogical_engine": "05-produtos/mindsetmagro/ENGENHARIA-MINDSETMAGRO-30D-v0.1.md",
+  "shared_engine_reference": "Sollimastudio/Magnetus3",
+  "days": 30,
+  "journeys": [
+    {
+      "id": "descongestionar",
+      "days": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "discernir",
+      "days": [
+        6,
+        10
+      ]
+    },
+    {
+      "id": "voltar_a_si",
+      "days": [
+        11,
+        15
+      ]
+    },
+    {
+      "id": "reposicionar",
+      "days": [
+        16,
+        20
+      ]
+    },
+    {
+      "id": "habitar",
+      "days": [
+        21,
+        25
+      ]
+    },
+    {
+      "id": "sustentar",
+      "days": [
+        26,
+        30
+      ]
+    }
+  ],
+  "block_types": [
+    "arrival",
+    "reset",
+    "opening",
+    "reading",
+    "control_room",
+    "question",
+    "exercise",
+    "mission",
+    "field_experiment",
+    "lucida_bridge",
+    "evidence_capture",
+    "fruit_review",
+    "if_then",
+    "installation",
+    "deep_dive",
+    "health_safety_note",
+    "ritual"
+  ],
+  "rendering": {
+    "one_primary_field_per_screen": true,
+    "resume_last_saved_field": true,
+    "progressive_disclosure": true,
+    "optional_deep_dive_collapsed": true,
+    "answers_private_by_default": true,
+    "shared_source_for_app_pdf_workbook": true
+  },
+  "workbook": {
+    "duplicate_entry_required": false,
+    "printable_renderer": true,
+    "interactive_renderer": true
+  },
+  "progression": {
+    "interval_policy": "configurable_candidate",
+    "default_interval_seconds": 86400,
+    "anchor": "first_meaningful_open_at",
+    "completion_required": true,
+    "entitlement_required": true,
+    "note": "24h is a product decision, not a universal scientific constant"
+  },
+  "evidence": {
+    "user_evidence_first": true,
+    "fruit_review_required": true,
+    "raw_answers_in_analytics": false
+  },
+  "claims": {
+    "package_scientifically_validated": false,
+    "default_basis": "sol_method_informed_by_evidence",
+    "empirical_claims_require_source": true,
+    "clinical_diagnosis": false
+  }
+}

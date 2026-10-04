@@ -1,0 +1,241 @@
+{
+  "id": "d21",
+  "day": 21,
+  "title": "Seu corpo não é uma prestação atrasada",
+  "traversal": "HABITAR",
+  "objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+  "previous": "Desça da Árvore e teste",
+  "next": "O prato traduzido, sem tribunal",
+  "blocks": [
+    {
+      "id": "d21-01-opening",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Seu corpo não é uma prestação atrasada que você precisa quitar antes de viver. Há experiências sendo adiadas para depois de um número, uma roupa, uma aprovação. Enquanto isso, a vida não suspende o calendário.",
+        "Na travessia anterior você testou uma posição. Agora vamos aplicar essa autoria ao cuidado. O MMI 2.0 volta como pergunta aberta: como quero viver dentro deste corpo? Aparência pode fazer parte da resposta; não precisa ocupar a sala inteira."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d21"
+    },
+    {
+      "id": "d21-02-reading",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Pense comigo: o que você gostaria de conseguir fazer com mais conforto? Sentar para conversar, vestir algo adequado ao clima, encontrar uma posição menos incômoda, participar de uma atividade, descansar, pedir atendimento? A resposta não precisa impressionar ninguém. Ela precisa ter relação com a sua vida.",
+        "Olhar a funcionalidade do corpo amplia a conversa além da imagem. Mas função também não pode virar uma nova competição. Um corpo com deficiência, dor ou limitação não vale menos. Cuidado inclui adaptações, assistência, acessibilidade e o direito de receber ajuda. Você não precisa agradecer por uma dificuldade para merecer acolhimento.",
+        "Volte ao MMI do Dia 13 e escolha uma dimensão: conforto, energia percebida, descanso, mobilidade, participação, postura ou autocuidado. Sexualidade e vitalidade podem ser consideradas em privacidade, se fizer sentido; não são obrigações. Peso, medidas, manequim e fotografia permanecem opcionais. Não são senha para concluir a travessia.",
+        "Diferencie desejo, comportamento e resultado. “Quero me sentir mais confortável” é uma direção. “Vou separar uma roupa que não me aperte para a atividade de amanhã” é comportamento. “Participei com menos incômodo” é um resultado observado. Uma ação de cuidado não permite prever peso, composição corporal ou resposta clínica.",
+        "Imagine uma pessoa que evita um encontro porque sua roupa não serve como antes. Ela pode decidir buscar uma peça confortável, pedir emprestado ou adaptar o plano ao que tem. Isso não resolve toda a relação com a imagem, mas deixa de condicionar a presença a uma transformação imediata. O corpo não precisa passar por uma banca examinadora para acompanhar você.",
+        "O cuidado também pode ser buscar avaliação para um sintoma persistente ou retomar um acompanhamento já indicado. O protocolo não explica cansaço, dor ou mudança de peso como falha de mentalidade. Não altere medicação, alimentação terapêutica ou tratamento com base nestas páginas. Escreva a pergunta que deseja levar ao profissional.",
+        "Se observar o corpo ou preencher o MMI aumentar vergonha, comparação ou checagem repetitiva, pule o registro corporal. Você pode trabalhar hoje com um cuidado de ambiente, como preparar um lugar confortável de leitura, sem informar dado de saúde. Autoria inclui escolher o que não deseja medir. Você pode mudar essa preferência depois; não precisa justificar sua privacidade nem oferecer informações íntimas para demonstrar compromisso com o cuidado."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C10",
+        "C25"
+      ],
+      "source_refs": [
+        "LEGACY-UNTITLED",
+        "LEGACY-GOOGLE",
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://pubmed.ncbi.nlm.nih.gov/29522927/",
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d21-03-reading",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Estudos sobre escrita focada na funcionalidade corporal sugerem benefícios para a imagem corporal em populações específicas. Eles não validam o MMI como instrumento clínico e não autorizam transformar capacidade física em valor pessoal. Peso corporal tem múltiplos determinantes; não é medida de caráter ou simples reflexo de vontade."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C10",
+        "C25"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://pubmed.ncbi.nlm.nih.gov/29522927/",
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d21-04-exercise",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Se optar pela trilha corporal, escolha uma dimensão do MMI e traduza-a em cuidado observável. Anote o recurso necessário e um limite de segurança. Se preferir não trabalhar corpo, escolha uma adaptação do ambiente que torne uma atividade cotidiana mais confortável."
+      ],
+      "fields": [
+        {
+          "id": "d21.mmi_cuidado",
+          "label": "Opcional: qual dimensão do MMI e qual cuidado quero experimentar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d21.recurso",
+          "label": "Que recurso, adaptação ou apoio tornaria a ação possível?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d21-05-mission",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Realize um cuidado pequeno ou prepare o acesso a ele. Pode ser adaptar um objeto, reservar um horário ou formular uma pergunta para atendimento. A missão não exige pesagem, fotografia, exercício ou mudança alimentar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d21-06-fruit_review",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "Registre o cuidado realizado e o que percebeu, sem precisar informar medidas ou sintomas. Se não fez, escreva o obstáculo e a próxima ação segura. Um cuidado que respeitou um limite também merece ser reconhecido."
+      ],
+      "fields": [
+        {
+          "id": "d21.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d21-07-if_then",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu condicionar minha participação à aparência perfeita, então procurarei uma adaptação possível para a situação de hoje. Ação mínima: escolher uma necessidade concreta de cuidado, sem tentar resolver todas."
+      ],
+      "fields": [
+        {
+          "id": "d21.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d21-08-installation",
+      "day_id": "d21",
+      "learning_objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Observe se a proposta trouxe apoio ou mais cobrança. Ajuste a dose. Amanhã vamos olhar a alimentação com curiosidade e informação, preservando a opção de não registrar dados alimentares."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d21.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um cuidado escolhido, quando pertinente"
+    ],
+    "on_trigger": [
+      "MMI 2.0 opcional"
+    ],
+    "weekly": [
+      "Rever conforto e recursos sem medição obrigatória"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-UNTITLED",
+    "LEGACY-GOOGLE",
+    "AUTHOR_PROMPT_20260930",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

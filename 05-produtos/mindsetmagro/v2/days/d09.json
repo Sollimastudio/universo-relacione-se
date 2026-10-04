@@ -1,0 +1,276 @@
+{
+  "id": "d09",
+  "day": 9,
+  "title": "De quem é essa voz?",
+  "traversal": "DISCERNIR",
+  "objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+  "previous": "Sempre? Nunca? Vamos conferir",
+  "next": "Três cenas, uma hipótese",
+  "blocks": [
+    {
+      "id": "d09-01",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "opening",
+      "title": "Nem toda voz conhecida é uma escolha sua",
+      "content": [
+        "Você pode reconhecer imediatamente uma regra: “gente boa não recusa”, “descansar é perder tempo”, “se não postar, não aconteceu”. A familiaridade faz a frase parecer sua. Mas repetir uma regra muitas vezes não responde se ela ainda serve à vida que você quer sustentar.",
+        "Ontem tornamos uma frase mais precisa. Hoje perguntaremos de onde ela pode ter vindo e por que continua com acesso às suas decisões. Influência não é um defeito. Aprendemos com pessoas, grupos e experiências. O trabalho é poder examinar o que aprendemos e assumir o que escolhemos manter."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d09"
+    },
+    {
+      "id": "d09-02",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "reading",
+      "title": "Origem conhecida, origem possível, origem desconhecida",
+      "content": [
+        "Escolha uma regra que aparece numa decisão concreta. Ela foi ensinada explicitamente, aprendida pela repetição, absorvida nas redes, encenada para pertencer ou conscientemente escolhida? Mais de uma resposta pode caber. “Não sei de onde veio” também é uma resposta completa. Não invente uma cena de infância para fechar a explicação.",
+        "Saber a origem não torna a regra automaticamente boa ou ruim. Algo herdado pode ser valioso; algo popular pode ser adequado; uma escolha pessoal pode precisar de revisão. O critério continua sendo evidência, contexto, valor e consequência. Autoria inclui receber uma influência e dizer, com consciência: quero continuar com isso."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-03",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "story",
+      "title": "O feed não é uma reunião de consenso",
+      "content": [
+        "Exemplo: depois de ver várias rotinas impecáveis, uma pessoa conclui que qualquer manhã diferente é um fracasso. Mas ela está comparando seu dia inteiro com recortes publicados. Não conhece todos os recursos, dificuldades ou bastidores daqueles conteúdos.",
+        "Em vez de adivinhar a intenção de quem publica, ela observa o próprio uso: sai dessas visitas com uma ação útil ou apenas com mais cobrança? Pode manter um conteúdo que ensina algo concreto, silenciar outro por um período e testar como fica sua rotina. Não é preciso declarar guerra à internet para escolher melhor uma entrada."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-04",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "reading",
+      "title": "Autoria sem isolamento",
+      "content": [
+        "A pergunta “isso é meu?” não exige que você crie tudo sozinha. Procure a diferença entre concordar depois de pensar e concordar para não perder lugar. Pergunte também qual custo existe para discordar. Dependência financeira, risco e hierarquia mudam o que é seguro fazer.",
+        "Não confronte uma pessoa apenas para provar independência. Você pode revisar uma regra em silêncio, buscar apoio e planejar uma conversa com condições melhores. Se a regra é útil, mantenha. Se precisa de ajuste, torne o ajuste específico. Mudar toda a identidade porque descobriu uma influência seria continuar sendo conduzida por ela, só que na direção oposta."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-05",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Pesquisas sobre autodeterminação sugerem que ter razões próprias e sentir-se capaz pode apoiar mudanças. Isso não significa ausência de ajuda ou influência. Nosso exercício busca uma escolha compreendida e possível, sem afirmar que independência total seja condição para viver bem."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C13"
+      ],
+      "source_refs": [
+        "C13",
+        "https://doi.org/10.1037/ccp0000501"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-06",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Diferencie lembrança, suposição e desconhecimento ao escrever a origem. Você não precisa identificar uma pessoa responsável pela regra. O campo final pede uma escolha justificada: manter também é uma decisão válida, desde que você consiga explicar a função daquela influência na situação."
+      ],
+      "fields": [
+        {
+          "id": "d09.regra",
+          "label": "Qual regra influencia uma decisão minha?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d09.origem",
+          "label": "Sua origem é conhecida, provável ou desconhecida? O que sei de fato?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d09.escolha",
+          "label": "O que escolho manter, adaptar ou reduzir, e por quê?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-07",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Escolha uma entrada de influência que possa modificar com segurança: um conteúdo, um aviso, uma rotina de consulta ou uma regra que usa consigo. Faça uma mudança pequena e reversível por uma ocasião. Observe o comportamento que aparece depois. Não julgue uma pessoa inteira com base nesse experimento."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-08",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Registre o que mudou no seu uso do tempo, na decisão ou na cobrança que percebeu. Não atribua automaticamente qualquer melhora à alteração feita; outras condições podem participar. Se a influência foi útil, registre o que deseja preservar e em quais limites."
+      ],
+      "fields": [
+        {
+          "id": "d09.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-09",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se uma comparação virar ordem imediata para mudar minha vida, então perguntarei qual informação concreta falta antes de obedecer. Se o conteúdo oferecer uma ação útil e compatível com meus valores, então poderei escolhê-la conscientemente."
+      ],
+      "fields": [
+        {
+          "id": "d09.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d09-10",
+      "day_id": "d09",
+      "learning_objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: identificar uma regra e dizer “aprendi isso; hoje posso examinar”. Examinar não obriga a rejeitar.",
+        "Use o Filtro quando a regra tiver custo importante. O Estacionamento pode guardar questões maiores para um momento adequado, evitando transformar cada influência em investigação urgente.",
+        "Amanhã reuniremos três cenas para procurar uma estrutura possível. A palavra é hipótese: descobrir uma repetição não autoriza diagnosticar você nem os outros."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d09.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Use o Filtro quando a regra tiver custo importante. O Estacionamento pode guardar questões maiores para um momento adequado, evitando transformar cada influência em investigação urgente."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "POSICIONE_SE",
+    "FUGA_IDENTITARIA"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

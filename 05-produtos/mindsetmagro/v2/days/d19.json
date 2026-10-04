@@ -1,0 +1,242 @@
+{
+  "id": "d19",
+  "day": 19,
+  "title": "O futuro precisa de uma cena",
+  "traversal": "REPOSICIONAR",
+  "objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+  "previous": "O espaço que a Poda abre",
+  "next": "Desça da Árvore e teste",
+  "blocks": [
+    {
+      "id": "d19-01-opening",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "A imagem do resultado pode ser linda. A pergunta inconveniente é: quem vai fazer a parte de terça-feira? Visualizar uma vida mais leve sem imaginar a ação necessária deixa o futuro com ótima fotografia e péssima logística.",
+        "Ontem você escolheu uma Nova Semente. Hoje vamos colocá-la dentro de uma cena. Futuro Telefona, Filme do Processo e Contraste Real são recursos de um mesmo planejamento, não três tarefas a mais."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d19"
+    },
+    {
+      "id": "d19-02-reading",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Comece pelo Futuro Telefona: imagine um momento específico em que gostaria de estar vivendo de modo mais coerente. Pode ser encerrar o trabalho no horário combinado, participar de uma atividade com conforto ou conversar sem aceitar automaticamente tudo. Escolha uma cena possível, com lugar e circunstância. Não precisa enxergar imagens nítidas; descrever em palavras também serve.",
+        "Agora pergunte o que a pessoa dessa cena fez antes. Essa é a passagem para o Filme do Processo. Se o futuro é uma manhã menos atropelada, o processo talvez inclua separar algo na noite anterior, rever um compromisso ou pedir ajuda. Observe a sequência executável, não apenas a sensação desejada no final.",
+        "O Contraste Real traz a parte que as montagens motivacionais costumam cortar: o obstáculo. Qual dificuldade provavelmente aparecerá? Uma mensagem urgente, cansaço, falta de transporte, vontade de agradar, instrução confusa? Não escolha o obstáculo mais dramático; escolha o mais relevante para a ação de hoje.",
+        "Então escreva SE → ENTÃO. “Se eu chegar cansada, então farei a versão mínima que já defini.” “Se aparecer um novo pedido, então conferirei a agenda antes de responder.” Um plano útil nomeia um gatilho reconhecível e uma resposta que depende de você. “Se houver dificuldade, vou ser forte” é bonito, mas força ainda não tem endereço.",
+        "Imagine uma pessoa que quer aproveitar uma manhã livre. Ela se vê sentada lendo por alguns minutos. No Filme do Processo, separa o livro e combina o horário com quem divide a casa. No Contraste Real, percebe que abre mensagens ao acordar. Seu plano é abrir o livro antes do aplicativo. A cena futura não produziu o resultado; ajudou a especificar uma escolha que será testada.",
+        "Também é legítimo revisar a meta. Ao desenhar o processo, você pode descobrir um custo que não deseja assumir ou uma condição que precisa mudar primeiro. Isso é discernimento, não falta de fé no futuro. Objetivos não ganham imunidade à realidade porque foram escritos num caderno bonito.",
+        "Não use visualização para ensaiar catástrofes repetidamente. Se imaginar uma cena aumentar muito a ansiedade, mantenha os olhos abertos, escreva somente a ação presente ou interrompa. O exercício deve ajudar a sair do pensamento para um passo possível."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "POSICIONE_SE",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d19-03-reading",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Pesquisas sobre contraste mental com planos SE → ENTÃO mostram benefícios médios para alcançar metas, com limitações e sem garantia individual. Estudos de futuro episódico sugerem apoio a decisões que consideram consequências distantes; parte da evidência envolve escolhas alimentares de pessoas com maior peso. Isso não demonstra materialização nem emagrecimento mantido."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C02",
+        "C04"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8149892/",
+        "https://doi.org/10.1111/obr.13801"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d19-04-exercise",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escreva uma cena desejada, uma ação de processo, um obstáculo provável e sua resposta. Use a Nova Semente do Dia 18 para evitar acrescentar outra obrigação. Confira se existe algum recurso que você precisa preparar antes do teste."
+      ],
+      "fields": [
+        {
+          "id": "d19.cena",
+          "label": "Qual cena futura concreta quero favorecer?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d19.processo",
+          "label": "Qual ação de hoje participa dessa cena?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d19.obstaculo",
+          "label": "Qual obstáculo provável e qual resposta SE → ENTÃO?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d19-05-mission",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Execute uma parte do Filme do Processo. A cena final pode estar distante; a evidência de hoje é uma ação feita no presente. Se o obstáculo previsto não aparecer, observe o que facilitou e não crie um problema para testar o plano."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d19-06-fruit_review",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "O que saiu da imaginação e chegou à prática? O plano ajudou, precisou mudar ou não foi usado? Registre o que aconteceu, ou obstáculo e próxima ação segura. Evite avaliar o futuro inteiro por um único ensaio."
+      ],
+      "fields": [
+        {
+          "id": "d19.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d19-07-if_then",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se minha cena ficar grandiosa e vaga, então voltarei ao primeiro gesto observável. Ação mínima: preparar um objeto, uma frase ou um horário necessário para a ação escolhida."
+      ],
+      "fields": [
+        {
+          "id": "d19.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d19-08-installation",
+      "day_id": "d19",
+      "learning_objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Guarde o plano perto do contexto em que será usado. Não precisa repetir uma visualização todos os dias. Amanhã vamos testar uma hipótese na vida real e revisar a travessia antes de avançar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d19.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Ação de processo já escolhida"
+    ],
+    "on_trigger": [
+      "Contraste Real e SE → ENTÃO"
+    ],
+    "weekly": [
+      "Rever se a meta ainda faz sentido"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "AUTHOR_PROMPT_20260930",
+    "POSICIONE_SE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

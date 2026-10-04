@@ -1,0 +1,372 @@
+{
+  "id": "d13",
+  "day": 13,
+  "title": "Como quero viver neste corpo?",
+  "traversal": "VOLTAR A SI",
+  "objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+  "previous": "Valor aparece quando custa",
+  "next": "Identidade precisa de testemunhas reais",
+  "blocks": [
+    {
+      "id": "d13-01",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "opening",
+      "title": "Seu corpo não é uma imagem esperando aprovação",
+      "content": [
+        "O Manequim Mental Ideal faz parte da história do MINDSETmagro. Hoje ele ganha uma pergunta maior: como quero viver dentro deste corpo? Aparência pode importar para você. Não é preciso fingir que não importa. Mas ela não precisa ocupar todos os cômodos da casa.",
+        "Conforto, descanso, mobilidade possível, prazer, energia percebida, roupa e cuidado também entram na conversa. Nenhum deles vira obrigação de desempenho. Seu corpo merece cuidado inclusive quando dói, limita, depende de apoio ou não corresponde à imagem que você gostaria de ver."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d13"
+    },
+    {
+      "id": "d13-02",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "story",
+      "title": "Mãe-Véia, minha musa paradoxal",
+      "content": [
+        "O MINDSETmagro nasceu da minha leitura de Mãe-Véia. Lembro do alfinete que ajustava o vestido e da frase: “Estou nessa magreza”. O gesto de marcar a cintura era, para mim, como uma assinatura no próprio corpo. Essa origem é maior que uma conversa com a balança.",
+        "Eu a chamo, simbolicamente, de “égua indomável”. Não era uma santa da leveza: era fina, intensa, excessiva e contraditória. A mesma mulher podia acolher e controlar, amar e disputar espaço. Minha inspiração está nesse paradoxo, não numa proposta de copiar sua cintura ou transformar suas dificuldades em virtude.",
+        "Na história que registrei sobre três gerações, também aparece minha mãe e uma relação diferente com o espelho e a balança. Eu a descrevi sob uma autoexigência que parecia nunca permitir satisfação. A justaposição me ensinou a fazer perguntas, não a escolher uma vencedora: minha avó podia afirmar a própria finura e ainda carregar excessos; minha mãe podia desejar mudar o corpo e precisar de mais cuidado, não de mais cobrança. Eu estava entre essas referências, tentando compreender como me olhar. Nenhuma delas cabe numa explicação única, e não preciso repetir todos os seus modos de existir para reconhecer minha história.",
+        "Preservo a lembrança como leitura autoral. O gesto não demonstra preservação integral de identidade, domínio sobre doença ou poder da autoimagem para superar diagnóstico. A pergunta que ele deixa aqui é outra: como você ocupa seu corpo e que cuidado deseja sustentar, sem precisar desaparecer para caber num ideal?"
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_ORIGIN_20260620",
+        "LEGACY-HISTORIA:p2-p3",
+        "AUTHOR_SOURCE",
+        "LEGACY_BODY_STORY"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-03",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "reading",
+      "title": "O MMI deixa de ser uma cobrança única",
+      "content": [
+        "Construa o MMI em três partes. Primeiro, uma experiência desejada: vestir algo com conforto, participar de uma atividade possível, descansar melhor ou ter uma rotina de cuidado. Segundo, condições e apoios: tempo, acessibilidade, orientação, recursos e limites. Terceiro, uma ação de manutenção compatível com sua vida.",
+        "Se quiser incluir aparência, peso, manequim ou medidas, mantenha esses itens opcionais e separados do valor pessoal. Não estabelecemos meta universal de quilos nem prazo corporal. Se números, fotos ou comparação aumentarem sofrimento ou vigilância, retire-os. Você pode construir um MMI completo sem balança e sem fita métrica."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-04",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "reading",
+      "title": "Função não vira outra competição",
+      "content": [
+        "Ampliar o olhar para função não significa exigir força, mobilidade ou produtividade de todos os corpos. Para alguém, cuidado pode ser encontrar uma posição confortável, organizar apoio ou acessar tratamento. Para outra pessoa, pode ser retomar uma atividade com orientação adequada. Não há ranking de corpos merecedores.",
+        "Escolha uma cena concreta, não um corpo abstrato sem rotina. Como seria uma manhã com o cuidado desejado? Que recurso precisaria existir? Qual parte depende de você e qual requer ajuda? O objetivo é transformar uma imagem em uma escolha possível, não prometer que visualizar muda o corpo por si só.",
+        "O MMI pode mudar quando sua vida muda. Rever uma imagem desejada não apaga a intenção anterior; mostra que você continua considerando condições atuais. Uma meta que deixou de servir não precisa ser mantida apenas porque já foi escrita."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-05",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Um ensaio com mulheres jovens estudou escrita sobre funcionalidade corporal e encontrou apoio a uma relação mais ampla com a imagem corporal. A amostra tem limites e não valida o MMI. Peso também depende de múltiplos fatores: não mede caráter nem dedicação."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C10",
+        "C25"
+      ],
+      "source_refs": [
+        "C10",
+        "https://pubmed.ncbi.nlm.nih.gov/29522927/",
+        "C25",
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-06",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "mmi",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Todos os registros corporais são opcionais. Preencha apenas o que amplia cuidado. Você pode descrever experiências sem usar números, medidas ou fotos. Os campos não são uma avaliação clínica; necessidades de tratamento ou metas corporais individualizadas devem ser discutidas com profissionais adequados."
+      ],
+      "fields": [
+        {
+          "id": "d13.experiencia",
+          "label": "Se desejar: como quero viver neste corpo, além da aparência?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.aparencia",
+          "label": "Opcional: que desejo de aparência ou roupa quero registrar, sem cobrança de prazo?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.recursos",
+          "label": "Que condições, limites e apoios preciso considerar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.cuidado",
+          "label": "Que ação de cuidado possível sustentaria essa experiência?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.conforto",
+          "label": "Que conforto corporal desejo apoiar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.forca",
+          "label": "Que experiência de força é relevante, se alguma?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.energia",
+          "label": "Como percebo minha energia e que cuidado desejo?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.sono",
+          "label": "Que experiência de descanso ou sono desejo cuidar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.mobilidade",
+          "label": "Que mobilidade ou adaptação seria importante?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.vitalidade",
+          "label": "Opcional: que aspecto de vitalidade ou sexualidade desejo cuidar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.roupa",
+          "label": "Que relação com roupa e postura quero desenvolver?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.peso",
+          "label": "Opcional: desejo registrar peso, sem meta ou prazo imposto?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.medidas",
+          "label": "Opcional: desejo registrar medidas ou manequim?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        },
+        {
+          "id": "d13.manutencao",
+          "label": "Que comportamento de manutenção cabe nas condições atuais?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": "body"
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-07",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Se optar pela trilha corporal, escolha uma ação pequena de cuidado coerente com seu MMI, respeitando orientações que já recebeu. Pode organizar um recurso ou pedir apoio. Se preferir não trabalhar corpo agora, faça a mesma pergunta sobre conforto na rotina: que condição pode tornar uma tarefa mais habitável? Essa alternativa completa a missão."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-08",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Registre a ação ou o obstáculo encontrado. O Fruto de hoje não é uma alteração de peso, aparência ou disposição obrigatória. É perceber se o cuidado escolhido coube, que apoio faltou e o que precisa de ajuste. Você pode registrar que decidiu não seguir a trilha corporal."
+      ],
+      "fields": [
+        {
+          "id": "d13.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-09",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se meu MMI virar uma lista de defeitos, então voltarei à pergunta sobre cuidado e retirarei o item que está alimentando comparação. Se houver uma necessidade clínica, então buscarei orientação adequada em vez de usar o protocolo como prescrição."
+      ],
+      "fields": [
+        {
+          "id": "d13.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d13-10",
+      "day_id": "d13",
+      "learning_objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: escolher uma condição de conforto que mereça atenção. Você pode apenas nomeá-la, sem expor detalhes íntimos.",
+        "O MMI é consultado quando orientar uma escolha e nas revisões futuras. Não precisa ser medido ou visualizado diariamente. O valor escolhido ontem pode ajudar a definir cuidado.",
+        "Amanhã vamos registrar evidências de ações reais. Uma identidade praticada precisa caber na vida que existe, inclusive nos dias limitados."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d13.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "O MMI é consultado quando orientar uma escolha e nas revisões futuras. Não precisa ser medido ou visualizado diariamente. O valor escolhido ontem pode ajudar a definir cuidado."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "LEGACY_MINDSETMAGRO",
+    "AUTHOR_ORIGIN_20260620"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MINDSETmagro Day",
+  "type": "object",
+  "required": [
+    "id",
+    "day",
+    "title",
+    "traversal",
+    "objective",
+    "blocks",
+    "completion",
+    "accumulation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^d[0-3][0-9]$"
+    },
+    "day": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "traversal": {
+      "enum": [
+        "DESCONGESTIONAR",
+        "DISCERNIR",
+        "VOLTAR A SI",
+        "REPOSICIONAR",
+        "HABITAR",
+        "SUSTENTAR"
+      ]
+    },
+    "objective": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "day_id",
+          "learning_objective",
+          "type",
+          "title",
+          "content",
+          "fields",
+          "required",
+          "claim_basis",
+          "source_refs",
+          "evidence_type",
+          "visual_ref"
+        ],
+        "properties": {
+          "content": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "label",
+                "kind",
+                "required"
+              ],
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "textarea",
+                    "select",
+                    "number"
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "required": {
+                  "type": "boolean"
+                },
+                "opt_in": {
+                  "enum": [
+                    "body",
+                    "food",
+                    null
+                  ]
+                }
+              }
+            }
+          },
+          "claim_basis": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "required": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "completion": {
+      "type": "object",
+      "required": [
+        "required_field_ids",
+        "alternative"
+      ]
+    },
+    "accumulation": {
+      "type": "object",
+      "required": [
+        "daily",
+        "on_trigger",
+        "weekly"
+      ]
+    }
+  }
+}

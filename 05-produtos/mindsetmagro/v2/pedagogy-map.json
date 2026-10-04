@@ -1,0 +1,960 @@
+[
+  {
+    "id": "d01",
+    "title": "O que você está carregando?",
+    "objective": "Identificar um excesso concreto e registrar uma situação sem se reduzir a um rótulo.",
+    "traversal": "DESCONGESTIONAR",
+    "practice": [
+      "d01-06"
+    ],
+    "mission": [
+      "d01-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d01.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Por enquanto, mantenha somente uma anotação breve. Não acumule tarefas extras por entusiasmo e depois use o cansaço como prova de fracasso."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C03"
+    ]
+  },
+  {
+    "id": "d02",
+    "title": "Nem toda aba precisa ficar aberta",
+    "objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+    "traversal": "DESCONGESTIONAR",
+    "practice": [
+      "d02-06"
+    ],
+    "mission": [
+      "d02-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d02.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "O registro breve de ontem permanece. O Estacionamento entra sob gatilho: quando algo importante precisa ser lembrado, mas não resolvido naquele instante."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C05"
+    ]
+  },
+  {
+    "id": "d03",
+    "title": "Pausa não é desaparecimento",
+    "objective": "Usar P.A.R.A. em uma situação simples antes de emitir uma resposta automática.",
+    "traversal": "DESCONGESTIONAR",
+    "practice": [
+      "d03-06"
+    ],
+    "mission": [
+      "d03-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d03.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Mantenha a anotação de uma cena. Use o Estacionamento quando houver pendência e o P.A.R.A. quando surgir impulso; nenhum dos dois exige ficar de plantão o dia inteiro."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C07"
+    ]
+  },
+  {
+    "id": "d04",
+    "title": "Dê um endereço à preocupação",
+    "objective": "Distinguir uma preocupação solucionável de repetição sem informação e escolher encerramento ou providência.",
+    "traversal": "DESCONGESTIONAR",
+    "practice": [
+      "d04-06"
+    ],
+    "mission": [
+      "d04-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d04.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "O Estacionamento guarda a pendência; o P.A.R.A. ajuda a notar o impulso. A Janela é opcional, temporária e substitui uma rodada de análise — não acrescenta vigilância permanente."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C06"
+    ]
+  },
+  {
+    "id": "d05",
+    "title": "Seu ambiente também escolhe",
+    "objective": "Alterar uma condição do ambiente e revisar qual prática vale manter na primeira travessia.",
+    "traversal": "DESCONGESTIONAR",
+    "practice": [
+      "d05-06"
+    ],
+    "mission": [
+      "d05-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d05.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Mantenha somente o registro breve e a ferramenta que mostrou utilidade. P.A.R.A., Estacionamento e Janela não viram uma lista diária obrigatória. A revisão retorna ao final de cada travessia."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C15"
+    ]
+  },
+  {
+    "id": "d06",
+    "title": "O fato não chegou contando história",
+    "objective": "Separar fato, interpretação e informação desconhecida numa situação cotidiana.",
+    "traversal": "DISCERNIR",
+    "practice": [
+      "d06-05"
+    ],
+    "mission": [
+      "d06-06"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d06.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Use a pausa do Dia 3 quando o impulso chegar antes da distinção. O registro de hoje já conta como sua anotação diária; não precisa preencher um segundo diário."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": []
+  },
+  {
+    "id": "d07",
+    "title": "Uma conclusão precisa prestar contas",
+    "objective": "Examinar uma conclusão com evidência, contraprova e critério de revisão.",
+    "traversal": "DISCERNIR",
+    "practice": [
+      "d07-05"
+    ],
+    "mission": [
+      "d07-06"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d07.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Fato, História e Incógnita continuam sendo a entrada do Filtro. Use a dose breve nas situações comuns; preserve a versão profunda para decisões de maior custo ou risco."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": []
+  },
+  {
+    "id": "d08",
+    "title": "Sempre? Nunca? Vamos conferir",
+    "objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+    "traversal": "DISCERNIR",
+    "practice": [
+      "d08-06"
+    ],
+    "mission": [
+      "d08-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d08.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Use a precisão como microtécnica dentro do Filtro, não como nova obrigação. Registre somente a frase que tiver utilidade prática."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C24"
+    ]
+  },
+  {
+    "id": "d09",
+    "title": "De quem é essa voz?",
+    "objective": "Identificar uma influência concreta e escolher como se relacionar com ela sem atribuir intenções não demonstradas.",
+    "traversal": "DISCERNIR",
+    "practice": [
+      "d09-06"
+    ],
+    "mission": [
+      "d09-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d09.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Use o Filtro quando a regra tiver custo importante. O Estacionamento pode guardar questões maiores para um momento adequado, evitando transformar cada influência em investigação urgente."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C13"
+    ]
+  },
+  {
+    "id": "d10",
+    "title": "Três cenas, uma hipótese",
+    "objective": "Comparar três cenas, formular uma hipótese limitada e usar a Sala de Controle para uma escolha.",
+    "traversal": "DISCERNIR",
+    "practice": [
+      "d10-05"
+    ],
+    "mission": [
+      "d10-06"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d10.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Na revisão desta travessia, mantenha uma pergunta do Filtro que tenha sido útil. A Sala completa fica sob demanda. Guarde espaço para agir, descansar e conviver."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": []
+  },
+  {
+    "id": "d11",
+    "title": "Você não cabe no personagem",
+    "objective": "Distinguir um papel útil de uma atuação que exige autoabandono e experimentar uma preferência segura.",
+    "traversal": "VOLTAR A SI",
+    "practice": [
+      "d11-06"
+    ],
+    "mission": [
+      "d11-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d11.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Use Fato × História para distinguir uma reação observada do medo de rejeição. O P.A.R.A. pode ajudar antes de concordar automaticamente, sem criar mais um formulário."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C14"
+    ]
+  },
+  {
+    "id": "d12",
+    "title": "Valor aparece quando custa",
+    "objective": "Traduzir um valor escolhido em ação observável, incluindo custo e limite.",
+    "traversal": "VOLTAR A SI",
+    "practice": [
+      "d12-06"
+    ],
+    "mission": [
+      "d12-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d12.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Mantenha o registro de um episódio e use a Sala de Controle quando houver conflito de valores. A prática de ontem pode continuar apenas quando surgir oportunidade segura."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C08"
+    ]
+  },
+  {
+    "id": "d13",
+    "title": "Como quero viver neste corpo?",
+    "objective": "Construir um MMI 2.0 opcional que ligue experiência corporal desejada a cuidado possível.",
+    "traversal": "VOLTAR A SI",
+    "practice": [
+      "d13-06"
+    ],
+    "mission": [
+      "d13-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d13.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "O MMI é consultado quando orientar uma escolha e nas revisões futuras. Não precisa ser medido ou visualizado diariamente. O valor escolhido ontem pode ajudar a definir cuidado."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C10",
+      "C25"
+    ]
+  },
+  {
+    "id": "d14",
+    "title": "Identidade precisa de testemunhas reais",
+    "objective": "Registrar uma ação e suas condições como evidência de uma capacidade em desenvolvimento, sem criar rótulo fixo.",
+    "traversal": "VOLTAR A SI",
+    "practice": [
+      "d14-06"
+    ],
+    "mission": [
+      "d14-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d14.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "Continue com uma anotação breve. O Banco usa os registros que já existem; não exige escrever uma segunda versão de cada Dia nem colecionar provas o tempo inteiro."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": [
+      "C14"
+    ]
+  },
+  {
+    "id": "d15",
+    "title": "Pertencer sem se abandonar",
+    "objective": "Fazer um pedido específico de apoio ou planejar uma conexão segura, revisando autoria e pertencimento.",
+    "traversal": "VOLTAR A SI",
+    "practice": [
+      "d15-06"
+    ],
+    "mission": [
+      "d15-07"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d15.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+      ],
+      "on_trigger": [
+        "O reconhecimento é opcional. Mantenha como prática apenas o registro breve e os recursos que ajudaram. Pedidos e revisões do MMI entram quando houver necessidade, não por obrigação diária."
+      ],
+      "weekly": [
+        "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+      ]
+    },
+    "claims": []
+  },
+  {
+    "id": "d16",
+    "title": "Sua parte não é tudo",
+    "objective": "Distribuir responsabilidade em uma situação e escolher uma ação na própria esfera.",
+    "traversal": "REPOSICIONAR",
+    "practice": [
+      "d16-04-exercise"
+    ],
+    "mission": [
+      "d16-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d16.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um registro breve de ação ou obstáculo"
+      ],
+      "on_trigger": [
+        "Fato × História × Incógnita",
+        "Responsabilidade distribuída"
+      ],
+      "weekly": [
+        "Revisar Frutos sem culpa total"
+      ]
+    },
+    "claims": [
+      "C15"
+    ]
+  },
+  {
+    "id": "d17",
+    "title": "Um limite precisa de uma frase",
+    "objective": "Formular e testar um pedido ou limite observável em contexto seguro.",
+    "traversal": "REPOSICIONAR",
+    "practice": [
+      "d17-04-exercise"
+    ],
+    "mission": [
+      "d17-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d17.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um Fruto breve"
+      ],
+      "on_trigger": [
+        "Pedido, acordo e limite",
+        "Filtro da Sensatez"
+      ],
+      "weekly": [
+        "Rever acordos importantes"
+      ]
+    },
+    "claims": []
+  },
+  {
+    "id": "d18",
+    "title": "O espaço que a Poda abre",
+    "objective": "Interromper um padrão específico e escolher uma substituição viável.",
+    "traversal": "REPOSICIONAR",
+    "practice": [
+      "d18-04-exercise"
+    ],
+    "mission": [
+      "d18-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d18.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "A Nova Semente escolhida, se adequada"
+      ],
+      "on_trigger": [
+        "Poda específica",
+        "SE → ENTÃO"
+      ],
+      "weekly": [
+        "Rever custo e função da substituição"
+      ]
+    },
+    "claims": [
+      "C15"
+    ]
+  },
+  {
+    "id": "d19",
+    "title": "O futuro precisa de uma cena",
+    "objective": "Converter uma cena futura desejada em plano de processo com obstáculo e resposta.",
+    "traversal": "REPOSICIONAR",
+    "practice": [
+      "d19-04-exercise"
+    ],
+    "mission": [
+      "d19-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d19.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Ação de processo já escolhida"
+      ],
+      "on_trigger": [
+        "Contraste Real e SE → ENTÃO"
+      ],
+      "weekly": [
+        "Rever se a meta ainda faz sentido"
+      ]
+    },
+    "claims": [
+      "C02",
+      "C04"
+    ]
+  },
+  {
+    "id": "d20",
+    "title": "Desça da Árvore e teste",
+    "objective": "Realizar um experimento pequeno e revisar a hipótese com evidência.",
+    "traversal": "REPOSICIONAR",
+    "practice": [
+      "d20-04-exercise"
+    ],
+    "mission": [
+      "d20-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d20.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Uma prática escolhida na revisão"
+      ],
+      "on_trigger": [
+        "Árvore e Filtro quando necessários"
+      ],
+      "weekly": [
+        "Experimento pequeno e revisão de Frutos"
+      ]
+    },
+    "claims": [
+      "C03"
+    ]
+  },
+  {
+    "id": "d21",
+    "title": "Seu corpo não é uma prestação atrasada",
+    "objective": "Escolher um cuidado corporal possível, sem exigir mudança de aparência.",
+    "traversal": "HABITAR",
+    "practice": [
+      "d21-04-exercise"
+    ],
+    "mission": [
+      "d21-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d21.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Um cuidado escolhido, quando pertinente"
+      ],
+      "on_trigger": [
+        "MMI 2.0 opcional"
+      ],
+      "weekly": [
+        "Rever conforto e recursos sem medição obrigatória"
+      ]
+    },
+    "claims": [
+      "C10",
+      "C25"
+    ]
+  },
+  {
+    "id": "d22",
+    "title": "O prato traduzido, sem tribunal",
+    "objective": "Observar uma escolha alimentar com contexto e traduzir informações sem demonizar alimentos.",
+    "traversal": "HABITAR",
+    "practice": [
+      "d22-04-exercise"
+    ],
+    "mission": [
+      "d22-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d22.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Nenhum registro alimentar obrigatório"
+      ],
+      "on_trigger": [
+        "Pausa e Tradutor do Prato, se úteis"
+      ],
+      "weekly": [
+        "Planejamento viável de ambiente e compras"
+      ]
+    },
+    "claims": [
+      "C11",
+      "C12",
+      "C21",
+      "C22"
+    ]
+  },
+  {
+    "id": "d23",
+    "title": "Movimento que cabe na vida",
+    "objective": "Escolher uma oportunidade de movimento possível ou preparar apoio para realizá-la com segurança.",
+    "traversal": "HABITAR",
+    "practice": [
+      "d23-04-exercise"
+    ],
+    "mission": [
+      "d23-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d23.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Movimento possível apenas quando adequado"
+      ],
+      "on_trigger": [
+        "Adaptar sem compensação"
+      ],
+      "weekly": [
+        "Rever acessibilidade, preferência e apoio"
+      ]
+    },
+    "claims": [
+      "C19"
+    ]
+  },
+  {
+    "id": "d24",
+    "title": "Descansar também é cuidado",
+    "objective": "Ajustar uma condição de descanso sem transformar o sono em prova de desempenho.",
+    "traversal": "HABITAR",
+    "practice": [
+      "d24-04-exercise"
+    ],
+    "mission": [
+      "d24-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d24.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Uma transição de descanso possível"
+      ],
+      "on_trigger": [
+        "Estacionamento Mental sem prolongar análise"
+      ],
+      "weekly": [
+        "Rever condições e necessidade de apoio"
+      ]
+    },
+    "claims": [
+      "C20"
+    ]
+  },
+  {
+    "id": "d25",
+    "title": "Próxima escolha, não punição",
+    "objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+    "traversal": "HABITAR",
+    "practice": [
+      "d25-04-exercise"
+    ],
+    "mission": [
+      "d25-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d25.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Apenas um cuidado que coube na vida"
+      ],
+      "on_trigger": [
+        "Próxima Escolha, Não Punição"
+      ],
+      "weekly": [
+        "Rever carga e sinais de cobrança excessiva"
+      ]
+    },
+    "claims": [
+      "C09"
+    ]
+  },
+  {
+    "id": "d26",
+    "title": "Consistência não é perfeição",
+    "objective": "Selecionar uma prática sustentável com gatilho, versão mínima e critério de revisão.",
+    "traversal": "SUSTENTAR",
+    "practice": [
+      "d26-04-exercise"
+    ],
+    "mission": [
+      "d26-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d26.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Uma prática principal, se essa for a frequência adequada"
+      ],
+      "on_trigger": [
+        "Ferramentas selecionadas, não todas"
+      ],
+      "weekly": [
+        "Revisão breve da sustentabilidade"
+      ]
+    },
+    "claims": [
+      "C01"
+    ]
+  },
+  {
+    "id": "d27",
+    "title": "Quando a rotina sair do eixo",
+    "objective": "Preparar uma retomada dirigida ao componente que falhou, sem reiniciar toda a jornada.",
+    "traversal": "SUSTENTAR",
+    "practice": [
+      "d27-04-exercise"
+    ],
+    "mission": [
+      "d27-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d27.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Manter somente a prática principal"
+      ],
+      "on_trigger": [
+        "Retomada por componente"
+      ],
+      "weekly": [
+        "Verificar se o plano responde ao contexto atual"
+      ]
+    },
+    "claims": [
+      "C02",
+      "C15"
+    ]
+  },
+  {
+    "id": "d28",
+    "title": "Auditoria dos Frutos",
+    "objective": "Comparar registros de início e de agora com conclusões proporcionais e próximos ajustes.",
+    "traversal": "SUSTENTAR",
+    "practice": [
+      "d28-04-exercise"
+    ],
+    "mission": [
+      "d28-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d28.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Prática principal revisada"
+      ],
+      "on_trigger": [
+        "Rever quando houver custo excessivo"
+      ],
+      "weekly": [
+        "Auditoria breve de ação, contexto e ajuste"
+      ]
+    },
+    "claims": [
+      "C03"
+    ]
+  },
+  {
+    "id": "d29",
+    "title": "Uma carta com data e compromisso",
+    "objective": "Escrever uma carta de manutenção e agendar revisões a partir do término da jornada.",
+    "traversal": "SUSTENTAR",
+    "practice": [
+      "d29-04-exercise"
+    ],
+    "mission": [
+      "d29-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d29.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Prática principal sem novas obrigações"
+      ],
+      "on_trigger": [
+        "Plano de retomada"
+      ],
+      "weekly": [
+        "Revisão breve até D+30/60/90"
+      ]
+    },
+    "claims": [
+      "C01"
+    ]
+  },
+  {
+    "id": "d30",
+    "title": "Uma escolha viva precisa de cuidado",
+    "objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+    "traversal": "SUSTENTAR",
+    "practice": [
+      "d30-04-exercise"
+    ],
+    "mission": [
+      "d30-05-mission"
+    ],
+    "evidence": {
+      "required_field_ids": [
+        "d30.fruto"
+      ],
+      "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+    },
+    "accumulation": {
+      "daily": [
+        "Prática principal; planta conforme necessidade da espécie"
+      ],
+      "on_trigger": [
+        "Retomada por componente"
+      ],
+      "weekly": [
+        "Frutos e recursos; revisões D+30/60/90 após término"
+      ]
+    },
+    "claims": []
+  }
+]

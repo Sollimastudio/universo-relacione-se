@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "primary_key": [
+    "user_id",
+    "product_id",
+    "unit_id",
+    "field_id"
+  ],
+  "response_type": "string",
+  "max_chars": 6000,
+  "field_catalog": "derived from every block.fields",
+  "one_answer_many_views": true,
+  "body_food_required": false,
+  "exports": [
+    "own answers JSON",
+    "print own answers PDF"
+  ],
+  "conflicts": "never silently overwrite newer revision"
+}

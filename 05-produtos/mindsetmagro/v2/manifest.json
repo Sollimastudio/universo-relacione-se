@@ -1,0 +1,199 @@
+{
+  "product_id": "mindsetmagro_30d",
+  "version": "2.0.0-review.1",
+  "status": "editorial_review_and_runtime_homologation",
+  "author": "Sol Lima",
+  "language": "pt-BR",
+  "days": [
+    {
+      "day": 1,
+      "id": "d01",
+      "title": "O que você está carregando?",
+      "traversal": "DESCONGESTIONAR"
+    },
+    {
+      "day": 2,
+      "id": "d02",
+      "title": "Nem toda aba precisa ficar aberta",
+      "traversal": "DESCONGESTIONAR"
+    },
+    {
+      "day": 3,
+      "id": "d03",
+      "title": "Pausa não é desaparecimento",
+      "traversal": "DESCONGESTIONAR"
+    },
+    {
+      "day": 4,
+      "id": "d04",
+      "title": "Dê um endereço à preocupação",
+      "traversal": "DESCONGESTIONAR"
+    },
+    {
+      "day": 5,
+      "id": "d05",
+      "title": "Seu ambiente também escolhe",
+      "traversal": "DESCONGESTIONAR"
+    },
+    {
+      "day": 6,
+      "id": "d06",
+      "title": "O fato não chegou contando história",
+      "traversal": "DISCERNIR"
+    },
+    {
+      "day": 7,
+      "id": "d07",
+      "title": "Uma conclusão precisa prestar contas",
+      "traversal": "DISCERNIR"
+    },
+    {
+      "day": 8,
+      "id": "d08",
+      "title": "Sempre? Nunca? Vamos conferir",
+      "traversal": "DISCERNIR"
+    },
+    {
+      "day": 9,
+      "id": "d09",
+      "title": "De quem é essa voz?",
+      "traversal": "DISCERNIR"
+    },
+    {
+      "day": 10,
+      "id": "d10",
+      "title": "Três cenas, uma hipótese",
+      "traversal": "DISCERNIR"
+    },
+    {
+      "day": 11,
+      "id": "d11",
+      "title": "Você não cabe no personagem",
+      "traversal": "VOLTAR A SI"
+    },
+    {
+      "day": 12,
+      "id": "d12",
+      "title": "Valor aparece quando custa",
+      "traversal": "VOLTAR A SI"
+    },
+    {
+      "day": 13,
+      "id": "d13",
+      "title": "Como quero viver neste corpo?",
+      "traversal": "VOLTAR A SI"
+    },
+    {
+      "day": 14,
+      "id": "d14",
+      "title": "Identidade precisa de testemunhas reais",
+      "traversal": "VOLTAR A SI"
+    },
+    {
+      "day": 15,
+      "id": "d15",
+      "title": "Pertencer sem se abandonar",
+      "traversal": "VOLTAR A SI"
+    },
+    {
+      "day": 16,
+      "id": "d16",
+      "title": "Sua parte não é tudo",
+      "traversal": "REPOSICIONAR"
+    },
+    {
+      "day": 17,
+      "id": "d17",
+      "title": "Um limite precisa de uma frase",
+      "traversal": "REPOSICIONAR"
+    },
+    {
+      "day": 18,
+      "id": "d18",
+      "title": "O espaço que a Poda abre",
+      "traversal": "REPOSICIONAR"
+    },
+    {
+      "day": 19,
+      "id": "d19",
+      "title": "O futuro precisa de uma cena",
+      "traversal": "REPOSICIONAR"
+    },
+    {
+      "day": 20,
+      "id": "d20",
+      "title": "Desça da Árvore e teste",
+      "traversal": "REPOSICIONAR"
+    },
+    {
+      "day": 21,
+      "id": "d21",
+      "title": "Seu corpo não é uma prestação atrasada",
+      "traversal": "HABITAR"
+    },
+    {
+      "day": 22,
+      "id": "d22",
+      "title": "O prato traduzido, sem tribunal",
+      "traversal": "HABITAR"
+    },
+    {
+      "day": 23,
+      "id": "d23",
+      "title": "Movimento que cabe na vida",
+      "traversal": "HABITAR"
+    },
+    {
+      "day": 24,
+      "id": "d24",
+      "title": "Descansar também é cuidado",
+      "traversal": "HABITAR"
+    },
+    {
+      "day": 25,
+      "id": "d25",
+      "title": "Próxima escolha, não punição",
+      "traversal": "HABITAR"
+    },
+    {
+      "day": 26,
+      "id": "d26",
+      "title": "Consistência não é perfeição",
+      "traversal": "SUSTENTAR"
+    },
+    {
+      "day": 27,
+      "id": "d27",
+      "title": "Quando a rotina sair do eixo",
+      "traversal": "SUSTENTAR"
+    },
+    {
+      "day": 28,
+      "id": "d28",
+      "title": "Auditoria dos Frutos",
+      "traversal": "SUSTENTAR"
+    },
+    {
+      "day": 29,
+      "id": "d29",
+      "title": "Uma carta com data e compromisso",
+      "traversal": "SUSTENTAR"
+    },
+    {
+      "day": 30,
+      "id": "d30",
+      "title": "Uma escolha viva precisa de cuidado",
+      "traversal": "SUSTENTAR"
+    }
+  ],
+  "progression": {
+    "interval_hours": 24,
+    "clock": "server",
+    "requires_entitlement": true,
+    "requires_completion": true,
+    "not_neuroscience": true
+  },
+  "entry": "prebook.json",
+  "postbook": "postbook.json",
+  "commercial_release": false
+}

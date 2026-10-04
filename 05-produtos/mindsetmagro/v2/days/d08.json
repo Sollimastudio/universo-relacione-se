@@ -1,0 +1,278 @@
+{
+  "id": "d08",
+  "day": 8,
+  "title": "Sempre? Nunca? Vamos conferir",
+  "traversal": "DISCERNIR",
+  "objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+  "previous": "Uma conclusão precisa prestar contas",
+  "next": "De quem é essa voz?",
+  "blocks": [
+    {
+      "id": "d08-01",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "opening",
+      "title": "O tamanho da palavra muda o tamanho do problema",
+      "content": [
+        "“Nunca consigo.” Nunca em qual situação? Conseguir o quê? Com quais recursos? Antes que a pergunta pareça implicância, repare: uma frase desse tamanho fecha saídas que talvez ainda existam. Se o problema é tudo, sempre e em qualquer lugar, por onde você começa?",
+        "Ontem examinamos conclusões. Hoje vamos trabalhar a linguagem que as sustenta. Não é trocar frases negativas por elogios automáticos. “Sou maravilhosa em tudo” tem o mesmo problema de precisão, só trocou de figurino. Queremos uma frase que ajude a localizar uma ação real."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d08"
+    },
+    {
+      "id": "d08-02",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "reading",
+      "title": "Perguntas que abrem espaço",
+      "content": [
+        "Escolha uma frase sua, não uma frase para corrigir alguém. Procure uma generalização, como “sempre”, uma omissão, como “não dá”, ou uma suposição, como “vão me julgar”. Faça uma pergunta por vez: quem, quando, em que contexto, segundo qual evidência? Depois procure uma exceção honesta, se existir.",
+        "“Não consigo me organizar” pode virar “quando recebo tarefas sem prazo definido, adio decidir por onde começo”. A nova frase não precisa soar bonita. Ela precisa mostrar situação, comportamento e condição. Se você não tem informação, deixe uma pergunta em aberto em vez de inventar uma explicação convincente."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-03",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "story",
+      "title": "Da sentença para o ensaio",
+      "content": [
+        "Neste exemplo, uma pessoa diz: “Todo mundo me acha egoísta quando descanso”. Ao investigar, lembra de um comentário de uma pessoa. O comentário pode ser doloroso e merecer limite. Mas “todo mundo” adicionava uma plateia que não estava comprovada.",
+        "Ela reformula: “Uma pessoa criticou meu descanso; eu temi que os outros concordassem”. Agora pode avaliar o comentário, a carga que assume e o acordo existente. Talvez precise negociar tarefas; talvez precise proteger descanso. A precisão não escolhe automaticamente a resposta. Ela retira personagens imaginados da votação."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-04",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "reading",
+      "title": "Precisão não é interrogatório",
+      "content": [
+        "Use as perguntas com gentileza. Ninguém precisa explicar cada palavra enquanto está sofrendo. Primeiro reconheça a experiência; depois escolha a pergunta que realmente ajuda. “Isso doeu; quem disse exatamente?” pode abrir uma conversa. Uma sequência de perguntas disparadas como acusação fecha qualquer espaço.",
+        "Há situações em que “sempre” expressa exaustão, não uma estatística. Você pode reconhecer o cansaço e ainda investigar episódios quando houver condição. A linguagem não explica sozinha o sofrimento, e reformular não resolve falta de recurso, doença, violência ou trabalho excessivo. Uma frase precisa pode justamente revelar que você necessita de apoio concreto.",
+        "Às vezes a frase precisa será “não consigo fazer isso com os recursos atuais”. Não a reescreva como deficiência moral. A próxima pergunta será sobre apoio, adaptação ou limite, sem obrigação de transformar impossibilidade real em força de vontade.",
+        "Na evolução autoral do MINDSETmagro, chamo atenção para a desonestidade mental: o desencontro entre o que dizemos reconhecer e a resposta que continuamos protegendo. Use essa expressão como pergunta sobre si, nunca como diagnóstico ou acusação. Antes de concluir autoengano, investigue medo, recursos e risco. Uma pessoa pode saber o que precisa mudar e ainda não ter condições de fazê-lo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "AUTHOR_ORIGIN_20260620"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-05",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Perguntas de precisão podem ser usadas como recurso de reflexão. A PNL não será apresentada como fundamento científico validado deste protocolo. Usar um repertório de perguntas não autoriza promessas de reprogramação, diagnóstico de perfil sensorial ou tratamento de condições clínicas."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C24"
+      ],
+      "source_refs": [
+        "C24",
+        "https://doi.org/10.3399/bjgp12X658287"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-06",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Copie a frase como ela costuma aparecer, sem melhorá-la de saída. Faça uma pergunta de cada vez e observe o que ela revela. Sua reformulação pode continuar descrevendo uma situação difícil; o objetivo é ganhar precisão e ação possível, não fabricar entusiasmo."
+      ],
+      "fields": [
+        {
+          "id": "d08.frase",
+          "label": "Qual frase vaga ou absoluta aparece no meu dia?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d08.pergunta",
+          "label": "Qual única pergunta ajudaria a torná-la mais precisa?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d08.reformulacao",
+          "label": "Como descrevo agora situação, ação e condição?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-07",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Perceba uma frase automática durante uma tarefa cotidiana. Escreva a versão original, faça uma pergunta de precisão e formule uma ação possível a partir da resposta. Depois teste a ação, como pedir um prazo ou separar uma etapa. Não precisa policiar toda sua fala; uma frase basta."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-08",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Compare a possibilidade de agir antes e depois da reformulação. Ficou mais claro o que depende de você? Apareceu um recurso que falta? Se a frase já descrevia corretamente a situação, mantenha o que é verdadeiro e trabalhe a resposta possível, sem obrigação de torná-la otimista."
+      ],
+      "fields": [
+        {
+          "id": "d08.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-09",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se eu disser “não dá”, então perguntarei “qual parte não cabe e o que precisaria mudar?”. Se faltar recurso real, então nomearei esse recurso e considerarei pedir apoio, adiar ou reduzir a tarefa."
+      ],
+      "fields": [
+        {
+          "id": "d08.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d08-10",
+      "day_id": "d08",
+      "learning_objective": "Reformular uma frase absoluta em descrição específica e ação testável.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: trocar uma conclusão sobre quem você é por uma descrição de uma situação. “Hoje adiei esta tarefa” oferece mais trabalho possível do que “sou um fracasso”.",
+        "Use a precisão como microtécnica dentro do Filtro, não como nova obrigação. Registre somente a frase que tiver utilidade prática.",
+        "Amanhã vamos investigar outra camada da linguagem: quais regras você repete porque escolheu e quais apenas chegaram acompanhadas de autoridade."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d08.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "Use a precisão como microtécnica dentro do Filtro, não como nova obrigação. Registre somente a frase que tiver utilidade prática."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS",
+    "LEGACY_MINDSETMAGRO"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

@@ -1,0 +1,241 @@
+{
+  "id": "d25",
+  "day": 25,
+  "title": "Próxima escolha, não punição",
+  "traversal": "HABITAR",
+  "objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+  "previous": "Descansar também é cuidado",
+  "next": "Consistência não é perfeição",
+  "blocks": [
+    {
+      "id": "d25-01-opening",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "“Já estraguei tudo.” Curiosa essa capacidade de transformar um episódio num contrato vitalício. Um plano saiu do previsto e, de repente, a mente quer cancelar o restante da semana.",
+        "Hoje fechamos Habitar olhando a próxima escolha. Não vamos negar consequências nem fingir que todo comportamento ajuda. Vamos separar reparo de punição, para que a resposta ao desvio não crie um problema maior."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d25-02-reading",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Pense comigo: você deixou de fazer uma ação que havia planejado. Pode investigar por quê, ajustar o contexto e retomar uma versão possível. Ou pode aumentar a exigência, se insultar e prometer uma disciplina que depende de não sentir cansaço nunca mais. A segunda opção parece intensa. Intensidade não é sinônimo de utilidade.",
+        "Na alimentação, essa distinção pede cuidado especial. Uma refeição diferente não exige jejum punitivo, exercício compensatório ou eliminação radical de alimentos. Se você segue um plano individual com profissional, mantenha essa referência e leve dúvidas ao acompanhamento. O protocolo não usa culpa para tentar administrar o corpo.",
+        "“Próxima Escolha, Não Punição” preserva uma ideia importante do material histórico: depois de um episódio, ainda existe a próxima decisão. A versão atual amplia isso para agenda, vínculos, descanso, movimento e cuidado. Você não precisa merecer uma retomada por meio de sofrimento.",
+        "Reparo responde a uma consequência específica. Se atrasou uma entrega, comunicar o atraso e combinar uma alternativa pode ser reparo. Se falou de modo ofensivo, reconhecer o ato e buscar corrigir seu impacto pode ser reparo. Punição sem função acrescenta dor e chama isso de responsabilidade. Pergunte: esta medida melhora a situação ou apenas me faz pagar?",
+        "Imagine alguém que perdeu o horário de uma prática e resolve dobrar a tarefa amanhã. Antes de aceitar, examine se a dose original já estava difícil. Talvez o ajuste seja reduzir, mudar o gatilho ou pedir apoio. Recuperar o que se perdeu nem sempre é possível ou necessário. Há compromissos que precisam ser renegociados, não acumulados como dívida.",
+        "Também existem padrões que pedem ajuda. Episódios de perda de controle alimentar, restrição intensa, medo de comer ou exercício usado como castigo não devem ser tratados como simples falta de organização. Reduza a autoobservação que agrava o sofrimento e busque acompanhamento apropriado. Este é um espaço educativo, não uma substituição de cuidado clínico.",
+        "Para revisar a travessia, escolha um único registro entre os Dias 21 e 24. O cuidado proposto ficou mais viável? O tema corporal ou alimentar trouxe clareza ou cobrança? Você pode manter, adaptar ou retirar uma prática opcional. O corpo continua presente mesmo quando você decide não pesá-lo, fotografá-lo ou descrevê-lo.",
+        "Leve adiante uma resposta respeitosa ao erro. Respeitosa não significa vaga: nomeia o que aconteceu, considera consequência e escolhe uma ação. Não precisa acrescentar uma biografia de fracasso ao rodapé."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "LEGACY-GOOGLE",
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d25-03-reading",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Intervenções de autocompaixão têm resultados promissores para lidar com sofrimento, com diferenças entre estudos e formatos. Uma frase deste livro não equivale a um tratamento. Aqui usamos o princípio de responder ao erro sem humilhação, para preservar espaço de decisão e reparo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C09"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "https://doi.org/10.1007/s12671-023-02148-x"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d25-04-exercise",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Escolha um episódio pequeno fora do previsto. Escreva fato, consequência real e próxima escolha. Veja se sua proposta contém castigo, compensação ou uma exigência desproporcional. Retire o excesso e mantenha o reparo que tiver função."
+      ],
+      "fields": [
+        {
+          "id": "d25.episodio",
+          "label": "Que episódio concreto saiu do previsto, sem julgamento de identidade?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d25.proxima",
+          "label": "Qual consequência pede reparo e qual próxima escolha é proporcional?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d25.revisao_habitar",
+          "label": "Qual cuidado da travessia manter, adaptar ou retirar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d25-05-mission",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Faça a próxima escolha possível ou prepare o reparo adequado. Pode ser retomar uma rotina habitual, comunicar uma mudança ou procurar apoio. Não precisa relatar comida, medidas ou sintomas para realizar esta missão."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d25-06-fruit_review",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "O que você fez depois do desvio? A resposta reduziu o problema ou acrescentou cobrança? Registre a ação, ou obstáculo e próxima ação segura. Um ajuste pequeno e honesto vale mais que uma promessa de nunca mais errar."
+      ],
+      "fields": [
+        {
+          "id": "d25.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d25-07-if_then",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu pensar “já estraguei tudo”, então nomearei o episódio e escolherei uma resposta para ele, sem condenar o restante do dia. Ação mínima: escrever uma próxima escolha sem punição."
+      ],
+      "fields": [
+        {
+          "id": "d25.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d25-08-installation",
+      "day_id": "d25",
+      "learning_objective": "Responder a um desvio do plano com ajuste proporcional, sem compensação punitiva.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "A travessia seguinte começa com o que pode continuar na vida real. Amanhã vamos distinguir consistência de perfeição e selecionar o que merece permanecer, sem carregar vinte e cinco tarefas nas costas."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d25.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Apenas um cuidado que coube na vida"
+    ],
+    "on_trigger": [
+      "Próxima Escolha, Não Punição"
+    ],
+    "weekly": [
+      "Rever carga e sinais de cobrança excessiva"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-GOOGLE",
+    "AUTHOR_PROMPT_20260930",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

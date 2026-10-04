@@ -1,0 +1,2534 @@
+{
+  "status": "auditoria_concluida_destinos_provisorios",
+  "rows": [
+    {
+      "id": "MIG-001",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        2,
+        3
+      ],
+      "original": "Duas imersões e quatro fases; anexo para 16 dias",
+      "function": "Organizar jornada",
+      "strength": "Sequência e continuidade",
+      "current_problem": "Mapa não corresponde a 30 dias integralmente disponíveis",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Seis travessias; não inventar continuidade histórica",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Pré-livro/mapa",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-002",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        4,
+        5
+      ],
+      "original": "Método nasceu da experiência com dietas, balança e autoimagem",
+      "function": "Origem autoral",
+      "strength": "Voz em primeira pessoa",
+      "current_problem": "Resultados pessoais generalizados; masculino frustrado no relato",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Preservar relato como relato; revisar gênero e não acrescentar biografia",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Nota da autora",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-003",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "original": "Técnicas comprovadas de neurociência e PNL; reprogramação",
+      "function": "Justificação científica",
+      "strength": "Interesse em aprendizagem",
+      "current_problem": "PNL como ciência comprovada; promessa ampla",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Excluir selo científico; perguntas linguísticas como recurso autoral",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Limites científicos",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-004",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        6
+      ],
+      "original": "Leia na ordem; pratique; reflita e registre",
+      "function": "Modo de usar",
+      "strength": "Sequência operacional",
+      "current_problem": "Falta dosagem e adaptação",
+      "decision": "ampliar",
+      "maintain": false,
+      "rewrite": false,
+      "expand": true,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Campos compartilhados e prática mínima; retomada",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Modo de usar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-005",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        6
+      ],
+      "original": "Headspace e Calm como aliados",
+      "function": "Apoio opcional",
+      "strength": "Reconhece recursos externos",
+      "current_problem": "Recomendação não auditada; dependência desnecessária",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Recursos sem obrigatoriedade; verificar versões e acesso",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Recursos",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-006",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        7
+      ],
+      "original": "Termo de isenção / consultar profissionais",
+      "function": "Delimitar escopo",
+      "strength": "Saúde não substituída",
+      "current_problem": "Isenção genérica não corrige recomendações arriscadas",
+      "decision": "ampliar",
+      "maintain": false,
+      "rewrite": false,
+      "expand": true,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Retirar riscos das práticas e acrescentar sinais concretos de pausa",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Segurança",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-007",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        8
+      ],
+      "original": "Comprometimento nota 10; controle de peso definitivamente",
+      "function": "Contrato inicial",
+      "strength": "Pergunta por valores e obstáculos",
+      "current_problem": "Culpa total; perfeição e permanência",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Disponibilidade real e ação possível; peso opcional",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Baseline",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-008",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "original": "Hipotireoidismo, hipoglicemia, hipotensão, anemia, TDAH e SPA",
+      "function": "Relato de particularidades",
+      "strength": "Personalização e busca profissional",
+      "current_problem": "Condições históricas não equivalem a diagnóstico atual; exposição sensível",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Não atualizar diagnósticos de memória; validar necessidade narrativa",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Nota corporal opcional",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-009",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        9
+      ],
+      "original": "Pressão alta: não usar gengibre/canela",
+      "function": "Alerta",
+      "strength": "Reconhece diferenças individuais",
+      "current_problem": "Contraindicação alimentar universal sem fundamento indicado",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Orientar avaliação individual de medicamentos/suplementos; não substituir por outra prescrição",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Segurança",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-010",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        10
+      ],
+      "original": "Idade metabólica 60+ = envelhecimento precoce",
+      "function": "Explicar condição",
+      "strength": "Desejo de compreender saúde",
+      "current_problem": "Métrica comercial tratada como diagnóstico",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Não inferir envelhecimento a partir desse número",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Registro de claims retirados",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-011",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        12
+      ],
+      "original": "Diário alimentar e emocional: anotar tudo todos os dias",
+      "function": "Automonitoramento",
+      "strength": "Registro de contexto e padrões",
+      "current_problem": "Carga excessiva e risco de hipervigilância",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Um episódio escolhido; trilha alimentar opt-in; pausa quando registro piora sofrimento",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Caderno Vivo",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-012",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        13
+      ],
+      "original": "Água com limão, 2–3 copos; cardio em jejum; saudação ao sol",
+      "function": "Rotina matinal",
+      "strength": "Âncora temporal e movimento prazeroso",
+      "current_problem": "Prescrição universal e jejum",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Rotina flexível sem jejum; movimento adaptado e água conforme contexto",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-013",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "original": "mindsetGORDO, gordices, reset total",
+      "function": "Contraste retórico",
+      "strength": "Nome MINDSETmagro histórico",
+      "current_problem": "Estigma e moralização corporal",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Preservar nome com nova definição; retirar antagonista gordo",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Constituição",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-014",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        13
+      ],
+      "original": "Visualizar manequim ao adormecer molda subconsciente",
+      "function": "Visualização",
+      "strength": "Cena desejada e antecipação",
+      "current_problem": "Mecanismo do sono não demonstrado",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Cena concreta de processo com obstáculo e SE–ENTÃO",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Visualização",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-015",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        14
+      ],
+      "original": "Acumular todas as práticas até dia 30",
+      "function": "Progressão",
+      "strength": "Assinatura cumulativa",
+      "current_problem": "29 tarefas no final e ausência de descarte",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Um núcleo diário; ferramentas sob gatilho; revisão semanal",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Contrato pedagógico",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-016",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "original": "Jardim cerebral, caminhos neurais, neuroplasticidade boa/ruim",
+      "function": "Metáfora de aprendizagem",
+      "strength": "Imagem memorável",
+      "current_problem": "Metáfora vira mecanismo total, apagamento de hábitos e trauma",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Jardim como metáfora explicitada; aprendizagem sem promessa de apagar",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Descongestionar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-017",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        16
+      ],
+      "original": "Se achar rotina restritiva, é seu sabotador",
+      "function": "Responder resistência",
+      "strength": "Desejo de engajamento",
+      "current_problem": "Invalida crítica e consentimento",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Crítica é informação; permitir adaptar ou pausar",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Voz/editorial",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-018",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        17,
+        18,
+        19
+      ],
+      "original": "Dia 1: detox mental e observação de pensamentos",
+      "function": "Perceber automatismos",
+      "strength": "Observar sem julgamento",
+      "current_problem": "Toxinas mentais; eliminar pensamento; resistência à compulsão prometida",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Perceber e nomear sem suprimir; registrar um episódio",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Descongestionar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-019",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "original": "Gratidão e alma; três motivos diários",
+      "function": "Ampliar atenção",
+      "strength": "Prática breve e autoria espiritual",
+      "current_problem": "Impõe sentimento correto; frequência mental ambígua",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Gratidão não apaga sofrimento; espiritualidade opcional",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Ritual breve",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-020",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        20,
+        21
+      ],
+      "original": "Filipenses 4:8; Jeremias 29:11–13",
+      "function": "Referência espiritual",
+      "strength": "Origem religiosa preservável",
+      "current_problem": "Risco de obrigatoriedade e promessa de objetivos",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Identificar leitura espiritual, sem mecanismo clínico",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Nota espiritual",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-021",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        20,
+        21
+      ],
+      "original": "Dia 2: peneira; pensamentos, evidências e reformulação",
+      "function": "Discernimento",
+      "strength": "Contraprova e pensamento realista",
+      "current_problem": "Somos o que pensamos; substituir sempre por positivo",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Pensamento é evento; separar fato, história e incógnita",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Discernir",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-022",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        22,
+        23
+      ],
+      "original": "Dia 3: crenças limitantes/empoderadoras",
+      "function": "Testar crenças",
+      "strength": "Pequeno passo e pergunta contrafactual",
+      "current_problem": "Genética invalidada; doce como causa de compulsão",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Investigar contexto, exceções e recursos; não negar biologia",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Discernir",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-023",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        24,
+        25
+      ],
+      "original": "Dia 4: propósito, carta e perguntas do metamodelo",
+      "function": "Direção pessoal",
+      "strength": "Valores, recursos e apoio",
+      "current_problem": "Peso domina; perguntas demais",
+      "decision": "ampliar",
+      "maintain": false,
+      "rewrite": false,
+      "expand": true,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Selecionar poucas perguntas; carta vinculada a ação observável",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Voltar a si",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-024",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        25
+      ],
+      "original": "SMART: 5 kg em 30 dias / 10 kg em 50 dias",
+      "function": "Meta mensurável",
+      "strength": "Prazo de revisão",
+      "current_problem": "Meta corporal individual prescrita; urgência",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Prazo para comportamento/revisão, sem meta de perda universal",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "MMI 2.0",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-025",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        26
+      ],
+      "original": "Meu Manequim Mental Ideal",
+      "function": "Assinatura autoral",
+      "strength": "Visualizar modo desejado de viver",
+      "current_problem": "Aparência como medida principal",
+      "decision": "ampliar",
+      "maintain": false,
+      "rewrite": false,
+      "expand": true,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "MMI 2.0 com conforto, força, sono, energia e aparência opt-in",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Voltar a si/Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-026",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        27,
+        28
+      ],
+      "original": "Dia 5: ambiente físico/social; média de cinco pessoas",
+      "function": "Arquitetura da escolha",
+      "strength": "Cozinha, apoio e mídia",
+      "current_problem": "Número cinco como lei; moralização dos vínculos",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Mapear situações e efeitos observados sem julgar valor pessoal",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Reposicionar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-027",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        29
+      ],
+      "original": "Dia 6: mindfulness 10 min; mindful eating",
+      "function": "Atenção",
+      "strength": "Saborear, reduzir distrações, observar",
+      "current_problem": "Dosagem única; resultados garantidos",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Prática curta opcional; alternativa olhos abertos; observar efeito",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Descongestionar/Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-028",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        29
+      ],
+      "original": "Músicas e afirmações em anexos",
+      "function": "Apoio sensorial",
+      "strength": "Recursos multimodais",
+      "current_problem": "PDF externo não incorporado; direitos e acesso não verificados",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Inventariar links; recuperar antes de copiar",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Acervo de apoio",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-029",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        30
+      ],
+      "original": "Dia 7: conexões, hobbies, natureza, autocompaixão",
+      "function": "Apoio e prazer",
+      "strength": "Repertório de autocuidado",
+      "current_problem": "Recontato indiscriminado e promessa endorfina reduz comida",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Contato seguro e consentido; prazer sem explicação neuro decorativa",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Reposicionar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-030",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        30
+      ],
+      "original": "Amo música e preciso me exercitar: danço ouvindo música",
+      "function": "Unir útil ao agradável",
+      "strength": "Exemplo autobiográfico específico",
+      "current_problem": "Não exige correção de núcleo",
+      "decision": "manter",
+      "maintain": true,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Preservar dança+música como exemplo autoral, não obrigação",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Movimento possível",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-031",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        31,
+        32
+      ],
+      "original": "Dia 8: deixa/rotina/recompensa de Duhigg",
+      "function": "Compreender hábito",
+      "strength": "Contexto e repetição",
+      "current_problem": "Resumo cerebral/estriado e dopamina simplista",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Modelo pedagógico simplificado; contexto–ação–consequência observável",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Reposicionar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-032",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        33
+      ],
+      "original": "Dia 9: revisão semanal e autocompaixão",
+      "function": "Feedback",
+      "strength": "Ajuste sem humilhação",
+      "current_problem": "Repetição e reflexão sem limite temporal",
+      "decision": "ampliar",
+      "maintain": false,
+      "rewrite": false,
+      "expand": true,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Auditoria breve com um ajuste; evitar ruminação",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Auditoria dos Frutos",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-033",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        34,
+        35
+      ],
+      "original": "Dia 10: comprometimento versus motivação",
+      "function": "Continuidade",
+      "strength": "Plano e apoio",
+      "current_problem": "Disciplina absolutizada; visualizar materializa",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Compromisso com flexibilidade; oportunidade e capacidade além da vontade",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-034",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        36
+      ],
+      "original": "Avaliação igual à primeira; stories/direct",
+      "function": "Revisão e comunidade",
+      "strength": "Comparação longitudinal",
+      "current_problem": "Avaliação em anexo; exposição pública incentivada",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Baseline comparável privado; compartilhamento opcional sem respostas sensíveis",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Revisões",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-035",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        37,
+        38
+      ],
+      "original": "Órgãos detox; suor, fibra e respiração eliminam toxinas",
+      "function": "Educação corporal",
+      "strength": "Hábitos de cuidado",
+      "current_problem": "Fisiologia distorcida e toxinas indefinidas",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Educação geral sobre funções normais sem ritual de purificação",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Limites científicos",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-036",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        39
+      ],
+      "original": "Água 2 L; orgânicos; reduzir processados",
+      "function": "Nutrição geral",
+      "strength": "Variedade e preparo doméstico",
+      "current_problem": "Volume universal; custo dos orgânicos; todos processados iguais",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Necessidades/contextos individuais e alimentos acessíveis",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-037",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        39
+      ],
+      "original": "Substituir açúcar por mel/melado/stevia",
+      "function": "Redução de açúcar",
+      "strength": "Atenção ao consumo",
+      "current_problem": "Natural implica superioridade; misturam adoçante e açúcares",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Mel/melado também contêm açúcares; tradução por rótulo",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Tradução visual honesta",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-038",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        39
+      ],
+      "original": "Café/chá preto sobrecarregam fígado",
+      "function": "Orientação de consumo",
+      "strength": "Atenção ao excesso",
+      "current_problem": "Generalização causal sem base",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Contextualizar cafeína sem esse claim",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Registro de claims retirados",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-039",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        39,
+        40
+      ],
+      "original": "Proteínas, gorduras, frutas/fibras; cozinhar; sono; atividade",
+      "function": "Cuidados cotidianos",
+      "strength": "Práticas variadas",
+      "current_problem": "Receita única, suplementos genéricos",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Educação geral, sem quantidades ou suplementação individual",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-040",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        40
+      ],
+      "original": "Sauna/escalda-pés/escovação a seco estimulam toxinas",
+      "function": "Ritual corporal",
+      "strength": "Possível relaxamento",
+      "current_problem": "Detox não demonstrado; calor pode trazer riscos",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Não publicar como mecanismo; não obrigatório",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Registro de claims retirados",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-041",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        40
+      ],
+      "original": "Fotos e medidas corporais regulares",
+      "function": "Acompanhamento",
+      "strength": "Possibilidade de observar mudança",
+      "current_problem": "Compulsoriedade e comparação",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Opt-in, privacidade, substituição por funcionalidade",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "MMI",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-042",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        41,
+        42
+      ],
+      "original": "Dia 11: detox fortalece imunidade, energia, peso e sono",
+      "function": "Cuidado corporal",
+      "strength": "Intenção de cuidar",
+      "current_problem": "Conjunto de promessas clínicas sem ensaio",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Retirar causalidade detox; preservar alimentação e descanso",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-043",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        42
+      ],
+      "original": "1 L antes do café, limão+vinagre; trocar fome por sede",
+      "function": "Rotina corporal",
+      "strength": "Âncora matinal",
+      "current_problem": "Supressão de fome e prescrição; detox rins/fígado",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Retirar recomendação integral; hidratação sem punição ou volume obrigatório",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Segurança",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-044",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        42
+      ],
+      "original": "Iniciar jejum 12h; eliminar farinhas/açúcares",
+      "function": "Dieta",
+      "strength": "Planejamento alimentar",
+      "current_problem": "Restrição geral sem avaliação",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Planejar acesso a comida e respeitar contexto; jejum não tarefa",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-045",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        43,
+        44
+      ],
+      "original": "Dia 12: platô por 4 semanas, força, roupa, gordura localizada",
+      "function": "Interpretar resultados",
+      "strength": "Revisar contexto com profissional",
+      "current_problem": "Sinais inespecíficos e falsa redução localizada",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Explicar variabilidade sem diagnóstico; rever com profissional",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Corpo opcional",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-046",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        44
+      ],
+      "original": "Aumentar treino/suplementar; horários fixos essenciais",
+      "function": "Superar platô",
+      "strength": "Pede apoio profissional",
+      "current_problem": "Escalada e suplemento; universalização",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Não prescrever escalada; revisar sono, contexto e tolerância",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Corpo opcional",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-047",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        45
+      ],
+      "original": "Dia 13: jejum + cardio para secar 2–3 kg após festas",
+      "function": "Compensação corporal",
+      "strength": "Nenhum núcleo necessário na forma original",
+      "current_problem": "Punição/compensação, prescrição e promessa",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Próxima escolha não punição; jejum apenas informação crítica fora da tarefa",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Habitar/segurança",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-048",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        46
+      ],
+      "original": "Dia 14: desinflamar; corpo guarda cada caloria",
+      "function": "Educação alimentar",
+      "strength": "Variedade e movimento",
+      "current_problem": "Mecanismo errado e sintomas como inflamação",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Não diagnosticar inflamação por sensação; cuidado cotidiano",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-049",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        46
+      ],
+      "original": "Limão alcalinizante; termogênicos; sucos detox",
+      "function": "Receitas",
+      "strength": "Preferências culinárias podem sobreviver",
+      "current_problem": "Claims fisiológicos e emagrecimento",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Receita só como alimento, se recuperada; sem mecanismo prometido",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Registro de claims retirados",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-050",
+      "source_id": "LEGACY-UNTITLED",
+      "pages": [
+        46
+      ],
+      "original": "Dia 15 substituindo gorduras corporais por... link Gamma",
+      "function": "Continuação",
+      "strength": "Pista para recuperar histórico",
+      "current_problem": "Conteúdo ausente no PDF",
+      "decision": "recuperado_em_outra_fonte",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Continuação recuperada em Google.pdf, 14 páginas, Dias15–30; ver MIG056 em diante.",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Inventário",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-051",
+      "source_id": "LEGACY-HISTORIA",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "original": "Mãe Véia, 85 anos; alfinete no vestido; estou nessa magreza",
+      "function": "Storytelling de autoimagem",
+      "strength": "Detalhe concreto, voz e memória",
+      "current_problem": "Alzheimer/identidade intacta como demonstração",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Preservar observação e frase; não usar demência como prova de identidade invulnerável",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "MMI/Voltar a si",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-052",
+      "source_id": "LEGACY-HISTORIA",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "original": "Mãe entre espelhos e balanças; três gerações",
+      "function": "Influência sobre autoimagem",
+      "strength": "Contraste e origem narrativa",
+      "current_problem": "Juízo de intenção e dicotomia simplista",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Narradora descreve o que observou e como a marcou; sem diagnosticar mãe",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Voltar a si",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-053",
+      "source_id": "LEGACY-HISTORIA",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "original": "Autoimagem mais poderosa que diagnóstico; somos o que acreditamos",
+      "function": "Tese de autoria",
+      "strength": "Relação consigo além de estética",
+      "current_problem": "Pensamento supera doença/realidade; culpa",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Influência não controle absoluto; aceitação não muda diagnóstico",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Limites científicos",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-054",
+      "source_id": "LEGACY-HISTORIA",
+      "pages": [
+        7,
+        8
+      ],
+      "original": "Emagrecimento verdadeiro acontece na mente; beleza não ideal externo",
+      "function": "Nova metáfora",
+      "strength": "Leveza além do corpo",
+      "current_problem": "Apaga fisiologia se literal",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "MAGRO como economia do excesso; peso só um possível fruto",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Definição vigente",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-055",
+      "source_id": "LEGACY-HISTORIA",
+      "pages": [
+        8
+      ],
+      "original": "Compartilhe e marque alguém; link screenshot",
+      "function": "Distribuição social",
+      "strength": "Convite à conversa",
+      "current_problem": "CTA de carrossel no livro e link inválido funcionalmente",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Não transpor CTA antigo; discussão opcional privada",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Esta auditoria identifica risco e destino editorial; não atribui força de evidência sem pesquisa externa. História/metáfora: D, quando pertinente."
+      },
+      "new_location_provisional": "Editorial",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-056",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        1
+      ],
+      "original": "Dia 15: substituir gordura por massa magra; músculo fornalha",
+      "function": "Força e composição",
+      "strength": "Ir além da balança",
+      "current_problem": "Gordura não se converte em músculo; gasto exagerado",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Força/funcionalidade com adaptação, sem promessa de queimar gordura automaticamente",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-057",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        1,
+        2
+      ],
+      "original": "Suplementação com nutricionista; creatina/whey/cafeína/BCAA/glutamina/beta-alanina/vitaminas",
+      "function": "Educação suplementar",
+      "strength": "Reconhece orientação profissional",
+      "current_problem": "Lista vira recomendação; imunidade/sono/generalização; whey imediatamente",
+      "decision": "mover_para_trilha_opcional",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": true,
+      "migration_instruction": "Não prescrever nem dar lista de compra; revisão por indicação e evidência específica",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Apoio profissional",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-058",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        2
+      ],
+      "original": "Dia 16: movimento consciente; yoga/caminhada 20 minutos",
+      "function": "Presença no movimento",
+      "strength": "Prazer, atenção e atividade",
+      "current_problem": "Tempo único; energia vital sem enquadramento",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Movimento possível, duração adaptável e opt-in; sem mecanismo espiritual",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-059",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        2
+      ],
+      "original": "Sono REN como restaurador; envelhecer com saúde",
+      "function": "Descanso",
+      "strength": "Projeção de vida funcional",
+      "current_problem": "REN incorreto; redução do sono ao REM",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Sono integral, rotina e sinais de dificuldade; evitar aula neuro sem função",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-060",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        2
+      ],
+      "original": "Como eu, como Inteligência Artificial, visualizo o envelhecimento",
+      "function": "Texto intruso",
+      "strength": "Nenhum núcleo autoral nesse trecho",
+      "current_problem": "Voz IA inserida em obra assinada Sol",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Excluir integralmente; não atribuir experiência de IA à autora",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Limpeza editorial",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-061",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        2
+      ],
+      "original": "Cinco sentidos: tato/olfato/paladar/visão/gustação",
+      "function": "Atenção sensorial",
+      "strength": "Experiência do alimento",
+      "current_problem": "Paladar/gustação duplicados; falta audição",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Selecionar sensações úteis, sem checklist obrigatório de cinco",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Pausa do Prato",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-062",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        3
+      ],
+      "original": "Dia 17: eliminar açúcares incluindo arroz/batata/mandioca",
+      "function": "Compreensão alimentar",
+      "strength": "Leitura de rótulo e bebida açucarada",
+      "current_problem": "Confunde amidos e açúcar de mesa; demoniza grupos",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Tradutor do Prato e rótulo; carboidrato não é literalmente açúcar de mesa",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-063",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        3
+      ],
+      "original": "Abstinência do açúcar 1–2 semanas; adoçantes químicos prejudiciais",
+      "function": "Explicar desejos",
+      "strength": "Reconhece dificuldade",
+      "current_problem": "Prazo/diagnóstico e natural vs químico",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Desejos têm contextos; não diagnosticar abstinência nem demonizar adoçantes",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Limites científicos",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-064",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        3
+      ],
+      "original": "Eu comeria se soubesse que é puro açúcar?",
+      "function": "Tradução visual",
+      "strength": "Pergunta memorável",
+      "current_problem": "Equivalência falsa de comida inteira com açúcar",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Equivalência quantitativa só para açúcar declarado e porção real",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Tradução Visual Honesta",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-065",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        4
+      ],
+      "original": "Dia 18: comece dieta cetogênica; <50g carboidrato; eletrólitos",
+      "function": "Mudança alimentar",
+      "strength": "Reconhece cuidado individual",
+      "current_problem": "Prescrição sem avaliação; benefícios garantidos",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Não integrar dieta/eletrólitos às tarefas; explicar escopo e encaminhar",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Segurança",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-066",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        4
+      ],
+      "original": "Dia 19: preparar em lote, sobras e compras",
+      "function": "Organização alimentar",
+      "strength": "Acessibilidade prática",
+      "current_problem": "Cardápio incompleto; dieta restrita disfarçada",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Planejar disponibilidade, tempo e orçamento; sem dieta imposta",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Arquitetura da Escolha",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-067",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        4
+      ],
+      "original": "Prato 15–30% proteína, 30–40% gordura, 40–50% vegetais",
+      "function": "Composição do prato",
+      "strength": "Pretende facilitar escolha",
+      "current_problem": "Percentuais ambíguos e total pode exceder 100",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Sem proporções genéricas nem confundir massa, energia e volume",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Tradutor do Prato",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-068",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        5
+      ],
+      "original": "Dia 20: escolha equilibrada na próxima refeição sem culpa",
+      "function": "Retomada",
+      "strength": "Núcleo não punitivo",
+      "current_problem": "Coexiste com regras restritivas",
+      "decision": "manter",
+      "maintain": true,
+      "rewrite": false,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Próxima escolha não punição; aplicar também fora da alimentação",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Habitar/Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-069",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        5
+      ],
+      "original": "Doce sempre após proteína; ajustar à cetose; jejum 12h",
+      "function": "Regras alimentares",
+      "strength": "Intenção de planejamento",
+      "current_problem": "Universalidade e prescrição",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Não substituir por regra universal alternativa",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Segurança",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-070",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        6
+      ],
+      "original": "Imersão 3: novo mindset imutável, hábitos no DNA, não mais lutar",
+      "function": "Consolidação",
+      "strength": "Continuidade",
+      "current_problem": "Permanência e biologia falsa",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "30 dias iniciam reorganização; revisão e manutenção",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-071",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        6
+      ],
+      "original": "Dia 21: MMI, carta ao futuro para 3 meses, obstáculos",
+      "function": "Continuidade de identidade",
+      "strength": "Carta e revisão temporal",
+      "current_problem": "Imbatível/eterna/sem volta; foto compulsória",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Preservar carta D+90, funcionalidade e obstáculos; imagens opt-in",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-072",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        7
+      ],
+      "original": "Dia 22: rever ambiente/influências e resultados reais",
+      "function": "Feedback ambiental",
+      "strength": "Observa mudança em vida prática",
+      "current_problem": "Influências classificadas como boas/más sem contexto",
+      "decision": "ampliar",
+      "maintain": false,
+      "rewrite": false,
+      "expand": true,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Rever hipótese por efeito observado e possível contraprova",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Reposicionar/Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-073",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        7
+      ],
+      "original": "Dia 23: intensificar hábito, ajustar para caber na vida",
+      "function": "Manutenção",
+      "strength": "Consistência maior que perfeição",
+      "current_problem": "Intensificar sem necessidade; perguntas repetidas",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Manter o suficiente; escolher um componente, reduzir atrito",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-074",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        8
+      ],
+      "original": "Dia 24: avaliar avanços em neuroplasticidade por diário",
+      "function": "Revisão de aprendizagem",
+      "strength": "Adaptar prática, registrar pensamento e comportamento",
+      "current_problem": "Diário não mede neuroplasticidade; permanência",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Nomear como revisão de comportamento observável, sem inferência neural",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Auditoria dos Frutos",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-075",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        9
+      ],
+      "original": "Dia 25: propósito maior e impacto coletivo",
+      "function": "Valores e contribuição",
+      "strength": "Amplia objetivo além de corpo",
+      "current_problem": "Comida reflete respeito pessoal; saúde reflete alma",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Cuidado depende de recursos/contexto; contribuição escolhida, sem moralização",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Voltar a si/Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-076",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        10
+      ],
+      "original": "Dia 26: mindful eating, parar satisfeito, ritmo moderado, sessão longa",
+      "function": "Integração de atenção",
+      "strength": "Observação de sinais e prazer",
+      "current_problem": "Reduzir calorias/perder peso presumidos; mais longo não melhor",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Reconhecer sinais sem impor emagrecimento ou sessão prolongada",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Habitar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-077",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        11
+      ],
+      "original": "Dia 27: gratidão profunda, vibração, toxinas, curar feridas físicas",
+      "function": "Ritual de reconhecimento",
+      "strength": "Apreciar apoio e pequenos fatos",
+      "current_problem": "Cura/energia causal, positividade e lista extensa",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Prática breve opcional; espiritualidade explicitamente simbólica; pode coexistir com dor",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-078",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        12
+      ],
+      "original": "Dia 28: revisão alimentação, peso, cetose, humor",
+      "function": "Auditoria de progresso",
+      "strength": "Pergunta se mais tranquilo ou rígido",
+      "current_problem": "Peso obrigatório; gordura acelerada; emagrecer= crescimento",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Auditoria de Frutos com contexto; peso opt-in; detectar rigidez e pausar",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-079",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        13
+      ],
+      "original": "Dia 29: consolidar cetogênica e jejum termogênico",
+      "function": "Plano semanal",
+      "strength": "Preparar dia 30 e escolher hábito futuro",
+      "current_problem": "Protocolos dietéticos normalizados; termo não validado",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Plano de manutenção com poucos hábitos, gatilhos e apoio",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Sustentar",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-080",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        14
+      ],
+      "original": "Dia 30: planta real, terra, água, carta, celebração, cuidar futuro",
+      "function": "Fechar e continuar",
+      "strength": "Ritual concreto de memória e cuidado",
+      "current_problem": "Escolhas decorativas confundidas com mecanismo",
+      "decision": "ampliar",
+      "maintain": false,
+      "rewrite": false,
+      "expand": true,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Preservar plantio/carta/água; conectar Frutos/Poda/Nova Semente e manutenção",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Dia30",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-081",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        14
+      ],
+      "original": "Quartzo amplifica intenção; energia universal; para sempre",
+      "function": "Selamento simbólico",
+      "strength": "Autoria histórica documentada",
+      "current_problem": "Pseudociência e permanência",
+      "decision": "remover",
+      "maintain": false,
+      "rewrite": false,
+      "expand": false,
+      "remove": true,
+      "optional_track": false,
+      "migration_instruction": "Excluir mecanismo e garantia; espiritualidade opcional sem objetos obrigatórios",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Dia30",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-082",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        14
+      ],
+      "original": "Zamioculca/lírio da paz; vela; círculo; convidados; dança",
+      "function": "Cenografia do ritual",
+      "strength": "Opções de celebração e companhia",
+      "current_problem": "Espécie pode não servir ao lar; fogo/convite não necessários",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Planta adequada ao ambiente, crianças/animais; vela e público dispensáveis",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Dia30",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-083",
+      "source_id": "LEGACY-GOOGLE",
+      "pages": [
+        10,
+        14
+      ],
+      "original": "METABOLISMO METAMORFO",
+      "function": "Assinatura verbal histórica de transformação",
+      "strength": "Expressão recorrente e memorável",
+      "current_problem": "Sugere categoria fisiológica inexistente e alteração garantida do metabolismo",
+      "decision": "reescrever",
+      "maintain": false,
+      "rewrite": true,
+      "expand": false,
+      "remove": false,
+      "optional_track": false,
+      "migration_instruction": "Arquivar como linguagem histórica; se retomada, marcar explicitamente metáfora autoral de adaptação comportamental, nunca tipo metabólico ou resultado clínico. Preferir mudanças de rotina como texto público.",
+      "scientific_basis": {
+        "status": "revisao_cientifica_pendente",
+        "note": "Auditoria editorial; não atribui nível científico sem fonte externa. Elementos simbólicos/autoria são D."
+      },
+      "new_location_provisional": "Vocabulário histórico / glossário de limites",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO",
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-084",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§4–6",
+      "original": "Mãe-Véia musa paradoxal e égua indomável",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "reescrever",
+      "migration_instruction": "Preservar força e contradições da avó, sem santificar, vilanizar, idealizar magreza nem transformar lembrança em prova clínica. Correção autoral explícita supera leitura simplificada do PDF histórico.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d13",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-085",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§4–6",
+      "original": "Gesto de ajustar vestido na cintura; insistência em existir",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "manter",
+      "migration_instruction": "Manter gesto e leitura simbólica autoral; não prometer identidade preservada integralmente em demência. Fonte menciona vídeo, mas vídeo não foi inspecionado.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d13",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-086",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§2,8",
+      "original": "Desonestidade mental",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "reescrever",
+      "migration_instruction": "Preservar investigação do desencontro entre o que percebo e o que justifico. Não chamar limite material, medo protetivo, sintoma ou falta de recurso de mentira.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d08",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-087",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§2,8",
+      "original": "Desonestidade emocional",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "reescrever",
+      "migration_instruction": "Examinar sentimento, fala, tolerância e escolha em primeira pessoa, sem diagnóstico moral ou atribuir intenção a terceiros. Informação pode estar incerta.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d12",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-088",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§7",
+      "original": "Três pesos: físico, mental e emocional",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "manter",
+      "migration_instruction": "Preservar como mapa autoral. Não afirmar que todo peso físico seja produzido por emoção ou pensamento.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d21",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-089",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§2,8",
+      "original": "Desacumulação de objetos, tarefas, estímulos e culpas",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "reescrever",
+      "migration_instruction": "Vincular à Poda Ambiental, próximo passo e recursos; vínculos pedem análise contextual, sem cortar pessoas por desconforto.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d05",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-090",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§8",
+      "original": "Decisão magra: clara, proporcional e sustentável",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "manter",
+      "migration_instruction": "Incorporar como qualidade de uma escolha sob Filtro, não nova ferramenta/marca nem sinônimo de certeza.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d07",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-091",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§8",
+      "original": "Responsabilidade sem culpa por violências sofridas",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "manter",
+      "migration_instruction": "Assumir esfera possível sem aceitar responsabilidade pela violência de outro; risco altera ação segura.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d16",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-092",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§10,13",
+      "original": "Cronologia de criação e lugar no Ato VI de Morte em Vida",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "historical",
+      "migration_instruction": "Preservar vínculo de origem e lugar editorial externo. Datas de cunhagem, vídeo e primeira versão permanecem pendentes; não inventar cronologia.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d13",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-093",
+      "source_id": "CANONICAL-ORIGIN-20260620",
+      "source_section": "§11",
+      "original": "+1.000.000 de mentes transformadas",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "historical",
+      "migration_instruction": "Não migrar para vitrine ou livro como resultado. Registro autoral já exige comprovação; não há base documental examinada para este número.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d28",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-094",
+      "source_id": "CANONICAL-PANEL-20260620",
+      "source_section": "Origem/Evolução/Lugar",
+      "original": "Painel-mestre corrobora origem e expansão",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "manter",
+      "migration_instruction": "Registrar autoridade autoral da evolução além de emagrecimento; Árvore como ferramenta de investigação, não diagnóstico clínico.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d01",
+      "provenance": [
+        "AUTHOR_SOURCE"
+      ]
+    },
+    {
+      "id": "MIG-095",
+      "source_id": "LEGACY-LANDING-202511",
+      "source_section": "pp1–4",
+      "original": "Oferta limitada, garantia 7 dias, preço riscado, CTA href=# e depoimento",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "historical",
+      "migration_instruction": "Não importar oferta/garantia/checkout/depoimento sem condições e ativos verificados. O PDF é documentação de projeto, não comprovação de operação ou resultados.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d25",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO"
+      ]
+    },
+    {
+      "id": "MIG-096",
+      "source_id": "LEGACY-LANDING-202511",
+      "source_section": "pp2–6",
+      "original": "100% mobile; todos dispositivos; segurança e compatibilidade",
+      "function": "Recuperação de cânone autoral ou limite de comunicação pública",
+      "strength": "Preserva origem e autoridade da correção; documentação histórica rastreável",
+      "current_problem": "Precisa conciliar a versão atual sem transformar simbolismo/marketing em ciência ou evidência",
+      "decision": "historical",
+      "migration_instruction": "Não importar como resultado de QA. As listas de compatibilidade e segurança são alegações da documentação; validar implementação atual. Respeitar movimento reduzido em vez de impor CTA pulsante.",
+      "scientific_basis": {
+        "status": "authorial_or_historical_D",
+        "note": "Não é estudo científico."
+      },
+      "new_location_provisional": "d24",
+      "provenance": [
+        "LEGACY_MINDSETMAGRO"
+      ]
+    }
+  ]
+}

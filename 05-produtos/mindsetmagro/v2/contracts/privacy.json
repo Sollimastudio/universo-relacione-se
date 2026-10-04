@@ -1,0 +1,10 @@
+{
+  "default": "private",
+  "owner_isolation": "server identity with user_id in every query",
+  "health": "opt-in body/food; not required",
+  "local_html": "explicit consent before browser persistence, export backup, no cloud sync",
+  "ai": "no automatic transmission of workbook; user selection and consent needed",
+  "delete": "standalone reset clears local record; runtime granular deletion must be homologated",
+  "logs": "no answers or request text",
+  "analytics": "no content, health or identity inference"
+}

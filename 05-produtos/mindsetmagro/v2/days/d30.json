@@ -1,0 +1,257 @@
+{
+  "id": "d30",
+  "day": 30,
+  "title": "Uma escolha viva precisa de cuidado",
+  "traversal": "SUSTENTAR",
+  "objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+  "previous": "Uma carta com data e compromisso",
+  "next": "Manutenção D+30, D+60 e D+90 após o término",
+  "blocks": [
+    {
+      "id": "d30-01-opening",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "opening",
+      "title": "Chegada",
+      "content": [
+        "Uma escolha viva precisa de cuidado. Essa é a frase que quero deixar na sua mão hoje, junto da terra e da água. Você não chegou ao ponto em que nunca mais terá dificuldade. Chegou a um ponto em que pode reconhecer mais cedo o que está acontecendo e escolher como responder.",
+        "A planta real permanece neste encerramento porque o símbolo tem uma tarefa: lembrar uma prática que continuará precisando de atenção. Ela não absorve sua dor, não garante resultados e não mede seu valor."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d30"
+    },
+    {
+      "id": "d30-02-reading",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "reading",
+      "title": "Pense comigo",
+      "content": [
+        "Comece pela Auditoria dos Frutos do Dia 28. Leia sua síntese e escolha uma evidência: algo que você fez, compreendeu ou reviu. Se não encontrou melhora, reconheça isso com honestidade. O ritual também pode marcar a decisão de buscar outro recurso ou apoio. Encerrar o protocolo não exige fabricar um depoimento.",
+        "Agora percorra, em poucas palavras, o que carregava, o que entendeu, o que devolve e o que assume. Devolver significa deixar de tomar para si uma responsabilidade que pertence a outro ou ao contexto. Não é transferir a alguém a conta de uma escolha sua. Assumir significa reconhecer a resposta possível na sua esfera, com limites e recursos reais.",
+        "Nomeie o que precisa reparar. Pode ser um compromisso não cumprido ou uma ação que afetou alguém. Escolha um reparo proporcional, seguro e possível. Nem tudo pode ser corrigido completamente. Reconhecer esse limite evita prometer o que você não consegue entregar. Se houver risco, busque orientação antes de agir.",
+        "Em seguida, diga o que vai podar e qual Nova Semente escolhe. A Poda precisa ter objeto: uma permissão, uma rotina, um acesso, uma interpretação. A Nova Semente precisa ter verbo: conferir, pedir, preparar, pausar, procurar apoio. Use a prática principal definida no Dia 26. Hoje não é o dia de inventar dez obrigações para comemorar que aprendeu a reduzir excessos.",
+        "Faça o plantio real quando houver condições. Pode ser uma semente, uma muda ou o replantio cuidadoso de uma planta que já tenha. Escolha algo adequado à luz, ao espaço e à sua rotina; se houver crianças ou animais, confirme que a espécie e o local são seguros. Não há espécie obrigatória. Se precisa de ajuda física, convide alguém sem entregar a essa pessoa o significado da escolha.",
+        "Prepare recipiente e terra conforme a necessidade da planta. Plante ou replante com cuidado. Ofereça água na quantidade adequada à espécie e combine como aprenderá a observar suas necessidades. Água não é uma ordem para regar diariamente. Cuidado exige perceber; excesso também pode atrapalhar.",
+        "Ao terminar, diga ou escreva: “Esta escolha precisa continuar sendo cuidada”. Se desejar incluir uma oração, um agradecimento ou um momento de silêncio, faça isso como expressão simbólica pessoal. Não é requisito, não altera sua avaliação e não funciona como mecanismo científico. Você pode celebrar discretamente, com música ou companhia, sem publicar.",
+        "Se não puder plantar hoje, registre o que falta e uma data viável. Não substitua a realidade por uma fotografia de planta nem trate a barreira como fracasso. O plantio continua como compromisso concreto a realizar. Um registro honesto permite concluir o Dia e acompanhar essa pendência depois.",
+        "A planta pode crescer, adoecer ou não se adaptar. Isso não profetiza sua vida. Observe as condições e procure orientação de cultivo quando necessário. O símbolo convida ao cuidado, não à superstição. Seus Frutos serão observados nas escolhas e nos acontecimentos, com contexto e responsabilidade distribuída."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "LEGACY-GOOGLE",
+        "POSICIONE_SE",
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d30-03-reading",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Este ritual é uma criação simbólica e pedagógica autoral. Não há alegação de que plantar valide ou fixe uma transformação psicológica. A continuidade usa práticas de planejamento e revisão; o pacote MINDSETmagro não foi demonstrado como tratamento clínico. O encerramento abre manutenção, não uma promessa de permanência."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d30-04-exercise",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Complete seu compromisso final: carrego menos isto; entendi isto; devolvo esta responsabilidade; assumo esta resposta; reparo isto; podo isto; cultivo esta Nova Semente. Defina o cuidado da planta e confirme as revisões D+30, D+60 e D+90 após a conclusão real."
+      ],
+      "fields": [
+        {
+          "id": "d30.balanco",
+          "label": "O que carregava, entendi, devolvo e assumo?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d30.reparo_poda",
+          "label": "O que reparo e o que podo, de forma segura e proporcional?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d30.semente",
+          "label": "Qual Nova Semente concreta escolho cultivar?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d30.planta",
+          "label": "Qual plantio real fiz ou quando farei? Como cuidarei?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d30.manutencao",
+          "label": "Qual prática principal, plano de retomada e datas D+30/60/90?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d30-05-mission",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "mission",
+      "title": "Na vida real",
+      "content": [
+        "Realize o plantio e deixe o compromisso acessível perto dele, se isso fizer sentido. Se ainda não for possível, prepare uma condição e marque uma data. Sua missão inclui observar o cuidado que a planta realmente precisa."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d30-06-fruit_review",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "fruit_review",
+      "title": "Observe os Frutos",
+      "content": [
+        "Registre o gesto realizado, a escolha que ele representa e o próximo cuidado. Se o plantio ficou pendente, anote a barreira e a próxima ação segura. Nenhuma promessa de transformação definitiva é necessária."
+      ],
+      "fields": [
+        {
+          "id": "d30.fruto",
+          "label": "Minha ação e o que observei — ou obstáculo e próxima ação segura",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d30-07-if_then",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "if_then",
+      "title": "Plano e ação mínima",
+      "content": [
+        "Se eu perder o ritmo, então identificarei o componente que saiu do eixo e retomarei o menor cuidado possível. Ação mínima: escrever a Nova Semente e preparar uma condição do plantio real."
+      ],
+      "fields": [
+        {
+          "id": "d30.se_entao",
+          "label": "Meu SE → ENTÃO, se eu quiser adaptar o exemplo",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d30-08-installation",
+      "day_id": "d30",
+      "learning_objective": "Concluir a jornada com auditoria, plantio real e compromisso de manutenção revisável.",
+      "type": "installation",
+      "title": "Leve para a vida",
+      "content": [
+        "Você termina a sequência, não a possibilidade de aprender. Guarde a carta, confirme suas revisões e use as ferramentas quando ajudarem. Sua próxima escolha não precisa ser perfeita. Precisa poder ser observada, cuidada e revista. Agora a continuidade pertence à vida que você vai viver."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d30.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Prática principal; planta conforme necessidade da espécie"
+    ],
+    "on_trigger": [
+      "Retomada por componente"
+    ],
+    "weekly": [
+      "Frutos e recursos; revisões D+30/60/90 após término"
+    ]
+  },
+  "editorial_status": "complete_draft_requires_author_review",
+  "provenance": [
+    "LEGACY-GOOGLE",
+    "POSICIONE_SE",
+    "AUTHOR_PROMPT_20260930",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ]
+}

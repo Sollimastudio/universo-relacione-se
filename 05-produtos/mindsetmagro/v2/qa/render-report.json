@@ -1,0 +1,20 @@
+{
+  "canonical_source_lock_hash": "1db63a34e138e306cf8c76a31af94ed437bbb7d58feb0d79b43b2b68417fcbe1",
+  "canonical_source_lock_hash_definition": "SHA256 of source-lock.json bytes at render time",
+  "source_hash": "1625866352319bb8a748a3bdbaf1a870f1d631827fa553df79ff1e6264620f64",
+  "days": 30,
+  "fields": 183,
+  "blocks": 314,
+  "outputs": [
+    "MINDSETmagro-2.0-Livro.pdf",
+    "MINDSETmagro-2.0-Caderno-Vivo.pdf",
+    "MINDSETmagro-2.0-Interativo.html"
+  ],
+  "source": "same sections and field IDs for all renderers",
+  "limitations": [
+    "Offline gate is editable and not commercial security",
+    "Local data needs export backup; no cloud sync",
+    "No AI endpoint in standalone reference",
+    "Visual review and browser verification required"
+  ]
+}

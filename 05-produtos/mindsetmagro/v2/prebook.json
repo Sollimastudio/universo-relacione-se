@@ -1,0 +1,304 @@
+{
+  "id": "prebook",
+  "title": "Antes da travessia",
+  "version": "2.0.0-review.1",
+  "blocks": [
+    {
+      "id": "prebook.title",
+      "day_id": "prebook",
+      "learning_objective": "MINDSETmagro™ 2.0",
+      "type": "opening",
+      "title": "MINDSETmagro™ 2.0",
+      "content": [
+        "Menos excesso. Mais autoria. Uma travessia de 30 dias para perceber, escolher, praticar e cuidar do que importa.",
+        "Sol Lima | Autoria conceitual e metodológica. Universo Relacione-se® | Método Posicione-se™. Edição de revisão 2.0.0-review.1, outubro de 2026."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.copyright",
+      "day_id": "prebook",
+      "learning_objective": "Autoria, edição e compromisso com a verdade",
+      "type": "reading",
+      "title": "Autoria, edição e compromisso com a verdade",
+      "content": [
+        "© 2026 Sol Lima. Texto e organização autoral do MINDSETmagro. As referências científicas conservam seus créditos. Marcas são reproduzidas conforme a identificação fornecida pela autora; esta edição não atesta situação registral.",
+        "Este arquivo é uma edição para revisão editorial e homologação. A metodologia é autoral e informada por evidências sobre componentes. Não foi realizado estudo clínico do protocolo completo. Mudança de versão deve atualizar livro, Caderno e app a partir da mesma fonte.",
+        "As cenas cotidianas apresentadas como exemplos são situações ilustrativas. Memórias atribuídas à autora vêm das fontes históricas identificadas. Nenhum exemplo permite diagnosticar o leitor, familiares ou parceiros."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.note",
+      "day_id": "prebook",
+      "learning_objective": "Nota da autora: o corpo foi a porta, não a casa inteira",
+      "type": "reading",
+      "title": "Nota da autora: o corpo foi a porta, não a casa inteira",
+      "content": [
+        "O MINDSETmagro tem uma figura na sua origem: minha Mãe-Véia. O gesto de ajustar o vestido na cintura me fez olhar para corpo, identidade e insistência em existir. Na minha linguagem, ela era uma égua indomável. Não uma santa, nem um modelo de corpo a ser copiado. Podia ser fina e excessiva, resistente e contraditória. Foi dessa imagem que nasceu uma pergunta que ficou maior do que a balança.",
+        "Essa é a minha leitura de uma memória, não uma explicação médica sobre envelhecimento ou doença. Não transformo a magreza dela em virtude nem o sofrimento em fórmula para emagrecer. O que levo adiante é a pergunta: o que continuamos afirmando com nossos gestos, inclusive quando a vida nos atravessa?",
+        "Uma expectativa que ninguém combinou. Uma comparação que chega antes do café. Uma resposta automática que parece personalidade de tanto ser repetida. Um cuidado sempre adiado porque alguém, alguma coisa, alguma urgência passou na frente. O excesso nem sempre está no prato. Às vezes está no compromisso de ser tudo, dar conta de tudo e ainda parecer descansada. Convenhamos: até agenda de ministro precisa de intervalo.",
+        "Foi por isso que ampliei o sentido deste trabalho. Quero que você tenha instrumentos para observar o próprio funcionamento e transformar uma descoberta em atitude. Não basta fechar o livro dizendo que fez sentido. O que fez sentido precisa conversar com o que você faz na terça-feira, quando o encanto da frase passou.",
+        "Nesta edição, preservo o que pertence à minha história e reviso explicações antigas que prometiam mais do que podiam sustentar. Uma lembrança pode ensinar sem virar prova científica. Uma metáfora pode iluminar sem fingir que é anatomia. Reconhecer limites também é posicionamento.",
+        "Você encontrará corpo, alimentação, movimento e autocuidado. Encontrará igualmente pensamento, influência, identidade, vínculo e limites. Nenhum desses assuntos transforma seu valor em nota. A proposta é diminuir o excesso que ocupa o lugar da sua escolha. — Sol Lima"
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS",
+        "AUTHOR_ORIGIN_20260620"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.definition",
+      "day_id": "prebook",
+      "learning_objective": "Uma mente que não carrega tudo",
+      "type": "reading",
+      "title": "Uma mente que não carrega tudo",
+      "content": [
+        "MINDSETmagro não é uma mente vazia. É uma mente que aprende a escolher o que merece ser carregado. Não é ter menos emoção. É ouvi-la sem entregar a ela toda decisão. Não é comer com medo. É escolher com informação, contexto e cuidado. Não é fabricar outra pessoa. É abrir espaço para se reconhecer e agir com mais autoria.",
+        "MAGRO é uma metáfora de economia do excesso. Não designa corpo ideal, inteligência, disciplina superior ou ausência de sofrimento. Pessoas de qualquer tamanho podem viver sobrecarregadas; pessoas de qualquer tamanho merecem cuidado. Peso corporal pode ser um resultado acompanhado individualmente, mas não é o placar moral da jornada.",
+        "O objetivo prático é aprender a perceber uma situação, nomear o que acontece, ganhar distância, discernir, escolher uma ação possível, experimentar, observar o resultado e revisar. Esse ciclo vem do Método Posicione-se. O MINDSETmagro dá a ele ritmo cotidiano próprio, sem substituir Reposicione-se, Fuga Identitária, Magnetus ou Antídoto."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.safety",
+      "day_id": "prebook",
+      "learning_objective": "Cuidado que permite continuar",
+      "type": "health_note",
+      "title": "Cuidado que permite continuar",
+      "content": [
+        "Este é um percurso educativo para adultos. Não é psicoterapia, tratamento de obesidade, prescrição alimentar ou programa individual de exercícios. Você não precisa mudar medicamentos, fazer jejum, cortar grupos alimentares ou tomar suplementos para participar. Não modifique tratamento por uma interpretação feita durante os exercícios.",
+        "Corpo e alimentação são trilhas opcionais. Você pode trabalhar escolhas, ambiente e descanso sem registrar peso, medidas, calorias ou fotografias. Se monitorar alimentação aumenta vergonha, restrição, perda de controle ou necessidade de compensar, suspenda esses registros e procure acompanhamento adequado. Não transforme o caderno numa fiscalização que viaja dentro da bolsa.",
+        "Pause práticas que provoquem sofrimento intenso ou persistente, agitação incomum, piora marcante do sono, lembranças invasivas ou dificuldade de voltar às atividades. Um psicólogo ou profissional de saúde pode ajudar a adaptar o percurso. Sensações corporais novas, persistentes ou preocupantes pedem avaliação, não explicação automática por estresse.",
+        "Se houver risco imediato à sua segurança, procure atendimento de urgência local. O app e a LÚCIDA não são serviços de emergência. Em contexto de violência, a prioridade é proteção e apoio; um exercício de limite não exige confrontar alguém perigoso.",
+        "Alimentação, movimento e sono dependem de condições, recursos e necessidades individuais. Gestação, condições clínicas, uso de medicamentos, dor ou histórico de transtorno alimentar podem exigir adaptações profissionais. Pedir ajuda não suspende sua autoria; amplia os recursos com que você pode exercê-la."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.use",
+      "day_id": "prebook",
+      "learning_objective": "Como usar sem transformar cuidado em obrigação",
+      "type": "reading",
+      "title": "Como usar sem transformar cuidado em obrigação",
+      "content": [
+        "Reserve um espaço possível para ler e uma oportunidade real para testar. Não há quantidade universal de minutos que faça o método funcionar. A leitura está dividida em blocos: descubra o ponto central, responda à prática, leve uma ação à vida e volte ao Fruto. Aprofundamentos podem esperar.",
+        "Cada dia tem um objetivo, uma prática central e uma missão. A ação mínima é uma versão menor e segura para dias difíceis. É permitido registrar que não realizou a missão, o obstáculo encontrado e o próximo passo possível. Honestidade produz informação; um preenchimento bonito feito para agradar o aplicativo, não.",
+        "No app, a proposta inicial é liberar o próximo dia depois de concluir o registro e completar 24 horas desde a abertura significativa do anterior. Esse intervalo é decisão de produto, não prazo cerebral. O livro pode ser consultado livremente. Ler adiante e praticar adiante são coisas diferentes: dê à experiência tempo para encontrar a vida.",
+        "O Caderno Vivo reúne o que você já respondeu. Não é necessário copiar a resposta outra vez. No papel, use os espaços correspondentes. No HTML de referência, o salvamento depende do consentimento para armazenamento neste navegador; exporte seus registros se quiser conservar uma cópia. No app integrado, a persistência depende de acesso autorizado e confirmação do servidor.",
+        "Salvar não significa concluir; concluir não significa dominar. Voltar a uma pergunta é permitido. Se você pausar uma semana, encontre onde parou e qual habilidade precisa retomar. O Dia 1 não é uma penitência para quem teve uma vida acontecendo."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.accumulation",
+      "day_id": "prebook",
+      "learning_objective": "O efeito cumulativo tem limite de carga",
+      "type": "reading",
+      "title": "O efeito cumulativo tem limite de carga",
+      "content": [
+        "No começo, aprender exige atenção. Com prática, algumas habilidades podem se integrar à rotina, outras continuam úteis apenas em situações específicas. Instalação, neste livro, significa colocar uma prática em condições de ser repetida. Não significa programação definitiva do cérebro.",
+        "Mantenha diariamente uma escolha pequena e um registro breve quando útil. Use P.A.R.A. diante de impulso; Fato × História × Incógnita diante de uma conclusão importante; Sala de Controle profunda quando houver uma decisão que mereça investigação. Não execute todos os painéis para escolher a cor de uma toalha.",
+        "As revisões ao fim das travessias recebem prioridade sobre acrescentar novas tarefas. Elas verificam o que está ajudando e o que precisa sair. Nenhuma lista acumula 29 tarefas obrigatórias no Dia 30. Se a ferramenta aumenta mais peso do que clareza, reduza a dose, mude a aplicação ou peça ajuda.",
+        "Pesquisas sobre hábitos mostram grande variação entre pessoas e comportamentos. Trinta dias organizam um começo. Continuidade requer oportunidades de repetir, apoio e revisão das condições."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C01"
+      ],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.baseline",
+      "day_id": "prebook",
+      "learning_objective": "Seu ponto de partida não é uma sentença",
+      "type": "exercise",
+      "title": "Seu ponto de partida não é uma sentença",
+      "content": [
+        "Escolha uma situação concreta das últimas semanas. Descreva o que você faz, em que contexto e o que acontece depois. Em vez de “minha vida está um caos”, tente “abro mensagens enquanto tento terminar uma tarefa e volto sem saber onde parei”.",
+        "Registre um aspecto que gostaria de tornar mais leve e uma ação que depende de você. Registre também um obstáculo de contexto: falta de tempo protegido, recursos, acessibilidade, segurança ou apoio não se resolve fingindo que é falta de vontade.",
+        "As escalas abaixo são anotações pessoais de percepção, sem validade diagnóstica. Você poderá revisitá-las nos Dias 28–30. Uma diferença de nota não prova efeito do protocolo; seu contexto também muda."
+      ],
+      "fields": [
+        {
+          "id": "prebook.situacao",
+          "label": "Que situação quero compreender melhor?",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "prebook.acao",
+          "label": "Que comportamento observável gostaria de experimentar?",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "prebook.contexto",
+          "label": "Que recurso, limite ou apoio preciso considerar?",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "prebook.clareza",
+          "label": "Clareza percebida hoje (opcional; 0 nenhuma, 10 muita)",
+          "kind": "select",
+          "required": false,
+          "options": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        },
+        {
+          "id": "prebook.cuidado",
+          "label": "Como tenho conseguido cuidar de mim?",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "prebook.compromisso",
+          "label": "Meu compromisso possível com esta jornada é...",
+          "kind": "textarea",
+          "required": false
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.lucida",
+      "day_id": "prebook",
+      "learning_objective": "LÚCIDA: uma boa pergunta antes de uma boa resposta",
+      "type": "lucida_bridge",
+      "title": "LÚCIDA: uma boa pergunta antes de uma boa resposta",
+      "content": [
+        "Você não precisa entregar seu discernimento a uma inteligência artificial para participar. Quando disponível e autorizada, LÚCIDA ajuda a organizar o que você já produziu, perguntar o que falta, separar observação de interpretação e procurar alternativas.",
+        "Comece gerando sua própria resposta. Depois pergunte: qual parte é fato? O que permanece desconhecido? Que hipótese alternativa cabe aqui? Que escolha segura posso testar? A IA não determina intenção de terceiros, não atribui valor pessoal e não oferece diagnóstico.",
+        "Compartilhe apenas os registros que escolher. Campos de saúde e narrativas íntimas não devem ir automaticamente para a conversa. A ponte de perguntas deste material pode ser usada sem IA; ela não representa análise de um modelo em tempo real."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "prebook.map",
+      "day_id": "prebook",
+      "learning_objective": "O mapa das seis travessias",
+      "type": "reading",
+      "title": "O mapa das seis travessias",
+      "content": [
+        "Dia 01 · O que você está carregando? — Descongestionar.",
+        "Dia 02 · Nem toda aba precisa ficar aberta — Descongestionar.",
+        "Dia 03 · Pausa não é desaparecimento — Descongestionar.",
+        "Dia 04 · Dê um endereço à preocupação — Descongestionar.",
+        "Dia 05 · Seu ambiente também escolhe — Descongestionar.",
+        "Dia 06 · O fato não chegou contando história — Discernir.",
+        "Dia 07 · Uma conclusão precisa prestar contas — Discernir.",
+        "Dia 08 · Sempre? Nunca? Vamos conferir — Discernir.",
+        "Dia 09 · De quem é essa voz? — Discernir.",
+        "Dia 10 · Três cenas, uma hipótese — Discernir.",
+        "Dia 11 · Você não cabe no personagem — Voltar A Si.",
+        "Dia 12 · Valor aparece quando custa — Voltar A Si.",
+        "Dia 13 · Como quero viver neste corpo? — Voltar A Si.",
+        "Dia 14 · Identidade precisa de testemunhas reais — Voltar A Si.",
+        "Dia 15 · Pertencer sem se abandonar — Voltar A Si.",
+        "Dia 16 · Sua parte não é tudo — Reposicionar.",
+        "Dia 17 · Um limite precisa de uma frase — Reposicionar.",
+        "Dia 18 · O espaço que a Poda abre — Reposicionar.",
+        "Dia 19 · O futuro precisa de uma cena — Reposicionar.",
+        "Dia 20 · Desça da Árvore e teste — Reposicionar.",
+        "Dia 21 · Seu corpo não é uma prestação atrasada — Habitar.",
+        "Dia 22 · O prato traduzido, sem tribunal — Habitar.",
+        "Dia 23 · Movimento que cabe na vida — Habitar.",
+        "Dia 24 · Descansar também é cuidado — Habitar.",
+        "Dia 25 · Próxima escolha, não punição — Habitar.",
+        "Dia 26 · Consistência não é perfeição — Sustentar.",
+        "Dia 27 · Quando a rotina sair do eixo — Sustentar.",
+        "Dia 28 · Auditoria dos Frutos — Sustentar.",
+        "Dia 29 · Uma carta com data e compromisso — Sustentar.",
+        "Dia 30 · Uma escolha viva precisa de cuidado — Sustentar."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ]
+}

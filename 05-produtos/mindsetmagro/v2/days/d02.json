@@ -1,0 +1,275 @@
+{
+  "id": "d02",
+  "day": 2,
+  "title": "Nem toda aba precisa ficar aberta",
+  "traversal": "DESCONGESTIONAR",
+  "objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+  "previous": "O que você está carregando?",
+  "next": "Pausa não é desaparecimento",
+  "blocks": [
+    {
+      "id": "d02-01",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "opening",
+      "title": "Sua cabeça não é estacionamento sem saída",
+      "content": [
+        "Ontem você observou uma cena. Hoje vamos olhar para as pendências que continuam chamando mesmo quando você tenta fazer outra coisa. Há uma diferença entre lembrar que algo existe e precisar resolver tudo no instante em que a lembrança aparece. Sua mente não precisa virar recepcionista de vinte demandas simultâneas.",
+        "O Estacionamento Mental é uma ferramenta simples: retirar uma pendência do circuito de repetição e colocá-la num registro consultável. Estacionar não é abandonar. Um carro sem endereço e sem previsão de retirada só mudou de congestionamento."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": "v-d02"
+    },
+    {
+      "id": "d02-02",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "story",
+      "title": "A lista que também cansa",
+      "content": [
+        "Neste exemplo, uma pessoa escreve “casa, trabalho, mãe, consulta, futuro”. A lista ficou curta, mas cada palavra contém um universo. Ao abrir o registro, ela sente o mesmo aperto. Então troca “consulta” por “localizar o telefone da clínica”; troca “casa” por “decidir quem pode dividir a compra desta semana”.",
+        "Ela não resolveu todos os problemas. Criou entradas pelas quais consegue começar. Já “futuro” exige outra pergunta: que preocupação concreta está escondida nessa palavra? Se ainda não souber, pode deixar registrado “preciso entender”, com um momento para voltar. Não precisamos fingir precisão onde ela ainda não existe."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-03",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "reading",
+      "title": "Dar destino é diferente de produzir uma lista bonita",
+      "content": [
+        "Escolha no máximo três pendências. Para cada uma, decida: existe uma ação minha agora, preciso de informação, dependo de outra pessoa ou posso deixar sem ação neste momento? Depois acrescente um verbo e um contexto àquela que vai receber atenção. “Organizar tudo” não cabe na agenda. “Separar os documentos que já tenho após o café” cabe melhor.",
+        "Se houver prazo ou urgência real, trate como tal. O Estacionamento não serve para adiar risco, atendimento necessário ou um dever que vence hoje. Também não transforma responsabilidade alheia em serviço seu. Pode ser preciso pedir, negociar ou reconhecer que o próximo movimento pertence a outra pessoa."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-04",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "reading",
+      "title": "Uma saída para a aba que insiste",
+      "content": [
+        "Quando a pendência reaparecer, consulte o registro antes de reabrir toda a discussão interna. Você pode dizer: “Isso está anotado; minha próxima ação será naquele momento”. Se o momento chegou e a tarefa não coube, revise o plano. Adiar conscientemente exige nova data possível; empurrar sem olhar mantém o acúmulo.",
+        "Não anote toda ideia que atravessar a cabeça. A ferramenta existe para reduzir carga, não para transformar viver em arquivar. Preserve ideias úteis e obrigações concretas. Pensamentos passageiros podem passar sem ganhar uma pasta, uma etiqueta e um departamento.",
+        "O registro também pode mostrar que a lista excede os recursos disponíveis. Nesse caso, o trabalho é priorizar e negociar, não escrever mais rápido. Algumas pendências precisarão esperar de forma explícita."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-05",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "reading",
+      "title": "Ciência sem jaleco",
+      "content": [
+        "Anotações e lembretes podem reduzir a necessidade de manter tudo na memória ao mesmo tempo. A pesquisa sobre externalização cognitiva não valida especificamente o Estacionamento Mental nem demonstra que escrever elimina ansiedade. Usaremos a ferramenta como um teste organizador e revisável."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [
+        "C05"
+      ],
+      "source_refs": [
+        "C05",
+        "https://doi.org/10.1016/j.tics.2016.07.002"
+      ],
+      "evidence_type": "research",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-06",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "exercise",
+      "title": "Seu Caderno Vivo",
+      "content": [
+        "Registre somente as pendências que merecem ser lembradas. No campo de destino, use um verbo concreto e identifique o que depende de informação ou de outra pessoa. No campo de retorno, escolha uma ocasião viável; o registro será consultado, não apenas acumulado."
+      ],
+      "fields": [
+        {
+          "id": "d02.pendencias",
+          "label": "Quais três pendências merecem um lugar de consulta?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d02.destino",
+          "label": "Qual delas depende de mim e qual ação específica cabe?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        },
+        {
+          "id": "d02.retorno",
+          "label": "Quando vou consultar este registro novamente?",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-07",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "mission",
+      "title": "Uma experiência fora destas páginas",
+      "content": [
+        "Use seu Estacionamento uma vez durante uma tarefa comum. Ao surgir uma pendência não urgente, anote poucas palavras e retorne à tarefa escolhida. No horário de revisão, abra a nota e execute, renegocie ou descarte conscientemente um item. O teste inclui voltar à lista; escrever e nunca olhar deixa o circuito incompleto."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-08",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "fruit_review",
+      "title": "O Fruto de hoje",
+      "content": [
+        "Observe se houve retorno à tarefa e se o item ganhou destino. Não é necessário sentir a cabeça vazia para considerar o teste realizado. Se escrever aumentou o volume de demandas, reduza para um único item. Registre o obstáculo sem criar uma nova lista de defeitos."
+      ],
+      "fields": [
+        {
+          "id": "d02.fruto",
+          "label": "O que aconteceu? Se não realizou: qual foi o obstáculo e qual será a próxima escolha segura?",
+          "kind": "textarea",
+          "required": true,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": true,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-09",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "if_then",
+      "title": "Se acontecer, eu tenho uma resposta",
+      "content": [
+        "Se uma pendência não urgente interromper minha tarefa, então anotarei uma frase e voltarei ao que escolhi fazer. Se for urgente, então decidirei conscientemente a prioridade em vez de fingir que posso atender tudo junto."
+      ],
+      "fields": [
+        {
+          "id": "d02.se_entao",
+          "label": "Meu gatilho observável e minha resposta possível",
+          "kind": "textarea",
+          "required": false,
+          "options": [],
+          "opt_in": null
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "d02-10",
+      "day_id": "d02",
+      "learning_objective": "Externalizar três pendências e dar a uma delas uma ação ou momento de revisão.",
+      "type": "installation",
+      "title": "O que fica e o que pode esperar",
+      "content": [
+        "Ação mínima: estacionar uma pendência e indicar quando consultá-la. Hoje você não precisa resolver todas as pendências estacionadas.",
+        "O registro breve de ontem permanece. O Estacionamento entra sob gatilho: quando algo importante precisa ser lembrado, mas não resolvido naquele instante.",
+        "Amanhã, vamos criar uma pausa entre a chegada de um impulso e a resposta. A lista organiza pendências; a pausa ajuda a escolher como responder."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ],
+  "completion": {
+    "required_field_ids": [
+      "d02.fruto"
+    ],
+    "alternative": "Não realizei ainda: registrar obstáculo e próxima ação segura"
+  },
+  "accumulation": {
+    "daily": [
+      "Um registro breve de ação, obstáculo ou Fruto, sem fiscalização contínua"
+    ],
+    "on_trigger": [
+      "O registro breve de ontem permanece. O Estacionamento entra sob gatilho: quando algo importante precisa ser lembrado, mas não resolvido naquele instante."
+    ],
+    "weekly": [
+      "Revisar ao final de cada travessia; reduzir a carga quando necessário"
+    ]
+  },
+  "provenance": [
+    "AUTHOR_SOURCE",
+    "NEW_EDITORIAL_SYNTHESIS"
+  ],
+  "review_status": "editorial_candidate_not_clinical_signoff"
+}

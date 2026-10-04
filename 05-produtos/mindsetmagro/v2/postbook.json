@@ -1,0 +1,203 @@
+{
+  "id": "postbook",
+  "title": "A vida continua depois da travessia",
+  "version": "2.0.0-review.1",
+  "blocks": [
+    {
+      "id": "postbook.maintenance",
+      "day_id": "postbook",
+      "learning_objective": "Depois do Dia 30: menos reinício, mais cuidado",
+      "type": "reading",
+      "title": "Depois do Dia 30: menos reinício, mais cuidado",
+      "content": [
+        "A planta fica. O calendário também. Ao terminar, marque três encontros com os seus registros: 30, 60 e 90 dias depois da conclusão. Não são promessas de resultado em três prazos. São ocasiões escolhidas para enxergar o que continuou vivo, o que perdeu espaço e o que precisa de outra condição.",
+        "Em D+30, examine uma prática e uma situação: tive oportunidade de repetir? Qual apoio tornou a ação possível? Onde o plano dependia de um dia perfeito? Em D+60, observe mudanças de contexto e ajuste ambiente, apoio ou gatilho. Em D+90, decida o que integra à rotina, o que fica sob demanda e o que deixa de fazer sentido.",
+        "Escolha poucos indicadores: uma ação repetida, um acordo mais claro, um tempo protegido ou uma retomada mais rápida depois de um contratempo. Indicadores corporais, se desejados, podem ser discutidos com profissionais. Não precisam existir para que a revisão seja legítima.",
+        "Você pode descobrir que algo não ajudou. Isso merece registro. Revisão não é uma cerimônia para confirmar que o método estava certo; é a oportunidade de verificar se a prática serve à sua vida."
+      ],
+      "fields": [
+        {
+          "id": "postbook.d30",
+          "label": "D+30: data, prática e Fruto a observar",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "postbook.d60",
+          "label": "D+60: data, contexto e ajuste",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "postbook.d90",
+          "label": "D+90: data, continuidade e apoio",
+          "kind": "textarea",
+          "required": false
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "postbook.restart",
+      "day_id": "postbook",
+      "learning_objective": "O protocolo de retomada",
+      "type": "exercise",
+      "title": "O protocolo de retomada",
+      "content": [
+        "Escolha o componente que saiu do eixo. Atenção? Ambiente? Apoio? Um plano amplo demais? Um problema de saúde? Uma situação insegura? Não atribua tudo à disciplina. Identificar a dificuldade define a intervenção possível.",
+        "Retome a menor peça útil: se há confusão entre fato e interpretação, volte ao Dia 6. Se a ação nunca encontra ocasião, ao Dia 5 ou 19. Se o cuidado virou punição, ao Dia 25. Se o obstáculo pede atendimento, o próximo passo é buscar apoio, não preencher mais um formulário.",
+        "Depois do primeiro teste, registre o que ocorreu. Uma retomada não exige recuperar tarefas perdidas. Exige uma ação presente suficientemente pequena para começar e suficientemente relevante para merecer continuidade."
+      ],
+      "fields": [
+        {
+          "id": "postbook.eixo",
+          "label": "Qual componente precisa de atenção?",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "postbook.retomada",
+          "label": "Qual menor intervenção vou testar, quando e com que apoio?",
+          "kind": "textarea",
+          "required": false
+        },
+        {
+          "id": "postbook.revisao",
+          "label": "Quando vou olhar o resultado?",
+          "kind": "textarea",
+          "required": false
+        }
+      ],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "postbook.toolbox",
+      "day_id": "postbook",
+      "learning_objective": "Ferramentas: escolha pelo problema",
+      "type": "reading",
+      "title": "Ferramentas: escolha pelo problema",
+      "content": [
+        "Diário Vivo: reúna registros breves de escolhas e resultados. Use para lembrar, não para vigiar cada minuto. Estacionamento Mental: tire uma pendência da memória e dê a ela endereço e próxima consulta. Janela do Caos: experiência opcional e limitada para organizar preocupações; interrompa se aumentar sofrimento ou repetição.",
+        "P.A.R.A.: Pare, Ative o Corpo, Rastreie, Aja pelo Valor. Fato × História × Incógnita: separe o observado, o interpretado e o desconhecido. Filtro da Sensatez: examine a conclusão com perguntas proporcionais à decisão.",
+        "Sala de Controle: reúna corpo, fato, narrativa, origem, emoção, impulso, valor, escolha, futuro e Fruto. Use o modo rápido com fato, escolha e Fruto; o profundo quando precisar da investigação completa. Não é mapa anatômico nem teste psicológico.",
+        "MMI 2.0: descreva como quer viver no corpo e quais cuidados pretende praticar. Aparência e medidas são opcionais. Banco de Evidências: registre ações situadas que sustentam uma direção, sem transformar um episódio em identidade fixa.",
+        "Árvore do Discernimento: localize o Fruto, o Galho, a Posição, a Semente, o Solo, as Raízes hipotéticas, o Tronco e o Ambiente. Pessoa não é Praga. Poda interrompe um funcionamento específico; Nova Semente ocupa esse espaço com uma prática observável.",
+        "Futuro Telefona e Filme do Processo: imagine uma cena concreta e a ação necessária. Contraste Real inclui obstáculo. SE → ENTÃO define resposta. Tradução Visual Honesta usa dados verificáveis e unidades explícitas, sem transformar amidos em açúcar de mesa.",
+        "Pausa e Tradutor do Prato: observação facultativa de contexto e composição, sem moralizar alimentos. Movimento Possível: ação adaptada à condição e aos recursos. Próxima Escolha, Não Punição: retomar cuidado sem compensações. Auditoria dos Frutos: comparar registros, contexto e explicações alternativas antes de decidir o que manter."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "postbook.glossary",
+      "day_id": "postbook",
+      "learning_objective": "Vocabulário para continuar",
+      "type": "reading",
+      "title": "Vocabulário para continuar",
+      "content": [
+        "Autoria: participar conscientemente das próprias escolhas, reconhecendo influência, dependência, recursos e limites. Autonomia não significa viver sem ninguém.",
+        "Fruto: resultado observável em contexto e período. Não é identidade, mérito ou prova de uma causa única. Evidência: registro que ajuda a examinar uma hipótese; pode contrariar sua expectativa. Incógnita: informação ainda desconhecida, que não deve ser preenchida por convicção.",
+        "Valor: princípio escolhido que orienta ação. Meta: resultado pretendido. Comportamento: ação identificável. Um valor pode orientar várias metas; uma meta pode precisar de revisão sem que o valor desapareça.",
+        "Instalação: organização de uma prática para repetição. Hábito: comportamento que pode ganhar automaticidade em contextos aprendidos. Flexibilidade: adaptar o caminho sem precisar abandonar o cuidado.",
+        "Poda: interrupção responsável e específica. Nova Semente: ação que ocupa o espaço aberto. Manutenção: cuidado continuado com práticas e condições; não um estado invulnerável."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "postbook.limits",
+      "day_id": "postbook",
+      "learning_objective": "O que a ciência sustenta — e o que este livro não afirma",
+      "type": "reading",
+      "title": "O que a ciência sustenta — e o que este livro não afirma",
+      "content": [
+        "A pesquisa consultada inclui revisões, meta-análises, ensaios, documentos oficiais e modelos de mudança comportamental. A busca foi dirigida, não uma revisão sistemática original. As classificações A–D são critérios editoriais internos, não avaliação GRADE formal.",
+        "A: evidência mais robusta para a alegação delimitada. B: apoio moderado com limitações. C: achados preliminares, mistos ou indiretos. D: autoria, metáfora, estrutura descritiva ou decisão de produto. Um grau A para um mecanismo não se transfere ao protocolo completo.",
+        "Estudos clínicos sobre ruminação ou flexibilidade não demonstram que ler este material trate um transtorno. Estudos sobre alimentação não garantem emagrecimento. Pesquisas com estudantes não provam mudança de hábitos em qualquer adulto. Cada referência está ligada a uma afirmação específica no registro de evidências.",
+        "Sala de Controle, MMI ampliado, Árvore, metáfora do excesso e ritual da planta são ferramentas autorais ou pedagógicas. A duração de 30 dias e o intervalo de 24 horas são decisões de organização. PNL fornece aqui repertório de perguntas, não fundamento de eficácia clínica.",
+        "Houve revisão de explicações históricas: retiraram-se detox/alcalinização inespecíficos, jejum compensatório, metas universais de peso, cetose obrigatória, suplementos para todos, garantias de permanência e cristais como mecanismo. As fontes antigas permanecem documentadas, sem reger as recomendações atuais."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "postbook.optional",
+      "day_id": "postbook",
+      "learning_objective": "Escolher recursos opcionais sem recomendações clínicas universais",
+      "type": "deep_dive",
+      "title": "Aprofundamentos opcionais: escolha uma pergunta útil",
+      "content": [
+        "Se a espiritualidade faz parte da sua vida, você pode associar a gratidão e o cuidado da planta a uma oração ou leitura que tenha sentido para você. Isso é prática de significado, não explicação fisiológica. Filipenses 4:8 e Jeremias 29:11–13 aparecem no acervo histórico; leia no contexto da sua fé, sem usar o texto para negar sofrimento ou obrigar otimismo.",
+        "Aplicativos de meditação podem ser recursos opcionais. Headspace e Calm aparecem no histórico, mas não são necessários para completar a jornada. Antes de contratar um serviço, confira o conteúdo disponível, o custo, os dados solicitados e se ele ajuda sua prática. Ter um aplicativo instalado não é uma prática realizada.",
+        "Se você acompanha mudanças corporais e percebe um período sem a evolução esperada, descreva o período e as condições antes de chamar isso de fracasso. Leve o registro ao profissional que acompanha você. O livro não usa o chamado platô para mandar restringir mais, jejuar ou aumentar exercício. Medidas e peso não são exigidos pelo percurso.",
+        "Suplementos, jejum e medicamentos não compõem tarefas desta edição. Uma decisão individual requer avaliação de necessidades e riscos por profissional habilitado. Se o assunto for pertinente ao seu cuidado, anote a pergunta para a consulta em vez de testar uma dose ou compensação sugerida no acervo antigo.",
+        "Os anexos históricos de afirmações, avaliação e alimentação permanecem no inventário. Eles não são prescrições vigentes nem atividades obrigatórias. Você já encontra nesta edição avaliação inicial, revisão dos Frutos e perguntas de cuidado; não precisa acumular ferramentas para provar comprometimento."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "LEGACY_MINDSETMAGRO",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    },
+    {
+      "id": "postbook.professionals",
+      "day_id": "postbook",
+      "learning_objective": "Quando o próximo recurso é uma pessoa",
+      "type": "reading",
+      "title": "Quando o próximo recurso é uma pessoa",
+      "content": [
+        "Nutricionista: adequação alimentar individual, relação com comida e necessidades específicas. Profissional de medicina: sintomas, condições clínicas, medicamentos e investigação. Psicólogo: sofrimento persistente, padrões difíceis de modificar, relação corporal e apoio ao processo. Profissional habilitado de educação física e, quando indicado, fisioterapia: adaptação segura de movimento.",
+        "Você pode levar uma página do Caderno: situação, comportamento, contexto, o que tentou e o que aconteceu. Não precisa chegar com um diagnóstico feito pela internet. Um registro claro já ajuda a formular uma boa pergunta.",
+        "Agradeço a quem escolhe investigar a própria vida com honestidade. Não prometo que você nunca mais carregará excesso. Espero que reconheça mais cedo quando uma carga já não precisa viajar com você. Sua escolha precisa continuar sendo cuidada."
+      ],
+      "fields": [],
+      "required": false,
+      "claim_basis": [],
+      "source_refs": [
+        "AUTHOR_PROMPT_20260930",
+        "NEW_EDITORIAL_SYNTHESIS"
+      ],
+      "evidence_type": "authorial",
+      "visual_ref": null
+    }
+  ]
+}

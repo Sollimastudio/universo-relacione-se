@@ -1,0 +1,13 @@
+{
+  "resource_id": "mindsetmagro_30d",
+  "server_only": true,
+  "interval_ms": 86400000,
+  "first_meaningful_open": "explicit POST start, not overview GET",
+  "completion": "existing fruto OR obstacle+next safe action; no positive outcome required",
+  "entitlement": "requireResource every endpoint, no commercial grant automatic",
+  "concurrency": "revision optimistic UPDATE WHERE user/resource/unit/revision",
+  "version_mismatch": "409; preserve historical answers",
+  "blocked_delivery": "metadata only, no hidden full content client",
+  "resume": "last saved block; field-level resume pending",
+  "prebook": "optional entry, no 24h gate"
+}

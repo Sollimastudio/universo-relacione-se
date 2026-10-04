@@ -1,0 +1,26 @@
+{
+  "sequence": [
+    "person generates",
+    "question",
+    "organize",
+    "fact/story/unknown",
+    "evidence",
+    "alternative",
+    "safe choice",
+    "fruit"
+  ],
+  "forbidden": [
+    "diagnosis",
+    "intentions certainty",
+    "clinical prescription",
+    "personal value judgement",
+    "automatic private memory"
+  ],
+  "current_bridge": "contextual author questions and explicit link; no AI inference claimed",
+  "future_context": [
+    "day",
+    "objective",
+    "user-selected records"
+  ],
+  "source_lock_required": true
+}

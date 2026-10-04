@@ -1,0 +1,7 @@
+{
+  "editorial": "tools/render.py",
+  "personal_notebook": "HTML print own answers; native app print notebook",
+  "privacy": "no third-party PDF service",
+  "commercial_content": "do not expose complete paid source on public static route",
+  "status": "print to PDF available browser; server PDF service not implemented"
+}
